@@ -1,17 +1,18 @@
-# Quartz v5
+# General Engineering Notes
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Notes for the DTU General Engineering bachelor.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+This repository contains my engineering notes in Markdown format and is designed to work with [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz/).
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Structure
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- `content/` — Markdown notes and Obsidian vault
+- `content/assets/` — images used by the notes
+- `quartz/` — Quartz static-site generator
+- `.github/workflows/` — GitHub Pages deployment
 
-## Sponsors
+The `content/` directory is the Obsidian vault and the source for the published website.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Website
+
+The notes are published automatically to GitHub Pages whenever changes are pushed to `main`.
