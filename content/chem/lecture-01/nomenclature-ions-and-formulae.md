@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nomenclature, Ions, and Formulae
 ---
 
@@ -19,7 +19,7 @@ An ion is an atom or group of atoms with a net electric charge.
 - **Cations** have a positive charge.
 - **Anions** have a negative charge.
 
-![Ions](../../assets/ions.png)
+![[ions.png]]
 
 ## Naming ions
 

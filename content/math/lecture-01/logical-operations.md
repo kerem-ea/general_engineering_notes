@@ -12,7 +12,7 @@ Logical connectives combine or modify propositions to form compound propositions
 2. **Disjunction (OR, $\lor$):** The statement $P \lor Q$ is true if at least one of $P$ or $Q$ is true (inclusive OR).
 3. **Negation (NOT, $\neg$):** The statement $\neg P$ reverses the truth value of $P$.
 
-![Logic symbols](../../assets/logic_symbols.jpg)
+![[logic_symbols.jpg]]
 
 ## Truth table for basic operations
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Periodic Table
 ---
 
@@ -18,4 +18,4 @@ For a neutral atom, the number of electrons is also equal to \(Z\).
 - **Groups** are the vertical columns.
 - Elements in the same group often have similar chemical properties.
 
-![Periodic table](../../assets/periodic_table.png)
+![[periodic_table.png]]

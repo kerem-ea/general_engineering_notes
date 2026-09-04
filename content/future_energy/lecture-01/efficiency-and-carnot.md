@@ -1,4 +1,4 @@
-﻿---
+---
 title: Efficiency and Carnot's Limitation
 ---
 
@@ -23,4 +23,4 @@ $$
 > [!IMPORTANT]
 > Temperatures $T_h$ and $T_c$ must always be specified in absolute units (Kelvin, $\mathrm{K}$).
 
-![Carnot cycle](../../assets/carnot.png)
+![[carnot.png]]

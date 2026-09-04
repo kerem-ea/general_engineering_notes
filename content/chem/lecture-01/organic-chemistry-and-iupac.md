@@ -1,4 +1,4 @@
-﻿---
+---
 title: Organic Chemistry and IUPAC Naming
 ---
 
@@ -12,4 +12,4 @@ The International Union of Pure and Applied Chemistry (IUPAC) provides systemati
 
 The purpose of systematic nomenclature is to give compounds names that communicate their chemical structure.
 
-![IUPAC](../../assets/iupac.png)
+![[iupac.png]]

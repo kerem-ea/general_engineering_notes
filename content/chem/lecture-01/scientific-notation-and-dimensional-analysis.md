@@ -1,4 +1,4 @@
-﻿---
+---
 title: Scientific Notation and Dimensional Analysis
 ---
 
@@ -30,4 +30,4 @@ Common SI base quantities include:
 
 ## SI prefixes
 
-![SI prefixes](../../assets/prefixes.jpg)
+![[prefixes.jpg]]

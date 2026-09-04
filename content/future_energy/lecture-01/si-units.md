@@ -1,4 +1,4 @@
-﻿---
+---
 title: SI Units
 ---
 
@@ -6,7 +6,7 @@ title: SI Units
 
 A consistent system of physical units is essential for thermodynamic and energy calculations.
 
-![SI units](../../assets/si_units.png)
+![[si_units.png]]
 
 Key energy-related base and derived SI units:
 

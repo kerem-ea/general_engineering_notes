@@ -1,4 +1,4 @@
-﻿---
+---
 title: Electrical Energy
 ---
 
@@ -16,4 +16,4 @@ $$
 
 where $k_e \approx 8.988 \times 10^9\ \mathrm{N\cdot m^2/C^2}$ is Coulomb's constant.
 
-![Electrical energy](../../assets/electrical_energy.png)
+![[electrical_energy.png]]

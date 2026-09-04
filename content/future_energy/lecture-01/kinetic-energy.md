@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kinetic Energy
 ---
 
@@ -14,7 +14,7 @@ $$
 E_k = \frac{1}{2}mv^2
 $$
 
-![Kinetic energy](../../assets/kinetic_energy.png)
+![[kinetic_energy.png]]
 
 ## Rotational kinetic energy
 
@@ -24,4 +24,4 @@ $$
 E_{k,\mathrm{rot}} = \frac{1}{2}I\omega^2
 $$
 
-![Rotational kinetic energy](../../assets/rotational_kinetic_energy.png)
+![[rotational_kinetic_energy.png]]
