@@ -1,3 +1,15 @@
-@use "./variables.scss" as *;
+﻿@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Fix collapsed Explorer and TOC peeking out text
+.explorer.collapsed > .explorer-content {
+  display: none !important;
+}
+
+.toc:has(button.toc-header.collapsed) .toc-content {
+  display: none !important;
+}
+
+// Make sidebar graph view larger and more spacious
+.graph > .graph-outer {
+  height: 350px;
+}

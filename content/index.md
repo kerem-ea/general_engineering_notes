@@ -4,11 +4,13 @@ title: General Engineering Notes
 
 # General Engineering Notes
 
+*By Kerem*
+
 Notes for the DTU General Engineering bachelor.
 
 ## Subjects
 
-- [[chem/notes|Chemistry]]
-- [[cs/notes|Computer Science]]
-- [[future_energy/notes|Future Energy]]
-- [[math/notes|Mathematics]]
+- [[chem/index|Chemistry]]
+- [[cs/index|Computer Science]]
+- [[future_energy/index|Future Energy]]
+- [[math/index|Mathematics]]
