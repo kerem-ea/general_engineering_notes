@@ -1,5 +1,7 @@
 ---
 title: Balancing Chemical Equations
+tags:
+  - chem
 ---
 
 # Balancing Chemical Equations

@@ -1,5 +1,7 @@
 ---
 title: Solving Absolute Value Equations via Tautologies
+tags:
+  - math
 ---
 
 # Solving Absolute Value Equations via Tautologies

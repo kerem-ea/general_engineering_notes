@@ -1,5 +1,7 @@
 ---
 title: States in Chemical Equations
+tags:
+  - chem
 ---
 
 # States in Chemical Equations

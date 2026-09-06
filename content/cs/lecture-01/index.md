@@ -1,5 +1,7 @@
-﻿---
+---
 title: Computer Science — Lecture 1
+tags:
+  - cs
 ---
 
 # Computer Science — Lecture 1

@@ -1,5 +1,7 @@
 ---
 title: Net Ionic Equations
+tags:
+  - chem
 ---
 
 # Net Ionic Equations

@@ -1,5 +1,7 @@
 ---
 title: Chemistry — Lecture 1
+tags:
+  - chem
 ---
 
 # Chemistry — Lecture 1

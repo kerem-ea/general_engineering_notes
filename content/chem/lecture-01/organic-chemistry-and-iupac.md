@@ -1,5 +1,7 @@
 ---
 title: Organic Chemistry and IUPAC Naming
+tags:
+  - chem
 ---
 
 # Organic Chemistry and IUPAC Naming

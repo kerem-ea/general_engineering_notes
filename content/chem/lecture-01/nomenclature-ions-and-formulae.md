@@ -1,5 +1,7 @@
 ---
 title: Nomenclature, Ions, and Formulae
+tags:
+  - chem
 ---
 
 # Nomenclature, Ions, and Formulae

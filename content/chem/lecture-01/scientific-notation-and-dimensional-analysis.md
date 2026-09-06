@@ -1,5 +1,7 @@
 ---
 title: Scientific Notation and Dimensional Analysis
+tags:
+  - chem
 ---
 
 # Scientific Notation and Dimensional Analysis

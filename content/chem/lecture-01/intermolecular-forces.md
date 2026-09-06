@@ -1,5 +1,7 @@
 ---
 title: Intermolecular Forces
+tags:
+  - chem
 ---
 
 # Intermolecular Forces

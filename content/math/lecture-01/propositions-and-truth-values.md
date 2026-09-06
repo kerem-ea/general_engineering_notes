@@ -1,5 +1,7 @@
-﻿---
+---
 title: Propositions and Truth Values
+tags:
+  - math
 ---
 
 # Propositions and Truth Values

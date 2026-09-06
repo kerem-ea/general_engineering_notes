@@ -1,5 +1,7 @@
 ---
 title: Chemical Equations
+tags:
+  - chem
 ---
 
 # Chemical Equations
@@ -14,7 +16,7 @@ $$
 - **Products**: Substances formed (right of arrow).
 - **Coefficients**: Numbers placed before formulas indicating relative molar amounts (a coefficient of $1$ is omitted).
 - **Plus sign (`+`)**: Separates distinct reactant or product species.
-- **Arrow ($\rightarrow$)**: Indicates direction of chemical transformation.
+- **Arrow ($\rightarrow$ / $\rightleftharpoons$)**: Indicates the direction of chemical transformation. A standard arrow ($\rightarrow$) indicates a full reaction where reactants convert completely to products; however, most reactions do not go to 100% completion and instead reach dynamic equilibrium, represented using an equilibrium arrow ($\rightleftharpoons$).
 
 $$
 CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O

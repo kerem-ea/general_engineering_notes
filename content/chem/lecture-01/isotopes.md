@@ -1,5 +1,7 @@
 ---
 title: Isotopes
+tags:
+  - chem
 ---
 
 # Isotopes

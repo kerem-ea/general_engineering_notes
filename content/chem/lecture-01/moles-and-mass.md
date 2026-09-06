@@ -1,5 +1,7 @@
 ---
 title: Moles and Mass
+tags:
+  - chem
 ---
 
 # Moles and Mass

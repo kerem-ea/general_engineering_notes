@@ -1,5 +1,7 @@
 ---
 title: Reaction Stoichiometry
+tags:
+  - chem
 ---
 
 # Stoichiometry

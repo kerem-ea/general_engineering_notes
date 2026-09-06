@@ -1,5 +1,7 @@
 ---
 title: Concentration
+tags:
+  - chem
 ---
 
 # Concentration

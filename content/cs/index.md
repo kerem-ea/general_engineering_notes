@@ -1,5 +1,7 @@
 ---
 title: Computer Science
+tags:
+  - cs
 ---
 
 # Computer Science

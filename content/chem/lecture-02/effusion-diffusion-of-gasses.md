@@ -1,5 +1,7 @@
 ---
 title: Effusion and Diffusion of Gases
+tags:
+  - chem
 ---
 
 # Effusion and Diffusion of Gases

@@ -1,5 +1,7 @@
-﻿---
+---
 title: Basic Python Computations
+tags:
+  - cs
 ---
 
 # Basic Python Computations

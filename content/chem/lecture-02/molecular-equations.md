@@ -1,5 +1,7 @@
 ---
 title: Molecular Equations
+tags:
+  - chem
 ---
 
 # Molecular Equations

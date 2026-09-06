@@ -1,5 +1,7 @@
 ---
 title: Stoichiometry of Gases
+tags:
+  - chem
 ---
 
 # Stoichiometry of Gases

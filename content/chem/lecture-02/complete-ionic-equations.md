@@ -1,5 +1,7 @@
 ---
 title: Complete Ionic Equations
+tags:
+  - chem
 ---
 
 # Complete Ionic Equations

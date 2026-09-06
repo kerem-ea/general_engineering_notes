@@ -1,5 +1,7 @@
 ---
 title: Mathematics — Lecture 2
+tags:
+  - math
 ---
 
 # Mathematics — Lecture 2

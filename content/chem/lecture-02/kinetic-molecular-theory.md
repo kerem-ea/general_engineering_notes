@@ -1,5 +1,7 @@
 ---
 title: Kinetic-Molecular Theory
+tags:
+  - chem
 ---
 
 # Kinetic-Molecular Theory

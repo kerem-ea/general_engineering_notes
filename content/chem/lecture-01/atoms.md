@@ -1,5 +1,7 @@
 ---
 title: Atoms
+tags:
+  - chem
 ---
 
 # Atoms

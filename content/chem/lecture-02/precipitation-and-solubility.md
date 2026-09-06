@@ -1,5 +1,7 @@
 ---
 title: Precipitation and Solubility
+tags:
+  - chem
 ---
 # Precipitation Reactions
 

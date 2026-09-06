@@ -1,5 +1,7 @@
-﻿---
+---
 title: Tautologies and Contradictions
+tags:
+  - math
 ---
 
 # Tautologies and Contradictions

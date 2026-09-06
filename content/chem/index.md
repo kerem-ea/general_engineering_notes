@@ -1,5 +1,7 @@
 ---
 title: Chemistry
+tags:
+  - chem
 ---
 
 # Chemistry

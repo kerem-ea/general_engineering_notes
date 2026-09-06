@@ -1,5 +1,7 @@
 ---
 title: Quantitative Chemical Analysis
+tags:
+  - chem
 ---
 
 # Quantitative Chemical Analysis

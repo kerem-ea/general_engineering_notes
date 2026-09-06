@@ -1,5 +1,7 @@
 ---
 title: Reaction Yields
+tags:
+  - chem
 ---
 
 # Reaction Yields

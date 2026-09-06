@@ -1,5 +1,7 @@
 ---
 title: Spectator Ions
+tags:
+  - chem
 ---
 
 # Spectator Ions

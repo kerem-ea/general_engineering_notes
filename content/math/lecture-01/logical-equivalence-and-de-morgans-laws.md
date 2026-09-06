@@ -1,5 +1,7 @@
-﻿---
+---
 title: Logical Equivalence and De Morgan's Laws
+tags:
+  - math
 ---
 
 # Logical Equivalence and De Morgan's Laws

@@ -1,5 +1,7 @@
-﻿---
+---
 title: Implications and Logical Consequence
+tags:
+  - math
 ---
 
 # Implications and Logical Consequence

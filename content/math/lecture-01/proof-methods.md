@@ -1,5 +1,7 @@
-﻿---
+---
 title: Proof Methods
+tags:
+  - math
 ---
 
 # Proof Methods

@@ -1,5 +1,7 @@
 ---
 title: Logical Operations
+tags:
+  - math
 ---
 
 # Logical Operations

@@ -1,5 +1,7 @@
 ---
 title: Periodic Table
+tags:
+  - chem
 ---
 
 # Periodic Table

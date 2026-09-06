@@ -1,5 +1,7 @@
 ---
 title: Chemical Formulas and Composition
+tags:
+  - chem
 ---
 
 # Chemical Formulas and Composition

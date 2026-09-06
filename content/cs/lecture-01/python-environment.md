@@ -1,5 +1,7 @@
-﻿---
+---
 title: Python Environment Setup
+tags:
+  - cs
 ---
 
 # Python Environment Setup

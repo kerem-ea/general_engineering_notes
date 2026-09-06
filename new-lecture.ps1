@@ -1,4 +1,4 @@
-﻿param(
+param(
     [Parameter(Mandatory=$true)]
     [ValidateSet("chem", "cs", "future_energy", "math")]
     [string]$Subject,
@@ -35,6 +35,8 @@ if ($Title -ne "") {
 $content = @"
 ---
 title: $lectureHeading
+tags:
+  - $Subject
 ---
 
 # $lectureHeading

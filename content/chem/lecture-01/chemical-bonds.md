@@ -1,5 +1,7 @@
 ---
 title: Chemical Bonds
+tags:
+  - chem
 ---
 
 # Chemical Bonds

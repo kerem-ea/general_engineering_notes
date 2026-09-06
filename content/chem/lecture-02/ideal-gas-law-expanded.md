@@ -1,5 +1,7 @@
 ---
 title: Ideal Gas Law Expanded
+tags:
+  - chem
 ---
 
 # The Ideal Gas Law
