@@ -1,4 +1,4 @@
-﻿@use "./variables.scss" as *;
+@use "./variables.scss" as *;
 
 // Fix collapsed Explorer and TOC peeking out text
 .explorer.collapsed > .explorer-content {
@@ -12,4 +12,22 @@
 // Make sidebar graph view larger and more spacious
 .graph > .graph-outer {
   height: 350px;
+}
+
+// Remove dates from folder and tag index listings
+li.section-li > .section {
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+
+  & > .meta {
+    display: none !important;
+  }
+}
+
+.popover .section {
+  grid-template-columns: 1fr !important;
+
+  & > .meta {
+    display: none !important;
+  }
 }
