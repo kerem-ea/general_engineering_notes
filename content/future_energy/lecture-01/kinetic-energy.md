@@ -1,5 +1,7 @@
 ---
 title: Kinetic Energy
+tags:
+  - future_energy
 ---
 
 # Kinetic Energy

@@ -1,5 +1,7 @@
-﻿---
+---
 title: Energy, Work, and Power
+tags:
+  - future_energy
 ---
 
 # Energy, Work, and Power

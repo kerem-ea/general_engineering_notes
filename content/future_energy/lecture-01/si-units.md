@@ -1,5 +1,7 @@
 ---
 title: SI Units
+tags:
+  - future_energy
 ---
 
 # SI Units

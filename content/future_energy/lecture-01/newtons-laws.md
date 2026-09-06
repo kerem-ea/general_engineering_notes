@@ -1,5 +1,7 @@
-﻿---
+---
 title: Newton's Laws of Motion
+tags:
+  - future_energy
 ---
 
 # Newton's Laws of Motion

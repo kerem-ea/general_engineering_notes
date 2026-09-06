@@ -1,5 +1,7 @@
 ---
 title: Electrical Energy
+tags:
+  - future_energy
 ---
 
 # Electrical Energy

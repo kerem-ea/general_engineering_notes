@@ -1,5 +1,7 @@
-﻿---
+---
 title: Nuclear Energy
+tags:
+  - future_energy
 ---
 
 # Nuclear Energy

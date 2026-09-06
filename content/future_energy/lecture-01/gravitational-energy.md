@@ -1,5 +1,7 @@
-﻿---
+---
 title: Gravitational Energy
+tags:
+  - future_energy
 ---
 
 # Gravitational Energy

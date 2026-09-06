@@ -1,5 +1,7 @@
 ---
 title: Electromagnetic Radiation
+tags:
+  - future_energy
 ---
 
 # Electromagnetic Radiation
