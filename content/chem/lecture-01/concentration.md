@@ -30,11 +30,11 @@ $$
 
 where:
 
-- \(c\) = concentration
-- \(n\) = amount of substance
-- \(V\) = volume
-- \(m\) = mass
-- \(M\) = molar mass
+- $c$ = concentration
+- $n$ = amount of substance
+- $V$ = volume
+- $m$ = mass
+- $M$ = molar mass
 
 ## Dilution
 
@@ -44,7 +44,7 @@ $$
 n_1 = n_2
 $$
 
-Because \(n = cV\):
+Because $n = cV$:
 
 $$
 c_1 V_1 = c_2 V_2
@@ -52,5 +52,5 @@ $$
 
 where:
 
-- \(c_1, V_1\) = initial concentration and volume
-- \(c_2, V_2\) = final concentration and volume
+- $c_1, V_1$ = initial concentration and volume
+- $c_2, V_2$ = final concentration and volume

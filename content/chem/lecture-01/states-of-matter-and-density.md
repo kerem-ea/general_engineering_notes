@@ -1,4 +1,4 @@
-﻿---
+---
 title: States of Matter and Density
 ---
 
@@ -22,9 +22,9 @@ $$
 
 where:
 
-- \(\rho\) is density
-- \(m\) is mass
-- \(V\) is volume
+- $\rho$ is density
+- $m$ is mass
+- $V$ is volume
 
 Rearranging:
 

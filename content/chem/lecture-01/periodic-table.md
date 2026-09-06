@@ -8,9 +8,9 @@ The periodic table organizes chemical elements according to their atomic number 
 
 ## Atomic number
 
-The atomic number \(Z\) identifies an element and equals the number of protons in its nucleus.
+The atomic number $Z$ identifies an element and equals the number of protons in its nucleus.
 
-For a neutral atom, the number of electrons is also equal to \(Z\).
+For a neutral atom, the number of electrons is also equal to $Z$.
 
 ## Periods and groups
 

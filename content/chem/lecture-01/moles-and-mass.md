@@ -1,4 +1,4 @@
-﻿---
+---
 title: Moles and Mass
 ---
 
@@ -14,7 +14,7 @@ $$
 N_A = 6.022 \times 10^{23}\ \mathrm{mol}^{-1}
 $$
 
-The amount of substance \(n\) can be related to the number of particles \(N\) by
+The amount of substance $n$ can be related to the number of particles $N$ by
 
 $$
 n = \frac{N}{N_A}
@@ -22,7 +22,7 @@ $$
 
 ## Molar mass
 
-Molar mass \(M\) is the mass of one mole of a substance.
+Molar mass $M$ is the mass of one mole of a substance.
 
 The relationship between mass, amount of substance, and molar mass is
 
@@ -38,6 +38,6 @@ $$
 
 where:
 
-- \(n\) = amount of substance
-- \(m\) = mass
-- \(M\) = molar mass
+- $n$ = amount of substance
+- $m$ = mass
+- $M$ = molar mass

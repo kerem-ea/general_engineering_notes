@@ -12,7 +12,7 @@ $$
 a \times 10^n
 $$
 
-where \(1 \leq |a| < 10\) and \(n\) is an integer.
+where $1 \leq |a| < 10$ and $n$ is an integer.
 
 It is useful for working with very large or very small quantities.
 

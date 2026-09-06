@@ -1,4 +1,4 @@
-﻿---
+---
 title: Atoms
 ---
 
@@ -8,7 +8,7 @@ An atom is the basic unit of an element that retains the chemical identity of th
 
 ## Atomic number
 
-The **atomic number** \(Z\) is the number of protons in the nucleus.
+The **atomic number** $Z$ is the number of protons in the nucleus.
 
 For a neutral atom:
 
@@ -18,18 +18,18 @@ $$
 
 ## Mass number
 
-The **mass number** \(A\) is the total number of protons and neutrons:
+The **mass number** $A$ is the total number of protons and neutrons:
 
 $$
 A = Z + N
 $$
 
-where \(N\) is the number of neutrons.
+where $N$ is the number of neutrons.
 
 Therefore:
 
 $$
-N = A-Z
+N = A - Z
 $$
 
 ## Ions

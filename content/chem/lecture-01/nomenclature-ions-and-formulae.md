@@ -27,6 +27,6 @@ Some common naming patterns include:
 
 - Monatomic anions often end in **-ide**.
 - Oxyanions commonly use **-ate** and **-ite** endings.
-- **Bicarbonate** is the common name for the hydrogen carbonate ion, \(\mathrm{HCO_3^-}\).
+- **Bicarbonate** is the common name for the hydrogen carbonate ion, $\mathrm{HCO_3^-}$.
 
 Chemical formulae communicate which elements are present and their relative amounts.
