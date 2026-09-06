@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mathematics — Lecture 2
 ---
 

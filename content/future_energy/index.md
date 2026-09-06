@@ -1,4 +1,4 @@
-﻿---
+---
 title: Future Energy
 ---
 
@@ -6,4 +6,4 @@ title: Future Energy
 
 ## Lectures
 
-- [[future_energy/lecture-01/|Lecture 1 — Energy Fundamentals and Thermodynamics]]
+- [[future_energy/lecture-01/index|Lecture 1]]

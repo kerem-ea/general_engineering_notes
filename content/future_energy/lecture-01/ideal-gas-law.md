@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ideal Gas Law
 ---
 

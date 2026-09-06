@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chemistry
 ---
 
@@ -6,4 +6,5 @@ title: Chemistry
 
 ## Lectures
 
-- [[chem/lecture-01/|Lecture 1 — Introduction to Chemistry]]
+- [[chem/lecture-01/index|Lecture 1]]
+- [[chem/lecture-02/index|Lecture 2]]
