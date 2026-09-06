@@ -1,4 +1,4 @@
-﻿---
+---
 title: Concentration
 ---
 
@@ -35,3 +35,22 @@ where:
 - \(V\) = volume
 - \(m\) = mass
 - \(M\) = molar mass
+
+## Dilution
+
+When solvent is added to dilute a solution, the amount of solute remains constant:
+
+$$
+n_1 = n_2
+$$
+
+Because \(n = cV\):
+
+$$
+c_1 V_1 = c_2 V_2
+$$
+
+where:
+
+- \(c_1, V_1\) = initial concentration and volume
+- \(c_2, V_2\) = final concentration and volume
