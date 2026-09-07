@@ -22,3 +22,4 @@ tags:
 - [[concentration|Concentration]]
 - [[chemical-bonds|Chemical bonds]]
 - [[intermolecular-forces|Intermolecular forces]]
+- [[properties|Properties]]
