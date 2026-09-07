@@ -30,3 +30,4 @@ tags:
 - [[effusion-diffusion-of-gasses|Effusion and Diffusion of Gases]]
 - [[kinetic-molecular-theory|Kinetic-Molecular Theory]]
 - [[non-ideal-gas-behavior|Non-Ideal Gas Behavior]]
+- [[types-of-reactions|Types of Reactions]]

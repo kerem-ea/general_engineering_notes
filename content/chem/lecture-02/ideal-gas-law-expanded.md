@@ -8,12 +8,12 @@ tags:
 
 ## Empirical Gas Laws
 
-| Law | Relationship | Constants | Equation |
-|---|---|---|---|
-| **Boyle's Law** | $P \propto \frac{1}{V}$ | $T, n$ | $P_1 V_1 = P_2 V_2$ |
-| **Charles's Law** | $V \propto T$ | $P, n$ | $\frac{V_1}{T_1} = \frac{V_2}{T_2}$ |
-| **Amontons's Law** | $P \propto T$ | $V, n$ | $\frac{P_1}{T_1} = \frac{P_2}{T_2}$ |
-| **Avogadro's Law** | $V \propto n$ | $P, T$ | $\frac{V_1}{n_1} = \frac{V_2}{n_2}$ |
+| Law                             | Relationship            | Constants | Equation                            |
+| ------------------------------- | ----------------------- | --------- | ----------------------------------- |
+| **Boyle's Law**                 | $P \propto \frac{1}{V}$ | $T, n$    | $P_1 V_1 = P_2 V_2$                 |
+| **Charles's Law**               | $V \propto T$           | $P, n$    | $\frac{V_1}{T_1} = \frac{V_2}{T_2}$ |
+| **Amontons's Law/Lussac's Law** | $P \propto T$           | $V, n$    | $\frac{P_1}{T_1} = \frac{P_2}{T_2}$ |
+| **Avogadro's Law**              | $V \propto n$           | $P, T$    | $\frac{V_1}{n_1} = \frac{V_2}{n_2}$ |
 
 *(Note: Temperature $T$ must always be in **Kelvin**).*
 
