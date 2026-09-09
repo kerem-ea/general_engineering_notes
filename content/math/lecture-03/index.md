@@ -13,6 +13,8 @@ tags:
 - [[sets|Sets]]
 - [[number-sets|Number Sets]]
 - [[set-operations|Set Operations]]
+- [[lists|Lists]]
+- [[maps|Maps]]
 - [[intervals|Intervals]]
 - [[functions|Functions]]
 - [[injective-surjective-bijective|Injective, Surjective and Bijective]]

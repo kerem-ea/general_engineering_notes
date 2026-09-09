@@ -35,3 +35,16 @@ Two sets are **disjoint** if:
 $$
 A\cap B=\varnothing
 $$
+
+## Cartesian Product
+
+The operation:
+$$
+A \times B = \{(a,b)|a \in A \land b \in B\}
+$$
+creates the list:
+$$
+A = (a1, a2, ... a_n)
+$$
+
+

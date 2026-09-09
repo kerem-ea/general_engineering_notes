@@ -6,7 +6,9 @@ tags:
 
 # Intervals
 
-Intervals describe subsets of $\mathbb R$.
+Intervals describe subsets of $\mathbb R$. 
+
+> [!note] Infinity are not a number, so it can never be included in an interval.
 
 ## Closed interval
 

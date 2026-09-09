@@ -6,7 +6,7 @@ tags:
 
 # Functions
 
-A **function** assigns exactly one output to every input.
+A **function** is a [[maps|map]] that assigns exactly one output to every input.
 
 $$
 f:A\to B
@@ -16,15 +16,15 @@ where:
 
 - $A$ = **domain**
 - $B$ = **codomain**
-- $f(a)$ = image/value of $a$
+- $f(a)$ = image set/value/range of $a$
 
-The image of $f$ is:
+The image set of $f$ is:
 
 $$
 f(A)=\{f(a)\mid a\in A\}\subseteq B
 $$
 
-The image does not necessarily equal the codomain.
+The image set does not necessarily equal the codomain.
 
 ## Composition
 

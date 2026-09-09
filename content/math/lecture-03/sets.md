@@ -8,7 +8,7 @@ tags:
 
 ## Definition
 
-A **set** is a collection of distinct objects called **elements**.
+A **set** is a collection of distinct objects (duplicates ignored) called **elements**.
 
 If $a$ is an element of $A$:
 
@@ -43,3 +43,15 @@ The empty set is a subset of every set:
 $$
 \varnothing\subseteq A
 $$
+
+## Cardinality
+
+Cardinality is defined as the number of elements in finite sets.
+$$\text{Denoted as }|A| \text{ }$$
+The cardinality of a finite set B,
+
+$$B=\{\{1,2,3\},4,5\}$$
+is:
+
+$$|B| = 3$$
+since a set in a set counts as one element. 
