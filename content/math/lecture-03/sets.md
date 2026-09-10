@@ -46,12 +46,27 @@ $$
 
 ## Cardinality
 
-Cardinality is defined as the number of elements in finite sets.
-$$\text{Denoted as }|A| \text{ }$$
-The cardinality of a finite set B,
+**Cardinality** measures the size of a set.
 
-$$B=\{\{1,2,3\},4,5\}$$
-is:
+For a **finite set** $A$, the cardinality (denoted $|A|$ or $\#(A)$) is the number of distinct elements in $A$.
 
-$$|B| = 3$$
-since a set in a set counts as one element. 
+### Example
+
+For the set:
+
+$$
+B=\{\{1,2,3\},4,5\}
+$$
+
+the cardinality is:
+
+$$
+|B| = 3
+$$
+
+because the nested set $\{1,2,3\}$ counts as a single element.
+
+> [!note] Infinite sets
+> Cardinality is not restricted to finite sets. Infinite sets also have cardinality, but it is measured differently:
+> - $|\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| = \aleph_0$ — these are **countably infinite** (their elements can be listed in a sequence).
+> - $|\mathbb{R}| = \mathfrak{c}$ — this is **uncountably infinite** (strictly larger than $\aleph_0$).

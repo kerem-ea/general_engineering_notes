@@ -25,7 +25,7 @@ f(A)=\{f(a)\mid a\in A\}\subseteq B
 $$
 
 > [!note] Terminology
-> $f(a)$ is the image of a single element $a$. The **image set** $f(A)$ (also called the **range**) refers to the collection of all such outputs. Be aware that some sources use "range" to mean the codomain $B$ — these notes use it to mean $f(A)$.
+> $f(a)$ is the image of a single element $a$. The **image set** $f(A)$ (also called the **range**) is the collection of all such outputs.
 
 The image set does not necessarily equal the codomain.
 
