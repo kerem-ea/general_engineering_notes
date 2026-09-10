@@ -6,14 +6,15 @@ tags:
 
 # Maps
 
-A map $f$ assigns outputs to inputs. 
-
-A [[functions|function]] is a subcategory of maps. 
+A **map** (or **function**) $f$ assigns exactly one output to every input:
 
 $$
 f: A \to B
 $$
 
 $$
-x \to f(x)
+x \mapsto f(x)
 $$
+
+> [!note] Terminology
+> The terms *map* and *[[functions|function]]* are synonyms in standard mathematics and are used interchangeably.

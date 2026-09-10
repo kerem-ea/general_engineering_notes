@@ -38,13 +38,16 @@ $$
 
 ## Cartesian Product
 
-The operation:
+The **Cartesian product** of two sets $A$ and $B$ is the set of all ordered pairs $(a, b)$ where $a \in A$ and $b \in B$:
+
 $$
-A \times B = \{(a,b)|a \in A \land b \in B\}
+A \times B = \{(a, b) \mid a \in A \land b \in B\}
 $$
-creates the list:
+
+For example, if $A = \{1, 2\}$ and $B = \{x, y\}$, then:
+
 $$
-A = (a1, a2, ... a_n)
+A \times B = \{(1,x),\,(1,y),\,(2,x),\,(2,y)\}
 $$
 
 

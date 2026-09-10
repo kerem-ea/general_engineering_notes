@@ -16,13 +16,16 @@ where:
 
 - $A$ = **domain**
 - $B$ = **codomain**
-- $f(a)$ = image set/value/range of $a$
+- $f(a)$ = the **image** (or **value**) of $a$ under $f$
 
-The image set of $f$ is:
+The **image set** (or **range**) of $f$ is the set of all output values:
 
 $$
 f(A)=\{f(a)\mid a\in A\}\subseteq B
 $$
+
+> [!note] Terminology
+> $f(a)$ is the image of a single element $a$. The **image set** $f(A)$ (also called the **range**) refers to the collection of all such outputs. Be aware that some sources use "range" to mean the codomain $B$ — these notes use it to mean $f(A)$.
 
 The image set does not necessarily equal the codomain.
 
