@@ -84,7 +84,12 @@ To split the number line into cases:
    - **Case 3:** $x \geq \frac{1}{2}$
 
 > [!NOTE]
-> **Boundary points:** Boundary points ($0$ and $\frac{1}{2}$) must be included in at least one interval with $\leq$ or $\geq$ so no points are missed. Since $|0| = 0 = -0$, it does not matter which interval gets the equal sign.
+> **Boundary points:** Boundary points ($0$ and $\frac{1}{2}$) must each be included in at least one interval (using $\leq$ or $\geq$) so that the union covers all of $\mathbb{R}$ with no gaps.
+> 
+> Because $|0| = 0 = -0$, it does not matter which adjacent interval receives the equal sign:
+> - Here we chose $x < 0$ and $0 \leq x < \frac{1}{2}$. Under this choice, $x = 0$ is rejected in Case 1 but accepted in Case 2.
+> - Had we instead chosen $x \leq 0$ and $0 < x < \frac{1}{2}$, Case 1 would yield $x = 0$ and Case 2 would yield no solution.
+> - In both conventions, the final union $S = S_1 \cup S_2 \cup S_3$ is identical. Boundary points may also be included in both adjacent intervals ($x \le 0$ and $0 \le x \le \frac{1}{2}$); if a boundary point is a solution, it simply appears in both cases.
 
 ### Sign Table
 

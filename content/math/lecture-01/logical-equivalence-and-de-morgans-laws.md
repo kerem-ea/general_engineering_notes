@@ -6,11 +6,14 @@ tags:
 
 # Logical Equivalence and De Morgan's Laws
 
-## Logical equivalence ($\iff$ or $\equiv$)
+## Logical equivalence ($\equiv$)
 
-Two compound propositions are **logically equivalent** if they yield identical truth values under all possible truth assignments of their component variables.
+Two compound propositions are **logically equivalent** (written $A \equiv B$) if they yield identical truth values under all possible truth assignments of their component variables. That is, $A \leftrightarrow B$ is a tautology.
 
-For example, $(Q \land \neg P) \lor P \iff Q \lor P$:
+> [!note] Notation: $\equiv$ vs. $\iff$
+> While many informal texts use $\iff$ interchangeably for logical equivalence, $\equiv$ is preferred to distinguish the metalogical relation of equivalence from the object-level biconditional connective ($P \leftrightarrow Q$).
+
+For example, $(Q \land \neg P) \lor P \equiv Q \lor P$:
 
 | $P$ | $Q$ | $\neg P$ | $Q \land \neg P$ | $(Q \land \neg P) \lor P$ | $Q \lor P$ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -24,28 +27,28 @@ Because the columns for $(Q \land \neg P) \lor P$ and $Q \lor P$ match for every
 ## Algebraic laws of propositional logic
 
 - **Idempotent laws:**
-  - $P \land P \iff P$
-  - $P \lor P \iff P$
+  - $P \land P \equiv P$
+  - $P \lor P \equiv P$
 - **Commutative laws:**
-  - $P \land Q \iff Q \land P$
-  - $P \lor Q \iff Q \lor P$
+  - $P \land Q \equiv Q \land P$
+  - $P \lor Q \equiv Q \lor P$
 - **Associative laws:**
-  - $(P \land Q) \land R \iff P \land (Q \land R)$
-  - $(P \lor Q) \lor R \iff P \lor (Q \lor R)$
+  - $(P \land Q) \land R \equiv P \land (Q \land R)$
+  - $(P \lor Q) \lor R \equiv P \lor (Q \lor R)$
 - **Distributive laws:**
-  - $P \land (Q \lor R) \iff (P \land Q) \lor (P \land R)$
-  - $P \lor (Q \land R) \iff (P \lor Q) \land (P \lor R)$
+  - $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$
+  - $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$
 
 ## De Morgan's laws
 
 Negating a conjunction yields a disjunction of negations, and negating a disjunction yields a conjunction of negations:
 
 $$
-\neg(P \land Q) \iff \neg P \lor \neg Q
+\neg(P \land Q) \equiv \neg P \lor \neg Q
 $$
 
 $$
-\neg(P \lor Q) \iff \neg P \land \neg Q
+\neg(P \lor Q) \equiv \neg P \land \neg Q
 $$
 
 ## Connection to Boolean algebra

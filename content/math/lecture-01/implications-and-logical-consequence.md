@@ -23,15 +23,15 @@ An implication is false **only** when a true hypothesis leads to a false conclus
 | $F$ | $T$ | $T$ |
 | $F$ | $F$ | $T$ |
 
-## Biconditional ($P \iff Q$)
+## Biconditional ($P \iff Q$ or $P \leftrightarrow Q$)
 
-A biconditional (bi-implication) $P \iff Q$ reads "$P$ if and only if $Q$". It asserts that both directions hold:
+A biconditional (bi-implication) $P \iff Q$ (often written $P \leftrightarrow Q$) reads "$P$ if and only if $Q$". It is a compound proposition that asserts both implications hold:
 
 $$
-(P \iff Q) \equiv (P \to Q) \land (Q \to P)
+(P \leftrightarrow Q) \equiv (P \to Q) \land (Q \to P)
 $$
 
-It is true precisely when $P$ and $Q$ have identical truth values:
+It evaluates to true precisely when $P$ and $Q$ have identical truth values:
 
 | $P$ | $Q$ | $P \iff Q$ |
 |:---:|:---:|:---:|
@@ -39,3 +39,13 @@ It is true precisely when $P$ and $Q$ have identical truth values:
 | $T$ | $F$ | $F$ |
 | $F$ | $T$ | $F$ |
 | $F$ | $F$ | $T$ |
+
+---
+
+## Biconditional ($\iff$) vs. Logical Equivalence ($\equiv$)
+
+It is important to distinguish the connective from the equivalence relation:
+
+- **Biconditional ($P \leftrightarrow Q$ or $P \iff Q$):** An operation *inside* logic. It forms a new proposition whose truth value ($T$ or $F$) depends on the truth values of $P$ and $Q$.
+- **Logical Equivalence ($P \equiv Q$):** A relationship *about* propositions (at the metalogical level). It states that $P$ and $Q$ have identical truth values across all possible truth assignments—that is, the compound statement $P \leftrightarrow Q$ is a **tautology** ($P \leftrightarrow Q \equiv \top$).
+
