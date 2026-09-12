@@ -12,11 +12,11 @@ These inverse functions are also referred to as the **arcus functions**.
 
 ## Summary of Restricted Branches and Inverses
 
-| Function                     | Restricted Domain                            | Codomain / Image | Strictly Monotone | Inverse Function | Inverse Domain | Inverse Range                                |
-| :--------------------------- | :------------------------------------------- | :--------------- | :---------------- | :--------------- | :------------- | :------------------------------------------- |
-| [sin(x)](sine-function\)    | $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ | $[-1, 1]$        | Increasing        | $\arcsin(x)$     | $[-1, 1]$      | $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ |
-| [cos(x)](cosine-function\)  | $[0, \pi]$                                   | $[-1, 1]$        | Decreasing        | $\arccos(x)$     | $[-1, 1]$      | $[0, \pi]$                                   |
-| [tan(x)](tangent-function\) | $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$ | $\mathbb{R}$     | Increasing        | $\arctan(x)$     | $\mathbb{R}$   | $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$ |
+| Function                    | Restricted Domain                            | Codomain / Image | Strictly Monotone | Inverse Function | Inverse Domain | Inverse Range                                |
+| :-------------------------- | :------------------------------------------- | :--------------- | :---------------- | :--------------- | :------------- | :------------------------------------------- |
+| [[sine-function\|sin(x)]]    | $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ | $[-1, 1]$        | Increasing        | $\arcsin(x)$     | $[-1, 1]$      | $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ |
+| [[cosine-function\|cos(x)]]  | $[0, \pi]$                                   | $[-1, 1]$        | Decreasing        | $\arccos(x)$     | $[-1, 1]$      | $[0, \pi]$                                   |
+| [[tangent-function\|tan(x)]] | $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$ | $\mathbb{R}$     | Increasing        | $\arctan(x)$     | $\mathbb{R}$   | $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$ |
 
 ## Evaluating Inverse Trigonometric Functions
 
