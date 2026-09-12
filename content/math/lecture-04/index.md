@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mathematics — Lecture 4
 tags:
   - math
@@ -6,7 +6,7 @@ tags:
 
 # Mathematics — Lecture 4
 
-**Date:** Wednesday, September 10, 2026
+**Date:** Friday, September 11, 2026
 
 ## Topics
 

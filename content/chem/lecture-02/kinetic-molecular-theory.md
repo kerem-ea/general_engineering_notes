@@ -10,8 +10,8 @@ tags:
 
 1. **Continuous Motion:** Gas particles move continuously in straight lines until colliding with each other or container walls.
 2. **Negligible Volume:** Gas particles possess negligible volume compared to the total gas volume.
-3. **Origin of Pressure:** Pressure results from collisions between gas particles and container walls.
-4. **Elastic Collisions:** No intermolecular attractions or repulsions exist; collisions are perfectly elastic (kinetic energy conserved).
+3. **Origin of Pressure:** [[gas-pressure|Gas pressure]] results from collisions between gas particles and container walls.
+4. **Elastic Collisions:** No [[chem/lecture-01/intermolecular-forces|intermolecular attractions or repulsions]] exist; collisions are perfectly elastic ([[future_energy/lecture-01/kinetic-energy|kinetic energy]] is conserved).
 5. **Temperature & Energy:** Average kinetic energy of particles is directly proportional to absolute temperature ($T$ in $\text{K}$).
 
 ## Molecular Speed and Kinetic Energy
@@ -26,7 +26,7 @@ tags:
   $$
   - $R = 8.314 \text{ J}\cdot\text{mol}^{-1}\cdot\text{K}^{-1}$
   - $T$ = temperature ($\text{K}$)
-  - $M$ = molar mass in **$\text{kg/mol}$**
+  - $M$ = [[chem/lecture-01/moles-and-mass#Molar mass|molar mass]] in **$\text{kg/mol}$**
 
 ## Implications
 
@@ -35,3 +35,5 @@ tags:
   $$
   \frac{\text{Rate}_A}{\text{Rate}_B} = \frac{u_{\text{rms}, A}}{u_{\text{rms}, B}} = \sqrt{\frac{M_B}{M_A}}
   $$
+  This directly governs the relative rates of [[effusion-diffusion-of-gasses|Effusion and Diffusion of Gases]].
+- Under conditions of high pressure or low temperature, the assumptions of zero volume and absent intermolecular forces break down, leading to [[non-ideal-gas-behavior|Non-Ideal Gas Behavior]].

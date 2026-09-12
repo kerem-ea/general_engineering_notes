@@ -34,6 +34,12 @@ $$
 \mathbb N\subsetneq\mathbb Z\subsetneq\mathbb Q\subsetneq\mathbb R
 $$
 
+With the introduction of imaginary units, this chain extends to [[math/lecture-05/complex-numbers|complex numbers]]:
+
+$$
+\mathbb R\subsetneq\mathbb C
+$$
+
 ## Set-builder notation
 
 A set can be defined using a condition:

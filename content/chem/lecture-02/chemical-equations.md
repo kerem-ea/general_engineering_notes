@@ -22,4 +22,4 @@ $$
 CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O
 $$
 
-> Equations must obey the **law of conservation of matter**—the number of atoms of each element must remain constant across the reaction.
+> Equations must obey the **law of conservation of matter**-the number of atoms of each element must remain constant across the reaction.

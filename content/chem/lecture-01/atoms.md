@@ -34,6 +34,8 @@ $$
 N = A - Z
 $$
 
+Atoms of the same element with varying neutron counts are [[isotopes|isotopes]]. The mass defect between constituent nucleons and the resulting nucleus dictates [[future_energy/lecture-01/nuclear-energy|nuclear binding energy]].
+
 ## Ions
 
 An atom becomes an ion when it gains or loses electrons.
@@ -41,4 +43,4 @@ An atom becomes an ion when it gains or loses electrons.
 - A **cation** is positively charged and has lost electrons.
 - An **anion** is negatively charged and has gained electrons.
 
-The ion charge is determined by the difference between the number of protons and electrons.
+The ion charge is determined by the difference between the number of protons and electrons. Electrostatic attraction between ions forms [[chemical-bonds|ionic bonds]] (governed by [[future_energy/lecture-01/electrical-energy|Coulomb's Law]]).

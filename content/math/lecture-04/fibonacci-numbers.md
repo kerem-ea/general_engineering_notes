@@ -8,7 +8,7 @@ tags:
 
 ## Recursive definition
 
-The **Fibonacci numbers** are the values of a function $F : \mathbb{N} \to \mathbb{N}$ defined recursively by:
+The **Fibonacci numbers** are the values of a [[math/lecture-03/functions|function]] $F : \mathbb{N} \to \mathbb{N}$ defined [[recursive-functions|recursively]] by:
 
 $$
 F(n) =
@@ -36,7 +36,7 @@ For example: $F(3) = F(2) + F(1) = 1 + 1 = 2$, $\quad F(4) = F(3) + F(2) = 2 + 1
 
 ## Notation
 
-When working with sequences it is common to write $F_n$ instead of $F(n)$:
+When working with [[math/lecture-03/lists|sequences]] it is common to write $F_n$ instead of $F(n)$:
 
 $$
 F_1 = 1, \quad F_2 = 1, \quad F_3 = 2, \quad F_4 = 3, \quad \ldots

@@ -8,10 +8,10 @@ tags:
 
 ## Logical equivalence ($\equiv$)
 
-Two compound propositions are **logically equivalent** (written $A \equiv B$) if they yield identical truth values under all possible truth assignments of their component variables. That is, $A \leftrightarrow B$ is a tautology.
+Two compound [[propositions-and-truth-values|propositions]] are **logically equivalent** (written $A \equiv B$) if they yield identical truth values under all possible truth assignments of their component variables. That is, $A \leftrightarrow B$ is a [[tautologies-and-contradictions|tautology]].
 
 > [!note] Notation: $\equiv$ vs. $\iff$
-> While many informal texts use $\iff$ interchangeably for logical equivalence, $\equiv$ is preferred to distinguish the metalogical relation of equivalence from the object-level biconditional connective ($P \leftrightarrow Q$).
+> While many informal texts use $\iff$ interchangeably for logical equivalence, $\equiv$ is preferred to distinguish the metalogical relation of equivalence from the object-level [[implications-and-logical-consequence#Biconditional|biconditional connective]] ($P \leftrightarrow Q$).
 
 For example, $(Q \land \neg P) \lor P \equiv Q \lor P$:
 
@@ -38,6 +38,8 @@ Because the columns for $(Q \land \neg P) \lor P$ and $Q \lor P$ match for every
 - **Distributive laws:**
   - $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$
   - $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$
+
+These algebraic properties parallel [[logical-operations|basic logical operations]] and provide the foundation used when solving equations via [[math/lecture-02/absolute-value-equations-and-tautologies|tautologies]].
 
 ## De Morgan's laws
 

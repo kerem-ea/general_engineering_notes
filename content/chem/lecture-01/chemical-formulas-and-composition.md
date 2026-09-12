@@ -10,9 +10,9 @@ Chemical formulas represent the elemental composition of molecules and compounds
 
 ## Types of chemical formulas
 
-- **Molecular formula** — indicates the actual number of atoms of each element in a molecule of a compound (e.g., $\mathrm{C_6H_{12}O_6}$ for glucose).
-- **Empirical formula** — indicates the simplest whole-number ratio of the elements in a compound (e.g., $\mathrm{CH_2O}$ for glucose).
-- **Structural formula** — illustrates the connectivity and arrangement of atoms and bonds in a molecule.
+- **Molecular formula** - indicates the actual number of atoms of each element in a molecule of a compound (e.g., $\mathrm{C_6H_{12}O_6}$ for glucose).
+- **Empirical formula** - indicates the simplest whole-number ratio of the elements in a compound (e.g., $\mathrm{CH_2O}$ for glucose).
+- **Structural formula** - illustrates the connectivity and arrangement of atoms and bonds in a molecule.
 
 ## Percent composition
 

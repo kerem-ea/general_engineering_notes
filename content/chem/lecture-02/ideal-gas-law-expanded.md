@@ -43,3 +43,7 @@ $$
 
 - Conditions: $T = 273.15 \text{ K } (0^\circ\text{C})$ and $P = 1 \text{ atm } (101.325 \text{ kPa})$.
 - **Standard molar volume:** $1\text{ mol}$ of ideal gas occupies $V_m \approx 22.4 \text{ L}$ at STP.
+
+## Thermodynamic Perspective
+
+For the thermodynamic derivation, specific volume formulations ($pv = R_{\text{specific}}T$), microscopic kinetic assumptions, and isothermal boundary work calculations, see [[future_energy/lecture-02/ideal-gas-law|Future Energy: Ideal Gas Law]].

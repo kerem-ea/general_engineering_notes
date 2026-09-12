@@ -38,3 +38,7 @@ For an ideal gas at constant temperature ($T = \text{constant}$):
 $$
 W = \int_{V_1}^{V_2} p\,dV = nRT \int_{V_1}^{V_2} \frac{dV}{V} = nRT \ln\left(\frac{V_2}{V_1}\right)
 $$
+
+## Chemical and Empirical Relations
+
+For empirical gas laws (Boyle's, Charles's, Avogadro's laws), STP molar volume constants ($22.4\text{ L}$), and alternative units ($\text{atm}$, $\text{L}$), see [[chem/lecture-02/ideal-gas-law-expanded|Chemistry: Ideal Gas Law Expanded]].

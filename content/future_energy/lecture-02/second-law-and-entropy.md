@@ -18,6 +18,8 @@ $$
 S_{\mathrm{gas}} > S_{\mathrm{liquid}} > S_{\mathrm{solid}}
 $$
 
+(See [[chem/lecture-01/states-of-matter-and-density#States of matter|Chemistry: States of Matter]]).
+
 - Gas mole heuristic: Reactions producing more gas moles ($\Delta n_{\mathrm{gas}} > 0$) usually have $\Delta S > 0$.
 
 ## The Second Law of Thermodynamics
@@ -30,6 +32,7 @@ $$
 
 - **Entropy cannot be destroyed**; it is generated in all real, spontaneous processes.
 - **Direction of heat flow:** Heat flows spontaneously from **hot $\to$ cold**, never spontaneously cold $\to$ hot.
+- The Second Law limits the maximum efficiency of [[efficiency-and-carnot|heat engines]] and dictates the performance limits of [[heat-pumps-and-cop|heat pumps]].
 
 ## Statistical Definition (Boltzmann)
 
@@ -66,4 +69,4 @@ $$
 S(0\ \text{K}) = 0\ \text{J/(mol}\cdot\text{K)}
 $$
 
-Because $W = 1 \implies S = k_B \ln(1) = 0$. This provides an absolute reference zero, allowing tabulated **standard molar entropies** ($S^\circ$) at $298.15\ \text{K}$ and $1\ \text{bar}$.
+Because $W = 1 \implies S = k_B \ln(1) = 0$. This provides an absolute reference zero, allowing tabulated **standard molar entropies** ($S^\circ$) at $298.15\ \text{K}$ and $1\ \text{bar}$ (utilized in [[reaction-thermodynamics#Standard Reaction Entropy Delta S r circ|Reaction Thermodynamics]] and [[gibbs-free-energy|Gibbs Free Energy]]).

@@ -41,7 +41,7 @@ print(result3)
 
 ## User Input and Physical Calculations
 
-Using `input()` to receive user data, casting strings to `float`, and calculating physical equations such as kinematic displacement under gravity:
+Using `input()` to receive user data, casting strings to `float`, and calculating physical equations such as kinematic displacement under gravity (see [[future_energy/lecture-01/gravitational-energy|Gravitational Energy]] and [[future_energy/lecture-01/newtons-laws|Newton's Laws]]):
 
 $$
 s = \frac{1}{2}gt^2

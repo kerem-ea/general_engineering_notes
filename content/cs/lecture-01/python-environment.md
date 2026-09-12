@@ -46,5 +46,5 @@ python -m pip install matplotlib jupyter ipykernel pandas scipy scikit-learn sta
 .venv\Scripts\python.exe
 ```
 
-> [!NOTE]
+> [!note]
 > `.venv\Scripts\python.exe` is the Python interpreter inside the `.venv` folder in your project directory. Selecting it ensures that your VS Code workspace and Jupyter kernels use the isolated environment and libraries installed in step 3.

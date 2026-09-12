@@ -24,11 +24,11 @@ Dimensional analysis checks that equations and calculations are dimensionally co
 
 Common SI base quantities include:
 
-- Length — metre (m)
-- Mass — kilogram (kg)
-- Time — second (s)
-- Amount of substance — mole (mol)
-- Temperature — kelvin (K)
+- Length - metre (m)
+- Mass - kilogram (kg)
+- Time - second (s)
+- Amount of substance - mole (mol)
+- Temperature - kelvin (K)
 
 ## SI prefixes
 

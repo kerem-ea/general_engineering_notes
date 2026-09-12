@@ -41,31 +41,6 @@ $$
 
 ## Exponential function
 
-$$
-\exp:\mathbb R\to\mathbb R_{>0},
-\qquad \exp(x)=e^x
-$$
+The exponential function $\exp(x) = e^x$ is strictly increasing, surjective onto $\mathbb{R}_{>0}$, and therefore bijective with inverse $\ln(x)$.
 
-It is strictly increasing, hence injective, and its image is $\mathbb R_{>0}$, hence it is surjective.
-
-Therefore:
-
-$$
-\exp\text{ is bijective}
-$$
-
-Its inverse is:
-
-$$
-\ln:\mathbb R_{>0}\to\mathbb R
-$$
-
-with:
-
-$$
-\ln(e^x)=x
-$$
-
-$$
-e^{\ln x}=x
-$$
+For the full treatment, domain and codomain analysis, and inverse properties, see [[math/lecture-06/exponential-and-logarithm|Exponential and Logarithm Functions]].

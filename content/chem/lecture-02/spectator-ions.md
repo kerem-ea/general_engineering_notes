@@ -6,7 +6,7 @@ tags:
 
 # Spectator Ions
 
-A **spectator ion** remains chemically and physically unchanged throughout a reaction—it does not participate in precipitation, electron transfer, or bond formation.
+A **spectator ion** remains chemically and physically unchanged throughout a reaction-it does not participate in precipitation, electron transfer, or bond formation.
 
 - Spectator ions appear with identical formulas, charges, and physical states on both sides of a complete ionic equation.
 - Canceling spectator ions yields the **net ionic equation**.

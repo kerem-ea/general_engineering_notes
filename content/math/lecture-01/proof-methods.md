@@ -6,7 +6,7 @@ tags:
 
 # Proof Methods
 
-A **proof** is a logically rigorous argument demonstrating that a mathematical proposition inevitably follows from assumed axioms, definitions, and established theorems.
+A **proof** is a logically rigorous argument demonstrating that a mathematical [[propositions-and-truth-values|proposition]] inevitably follows from assumed axioms, definitions, and established theorems.
 
 ## 1. Direct proof
 
@@ -18,7 +18,7 @@ To prove a conditional proposition $P \to Q$ directly:
 
 ## 2. Proof by contrapositive
 
-An implication is logically equivalent to its contrapositive:
+An [[implications-and-logical-consequence|implication]] is [[logical-equivalence-and-de-morgans-laws|logically equivalent]] to its contrapositive:
 
 $$
 P \to Q \iff \neg Q \to \neg P
@@ -28,10 +28,10 @@ To prove $P \to Q$ via contrapositive, assume that the conclusion is false ($\ne
 
 ### Example
 
-> Prove: If $n^2$ is even, then $n$ is even.
+> Prove: If $n^2$ is even, then $n$ is even (for $n \in \mathbb{Z}$).
 
 - **Contrapositive:** If $n$ is odd, then $n^2$ is odd.
-- Let $n = 2k + 1$ for some integer $k$.
+- Let $n = 2k + 1$ for some integer $k \in \mathbb{Z}$.
 - $n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$, which is in the form $2m + 1$ and thus odd.
 - Since the contrapositive is true, the original statement is proven.
 
@@ -40,7 +40,7 @@ To prove $P \to Q$ via contrapositive, assume that the conclusion is false ($\ne
 To prove proposition $P$:
 
 1. Assume the negation of the proposition ($\neg P$).
-2. Follow valid deductive steps until a known falsehood or logical contradiction is reached (e.g. $R \land \neg R \equiv \bot$).
+2. Follow valid deductive steps until a known falsehood or logical [[tautologies-and-contradictions#Contradictions bot|contradiction]] is reached (e.g. $R \land \neg R \equiv \bot$).
 3. Conclude that the assumption $\neg P$ must be false, hence $P$ is true.
 
 ## Common logical relationships

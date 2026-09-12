@@ -25,3 +25,7 @@ In metallic bonding, metal atoms form an extended structure in which electrons a
 ## Polarity
 
 A bond is polar when the bonded atoms have unequal electron-attracting abilities, producing a separation of partial charge.
+
+## Bond Energetics
+
+Bond breaking always requires an input of energy (endothermic), whereas bond formation releases energy (exothermic). For the thermodynamic treatment and standard reaction enthalpies, see [[future_energy/lecture-02/reaction-thermodynamics|Reaction Thermodynamics]].

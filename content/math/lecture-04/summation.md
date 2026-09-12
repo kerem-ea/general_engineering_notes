@@ -1,4 +1,4 @@
-﻿---
+---
 title: Summation
 tags:
   - math
@@ -16,7 +16,7 @@ $$
 
 ## Recursive definition
 
-The summation is itself defined recursively:
+The summation is itself defined [[recursive-functions|recursively]]:
 
 $$
 \sum_{k=1}^{n} z_k =
@@ -37,7 +37,7 @@ $$
 
 ## Example: Sum of first $n$ natural numbers
 
-For $f : \mathbb{N} \to \mathbb{R}$, the sum $f(1) + f(2) + \cdots + f(n)$ is written $\displaystyle\sum_{k=1}^{n} f(k)$.
+For a [[math/lecture-03/functions|function]] $f : \mathbb{N} \to \mathbb{R}$ (over the natural [[math/lecture-03/number-sets|numbers]]), the sum $f(1) + f(2) + \cdots + f(n)$ is written $\displaystyle\sum_{k=1}^{n} f(k)$.
 
 Taking $f(k) = k$ gives $\displaystyle\sum_{k=1}^{n} k$:
 

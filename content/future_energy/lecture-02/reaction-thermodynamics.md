@@ -11,6 +11,7 @@ tags:
 - **Bond breaking:** Endothermic (absorbs energy).
 - **Bond forming:** Exothermic (releases energy).
 - If product bonds are more stable than reactant bonds, excess energy is liberated as heat.
+- For atomic and chemical bond classifications (ionic, covalent, metallic, polar), see [[chem/lecture-01/chemical-bonds|Chemistry: Chemical Bonds]].
 
 ## The Products Minus Reactants Rule ($P - R$)
 

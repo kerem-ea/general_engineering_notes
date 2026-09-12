@@ -22,5 +22,3 @@ While both maintain order and allow duplicate entries:
 
 - **Tuple ($n$-tuple):** In mathematics, an $n$-tuple is typically a fixed-length collection of $n$ elements (such as an ordered pair $(x, y) \in \mathbb R^2$ or a point $(x, y, z) \in \mathbb R^3$). In programming (e.g. Python), tuples are typically immutable fixed sequences.
 - **List:** A list generally refers to an ordered sequence that may have dynamic, variable length or represent general sequential data.
-
-

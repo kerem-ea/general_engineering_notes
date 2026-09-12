@@ -6,7 +6,7 @@ tags:
 
 # Nuclear Energy
 
-Nuclear energy is released or absorbed during changes in the atomic nucleus, including nuclear fission, nuclear fusion, and radioactive decay.
+Nuclear energy is released or absorbed during changes in the atomic nucleus, including nuclear fission, nuclear fusion, and radioactive decay. The internal structure and constituent nucleons are described in [[chem/lecture-01/atoms|Chemistry: Atoms]] and [[chem/lecture-01/isotopes|Chemistry: Isotopes]].
 
 ## Mass-energy equivalence
 

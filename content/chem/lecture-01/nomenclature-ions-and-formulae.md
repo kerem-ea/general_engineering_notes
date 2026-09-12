@@ -8,11 +8,11 @@ tags:
 
 ## Basic terminology
 
-- **Element** — a substance consisting of atoms with the same atomic number.
-- **Atom** — the smallest unit of an element that retains its chemical identity.
-- **Molecule** — two or more atoms chemically bonded together.
-- **Compound** — a substance containing two or more different elements chemically combined.
-- **Isotopes** — atoms of the same element with different numbers of neutrons.
+- **Element** - a substance consisting of atoms with the same atomic number.
+- **Atom** - the smallest unit of an element that retains its chemical identity.
+- **Molecule** - two or more atoms chemically bonded together.
+- **Compound** - a substance containing two or more different elements chemically combined.
+- **Isotopes** - atoms of the same element with different numbers of neutrons.
 
 ## Ions
 

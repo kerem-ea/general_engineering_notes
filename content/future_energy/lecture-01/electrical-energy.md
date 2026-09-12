@@ -6,7 +6,7 @@ tags:
 
 # Electrical Energy
 
-Electrical energy arises from the electrostatic forces between charged particles and the flow of electric charge.
+Electrical energy arises from the electrostatic forces between charged particles and the flow of electric charge. Charged particle interactions underpin [[chem/lecture-01/atoms#Ions|ions]] and [[chem/lecture-01/chemical-bonds#Ionic bonds|ionic chemical bonding]].
 
 ## Coulomb's law
 
@@ -19,3 +19,5 @@ $$
 where $k_e \approx 8.988 \times 10^9\ \mathrm{N\cdot m^2/C^2}$ is Coulomb's constant.
 
 ![[electrical_energy.png]]
+
+Electrostatic forces also explain permanent and temporary charges in [[chem/lecture-01/intermolecular-forces|intermolecular forces]].

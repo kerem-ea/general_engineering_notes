@@ -8,7 +8,7 @@ tags:
 
 ## Definition
 
-A **recursively defined function** is a function defined in terms of itself: the value at some input is expressed using the value of the same function at a smaller input.
+A **recursively defined [[math/lecture-03/functions|function]]** is a function defined in terms of itself: the value at some input is expressed using the value of the same function at a smaller input.
 
 A recursive definition always requires:
 1. A **base case**: a direct value at the smallest input, with no self-reference.
@@ -16,7 +16,7 @@ A recursive definition always requires:
 
 ## Example: Factorial
 
-The **factorial function** $\text{fac} : \mathbb{N} \to \mathbb{N}$ maps $n$ to the product of the first $n$ positive integers:
+The **factorial function** $\text{fac} : \mathbb{N} \to \mathbb{N}$ maps $n \in \mathbb{N}$ (see [[math/lecture-03/number-sets|Number Sets]]) to the product of the first $n$ positive integers:
 
 $$
 \text{fac}(n) = 1 \cdot 2 \cdots n
@@ -55,6 +55,10 @@ The algorithm **calls itself** for a smaller input. This is called a **recursive
 > [!note] 0! = 1
 > It is also common to define $0! = 1$, but that convention is not part of this recursive definition, which starts from $n = 1$.
 
+Further core examples of recursion include:
+- Generating sequence terms with multiple base cases: [[fibonacci-numbers|Fibonacci Numbers]].
+- Defining finite series aggregations: [[summation|Summation]].
+
 ## When a recursive definition fails
 
 Not every recursive description defines a valid function. Consider $g : \mathbb{N} \to \mathbb{R}$ defined by:
@@ -71,4 +75,4 @@ The base case gives $g(1) = 1$. But for any $n \geq 2$, the recursive case refer
 
 The key issue is that the recursion goes upward instead of downward. A valid recursive definition must always reduce the input toward the base case at each step.
 
-> [!important] For a recursive definition to work, each recursive call must bring the input strictly closer to the base case.
+> [!note] For a recursive definition to work, each recursive call must bring the input strictly closer to the base case.

@@ -6,7 +6,7 @@ tags:
 
 # Isotopes
 
-Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons.
+Isotopes are [[atoms|atoms]] of the same element that have the same number of protons but different numbers of neutrons.
 
 ## Isotopic notation
 
@@ -22,7 +22,7 @@ where:
 - $Z$ is the atomic number (number of protons).
 - $A$ is the mass number (total number of protons and neutrons, $A = Z + N$).
 
-Because $Z$ is fixed for a given element, isotopes are often written simply as ${}^{A}\mathrm{X}$ (such as ${}^{12}\mathrm{C}$ and ${}^{14}\mathrm{C}$) or by element name and mass number (e.g., carbon-12 and carbon-14).
+Because $Z$ is fixed for a given element, isotopes are often written simply as ${}^{A}\mathrm{X}$ (such as ${}^{12}\mathrm{C}$ and ${}^{14}\mathrm{C}$) or by element name and mass number (e.g., carbon-12 and carbon-14). Unstable isotopes undergo radioactive decay, releasing [[future_energy/lecture-01/nuclear-energy|nuclear energy]].
 
 ## Atomic mass unit
 
@@ -34,7 +34,7 @@ $$
 
 ## Average atomic mass
 
-The atomic mass listed for an element on the periodic table is a weighted average of all its naturally occurring isotopes:
+The atomic mass listed for an element on the [[periodic-table|periodic table]] is a weighted average of all its naturally occurring isotopes:
 
 $$
 \text{Atomic mass} = \sum_{i} (f_i \times m_i)
@@ -45,3 +45,5 @@ where:
 - $f_i$ is the fractional abundance of isotope $i$ $\left( \frac{\text{\% abundance}}{100} \right)$
 - $m_i$ is the isotopic mass of isotope $i$
 - $\sum f_i = 1$
+
+This weighted atomic mass is used directly to compute molar mass in [[moles-and-mass|Moles and Mass]].
