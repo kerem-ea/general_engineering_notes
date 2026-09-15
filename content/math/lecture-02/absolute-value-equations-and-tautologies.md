@@ -54,9 +54,9 @@ $$
 
 | Symbol | Name | Meaning |
 | :---: | :--- | :--- |
-| $\cup$ | Union (see [[math/lecture-03/set-operations|Set Operations]]) | Combines solution sets together (corresponds to logical $\lor$). |
+| $\cup$ | Union (see [[math/lecture-03/set-operations\|Set Operations]]) | Combines solution sets together (corresponds to logical $\lor$). |
 | $\emptyset$ | Empty Set | No valid solutions exist within a given case. |
-| $\{a, b\}$ | Set (see [[math/lecture-03/sets|Sets]]) | A collection of specific values. |
+| $\{a, b\}$ | Set (see [[math/lecture-03/sets\|Sets]]) | A collection of specific values. |
 | $S$ | Solution Set | The set containing all valid solutions to the equation. |
 
 ## Setting Up Cases
