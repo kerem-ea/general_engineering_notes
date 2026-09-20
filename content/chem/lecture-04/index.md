@@ -1,10 +1,10 @@
 ---
-title: Chemistry - Lecture 4
+title: Chemistry — Lecture 4
 tags:
   - chem
 ---
 
-# Chemistry - Lecture 4
+# Chemistry — Lecture 4
 
 **Date:** Monday, September 21, 2026
 

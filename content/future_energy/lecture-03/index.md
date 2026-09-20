@@ -1,10 +1,10 @@
 ---
-title: Future Energy - Lecture 3
+title: Future Energy — Lecture 3
 tags:
   - future_energy
 ---
 
-# Future Energy - Lecture 3
+# Future Energy — Lecture 3
 
 **Date:** Tuesday, September 15, 2026
 
