@@ -26,6 +26,8 @@ $$
 
 Because $4s$ penetrates closer to the nucleus, it fills before $3d$.
 
+![[aufbau-principle.png]]
+
 ## Valence vs Core Electrons
 
 - **Core Electrons:** Inner filled principal shells that do not participate directly in bonding.

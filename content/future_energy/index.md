@@ -12,3 +12,4 @@ tags:
 - [[future_energy/lecture-02/index|Lecture 2]]
 - [[future_energy/lecture-03/index|Lecture 3]]
 - [[future_energy/lecture-04/index|Lecture 4]]
+- [[future_energy/lecture-05/index|Lecture 5]]
