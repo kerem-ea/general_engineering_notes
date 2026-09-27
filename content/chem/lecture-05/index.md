@@ -1,5 +1,5 @@
 ---
-title: Chemistry - Lecture 5
+title: Chemistry — Lecture 5
 tags:
   - chem
 ---

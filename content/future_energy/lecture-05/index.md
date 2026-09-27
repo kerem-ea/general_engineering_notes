@@ -1,5 +1,5 @@
 ---
-title: Future Energy - Lecture 5
+title: Future Energy — Lecture 5
 tags:
   - future_energy
 ---
