@@ -18,3 +18,5 @@ tags:
 - [[math/lecture-08/index|Lecture 8]]
 - [[math/lecture-09/index|Lecture 9]]
 - [[math/lecture-10/index|Lecture 10]]
+- [[math/lecture-11/index|Lecture 11]]
+- [[math/lecture-12/index|Lecture 12]]

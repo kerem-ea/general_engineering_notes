@@ -13,3 +13,4 @@ tags:
 - [[chem/lecture-03/index|Lecture 3]]
 - [[chem/lecture-04/index|Lecture 4]]
 - [[chem/lecture-05/index|Lecture 5]]
+- [[chem/lecture-06/index|Lecture 6]]

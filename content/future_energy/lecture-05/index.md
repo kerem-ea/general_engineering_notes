@@ -4,7 +4,7 @@ tags:
   - future_energy
 ---
 
-# Future Energy - Lecture 5
+# Future Energy — Lecture 5
 
 **Date:** Tuesday, September 29, 2026
 
