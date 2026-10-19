@@ -1,10 +1,10 @@
 ---
-title: "Mathematics: Lecture 13"
+title: Mathematics — Lecture 13
 tags:
   - math
 ---
 
-# Mathematics: Lecture 13
+# Mathematics — Lecture 13
 
 **Date:** Monday, October 19, 2026
 

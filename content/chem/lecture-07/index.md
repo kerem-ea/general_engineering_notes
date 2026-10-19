@@ -1,10 +1,10 @@
 ---
-title: Chemistry - Lecture 7
+title: Chemistry — Lecture 7
 tags:
   - chem
 ---
 
-# Chemistry - Lecture 7
+# Chemistry — Lecture 7
 
 **Date:** Monday, October 19, 2026
 

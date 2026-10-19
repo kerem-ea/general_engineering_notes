@@ -1,10 +1,10 @@
 ---
-title: "Future Energy: Lecture 7"
+title: Future Energy — Lecture 7
 tags:
   - future_energy
 ---
 
-# Future Energy: Lecture 7
+# Future Energy — Lecture 7
 
 **Date:** Tuesday, October 20, 2026
 
