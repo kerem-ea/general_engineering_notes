@@ -16,7 +16,7 @@ $$(A\mathbf{v})_i = \sum_{j=1}^n a_{ij} v_j$$
 
 Equivalently: $A\mathbf{v} = v_1 \mathbf{a}_1 + \cdots + v_n \mathbf{a}_n$ where $\mathbf{a}_j$ are columns of $A$.
 
-A linear system $A\mathbf{x} = \mathbf{b}$ is just the matrix-vector equation — connects directly to [[math/lecture-11/linear-systems|Linear Systems]].
+A linear system $A\mathbf{x} = \mathbf{b}$ is just the matrix-vector equation, see [[math/lecture-11/linear-systems|Linear Systems]].
 
 ## Matrix-Matrix Product
 
@@ -36,8 +36,8 @@ Same-size matrices: $(A + B)_{ij} = a_{ij} + b_{ij}$.
 
 Scalar: $(cA)_{ij} = c \cdot a_{ij}$.
 
-Key rules: addition commutes and associates; multiplication associates and distributes — but $AB \neq BA$.
+Key rules: addition commutes and associates; multiplication associates and distributes, but $AB \neq BA$.
 
 ## Transpose
 
-$A^T \in F^{n \times m}$: $(A^T)_{ij} = a_{ji}$ — swap rows and columns.
+$A^T \in F^{n \times m}$: $(A^T)_{ij} = a_{ji}$, i.e. swap rows and columns.

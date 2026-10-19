@@ -6,7 +6,7 @@ tags:
 
 # Cell Thermodynamics and Reversible Potential
 
-Maximum electrical work comes from $\Delta G_r$ : see [[future_energy/lecture-02/gibbs-free-energy|Gibbs Free Energy]].
+Maximum electrical work comes from $\Delta G_r$, see [[future_energy/lecture-02/gibbs-free-energy|Gibbs Free Energy]].
 
 ## Electrical Basics (recap from [[future_energy/lecture-01/electrical-energy|Lecture 1]])
 

@@ -44,6 +44,6 @@ $$\eta_{\text{system}} = \eta_F \cdot \eta_V \cdot \eta_{\text{BoP}}$$
 
 ## vs Heat Engines
 
-No Carnot penalty — converts $\Delta G$ directly to work (see [[future_energy/lecture-02/efficiency-and-carnot|Heat Engines and Carnot]]):
+No Carnot penalty, converts $\Delta G$ directly to work (see [[future_energy/lecture-02/efficiency-and-carnot|Heat Engines and Carnot]]):
 
 $$\eta_{\text{Gibbs}} = \frac{E_{\text{rev}}}{E_{\text{TN}}} = \frac{1.23}{1.48} \approx 83\%$$

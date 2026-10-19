@@ -6,7 +6,7 @@ tags:
 
 # The Nernst Equation and Potential Variations
 
-Standard potentials only apply at unit activity. The Nernst equation corrects for real conditions — see [[half-cells-and-standard-potentials|Half-Cells]] for activity definitions.
+Standard potentials only apply at unit activity. The Nernst equation corrects for real conditions, see [[half-cells-and-standard-potentials|Half-Cells]] for activity definitions.
 
 ## Nernst Equation
 

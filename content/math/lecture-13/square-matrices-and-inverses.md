@@ -44,4 +44,4 @@ $$A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
 
 Entries nonzero only on diagonal. Multiplying two diagonal matrices: just multiply corresponding diagonal entries.
 
-**Inverse of diagonal $A$:** $(A^{-1})_{ii} = 1/a_{ii}$ — exists iff all diagonal entries are nonzero.
+**Inverse of diagonal $A$:** $(A^{-1})_{ii} = 1/a_{ii}$, exists iff all diagonal entries are nonzero.

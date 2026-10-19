@@ -6,7 +6,7 @@ tags:
 
 # Laplace Expansion and Properties
 
-Extends [[determinants|Determinants]] — the determinant does not have to be expanded along the first column.
+Extends [[determinants|Determinants]]: the determinant does not have to be expanded along the first column.
 
 ## Laplace Expansion (Theorem 8.2.1)
 

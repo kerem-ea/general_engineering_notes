@@ -25,7 +25,7 @@ $$c_1 \mathbf{v}_1 + \cdots + c_n \mathbf{v}_n, \quad c_i \in F$$
 
 **Linearly independent:** the only solution to $c_1 \mathbf{v}_1 + \cdots + c_n \mathbf{v}_n = \mathbf{0}$ is $c_1 = \cdots = c_n = 0$.
 
-**Linearly dependent:** otherwise — some vector is a linear combination of the others.
+**Linearly dependent:** otherwise, some vector is a linear combination of the others.
 
 Two vectors are linearly dependent iff one is a scalar multiple of the other.
 
