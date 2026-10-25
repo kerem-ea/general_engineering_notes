@@ -1,10 +1,10 @@
 ---
-title: "Chemistry: Lecture 8"
+title: Chemistry — Lecture 8
 tags:
   - chem
 ---
 
-# Chemistry: Lecture 8
+# Chemistry — Lecture 8
 
 **Date:** Monday, October 26, 2026
 

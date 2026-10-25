@@ -1,10 +1,10 @@
 ---
-title: "Mathematics: Lecture 15"
+title: Mathematics — Lecture 15
 tags:
   - math
 ---
 
-# Mathematics: Lecture 15
+# Mathematics — Lecture 15
 
 **Date:** Wednesday, October 28, 2026
 
