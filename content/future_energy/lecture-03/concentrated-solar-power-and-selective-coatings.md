@@ -28,7 +28,7 @@ As collector temperature $T_{\text{col}}$ rises, emission losses $\sigma T_{\tex
 
 ## Solution 1: Wavelength-Selective Coatings
 
-Incoming solar radiation is concentrated at short wavelengths ($\lambda < 3\ \mu\text{m}$, corresponding to the Sun's $\sim 5800\text{ K}$ surface). Heat loss from the collector occurs at longer infrared wavelengths ($\lambda > 3\ \mu\text{m}$, corresponding to $T_{\text{col}} \sim 300\text{--}800\text{ K}$).
+Incoming solar radiation is concentrated at short wavelengths ($\lambda < 3\ \mu\text{m}$, corresponding to the Sun's $\sim 5800\text{ K}$ surface). Heat loss from the collector occurs at longer infrared wavelengths ($\lambda > 3\ \mu\text{m}$, corresponding to $T_{\text{col}} \sim 300\text{-}800\text{ K}$).
 
 Engineered selective surfaces decouple absorptance and emissivity:
 
@@ -64,5 +64,5 @@ $$
 \frac{\dot{Q}_{\text{net}}}{A_{\text{ref}}} = \alpha_{\text{sw}} I - \frac{\epsilon_{\text{lw}} \sigma (T_{\text{col}}^4 - T_{\text{env}}^4)}{C}
 $$
 
-- $C$ = concentration ratio (dimensionless, typically $50\text{--}1000$)
-- High concentration ($C \gg 1$) divides radiative heat losses by $C$, allowing operating temperatures of $500\text{--}1000^\circ\text{C}$ to achieve high [[solar-thermal-energy|Carnot efficiency]].
+- $C$ = concentration ratio (dimensionless, typically $50\text{-}1000$)
+- High concentration ($C \gg 1$) divides radiative heat losses by $C$, allowing operating temperatures of $500\text{-}1000^\circ\text{C}$ to achieve high [[solar-thermal-energy|Carnot efficiency]].

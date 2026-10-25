@@ -6,50 +6,40 @@ tags:
 
 # Hydrogen Energy and Power-to-X
 
-Hydrogen is an energy carrier, not a primary energy source. It must be synthesized from hydrogen-containing compounds (primarily water or hydrocarbons) using external energy.
+Hydrogen is a secondary energy carrier synthesized via work or heat input:
 
-## The Hydrogen Energy Cycle
+$$2\mathrm{H_2O} \underset{\text{fuel cell}}{\overset{\text{electrolysis}}{\rightleftharpoons}} 2\mathrm{H_2} + \mathrm{O_2}$$
 
-- **Electrolysis:** electrical energy splits water into hydrogen and oxygen:
-  $$2\mathrm{H_2O} + \text{energy} \to 2\mathrm{H_2} + \mathrm{O_2}$$
-- **Reconversion:** fuel cell or combustion recombines hydrogen and oxygen to produce power and water:
-  $$2\mathrm{H_2} + \mathrm{O_2} \to 2\mathrm{H_2O} + \text{energy}$$
-- **Round-trip efficiency:** practical round-trip electricity-to-electricity efficiency is typically $<40\text{--}50\%$ due to activation overpotentials, ohmic losses, and gas compression or liquefaction work (see [[future_energy/lecture-07/efficiencies-of-electrochemical-cells|Efficiencies of Electrochemical Cells]]).
+## Energy Metrics
 
-## Advantages and Implementation Barriers
+- **Gravimetric energy density:** $\mathrm{LHV}_{\mathrm{H_2}} \approx 120\text{ MJ/kg} \approx 33.3\text{ kWh/kg}$ (vs gasoline $\approx 44\text{ MJ/kg}$)
+- **Volumetric density (STP):** $\rho_{\mathrm{H_2}} \approx 0.089\text{ kg/m^3}$ ($1\text{ kg }\mathrm{H_2} \approx 11.2\text{ Nm^3}$)
+- **Storage conditions:** compressed gas ($350\text{-}700\text{ bar}$) or cryogenic liquid ($T = -253{}^\circ\text{C} = 20\text{ K}$)
+- **Round-trip electricity efficiency:**
+  $$\eta_{\text{round-trip}} = \eta_{\text{EC}} \cdot \eta_{\text{storage}} \cdot \eta_{\text{FC}} < 40\text{-}50\%$$
+  (compared to battery electric vehicles: $\eta \approx 70\text{-}85\%$)
 
-### Key Advantages
-- **Abundant raw material:** water is widely accessible and non-toxic.
-- **Zero emissions at point of use:** water vapor is the sole chemical reaction product.
-- **High gravimetric energy density:** lower heating value (LHV) $\approx 120\text{ MJ/kg}$ (compared to gasoline at $\approx 44\text{ MJ/kg}$).
-- **Long-distance transport:** hydrogen pipelines transport massive energy throughput at lower cost per unit power capacity than high-voltage electric transmission cables.
+## Power-to-X (PtX) Conversion Routes
 
-### Implementation Barriers
-- **Volumetric energy density:** hydrogen gas has very low density at standard conditions ($\approx 0.089\text{ kg/m^3}$ at STP), requiring compression to $350\text{--}700\text{ bar}$ or cryogenic cooling to $-253{}^\circ\text{C}$ ($20\text{ K}$).
-- **High production cost:** electrolytic hydrogen currently costs significantly more than fossil-derived hydrogen.
-- **Infrastructure chicken-and-egg problem:** lack of distribution and refueling networks discourages consumer adoption, while low fleet adoption disincentivizes infrastructure deployment.
-- **Competition from batteries:** battery electric vehicles (BEVs) exhibit higher round-trip efficiency ($70\text{--}85\%$) for passenger cars, relegating hydrogen primarily to heavy transport, shipping, aviation, and heavy industry.
+Converts renewable electricity into chemical energy vectors:
 
-## Power-to-X (PtX)
+$$\text{Electricity} + \mathrm{H_2O} \xrightarrow{\text{electrolysis}} \mathrm{H_2} \begin{cases}
++ \mathrm{CO_2} \xrightarrow{\text{methanation}} \mathrm{CH_4} \quad \text{(Power-to-Gas)} \\
++ \mathrm{CO_2} / \mathrm{CO} \xrightarrow{\text{synthesis}} \mathrm{CH_3OH} \text{ or } \mathrm{C}_n\mathrm{H}_{2n+2} \quad \text{(Power-to-Liquid)} \\
++ \mathrm{N_2} \xrightarrow{\text{Haber-Bosch}} \mathrm{NH_3} \quad \text{(Power-to-Chemicals)}
+\end{cases}$$
 
-Power-to-X designates technologies converting renewable electric power into synthetic fuels, chemicals, or materials:
+Used primarily for hard-to-electrify sectors: aviation, maritime shipping, steelmaking, and chemical feedstock.
 
-- **Power-to-Gas (PtG):** hydrogen ($\mathrm{H_2}$) or synthetic natural gas (methane, $\mathrm{CH_4}$).
-- **Power-to-Liquid (PtL):** e-methanol ($\mathrm{CH_3OH}$), synthetic diesel, or e-kerosene (sustainable aviation fuel).
-- **Power-to-Chemicals (PtC):** green ammonia ($\mathrm{NH_3}$), base chemical feedstocks for plastics, fertilizers, and industrial reagents.
-- **Sector coupling:** links variable electricity generation (wind, solar) with transport, agriculture, and chemical manufacturing sectors that cannot be decarbonized by direct electrification alone.
+## Hydrogen Color Taxonomy
 
-## The Colours of Hydrogen
-
-Hydrogen is color-coded by feed source and production process:
-
-| Colour | Production Pathway | Carbon Footprint |
+| Colour | Production Pathway | Carbon Intensity |
 |---|---|---|
-| **Green** | Water electrolysis powered by renewable electricity (wind, solar, hydro) | Zero direct $\mathrm{CO_2}$ emissions |
-| **Blue** | Steam methane reforming (SMR) or coal gasification paired with Carbon Capture and Storage (CCS) | Low net $\mathrm{CO_2}$ emissions ($80\text{--}95\%$ captured) |
-| **Grey** | Steam methane reforming (SMR) of natural gas without CCS: $\mathrm{CH_4 + 2H_2O \to CO_2 + 4H_2}$ | High emissions ($\approx 9\text{--}12\text{ kg CO_2 / kg H_2}$) |
-| **Brown / Black** | Gasification of brown coal (lignite) or black coal (bituminous) without CCS | Very high emissions ($\approx 18\text{--}20\text{ kg CO_2 / kg H_2}$) |
-| **Turquoise** | Methane pyrolysis: $\mathrm{CH_4 \to C(s) + 2H_2}$ yielding solid carbon black rather than gaseous $\mathrm{CO_2}$ | Low emissions if powered by renewable electricity or heat |
-| **Pink / Purple / Red** | Water electrolysis powered by nuclear electricity (purple/red also denotes thermochemical nuclear splitting) | Zero operational $\mathrm{CO_2}$ emissions |
-| **Yellow** | Water electrolysis powered by general grid electricity | Varies with grid carbon intensity |
-| **White** | Naturally occurring geological hydrogen deposits underground | Low to zero emissions depending on extraction energy |
+| **Green** | Water electrolysis via renewable electricity (wind, solar) | Zero direct $\mathrm{CO_2}$ |
+| **Blue** | SMR or gasification with Carbon Capture and Storage (CCS) | Low ($\approx 80\text{-}95\%\text{ capture}$) |
+| **Grey** | SMR: $\mathrm{CH_4 + 2H_2O \to CO_2 + 4H_2}$ without CCS | $\approx 9\text{-}12\text{ kg }\mathrm{CO_2}\text{ / kg }\mathrm{H_2}$ |
+| **Brown / Black** | Coal gasification (lignite/bituminous) without CCS | $\approx 18\text{-}20\text{ kg }\mathrm{CO_2}\text{ / kg }\mathrm{H_2}$ |
+| **Turquoise** | Methane pyrolysis: $\mathrm{CH_4 \to C(s) + 2H_2}$ | Solid carbon byproduct, no $\mathrm{CO_2(g)}$ |
+| **Pink / Purple / Red** | Nuclear-powered electrolysis or thermochemical splitting | Zero direct $\mathrm{CO_2}$ |
+| **Yellow** | Grid-powered electrolysis | Variable (depends on grid mix) |
+| **White** | Natural geological $\mathrm{H_2}$ extraction | Low extraction emissions |

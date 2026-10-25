@@ -6,88 +6,57 @@ tags:
 
 # Fuel Cell and Electrolyzer Technologies
 
-Electrochemical cells convert chemical and electrical energy directly at electrode interfaces (see [[future_energy/lecture-07/electrochemical-cells-and-classification|Electrochemical Cells and Classification]]).
+Electrochemical cells convert directly between chemical and electrical energy (see [[future_energy/lecture-07/electrochemical-cells-and-classification|Electrochemical Cells and Classification]]).
 
-## The Single Cell Architecture
+## Triple Phase Boundary (TPB)
 
-A single electrochemical cell consists of three functional regions:
+Reaction occurs exclusively where three phases intersect:
+$$\text{Active site} = \text{Gas pore} \ (\mathrm{H_2, O_2, H_2O}) \ \cap \ \text{Electron conductor} \ (\text{catalyst/metal}) \ \cap \ \text{Ion conductor} \ (\text{electrolyte})$$
 
-1. **Electrolyte:** ion conductor and electronic insulator. Prevents cell short-circuiting and separates reactive gas streams.
-2. **Electrodes (Anode and Cathode):** porous electronic conductors hosting catalyst layers where electrochemical half-reactions take place.
-3. **Porous Transport Layers (PTL / GDL):** gas diffusion layers facilitating reactant transport to catalyst sites, electron removal, and water drainage.
+$$\text{Reaction rate} \propto A_{\text{TPB}} \quad (\text{area per unit geometric area})$$
 
-### The Triple Phase Boundary (TPB)
-Electrochemical reactions can only proceed at sites where three distinct phases meet:
-- **Ionic conductor:** the electrolyte or ionomer network delivering or removing ions ($\mathrm{H^+}$, $\mathrm{OH^-}$, or $\mathrm{O^{2-}}$).
-- **Electronic conductor:** the metal or carbon catalyst matrix supplying or removing electrons ($e^-$).
-- **Fluid pore:** void space supplying gas reactants ($\mathrm{H_2}$, $\mathrm{O_2}$, or steam) and clearing products.
+## Core Electrolyte Technologies
 
-Maximizing TPB surface area per unit geometric area is essential to minimize activation overpotentials.
-
-## Core Cell Technologies
-
-| Feature | Alkaline (AEL / AFC) | Proton Exchange Membrane (PEM) | Solid Oxide (SOEC / SOFC) | Anion Exchange Membrane (AEM) |
+| Metric | Alkaline (AEL) | Proton Exchange (PEM) | Solid Oxide (SOEC / SOFC) | Anion Exchange (AEM) |
 |---|---|---|---|---|
-| **Electrolyte** | Aqueous $\mathrm{KOH}$ ($20\text{--}30\text{ wt}\%$) in porous diaphragm | Solid fluoropolymer membrane (e.g. Nafion) | Solid ceramic metal oxide (YSZ) | Solid polymer membrane with fixed cations |
+| **Electrolyte** | Aqueous $\mathrm{KOH}$ ($20\text{-}30\text{ wt}\%$) | Perfluorosulfonic acid (Nafion) | Ceramic $\mathrm{Y_2O_3}$-stabilized $\mathrm{ZrO_2}$ (YSZ) | Polymer with quaternary ammonium |
 | **Mobile Ion** | $\mathrm{OH^-}$ | $\mathrm{H^+}$ | $\mathrm{O^{2-}}$ | $\mathrm{OH^-}$ |
-| **Operating Temp.** | $60\text{--}90{}^\circ\text{C}$ | $60\text{--}80{}^\circ\text{C}$ | $600\text{--}850{}^\circ\text{C}$ | $50\text{--}70{}^\circ\text{C}$ |
-| **Catalyst Material** | Nickel, Ni-alloys (low cost) | Platinum (Pt), Iridium ($\mathrm{IrO_2}$) | Nickel-cermet, perovskites | Nickel, non-precious metals |
-| **Water Supply (EC)** | Cathode (with $\mathrm{KOH}$) | Anode (pure deionized $\mathrm{H_2O}$) | Fuel electrode (steam $\mathrm{H_2O(g)}$) | Cathode (dilute basic solution) |
-| **Main Advantage** | Low capital cost, mature technology | High current density, fast dynamic cycling | Highest efficiency, utilizes waste heat | Low-cost catalysts with solid membrane |
-| **Main Drawback** | Corrosive liquid, bulky footprint | Expensive noble metal catalysts | High thermal stress, slow startup | Membrane durability under development |
+| **$T_{\text{op}}$** | $60\text{-}90{}^\circ\text{C}$ | $60\text{-}80{}^\circ\text{C}$ | $600\text{-}850{}^\circ\text{C}$ | $50\text{-}70{}^\circ\text{C}$ |
+| **Catalyst** | Nickel, Ni-alloys | Platinum (Pt), Iridium ($\mathrm{IrO_2}$) | Ni-YSZ cermet, perovskites | Nickel, non-precious metals |
+| **Water feed** | Cathode (with $\mathrm{KOH}$) | Anode (pure deionized $\mathrm{H_2O}$) | Fuel electrode ($\mathrm{H_2O(g)}$) | Cathode (dilute basic solution) |
 
-## Electrode Half-Reactions
+## Half-Cell Reactions
 
-Reactions proceed from left to right in **fuel cell mode**, and right to left in **electrolyzer mode**:
+Forward direction: **fuel cell (FC)**. Reverse direction: **electrolyzer (EC)**.
 
-### 1. Proton Conducting Electrolyte (Acidic / PEM)
-- **Anode (FC) / Cathode (EC):**
-  $$2\mathrm{H_2} \rightleftharpoons 4\mathrm{H^+} + 4\mathrm{e^-}$$
-- **Cathode (FC) / Anode (EC):**
-  $$\mathrm{O_2} + 4\mathrm{H^+} + 4\mathrm{e^-} \rightleftharpoons 2\mathrm{H_2O}$$
-- **Overall:**
-  $$2\mathrm{H_2} + \mathrm{O_2} \rightleftharpoons 2\mathrm{H_2O}$$
+### Proton Conducting ($\mathrm{H^+}$)
+$$\text{Anode (FC) / Cathode (EC):} \quad 2\mathrm{H_2} \rightleftharpoons 4\mathrm{H^+} + 4\mathrm{e^-}$$
+$$\text{Cathode (FC) / Anode (EC):} \quad \mathrm{O_2} + 4\mathrm{H^+} + 4\mathrm{e^-} \rightleftharpoons 2\mathrm{H_2O}$$
 
-### 2. Hydroxide Conducting Electrolyte (Alkaline / AEM)
-- **Anode (FC) / Cathode (EC):**
-  $$2\mathrm{H_2} + 4\mathrm{OH^-} \rightleftharpoons 4\mathrm{H_2O} + 4\mathrm{e^-}$$
-- **Cathode (FC) / Anode (EC):**
-  $$\mathrm{O_2} + 2\mathrm{H_2O} + 4\mathrm{e^-} \rightleftharpoons 4\mathrm{OH^-}$$
-- **Overall:**
-  $$2\mathrm{H_2} + \mathrm{O_2} \rightleftharpoons 2\mathrm{H_2O}$$
+### Hydroxide Conducting ($\mathrm{OH^-}$)
+$$\text{Anode (FC) / Cathode (EC):} \quad 2\mathrm{H_2} + 4\mathrm{OH^-} \rightleftharpoons 4\mathrm{H_2O} + 4\mathrm{e^-}$$
+$$\text{Cathode (FC) / Anode (EC):} \quad \mathrm{O_2} + 2\mathrm{H_2O} + 4\mathrm{e^-} \rightleftharpoons 4\mathrm{OH^-}$$
 
-### 3. Oxide Ion Conducting Electrolyte (Solid Oxide / SOEC)
-- **Anode (FC) / Cathode (EC):**
-  $$2\mathrm{H_2} + 2\mathrm{O^{2-}} \rightleftharpoons 2\mathrm{H_2O} + 4\mathrm{e^-}$$
-- **Cathode (FC) / Anode (EC):**
-  $$\mathrm{O_2} + 4\mathrm{e^-} \rightleftharpoons 2\mathrm{O^{2-}}$$
-- **Overall:**
-  $$2\mathrm{H_2} + \mathrm{O_2} \rightleftharpoons 2\mathrm{H_2O}$$
+### Oxide Ion Conducting ($\mathrm{O^{2-}}$)
+$$\text{Fuel electrode:} \quad 2\mathrm{H_2} + 2\mathrm{O^{2-}} \rightleftharpoons 2\mathrm{H_2O} + 4\mathrm{e^-}$$
+$$\text{Oxygen electrode:} \quad \mathrm{O_2} + 4\mathrm{e^-} \rightleftharpoons 2\mathrm{O^{2-}}$$
 
-## Stacking Cells
+Overall reaction in all configurations:
+$$2\mathrm{H_2} + \mathrm{O_2} \rightleftharpoons 2\mathrm{H_2O}$$
 
-A single fuel cell delivers $0.6\text{--}0.8\text{ V}$, while an electrolyzer cell operates at $1.5\text{--}2.0\text{ V}$. Practical power applications require stacking hundreds of cells:
+## Stack Scaling Formulas
 
-- **Series electrical connection:** cells are stacked in series so cell voltages sum directly while the same current passes through all cells.
-- **Bipolar plates (interconnects):**
-  - Electrically connect the anode of one cell to the cathode of the next.
-  - Separate reactant fluid streams between adjacent cells.
-  - Channel reactants across electrode surfaces via flow fields (parallel channels, serpentine channels, or pin patterns).
-  - Provide internal cooling fluid channels for heat dissipation.
-- **Manifolds and sealing:** internal manifolds distribute reactant gases and coolant along the length of the stack. Elastomeric gaskets or glass-ceramic seals prevent gas crossover and external leaks.
+Single cells produce low potential ($V_{\text{FC}} \approx 0.6\text{-}0.8\text{ V}$, $V_{\text{EC}} \approx 1.5\text{-}2.0\text{ V}$). Cells are arranged in electrical series using bipolar plates:
+
+$$V_{\text{stack}} = \sum_{i=1}^{N_{\text{cells}}} V_i = N_{\text{cells}} \cdot V_{\text{cell}}$$
+$$I_{\text{stack}} = I_{\text{cell}} = j \cdot A_{\text{cell}}$$
+$$P_{\text{stack}} = V_{\text{stack}} \cdot I_{\text{stack}} = N_{\text{cells}} \cdot V_{\text{cell}} \cdot (j \cdot A_{\text{cell}})$$
+
+where $j$ is current density ($\mathrm{A/cm^2}$) and $A_{\text{cell}}$ is active geometric area.
 
 ## Balance of Plant (BoP)
 
-The electrochemical stack requires supporting auxiliary systems to operate:
+Auxiliary power consumption parasitic to net system output:
 
-### Fuel Cell BoP
-- **Reactant supply:** air compressor/blower, hydrogen pressure regulator, hydrogen recirculation ejector.
-- **Thermal management:** coolant circulation pump, radiator, thermostat valve.
-- **Water management:** membrane humidifiers and liquid water separators.
-- **Power electronics:** DC/DC boost converter, inverter, control unit, and auxiliary buffer battery.
-
-### Electrolyzer BoP
-- **Power supply:** AC/DC transformer-rectifiers delivering multi-kiloampere DC currents.
-- **Feedwater treatment:** deionizer and reverse osmosis unit to prevent mineral scaling on electrodes.
-- **Gas separation:** gas-liquid separator tanks, deoxidizers (catalytic removal of residual $\mathrm{O_2}$ in $\mathrm{H_2}$), and adsorption gas dryers.
-- **Cooling loop:** heat exchangers to reject waste heat produced by cell overpotentials.
+- **FC BoP:** air compressor, hydrogen recirculation pump, cooling loop, DC/DC converter, control unit.
+- **EC BoP:** AC/DC rectifier transformer, deionized water filtration, gas-liquid separators, $\mathrm{H_2}$ dryer/deoxidizer, cooling heat exchangers.

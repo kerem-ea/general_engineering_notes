@@ -63,7 +63,7 @@ $$
 FF = \frac{p_{\max}}{V_{\text{oc}} \cdot j_{\text{sc}}} = \frac{V_{\text{mp}} \cdot j_{\text{mp}}}{V_{\text{oc}} \cdot j_{\text{sc}}}
 $$
 
-- $FF$ = fill factor (dimensionless; typical commercial silicon cells achieve $0.70\text{--}0.80$, or $70\%\text{--}80\%$)
+- $FF$ = fill factor (dimensionless; typical commercial silicon cells achieve $0.70\text{-}0.80$, or $70\%\text{-}80\%$)
 
 ### Solar Cell Conversion Efficiency ($\eta_{\text{pv}}$)
 
@@ -73,7 +73,7 @@ $$
 \eta_{\text{pv}} = \frac{p_{\max}}{I_{\text{global}}} = \frac{V_{\text{oc}} \cdot j_{\text{sc}} \cdot FF}{I_{\text{global}}}
 $$
 
-- $\eta_{\text{pv}}$ = solar cell power efficiency (dimensionless; commercial silicon achieves $20\%\text{--}25\%$)
+- $\eta_{\text{pv}}$ = solar cell power efficiency (dimensionless; commercial silicon achieves $20\%\text{-}25\%$)
 - $I_{\text{global}}$ = incident global solar irradiance ($\text{W/m}^2$)
 
 *(Note: A cell with a higher $FF$ is not necessarily more efficient if its absolute power output per unit irradiance is lower).*
