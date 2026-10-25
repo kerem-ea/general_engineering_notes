@@ -12,12 +12,10 @@ Converts electrolytic $\mathrm{H_2}$ into drop-in hydrocarbons or carbon-free am
 
 Liquid fuels bypass the volumetric storage limitations of hydrogen gas:
 
-$$\begin{aligned}
-\text{Compressed } \mathrm{H_2} \ (700\text{ bar}) &\approx 4.5\text{ MJ/L} \\
-\text{Liquid } \mathrm{H_2} \ (-253{}^\circ\text{C}) &\approx 8.5\text{ MJ/L} \\
-\text{Liquid Methanol } (\mathrm{CH_3OH}) &\approx 15.6\text{ MJ/L} \\
-\text{Synthetic Kerosene / Diesel } (\mathrm{C}_n\mathrm{H}_{2n+2}) &\approx 32\text{-}36\text{ MJ/L}
-\end{aligned}$$
+- **Compressed $\mathrm{H_2}$ ($700\text{ bar}$):** $\approx 4.5\ \mathrm{MJ/L}$
+- **Liquid $\mathrm{H_2}$ ($-253{}^\circ\text{C}$):** $\approx 8.5\ \mathrm{MJ/L}$
+- **Liquid Methanol ($\mathrm{CH_3OH}$):** $\approx 15.6\ \mathrm{MJ/L}$
+- **Synthetic Kerosene / Diesel ($\mathrm{C}_n\mathrm{H}_{2n+2}$):** $\approx 32\text{-}36\ \mathrm{MJ/L}$
 
 ## Sabatier Process (Methanation)
 

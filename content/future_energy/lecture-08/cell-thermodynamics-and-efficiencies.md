@@ -12,14 +12,14 @@ Electrochemical energy conversion is governed by fundamental thermodynamic state
 
 At $T = 25{}^\circ\text{C}$ ($298.15\text{ K}$) and $p = 1\text{ bar}$:
 
-| Parameter | Symbol | Liquid Water (HHV) | Steam (LHV) |
-|---|---|---|---|
-| **Enthalpy of reaction** | $\Delta H_r^\circ$ | $\pm 285.8\text{ kJ/mol}$ | $\pm 241.8\text{ kJ/mol}$ |
-| **Gibbs free energy** | $\Delta G_r^\circ$ | $\pm 237.1\text{ kJ/mol}$ | $\pm 228.6\text{ kJ/mol}$ |
-| **Entropy thermal term** | $T\Delta S^\circ$ | $\pm 48.7\text{ kJ/mol}$ | $\pm 13.2\text{ kJ/mol}$ |
-| **Reversible cell voltage** | $E_{\text{rev}}$ | $1.23\text{ V}$ | $1.18\text{ V}$ |
-| **Thermoneutral cell voltage** | $E_{\text{tn}}$ | $1.48\text{ V}$ | $1.25\text{ V}$ |
-| **Ideal specific energy** | $\text{SEC}_{\text{ideal}}$ | $3.54\text{ kWh/Nm^3}$ | $3.00\text{ kWh/Nm^3}$ |
+| Parameter                      | Symbol                      | Liquid Water (HHV)        | Steam (LHV)               |
+| ------------------------------ | --------------------------- | ------------------------- | ------------------------- |
+| **Enthalpy of reaction**       | $\Delta H_r^\circ$          | $\pm 285.8\text{ kJ/mol}$ | $\pm 241.8\text{ kJ/mol}$ |
+| **Gibbs free energy**          | $\Delta G_r^\circ$          | $\pm 237.1\text{ kJ/mol}$ | $\pm 228.6\text{ kJ/mol}$ |
+| **Entropy thermal term**       | $T\Delta S^\circ$           | $\pm 48.7\text{ kJ/mol}$  | $\pm 13.2\text{ kJ/mol}$  |
+| **Reversible cell voltage**    | $E_{\text{rev}}$            | $1.23\text{ V}$           | $1.18\text{ V}$           |
+| **Thermoneutral cell voltage** | $E_{\text{tn}}$             | $1.48\text{ V}$           | $1.25\text{ V}$           |
+| **Ideal specific energy**      | $\text{SEC}_{\text{ideal}}$ | $3.54\ \mathrm{kWh/Nm^3}$    | $3.00\ \mathrm{kWh/Nm^3}$    |
 
 Signs: negative for fuel cell mode (exergonic), positive for electrolyzer mode (endergonic).
 
@@ -77,7 +77,8 @@ $$\eta_{V,\text{EC}} = \frac{E_{\text{tn}}}{V_{\text{cell}}} \approx 70\text{-}8
 ### 4. Specific Energy Consumption (SEC)
 $$\text{SEC} = \frac{P_{\text{elec}} \cdot t}{V_{\mathrm{H_2,STP}}} \quad \left[\frac{\mathrm{kWh}}{\mathrm{Nm^3}}\right]$$
 $$\eta_{\text{sys}} = \frac{\text{SEC}_{\text{theoretical}}}{\text{SEC}_{\text{actual}}}$$
-$$\text{At } \text{SEC}_{\text{actual}} = 4.50\text{ kWh/Nm^3}: \quad \begin{cases}
+For $\text{SEC}_{\text{actual}} = 4.50\ \mathrm{kWh/Nm^3}$:
+$$\begin{cases}
 \eta_{\text{sys,HHV}} = \frac{3.54}{4.50} = 78.7\% \\
 \eta_{\text{sys,LHV}} = \frac{3.00}{4.50} = 66.7\%
 \end{cases}$$

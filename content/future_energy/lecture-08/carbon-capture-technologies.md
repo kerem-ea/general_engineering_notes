@@ -10,12 +10,12 @@ Carbonaceous synfuels require captured $\mathrm{CO_2}$ to achieve closed-loop ca
 
 ## Capture Source Metrics
 
-| Parameter | Point-Source Capture | Direct Air Capture (DAC) |
-|---|---|---|
-| **$\mathrm{CO_2}$ concentration** | $4\text{-}90\%\ \mathrm{CO_2}$ | $\approx 420\text{ ppm} \ (0.042\%)$ |
-| **Feed streams** | Cement kilns, biogas digesters, steel plants | Ambient atmosphere |
-| **Thermal/electric penalty** | $1.5\text{-}3.0\text{ GJ / tonne }\mathrm{CO_2}$ | $5\text{-}10\text{ GJ / tonne }\mathrm{CO_2}$ |
-| **Air volume required** | Confined to exhaust flue stacks | $>10^6\text{ m^3} / \text{tonne }\mathrm{CO_2}$ |
+| Parameter                         | Point-Source Capture                             | Direct Air Capture (DAC)                        |
+| --------------------------------- | ------------------------------------------------ | ----------------------------------------------- |
+| **$\mathrm{CO_2}$ concentration** | $4\text{-}90\%\ \mathrm{CO_2}$                   | $\approx 420\text{ ppm} \ (0.042\%)$            |
+| **Feed streams**                  | Cement kilns, biogas digesters, steel plants     | Ambient atmosphere                              |
+| **Thermal/electric penalty**      | $1.5\text{-}3.0\ \mathrm{GJ / tonne\ CO_2}$      | $5\text{-}10\ \mathrm{GJ / tonne\ CO_2}$        |
+| **Air volume required**           | Confined to exhaust flue stacks                  | $> 10^6\ \mathrm{m^3 / tonne\ CO_2}$            |
 
 ## Capture Regimes
 
