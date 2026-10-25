@@ -22,3 +22,5 @@ tags:
 - [[math/lecture-12/index|Lecture 12]]
 - [[math/lecture-13/index|Lecture 13]]
 - [[math/lecture-14/index|Lecture 14]]
+- [[math/lecture-15/index|Lecture 15]]
+- [[math/lecture-16/index|Lecture 16]]

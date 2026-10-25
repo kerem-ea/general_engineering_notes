@@ -15,3 +15,4 @@ tags:
 - [[chem/lecture-05/index|Lecture 5]]
 - [[chem/lecture-06/index|Lecture 6]]
 - [[chem/lecture-07/index|Lecture 7]]
+- [[chem/lecture-08/index|Lecture 8]]
