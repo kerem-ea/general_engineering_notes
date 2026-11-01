@@ -21,13 +21,11 @@ $$2\mathrm{H_2O} \underset{\text{fuel cell}}{\overset{\text{electrolysis}}{\righ
 
 ## Power-to-X (PtX) Conversion Routes
 
-Converts renewable electricity into chemical energy vectors:
+Converts renewable electricity into chemical energy vectors via electrolysis:
 
-$$\text{Electricity} + \mathrm{H_2O} \xrightarrow{\text{electrolysis}} \mathrm{H_2} \begin{cases}
-+ \mathrm{CO_2} \xrightarrow{\text{methanation}} \mathrm{CH_4} \quad \text{(Power-to-Gas)} \\
-+ \mathrm{CO_2} / \mathrm{CO} \xrightarrow{\text{synthesis}} \mathrm{CH_3OH} \text{ or } \mathrm{C}_n\mathrm{H}_{2n+2} \quad \text{(Power-to-Liquid)} \\
-+ \mathrm{N_2} \xrightarrow{\text{Haber-Bosch}} \mathrm{NH_3} \quad \text{(Power-to-Chemicals)}
-\end{cases}$$
+- **Power-to-Gas (PtG):** $\mathrm{H_2} + \mathrm{CO_2} \xrightarrow{\text{methanation}} \mathrm{CH_4}$ (synthetic natural gas)
+- **Power-to-Liquid (PtL):** $\mathrm{H_2} + \mathrm{CO_2} / \mathrm{CO} \to \mathrm{CH_3OH}$ (e-methanol) or $\mathrm{C}_n\mathrm{H}_{2n+2}$ (e-diesel / e-kerosene)
+- **Power-to-Chemicals (PtC):** $\mathrm{H_2} + \mathrm{N_2} \xrightarrow{\text{Haber-Bosch}} \mathrm{NH_3}$ (green ammonia)
 
 Used primarily for hard-to-electrify sectors: aviation, maritime shipping, steelmaking, and chemical feedstock.
 

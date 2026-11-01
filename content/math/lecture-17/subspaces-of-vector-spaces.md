@@ -8,11 +8,11 @@ tags:
 
 A subspace is a subset of a vector space that is itself a vector space under the inherited addition and scalar multiplication operations (see [[math/lecture-15/kernel-and-column-space|Kernel and Column Space]]).
 
-## Subspace Definition (Definition 10.4.1)
+## Subspace Definition
 
 Let $V$ be a vector space over field $F$. A subset $W \subseteq V$ is a **subspace** of $V$ if $W$, equipped with the restricted operations of $V$, satisfies all eight vector space axioms over $F$.
 
-## Subspace Test (Lemma 10.4.2)
+## Subspace Test
 
 A non-empty subset $W \subseteq V$ is a subspace of $V$ if and only if it is closed under linear combinations:
 
@@ -23,7 +23,7 @@ Equivalently, $W$ satisfies two closure conditions:
 1. **Closure under addition:** $\mathbf{u}, \mathbf{v} \in W \implies \mathbf{u} + \mathbf{v} \in W$
 2. **Closure under scalar multiplication:** $\mathbf{u} \in W, c \in F \implies c\mathbf{u} \in W$
 
-## Dimension of Subspaces (Lemma 10.4.1)
+## Dimension of Subspaces
 
 If $W \subseteq V$ is a subspace and $\dim_F(V) = n$, then:
 $$\dim_F(W) \le \dim_F(V)$$
@@ -39,19 +39,19 @@ Every vector space $V$ contains at least two subspaces:
 
 ### 2. Matrix Subspaces
 For $A \in F^{m \times n}$:
-- **Kernel / Null space (Example 10.4.3):**
+- **Kernel / Null space:**
   $$\ker(A) = \{\mathbf{x} \in F^n \mid A\mathbf{x} = \mathbf{0}\} \subseteq F^n$$
-- **Column space (Example 10.4.6):**
+- **Column space:**
   $$\operatorname{colsp}(A) = \{A\mathbf{x} \mid \mathbf{x} \in F^n\} = \operatorname{Span}(\mathbf{a}_1, \ldots, \mathbf{a}_n) \subseteq F^m$$
 
-### 3. Spans as Subspaces (Proposition 10.4.3)
+### 3. Spans as Subspaces
 For any subset $S \subseteq V$, $\operatorname{Span}(S)$ is guaranteed to be a subspace of $V$.
 
 ### 4. Polynomial Subspaces
 The space of polynomials of degree at most $d$:
 $$P_d = \{p(Z) \in F[Z] \mid \deg p(Z) \le d\} \subseteq F[Z], \quad \dim(P_d) = d + 1$$
 
-## Finding an Ordered Basis for a Subspace (Theorem 10.4.4)
+## Finding an Ordered Basis for a Subspace
 
 Let $W = \operatorname{Span}(\mathbf{v}_1, \ldots, \mathbf{v}_k) \subseteq V$, where $\dim_F(V) = n$, and let $\beta$ be an ordered basis of $V$:
 

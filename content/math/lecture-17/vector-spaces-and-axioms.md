@@ -8,7 +8,7 @@ tags:
 
 A vector space abstracts linear combinations of vectors, generalizing column vectors $F^n$ to matrices, polynomials, and function spaces (see [[math/lecture-07/vectors-and-matrices|Vectors and Matrices]]).
 
-## Vector Space Axioms (Definition 10.1.1)
+## Vector Space Axioms
 
 A **vector space** over a field $F$ is a set $V$ equipped with:
 - **Vector addition:** $+: V \times V \to V$, mapping $(\mathbf{u}, \mathbf{v}) \mapsto \mathbf{u} + \mathbf{v}$
@@ -29,7 +29,7 @@ satisfying eight axioms for all $\mathbf{u}, \mathbf{v}, \mathbf{w} \in V$ and $
 
 Vectors over $F = \mathbb{R}$ form a **real vector space**; vectors over $F = \mathbb{C}$ form a **complex vector space**.
 
-## Deduced Properties (Lemma 10.1.1)
+## Fundamental Properties
 
 The following properties follow directly from the eight axioms:
 

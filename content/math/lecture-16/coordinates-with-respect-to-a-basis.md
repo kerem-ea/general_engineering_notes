@@ -8,7 +8,7 @@ tags:
 
 Let $W \subseteq F^m$ be a span of vectors with $\dim(W) = d$, and let $\beta = (\mathbf{w}_1, \ldots, \mathbf{w}_d)$ be an ordered basis of $W$.
 
-## Uniqueness of Representation (Lemma 9.5.1)
+## Uniqueness of Representation
 
 For every vector $\mathbf{w} \in W$, there exist **unique** scalars $c_1, \ldots, c_d \in F$ such that:
 
@@ -18,7 +18,7 @@ $$
 
 *Proof idea:* If $\mathbf{w} = \sum c_i \mathbf{w}_i = \sum \tilde{c}_i \mathbf{w}_i$, then $\sum (c_i - \tilde{c}_i) \mathbf{w}_i = \mathbf{0}$. Because the vectors $\mathbf{w}_i$ are linearly independent (see [[math/lecture-15/ordered-basis|Ordered Basis]]), all coefficients must be zero: $c_i = \tilde{c}_i$.
 
-## Coordinate Vector (Definition 9.5.1)
+## Coordinate Vector
 
 The **coordinate vector** of $\mathbf{w}$ with respect to $\beta$, denoted $[\mathbf{w}]_\beta$, is the column vector of these unique scalars:
 

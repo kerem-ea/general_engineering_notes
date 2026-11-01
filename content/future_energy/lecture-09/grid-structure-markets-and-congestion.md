@@ -37,11 +37,10 @@ $$E_{\text{kinetic}} = \frac{1}{2} J \omega^2$$
 
 $$\frac{\mathrm{d}f}{\mathrm{d}t} \propto P_{\text{generation}} - P_{\text{consumption}}$$
 
-$$\begin{cases}
-P_{\text{gen}} > P_{\text{load}} \implies f > 50\ \mathrm{Hz} \quad (\text{rotational acceleration}) \\
-P_{\text{gen}} = P_{\text{load}} \implies f = 50.00\ \mathrm{Hz} \quad (\text{steady-state balance}) \\
-P_{\text{gen}} < P_{\text{load}} \implies f < 50\ \mathrm{Hz} \quad (\text{rotational deceleration})
-\end{cases}$$
+Frequency deviation reflects instantaneous balance:
+- $P_{\text{gen}} > P_{\text{load}} \implies f > 50\ \mathrm{Hz}$ (generators accelerate)
+- $P_{\text{gen}} = P_{\text{load}} \implies f = 50.00\ \mathrm{Hz}$ (steady-state balance)
+- $P_{\text{gen}} < P_{\text{load}} \implies f < 50\ \mathrm{Hz}$ (generators decelerate)
 
 Rotational inertia provides seconds of stabilizing buffer for primary control reserves to restore balance.
 
@@ -56,7 +55,11 @@ Electricity trades across distinct timeframes:
 ### Merit Order Dispatch and Marginal Pricing
 Bids are ranked from lowest to highest marginal operating cost ($\mathrm{EUR/MWh}$, primarily fuel and $\mathrm{CO_2}$ costs):
 
-$$\text{Merit Order Ranking:} \quad \text{Wind / Solar (0)} \to \text{Biomass CHP} \to \text{Coal} \to \text{Combined-Cycle Gas} \to \text{Open-Cycle Gas Peakers}$$
+1. **Wind / Solar:** zero fuel cost (dispatches first)
+2. **Biomass CHP:** low to moderate fuel cost
+3. **Coal:** fuel plus carbon allowance cost
+4. **Combined-Cycle Gas:** high fuel cost
+5. **Open-Cycle Gas Peakers:** highest marginal cost (peak demand only)
 
 - **Clearing rule:** supply meets demand at the intersection point. The last dispatched unit sets the **market clearing price** paid uniformly to all dispatched generators.
 - **Merit-order effect:** zero-marginal-cost wind and solar enter at the bottom of the curve, shifting supply rightward, displacing expensive fossil generation and lowering the clearing price.

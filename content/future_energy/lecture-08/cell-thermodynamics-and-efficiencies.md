@@ -37,11 +37,9 @@ $$E_{\text{tn}} = \frac{-\Delta H_r^\circ}{nF}$$
 ### Cell Heat Generation / Absorption
 $$\dot{Q} = I \cdot (V_{\text{cell}} - E_{\text{tn}})$$
 
-$$\begin{cases}
-V_{\text{cell}} < E_{\text{tn}} \implies \dot{Q} < 0 \quad \text{(Endothermic: absorbs external heat)} \\
-V_{\text{cell}} = E_{\text{tn}} \implies \dot{Q} = 0 \quad \text{(Thermoneutral: exact thermal balance)} \\
-V_{\text{cell}} > E_{\text{tn}} \implies \dot{Q} > 0 \quad \text{(Exothermic: rejects waste heat to cooling loop)}
-\end{cases}$$
+- $V_{\text{cell}} < E_{\text{tn}} \implies \dot{Q} < 0$ (Endothermic: absorbs external heat)
+- $V_{\text{cell}} = E_{\text{tn}} \implies \dot{Q} = 0$ (Thermoneutral: exact thermal balance)
+- $V_{\text{cell}} > E_{\text{tn}} \implies \dot{Q} > 0$ (Exothermic: rejects waste heat to cooling loop)
 
 ### High-Temperature Electrolysis (SOEC Advantage)
 $$\Delta G(T) = \Delta H - T\Delta S \implies \left(\frac{\partial \Delta G}{\partial T}\right)_p = -\Delta S < 0$$
@@ -78,7 +76,5 @@ $$\eta_{V,\text{EC}} = \frac{E_{\text{tn}}}{V_{\text{cell}}} \approx 70\text{-}8
 $$\text{SEC} = \frac{P_{\text{elec}} \cdot t}{V_{\mathrm{H_2,STP}}} \quad \left[\frac{\mathrm{kWh}}{\mathrm{Nm^3}}\right]$$
 $$\eta_{\text{sys}} = \frac{\text{SEC}_{\text{theoretical}}}{\text{SEC}_{\text{actual}}}$$
 For $\text{SEC}_{\text{actual}} = 4.50\ \mathrm{kWh/Nm^3}$:
-$$\begin{cases}
-\eta_{\text{sys,HHV}} = \frac{3.54}{4.50} = 78.7\% \\
-\eta_{\text{sys,LHV}} = \frac{3.00}{4.50} = 66.7\%
-\end{cases}$$
+- $\eta_{\text{sys,HHV}} = \frac{3.54}{4.50} = 78.7\%$
+- $\eta_{\text{sys,LHV}} = \frac{3.00}{4.50} = 66.7\%$

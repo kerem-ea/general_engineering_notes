@@ -16,7 +16,7 @@ Let $(\mathbf{v}_1, \ldots, \mathbf{v}_n)$ be a list of vectors in $F^m$. An **o
 
 In words: an ordered basis is a minimal spanning sublist.
 
-## Fundamental Criterion (Corollary 9.2.2)
+## Fundamental Criterion
 
 A list of vectors $(\mathbf{v}_1, \ldots, \mathbf{v}_n)$ is an ordered basis of $\operatorname{Span}(\mathbf{v}_1, \ldots, \mathbf{v}_n)$ if and only if:
 
@@ -27,7 +27,7 @@ $$
 - If dependent, at least one vector is redundant and can be removed without changing the span.
 - If independent, removing any vector strictly reduces the span.
 
-## Algorithm to Find an Ordered Basis (Theorem 9.2.1)
+## Algorithm to Find an Ordered Basis
 
 To find an ordered basis for $W = \operatorname{Span}(\mathbf{v}_1, \ldots, \mathbf{v}_n)$:
 

@@ -8,7 +8,7 @@ tags:
 
 When the ordered basis of a vector space changes, coordinate representations transform via a matrix multiplication (see [[math/lecture-16/coordinates-with-respect-to-a-basis|Coordinates with Respect to an Ordered Basis]] and [[math/lecture-17/coordinate-vectors-in-general-spaces|Coordinate Vectors in General Vector Spaces]]).
 
-## Definition (Theorem 10.3.1)
+## Definition
 
 Let $V$ be an $n$-dimensional vector space over field $F$. Let $\beta = (\mathbf{v}_1, \ldots, \mathbf{v}_n)$ and $\gamma = (\mathbf{w}_1, \ldots, \mathbf{w}_n)$ be two ordered bases of $V$.
 
@@ -26,7 +26,7 @@ $${}_\gamma M_\beta [\mathbf{v}]_\beta = [\mathbf{v}]_\gamma$$
 Writing $\mathbf{v} = c_1 \mathbf{v}_1 + \cdots + c_n \mathbf{v}_n$ where $[\mathbf{v}]_\beta = (c_1, \ldots, c_n)^T$:
 $${}_\gamma M_\beta [\mathbf{v}]_\beta = \sum_{j=1}^n c_j [\mathbf{v}_j]_\gamma = \left[ \sum_{j=1}^n c_j \mathbf{v}_j \right]_\gamma = [\mathbf{v}]_\gamma$$
 
-## Algebraic Properties (Lemma 10.3.2)
+## Algebraic Properties
 
 For ordered bases $\beta, \gamma, \delta$ of an $n$-dimensional space $V$:
 

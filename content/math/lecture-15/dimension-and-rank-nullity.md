@@ -27,7 +27,7 @@ For a matrix $A \in F^{m \times n}$:
 - **Column Rank:** The dimension of the column space, $\dim(\operatorname{colsp}(A))$.
 - **Nullity:** The dimension of the kernel, denoted $\operatorname{null}(A) = \dim(\ker(A))$.
 
-## Equivalence of Row Rank and Column Rank (Theorem 9.4.1)
+## Equivalence of Row Rank and Column Rank
 
 For every matrix $A \in F^{m \times n}$:
 
@@ -37,7 +37,7 @@ $$
 
 Because both equal the number of pivots in the RREF of $A$, we simply refer to this quantity as the **rank** of $A$.
 
-## The Rank-Nullity Theorem (Theorem 9.4.2)
+## The Rank-Nullity Theorem
 
 For any matrix $A \in F^{m \times n}$:
 
