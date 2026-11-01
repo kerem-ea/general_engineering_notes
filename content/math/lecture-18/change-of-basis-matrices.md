@@ -60,7 +60,7 @@ where $B = [\mathbf{v}_1 \;\cdots\; \mathbf{v}_n]$ and $C = [\mathbf{w}_1 \;\cdo
 
 To compute ${}_\gamma M_\beta$ directly without explicit matrix inversion:
 1. Form the augmented matrix:
-   $$\begin{bmatrix} C \mid B \end{bmatrix} = \begin{bmatrix} \mathbf{w}_1 \; \cdots \; \mathbf{w}_n \;\middle|\; \mathbf{v}_1 \; \cdots \; \mathbf{v}_n \end{bmatrix}$$
+   $$[C \mid B] = [\mathbf{w}_1 \; \cdots \; \mathbf{w}_n \mid \mathbf{v}_1 \; \cdots \; \mathbf{v}_n]$$
 2. Row reduce to reduced row echelon form (see [[math/lecture-11/rref-and-rank|RREF and Rank]]):
-   $$\begin{bmatrix} C \mid B \end{bmatrix} \xrightarrow{\text{RREF}} \begin{bmatrix} I_n \;\middle|\; {}_\gamma M_\beta \end{bmatrix}$$
+   $$[C \mid B] \xrightarrow{\text{RREF}} [I_n \mid {}_\gamma M_\beta]$$
 The right-hand block produces ${}_\gamma M_\beta$.
