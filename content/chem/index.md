@@ -16,3 +16,4 @@ tags:
 - [[chem/lecture-06/index|Lecture 6]]
 - [[chem/lecture-07/index|Lecture 7]]
 - [[chem/lecture-08/index|Lecture 8]]
+- [[chem/lecture-09/index|Lecture 9]]
