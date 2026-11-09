@@ -24,7 +24,7 @@ $$[\mathrm{H_3O^+}] = [\mathrm{OH^-}] = \sqrt{K_w} = 1.0 \times 10^{-7}\ \mathrm
 
 ### Temperature Dependence of $K_w$
 The autoionization of water is an **endothermic** process ($\Delta H^\circ > 0$). By Le Châtelier's principle (see [[chem/lecture-08/le-chateliers-principle|Le Châtelier's Principle]]):
-- Raising temperature shifts equilibrium rightward, increasing $K_w$:
+- Raising temperature shifts equilibrium rightward, pH becomes more acidic, increasing $K_w$:
   - At $0{}^\circ\text{C}$: $K_w \approx 1.1 \times 10^{-15} \implies \text{neutral pH} \approx 7.47$
   - At $25{}^\circ\text{C}$: $K_w = 1.0 \times 10^{-14} \implies \text{neutral pH} = 7.00$
   - At $37{}^\circ\text{C}$ (body temp): $K_w \approx 2.4 \times 10^{-14} \implies \text{neutral pH} \approx 6.81$
