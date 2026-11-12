@@ -10,6 +10,7 @@ tags:
 
 ## Notes
 
+- [[core-formula-sheet|Core Formula Sheet]]
 - [[mechanical-energy-storage-overview|Energy Storage Systems Overview]]
 - [[electrical-energy-storage-capacitors-and-smes|Electrical Energy Storage: Capacitors and SMES]]
 - [[pumped-hydro-storage|Pumped Hydro Storage]]
