@@ -26,3 +26,5 @@ tags:
 - [[math/lecture-16/index|Lecture 16]]
 - [[math/lecture-17/index|Lecture 17]]
 - [[math/lecture-18/index|Lecture 18]]
+- [[math/lecture-19/index|Lecture 19]]
+- [[math/lecture-20/index|Lecture 20]]

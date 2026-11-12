@@ -10,7 +10,8 @@ tags:
 
 ## Notes
 
-- [[mechanical-energy-storage-overview|Mechanical Energy Storage Overview]]
+- [[mechanical-energy-storage-overview|Energy Storage Systems Overview]]
+- [[electrical-energy-storage-capacitors-and-smes|Electrical Energy Storage: Capacitors and SMES]]
 - [[pumped-hydro-storage|Pumped Hydro Storage]]
 - [[compressed-air-energy-storage|Compressed-Air Energy Storage]]
 - [[flywheel-energy-storage-systems|Flywheel Energy Storage Systems]]
