@@ -109,4 +109,4 @@ $$E_{\text{mag}} = \frac{1}{2} L I^2$$
 - **Zero Resistance Conduction:** cryogenically cooled superconductors (liquid helium at $4.2\ \mathrm{K}$ or liquid nitrogen at $77\ \mathrm{K}$ for high-$T_c$ materials) exhibit zero DC electrical resistance, enabling persistent circulation without resistive dissipation.
 - **Millisecond Dispatch:** can transition from full charging to full discharging in $< 5\ \mathrm{ms}$.
 - **Solid-State Reliability:** completely motionless components eliminate mechanical wear and fatigue failure modes.
-- **Economic Trade-Off:** extremely high specific capital expenditure ($\approx 44600\ €/\mathrm{kWh}$) and continuous cryogenic refrigeration power consumption restrict SMES primarily to mission-critical power quality stabilization rather than bulk energy storage.
+- **Economic Trade-Off:** extremely high specific capital expenditure ($\approx 44600\ \mathrm{EUR/kWh}$) and continuous cryogenic refrigeration power consumption restrict SMES primarily to mission-critical power quality stabilization rather than bulk energy storage.

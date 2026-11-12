@@ -29,7 +29,7 @@ Energy storage technologies are structured across distinct operational time hori
 
 ## Comprehensive Performance and Economic Comparison
 
-| Storage Technology | Round-Trip Efficiency ($\eta_{\text{RT}}$) | Volumetric Density ($\mathrm{kWh/m^3}$) | Capital Cost (CAPEX, $€/\mathrm{kWh}$) | Typical Discharge Duration | Response Time |
+| Storage Technology | Round-Trip Efficiency ($\eta_{\text{RT}}$) | Volumetric Density ($\mathrm{kWh/m^3}$) | Capital Cost (CAPEX, $\mathrm{EUR/kWh}$) | Typical Discharge Duration | Response Time |
 |---|---|---|---|---|---|
 | **Supercapacitors (SC)** | $90\text{-}95\%$ | $10\text{-}30$ | $\approx 10800\text{-}20000$ | Seconds to minutes | $< 10\ \mathrm{ms}$ |
 | **SMES (Superconducting Coils)** | $95\text{-}98\%$ | $0.2\text{-}2.5$ | $\approx 44600$ | Milliseconds to seconds | $< 5\ \mathrm{ms}$ |
