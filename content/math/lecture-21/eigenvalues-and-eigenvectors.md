@@ -2,7 +2,6 @@
 title: Eigenvalues and Eigenvectors
 tags:
   - math
-  - linear_algebra
 ---
 
 # Eigenvalues and Eigenvectors

@@ -2,7 +2,6 @@
 title: Algebraic Multiplicity and Geometric Multiplicity
 tags:
   - math
-  - linear_algebra
 ---
 
 # Algebraic Multiplicity and Geometric Multiplicity

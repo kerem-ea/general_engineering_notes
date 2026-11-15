@@ -2,7 +2,6 @@
 title: Eigenbasis and Diagonalization
 tags:
   - math
-  - linear_algebra
 ---
 
 # Eigenbasis and Diagonalization

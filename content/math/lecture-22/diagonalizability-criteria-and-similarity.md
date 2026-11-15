@@ -2,7 +2,6 @@
 title: Diagonalizability Criteria and Similar Matrices
 tags:
   - math
-  - linear_algebra
 ---
 
 # Diagonalizability Criteria and Similar Matrices

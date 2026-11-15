@@ -2,7 +2,6 @@
 title: Eigenspaces
 tags:
   - math
-  - linear_algebra
 ---
 
 # Eigenspaces
