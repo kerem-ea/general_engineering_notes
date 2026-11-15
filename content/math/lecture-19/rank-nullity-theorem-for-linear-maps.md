@@ -8,6 +8,8 @@ tags:
 
 The Rank-Nullity Theorem provides a conservation law relating the dimension of the domain, the dimension of the kernel, and the dimension of the image of a linear map.
 
+*(For the matrix rank-nullity theorem, see [[../lecture-15/dimension-and-rank-nullity|Rank-Nullity Theorem]].)*
+
 ## Statement of the Theorem
 
 Let $V_1$ and $V_2$ be vector spaces over a field $\mathbb{F}$, with $V_1$ finite-dimensional. For any linear map $L: V_1 \to V_2$:

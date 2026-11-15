@@ -6,7 +6,9 @@ tags:
 
 # Image and Kernel of a Linear Map
 
-The image and kernel are fundamental subspaces that characterize the mapping structure, solvability, and invertibility of a linear map.
+The image and kernel are fundamental subspaces characterizing the structure, injectivity, and surjectivity of a linear map.
+
+*(For matrix null spaces and column spaces, see [[../lecture-15/kernel-and-column-space|Kernel and Column Space]].)*
 
 ## The Kernel (Nullspace)
 

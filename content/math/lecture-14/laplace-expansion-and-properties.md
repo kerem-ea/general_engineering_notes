@@ -8,7 +8,7 @@ tags:
 
 Extends [[determinants|Determinants]]: the determinant does not have to be expanded along the first column.
 
-## Laplace Expansion (Theorem 8.2.1)
+## Laplace Expansion
 
 Along **any column $j$:**
 
@@ -35,16 +35,16 @@ Same result as expanding along column 1.
 
 ## Key Properties
 
-**Transpose (Corollary 8.2.2):**
+**Transpose:**
 $$\det(A^T) = \det(A)$$
 
-**Multiplicativity (Theorem 8.2.3):**
+**Multiplicativity:**
 $$\det(AB) = \det(A) \cdot \det(B)$$
 
 ### Consequences
 
-- $A$ invertible $\iff \det(A) \neq 0$ (Corollary 8.2.4)
-- Columns of $A$ linearly independent $\iff \det(A) \neq 0$ (Corollary 8.2.5)
-- $A\mathbf{x} = \mathbf{0}$ has only $\mathbf{x} = \mathbf{0}$ as solution $\iff \det(A) \neq 0$ (Corollary 8.2.6)
+- $A$ invertible $\iff \det(A) \neq 0$
+- Columns of $A$ linearly independent $\iff \det(A) \neq 0$
+- $A\mathbf{x} = \mathbf{0}$ has only $\mathbf{x} = \mathbf{0}$ as solution $\iff \det(A) \neq 0$
 
 All three are equivalent by combining with the rank criterion from [[math/lecture-13/square-matrices-and-inverses|Square Matrices and Inverses]].

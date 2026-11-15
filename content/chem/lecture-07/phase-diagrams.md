@@ -22,7 +22,7 @@ A **phase diagram** plots pressure ($P$) versus temperature ($T$), showing regio
 
 ## Comparison: Water vs Carbon Dioxide
 
-### Water ($\mathrm{H_2O}$) - Negative Melting Slope
+### Water ($\mathrm{H_2O}$): Negative Melting Slope
 
 - **Anomalous Negative Slope ($\frac{dP}{dT} < 0$):**
   $$
@@ -35,7 +35,7 @@ A **phase diagram** plots pressure ($P$) versus temperature ($T$), showing regio
   - Normal mp: $0.00^\circ\text{C}$; Normal bp: $100.00^\circ\text{C}$
   - Critical point: $374.0^\circ\text{C}$ at $217.7\text{ atm}$
 
-### Carbon Dioxide ($\mathrm{CO_2}$) - Positive Melting Slope
+### Carbon Dioxide ($\mathrm{CO_2}$): Positive Melting Slope
 
 - **Normal Positive Slope ($\frac{dP}{dT} > 0$):** Solid $\mathrm{CO_2}$ is denser than liquid $\mathrm{CO_2}$ ($\Delta V_{\text{fus}} > 0$).
 - **Triple Point Above Ambient:** $T_{\text{tp}} = -56.6^\circ\text{C}$ at $P_{\text{tp}} = 5.11\text{ atm}$.

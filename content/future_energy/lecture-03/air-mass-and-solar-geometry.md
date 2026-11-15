@@ -17,7 +17,7 @@ $$
 - $\text{AM}$ = air mass coefficient (dimensionless)
 - $z$ = solar zenith angle (degrees, measured between the vertical zenith line and the line to the Sun)
 - **$\text{AM } 1$:** Sun directly overhead at the zenith ($z = 0^\circ$, shortest atmospheric path)
-- **$\text{AM } 1.5$ (Standard Test Condition - STC):** Universal rating condition for solar cells ($z \approx 48.2^\circ$, rated at $I_{\text{global}} = 1000\text{ W/m}^2$)
+- **$\text{AM } 1.5$ (Standard Test Condition (STC)):** Universal rating condition for solar cells ($z \approx 48.2^\circ$, rated at $I_{\text{global}} = 1000\text{ W/m}^2$)
 
 ## Irradiance Components
 

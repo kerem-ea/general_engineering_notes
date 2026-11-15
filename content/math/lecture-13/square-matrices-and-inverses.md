@@ -18,9 +18,9 @@ $$I_n \mathbf{v} = \mathbf{v} \quad \text{and} \quad A I_n = I_n A = A$$
 
 $B = A^{-1}$ is the **inverse** of $A$ if $AB = BA = I_n$.
 
-**Theorem (Corollary 7.3.4):** if $AB = I_n$ for some $B$, then automatically $BA = I_n$ too.
+**Theorem:** if $AB = I_n$ for some $B$, then automatically $BA = I_n$ too.
 
-**Invertibility criterion (Corollary 7.3.5):**
+**Invertibility criterion:**
 
 $$A \text{ is invertible} \iff \rho(A) = n$$
 
@@ -32,7 +32,7 @@ $$[A \mid I_n] \xrightarrow{\text{RREF}} [I_n \mid A^{-1}]$$
 
 If the left block does not reduce to $I_n$, then $A$ is not invertible.
 
-## Example (Theorem 7.3.2 context)
+## Two-by-Two Inversion Formula
 
 For a $2 \times 2$ matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ with $\det(A) \neq 0$:
 

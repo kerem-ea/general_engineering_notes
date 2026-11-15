@@ -1,10 +1,10 @@
 ---
-title: Future Energy - Lecture 2 Formula Sheet
+title: Future Energy — Lecture 2 Formula Sheet
 tags:
   - future_energy
 ---
 
-# Future Energy - Lecture 2 Formula Sheet
+# Future Energy — Lecture 2 Formula Sheet
 
 ## Core Formulas
 
@@ -20,7 +20,7 @@ tags:
   $$\eta_{\text{Carnot}} = 1 - \frac{T_c}{T_h} \quad (\text{Kelvin})$$
 - **Heat Pump Maximum COP:**
   $$\mathrm{COP}_{\max} = \frac{T_h}{T_h - T_c} \quad (\text{Kelvin})$$
-- **Reaction Potentials (Products - Reactants):**
+- **Reaction Potentials (Products minus Reactants):**
   $$\Delta X_r^\circ = \sum \nu_p X_p^\circ - \sum \nu_r X_r^\circ \quad (\Delta H_f^\circ = 0, \, \Delta G_f^\circ = 0 \text{ for standard elements})$$
 - **Fuel Heating Values:**
   $$Q_{\max} = \mathrm{HHV} = -\Delta H_c^\circ \ (\text{liquid } H_2O), \quad W_{\max} = -\Delta G_c^\circ$$

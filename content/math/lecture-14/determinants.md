@@ -29,7 +29,7 @@ For $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 5 & 7 & 9 \end{pmatrix}$, exp
 $$\det(A) = 1\cdot\det\begin{pmatrix}5&6\\7&9\end{pmatrix} - 4\cdot\det\begin{pmatrix}2&3\\7&9\end{pmatrix} + 5\cdot\det\begin{pmatrix}2&3\\5&6\end{pmatrix}$$
 $$= 1(45-42) - 4(18-21) + 5(12-15) = 3 + 12 - 15 = 0$$
 
-## Invertibility via Determinant (Theorem 8.1.1)
+## Invertibility via Determinant
 
 $$A \text{ invertible} \iff \det(A) \neq 0$$
 
@@ -44,4 +44,4 @@ See also the rank criterion from [[math/lecture-13/square-matrices-and-inverses|
 
 $$\det\begin{pmatrix} a_{11} & \cdots \\ 0 & \ddots \end{pmatrix} = a_{11} \cdot a_{22} \cdots a_{nn}$$
 
-Zero row $\Rightarrow$ $\det = 0$ (Lemma 8.1.4).
+Zero row $\Rightarrow$ $\det = 0$.

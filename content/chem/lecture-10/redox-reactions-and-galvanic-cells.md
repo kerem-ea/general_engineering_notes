@@ -7,32 +7,26 @@ tags:
 
 # Redox Reactions and Galvanic Cells
 
-Electrochemistry studies the relationship between chemical reactions and electrical energy. Spontaneous electron transfer reactions can be harnessed within electrochemical cells to generate electric current.
+Electrochemistry studies the relationship between chemical reactions and electrical current, utilizing spontaneous electron transfer to drive work.
 
-## Fundamentals of Redox Chemistry
+*(For basic oxidation states, OIL RIG mnemonics, and redox definitions, see [[../lecture-02/oxidation-reduction-reactions|Oxidation-Reduction Reactions]].)*
 
-Oxidation-reduction (redox) reactions involve the transfer of electrons from one species to another:
-- **Oxidation:** Loss of electrons, corresponding to an increase in oxidation state.
-- **Reduction:** Gain of electrons, corresponding to a decrease in oxidation state.
-- **Reducing Agent (Reductant):** The species that is oxidized, donating electrons.
-- **Oxidizing Agent (Oxidant):** The species that is reduced, accepting electrons.
-
-### Balancing Redox Equations: The Half-Reaction Method
+## Balancing Redox Equations: The Half-Reaction Method
 
 To balance redox reactions systematically in aqueous solutions:
 
-1. Divide the overall equation into two separate half-reactions (oxidation and reduction).
+1. Divide the overall equation into separate oxidation and reduction half-reactions.
 2. Balance all elements other than hydrogen ($\mathrm{H}$) and oxygen ($\mathrm{O}$).
 3. Balance oxygen atoms by adding $\mathrm{H_2O}$ molecules.
 4. Balance hydrogen atoms by adding protons ($\mathrm{H^+}$).
 5. Balance net electrical charge by adding electrons ($e^-$) to the more positive side.
-6. Multiply the half-reactions by small whole numbers so the number of electrons lost equals the number of electrons gained.
-7. Add the half-reactions together and cancel common species ($\mathrm{H_2O}$, $\mathrm{H^+}$, $e^-$).
-8. **In basic media:** Add $\mathrm{OH^-}$ to both sides in equal amounts to neutralize $\mathrm{H^+}$ into $\mathrm{H_2O}$, then cancel redundant water molecules.
+6. Multiply each half-reaction by integers so electrons lost equal electrons gained.
+7. Add the half-reactions and cancel common species ($\mathrm{H_2O}$, $\mathrm{H^+}$, $e^-$).
+8. **In basic media:** Add $\mathrm{OH^-}$ to both sides in equal number to all $\mathrm{H^+}$ to form $\mathrm{H_2O}$, then cancel excess water molecules.
 
 ## Galvanic (Voltaic) Cells
 
-A **galvanic cell** (or voltaic cell) is an electrochemical device in which a spontaneous redox reaction ($\Delta G < 0$) produces an electric current through an external circuit.
+A **galvanic cell** uses a spontaneous redox reaction ($\Delta G < 0$) to generate electric current through an external circuit.
 
 ```
        e- -------------> External Circuit (Voltmeter) -------------> e-
@@ -46,63 +40,44 @@ A **galvanic cell** (or voltaic cell) is an electrochemical device in which a sp
  [ZnSO4 Solution] <======== [Salt Bridge (K+, NO3-)] ========> [CuSO4 Solution]
 ```
 
-### Essential Components
+### Cell Components and Polarity
 
-| Component | Role in Cell Operation | Polarity in Galvanic Cell |
+| Component | Role & Function | Polarity (Galvanic) |
 | :--- | :--- | :---: |
-| **Anode** | Electrode where **oxidation** occurs. Generates electrons that leave into the external circuit. Metal mass often decreases. | **Negative ($-$)** |
-| **Cathode** | Electrode where **reduction** occurs. Accepts electrons arriving from the external circuit. Metal mass often increases. | **Positive ($+$)** |
-| **Salt Bridge** | Inverted tube containing an inert electrolyte (such as $\mathrm{KNO_3}$ or $\mathrm{KCl}$) suspended in agar gel. Maintains electrical neutrality: anions migrate toward the anode compartment to balance positive charge buildup; cations migrate toward the cathode compartment to replace consumed metal ions. Prevents mechanical solution mixing. | Neutral |
-| **External Circuit** | Metallic wire connecting the electrodes through a load or voltmeter. Electrons flow spontaneously from anode to cathode. | N/A |
+| **Anode** | Site of **oxidation** ($M \to M^{n+} + ne^-$). Releases electrons into external wire; metal mass generally decreases. | **Negative ($-$)** |
+| **Cathode** | Site of **reduction** ($M^{n+} + ne^- \to M$). Receives electrons from external wire; metal mass generally increases. | **Positive ($+$)** |
+| **Salt Bridge** | Tube of inert electrolyte (e.g., $\mathrm{KNO_3}$, $\mathrm{KCl}$) in agar gel. Anions migrate toward anode; cations migrate toward cathode to prevent charge buildup without solution mixing. | Neutral |
+| **External Circuit** | Metallic conductor connecting terminals. Electrons flow spontaneously from anode to cathode. | N/A |
 
-### Example: The Daniell Cell
+### Benchmark Example: The Daniell Cell
 
-The classic Daniell cell consists of zinc and copper half-cells:
+- **Anode (Oxidation):** $\mathrm{Zn}(s) \to \mathrm{Zn}^{2+}(aq) + 2e^-$
+- **Cathode (Reduction):** $\mathrm{Cu}^{2+}(aq) + 2e^- \to \mathrm{Cu}(s)$
+- **Overall Cell Reaction:** $\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)$
 
-- **Anode reaction (oxidation):**
-
-$$
-\mathrm{Zn}(s) \longrightarrow \mathrm{Zn}^{2+}(aq) + 2e^-
-$$
-
-- **Cathode reaction (reduction):**
-
-$$
-\mathrm{Cu}^{2+}(aq) + 2e^- \longrightarrow \mathrm{Cu}(s)
-$$
-
-- **Net cell reaction:**
-
-$$
-\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \longrightarrow \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)
-$$
-
-## Standard Cell Notation (Line Notation)
-
-Electrochemical cells are represented concisely using standard IUPAC line notation:
+## Standard IUPAC Cell Line Notation
 
 $$
 \text{Anode} \mid \text{Anode Electrolyte} \parallel \text{Cathode Electrolyte} \mid \text{Cathode}
 $$
 
-- A single vertical line ($\mid$) represents a phase boundary (for example, between solid electrode and liquid solution).
-- A double vertical line ($\parallel$) represents the salt bridge or porous partition separating the two half-cell compartments.
-- Commas (,) separate different chemical species in the exact same phase.
-- Standard order: the oxidation process (anode) is written on the far left, and the reduction process (cathode) is written on the far right.
-- Spectator ions are omitted; concentrations or partial pressures are specified in parentheses.
+- Phase boundary: single vertical line ($\mid$).
+- Salt bridge: double vertical line ($\parallel$).
+- Solutions of identical phase separated by commas.
+- Order: Anode process on left; Cathode process on right.
+- Inert conductors (e.g., $\mathrm{Pt}$, $\mathrm{C}$) used when redox species lack conductive solids.
 
-### Examples of Cell Notation
+### Shorthand Examples
 
-1. **Daniell Cell at standard states:**
+1. **Standard Daniell Cell:**
 
 $$
 \mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(aq, 1\ \mathrm{M}) \parallel \mathrm{Cu}^{2+}(aq, 1\ \mathrm{M}) \mid \mathrm{Cu}(s)
 $$
 
-2. **Cell with inert platinum electrode and gas phase:**
+2. **Inert Platinum Gas-Ion Cell:**
 
 $$
 \mathrm{Pt}(s) \mid \mathrm{H_2}(g, 1\ \mathrm{bar}) \mid \mathrm{H^+}(aq, 1\ \mathrm{M}) \parallel \mathrm{Fe}^{3+}(aq, 1\ \mathrm{M}), \mathrm{Fe}^{2+}(aq, 1\ \mathrm{M}) \mid \mathrm{Pt}(s)
 $$
 
-When a half-reaction involves only dissolved ions or gases (such as $\mathrm{Fe}^{3+}/\mathrm{Fe}^{2+}$ or $\mathrm{H^+}/\mathrm{H_2}$), an inert solid conductor (typically platinum $\mathrm{Pt}$ or graphite $\mathrm{C}$) acts as the physical terminal for electron transfer without participating chemically in the reaction.

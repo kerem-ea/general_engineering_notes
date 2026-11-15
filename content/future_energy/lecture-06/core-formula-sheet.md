@@ -1,10 +1,10 @@
 ---
-title: Future Energy - Lecture 6 Formula Sheet
+title: Future Energy — Lecture 6 Formula Sheet
 tags:
   - future_energy
 ---
 
-# Future Energy - Lecture 6 Formula Sheet
+# Future Energy — Lecture 6 Formula Sheet
 
 ## Core Formulas
 

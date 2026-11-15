@@ -4,7 +4,7 @@ tags:
   - future_energy
 ---
 
-# Future Energy - Lecture 10 Formula Sheet
+# Future Energy — Lecture 10 Formula Sheet
 
 ## Core Formulas
 

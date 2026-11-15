@@ -25,7 +25,7 @@ $$
 | Scale a row | $R_j \leftarrow c \cdot R_j$ | $c \in F \setminus \{0\}$ |
 | Add a multiple of a row | $R_i \leftarrow R_i + d \cdot R_j$ | $i \neq j$, $d \in F$ |
 
-**Theorem 6.2.1.** Elementary row operations do **not** change the solution set of the system.
+**Theorem:** Elementary row operations do **not** change the solution set of the system.
 
 So to solve a system: row-reduce $[A \mid b]$ and read off the solutions from the simpler system.
 

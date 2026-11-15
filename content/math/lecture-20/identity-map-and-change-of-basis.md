@@ -8,6 +8,8 @@ tags:
 
 The identity map provides an algebraic bridge unifying coordinate transformations with the general theory of linear mapping matrices. Every change-of-basis matrix is identically the mapping matrix of the identity map evaluated between two distinct bases.
 
+*(For elementary coordinate transition matrices, see [[../lecture-18/change-of-basis-matrices|Change-of-Basis Matrices]].)*
+
 ## The Identity Map
 
 Let $V$ be a vector space over a field $\mathbb{F}$. The **identity map** $\mathrm{id}_V: V \to V$ sends every vector to itself:
