@@ -1,14 +1,10 @@
 ---
-title: Core Formula Sheet — Batteries
+title: Future Energy — Lecture 11 Formula Sheet
 tags:
   - future_energy
-  - batteries
-  - formula_sheet
 ---
 
-# Core Formula Sheet: Batteries
-
-A reference sheet of governing electrochemical equations, capacity definitions, and thermodynamic relationships for battery analysis and energy storage design.
+# Future Energy — Lecture 11 Formula Sheet
 
 ## Fundamental Thermodynamic Relationships
 
