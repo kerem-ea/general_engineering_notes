@@ -8,7 +8,7 @@ tags:
 
 The image and kernel are fundamental subspaces characterizing the structure, injectivity, and surjectivity of a linear map.
 
-*(For matrix null spaces and column spaces, see [[math\lecture-19/lecture-15/kernel-and-column-space|Kernel and Column Space]].)*
+*(For matrix null spaces and column spaces, see [[kernel-and-column-space|Kernel and Column Space]].)*
 
 ## The Kernel (Nullspace)
 

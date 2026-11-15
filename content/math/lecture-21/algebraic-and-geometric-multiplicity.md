@@ -59,5 +59,5 @@ $$
 
 ## Link to Diagonalization
 
-A matrix is diagonalizable if and only if its characteristic polynomial splits completely over $\mathbb{F}$ and every eigenvalue is semi-simple ($\mathrm{gm}(\lambda) = \mathrm{am}(\lambda)$). See [[math\lecture-21/lecture-22/diagonalizability-criteria-and-similarity|Diagonalizability Criteria]].
+A matrix is diagonalizable if and only if its characteristic polynomial splits completely over $\mathbb{F}$ and every eigenvalue is semi-simple ($\mathrm{gm}(\lambda) = \mathrm{am}(\lambda)$). See [[diagonalizability-criteria-and-similarity|Diagonalizability Criteria]].
 

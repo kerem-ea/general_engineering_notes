@@ -9,7 +9,7 @@ tags:
 
 Chemical thermodynamics predicts whether a process occurs spontaneously and quantifies the direction of energy dispersal.
 
-*(For foundational entropy definitions and sign prediction heuristics, see [[chem\lecture-10/lecture-03/entropy-in-chemistry|Entropy in Chemistry]].)*
+*(For foundational entropy definitions and sign prediction heuristics, see [[entropy-in-chemistry|Entropy in Chemistry]].)*
 
 ## Spontaneous Processes
 
