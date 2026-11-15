@@ -18,3 +18,4 @@ tags:
 - [[future_energy/lecture-08/index|Lecture 8]]
 - [[future_energy/lecture-09/index|Lecture 9]]
 - [[future_energy/lecture-10/index|Lecture 10]]
+- [[future_energy/lecture-11/index|Lecture 11]]

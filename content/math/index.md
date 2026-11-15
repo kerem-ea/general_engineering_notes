@@ -28,3 +28,5 @@ tags:
 - [[math/lecture-18/index|Lecture 18]]
 - [[math/lecture-19/index|Lecture 19]]
 - [[math/lecture-20/index|Lecture 20]]
+- [[math/lecture-21/index|Lecture 21]]
+- [[math/lecture-22/index|Lecture 22]]
