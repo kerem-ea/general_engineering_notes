@@ -9,7 +9,7 @@ tags:
 
 Gibbs free energy ($G$) combines enthalpy and entropy into a single state function determining reaction spontaneity at constant temperature and pressure.
 
-*(For basic enthalpy-entropy derivations and crossover temperature calculations, see [[../lecture-03/gibbs-free-energy-in-chemistry|Gibbs Free Energy in Chemistry]].)*
+*(For basic enthalpy-entropy derivations and crossover temperature calculations, see [[chem\lecture-10/lecture-03/gibbs-free-energy-in-chemistry|Gibbs Free Energy in Chemistry]].)*
 
 ## Definition and Spontaneity Criteria
 

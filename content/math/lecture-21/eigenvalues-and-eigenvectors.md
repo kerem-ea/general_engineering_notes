@@ -56,7 +56,7 @@ $$
 
 ## Basis Invariance
 
-*(For change-of-basis matrices, see [[../lecture-20/identity-map-and-change-of-basis|Change of Basis]].)*
+*(For change-of-basis matrices, see [[math\lecture-21/lecture-20/identity-map-and-change-of-basis|Change of Basis]].)*
 
 For any two bases $\beta, \beta'$ related by similarity matrix $P$:
 

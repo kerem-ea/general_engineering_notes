@@ -10,7 +10,7 @@ tags:
 
 Electrochemical batteries store chemical energy in high-energy bonds and convert it directly into electrical current via separated redox reactions.
 
-*(For reversible cell potential derivations and Nernst equations, see [[../lecture-07/cell-thermodynamics-and-reversible-potential|Cell Thermodynamics]] and [[../lecture-07/nernst-equation-and-potential-variations|Nernst Equation]]. For kinetic derivations of activation and mass-transfer losses, see [[../lecture-07/electrochemical-kinetics-and-overpotentials|Electrochemical Kinetics]].)*
+*(For reversible cell potential derivations and Nernst equations, see [[future_energy\lecture-11/lecture-07/cell-thermodynamics-and-reversible-potential|Cell Thermodynamics]] and [[future_energy\lecture-11/lecture-07/nernst-equation-and-potential-variations|Nernst Equation]]. For kinetic derivations of activation and mass-transfer losses, see [[future_energy\lecture-11/lecture-07/electrochemical-kinetics-and-overpotentials|Electrochemical Kinetics]].)*
 
 ## Cell Potential and Electromotive Force (EMF)
 

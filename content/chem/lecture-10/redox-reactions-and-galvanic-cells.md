@@ -9,7 +9,7 @@ tags:
 
 Electrochemistry studies the relationship between chemical reactions and electrical current, utilizing spontaneous electron transfer to drive work.
 
-*(For basic oxidation states, OIL RIG mnemonics, and redox definitions, see [[../lecture-02/oxidation-reduction-reactions|Oxidation-Reduction Reactions]].)*
+*(For basic oxidation states, OIL RIG mnemonics, and redox definitions, see [[chem\lecture-10/lecture-02/oxidation-reduction-reactions|Oxidation-Reduction Reactions]].)*
 
 ## Balancing Redox Equations: The Half-Reaction Method
 
