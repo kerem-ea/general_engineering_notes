@@ -10,7 +10,7 @@ tags:
 
 ## Notes
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-11/core-formula-sheet|Core Formula Sheet]]
 - [[battery-fundamentals-and-thermodynamics|Battery Fundamentals and Thermodynamics]]
 - [[commercial-primary-and-secondary-batteries|Commercial Primary and Secondary Batteries]]
 - [[lithium-ion-batteries|Lithium-Ion Batteries]]

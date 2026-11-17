@@ -102,14 +102,22 @@ where $V_{\mathrm{tank}}$ is total active solution volume ($\mathrm{L}$), $C_{\m
 
 ## Key Electrode Materials Reference Data
 
-| Material | Reaction Type | Standard/Operating Potential | Theoretical Capacity |
-| :--- | :--- | :---: | :---: |
-| **$\mathrm{Li}$ metal** | Conversion: $\mathrm{Li} \to \mathrm{Li}^+ + e^-$ | $-3.04\ \mathrm{V}$ vs SHE ($0.00\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$) | $3860\ \mathrm{Ah/kg}$ |
-| **$\mathrm{Zn}$ metal** | Conversion: $\mathrm{Zn} \to \mathrm{Zn}^{2+} + 2e^-$ | $-0.76\ \mathrm{V}$ vs SHE | $820\ \mathrm{Ah/kg}$ |
-| **Graphite ($\mathrm{C_6}$)** | Intercalation: $\mathrm{LiC_6} \rightleftharpoons 6\mathrm{C} + \mathrm{Li}^+ + e^-$ | $0.1\text{--}0.2\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$ | $372\ \mathrm{Ah/kg}$ |
-| **Silicon ($\mathrm{Si}$)** | Alloying: $\mathrm{Li}_{15}\mathrm{Si}_4 \rightleftharpoons 4\mathrm{Si} + 15\mathrm{Li}^+ + 15e^-$ | $0.2\text{--}0.4\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$ | $3579\ \mathrm{Ah/kg}$ |
-| **$\mathrm{LiCoO_2}$ (LCO)** | Intercalation: $\mathrm{LiCoO_2} \rightleftharpoons \mathrm{Li}_{0.5}\mathrm{CoO_2} + 0.5\mathrm{Li}^+ + 0.5e^-$ | $3.9\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$ | $145\text{--}155\ \mathrm{Ah/kg}$ (practical) |
-| **$\mathrm{LiFePO_4}$ (LFP)** | Intercalation: $\mathrm{LiFePO_4} \rightleftharpoons \mathrm{FePO_4} + \mathrm{Li}^+ + e^-$ | $3.4\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$ | $170\ \mathrm{Ah/kg}$ |
-| **$\mathrm{Li_4Ti_5O_{12}}$ (LTO)** | Intercalation: $\mathrm{Li_7Ti_5O_{12}} \rightleftharpoons \mathrm{Li_4Ti_5O_{12}} + 3\mathrm{Li}^+ + 3e^-$ | $1.55\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$ | $175\ \mathrm{Ah/kg}$ |
-| **Sulfur ($\mathrm{S_8}$)** | Conversion: $\mathrm{S_8} + 16\mathrm{Li}^+ + 16e^- \rightleftharpoons 8\mathrm{Li_2S}$ | $2.15\ \mathrm{V}$ vs $\mathrm{Li/Li}^+$ | $1675\ \mathrm{Ah/kg}$ |
-| **Vanadium (VRFB)** | Liquid redox: $\mathrm{V^{2+}} \rightleftharpoons \mathrm{V^{3+}}$ / $\mathrm{VO_2^+} \rightleftharpoons \mathrm{VO^{2+}}$ | $1.26\ \mathrm{V}$ (cell voltage) | $\sim 20\text{--}35\ \mathrm{Ah/L}$ |
+| Material                            | Reaction Type                                                                                            | Potential                            | Capacity                           |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------- |
+| **Li metal**                        | Conversion: $\mathrm{Li \rightarrow Li^+ + e^-}$                                                         | $-3.04\ \mathrm{V}$ vs SHE           | $3860\ \mathrm{Ah,kg^{-1}}$        |
+| **Zn metal**                        | Conversion: $\mathrm{Zn \rightarrow Zn^{2+} + 2e^-}$                                                     | $-0.76\ \mathrm{V}$ vs SHE           | $820\ \mathrm{Ah,kg^{-1}}$         |
+| **Graphite ($\mathrm{C_6}$)**       | Intercalation: $\mathrm{LiC_6 \rightleftharpoons 6C + Li^+ + e^-}$                                       | $0.1$–$0.2\ \mathrm{V}$ vs Li/Li$^+$ | $372\ \mathrm{Ah,kg^{-1}}$         |
+| **Silicon ($\mathrm{Si}$)**         | Alloying: $\mathrm{Li_{15}Si_4 \rightleftharpoons 4Si + 15Li^+ + 15e^-}$                                 | $0.2$–$0.4\ \mathrm{V}$ vs Li/Li$^+$ | $3579\ \mathrm{Ah,kg^{-1}}$        |
+| **LCO ($\mathrm{LiCoO_2}$)**        | Intercalation: $\mathrm{LiCoO_2 \rightleftharpoons Li_{0.5}CoO_2 + 0.5Li^+ + 0.5e^-}$                    | $3.9\ \mathrm{V}$ vs Li/Li$^+$       | $145$–$155\ \mathrm{Ah,kg^{-1}}$   |
+| **LFP ($\mathrm{LiFePO_4}$)**       | Intercalation: $\mathrm{LiFePO_4 \rightleftharpoons FePO_4 + Li^+ + e^-}$                                | $3.4\ \mathrm{V}$ vs Li/Li$^+$       | $170\ \mathrm{Ah,kg^{-1}}$         |
+| **LTO ($\mathrm{Li_4Ti_5O_{12}}$)** | Intercalation: $\mathrm{Li_7Ti_5O_{12} \rightleftharpoons Li_4Ti_5O_{12} + 3Li^+ + 3e^-}$                | $1.55\ \mathrm{V}$ vs Li/Li$^+$      | $175\ \mathrm{Ah,kg^{-1}}$         |
+| **Sulfur ($\mathrm{S_8}$)**         | Conversion: $\mathrm{S_8 + 16Li^+ + 16e^- \rightleftharpoons 8Li_2S}$                                    | $2.15\ \mathrm{V}$ vs Li/Li$^+$      | $1675\ \mathrm{Ah,kg^{-1}}$        |
+| **Vanadium (VRFB)**                 | Liquid redox: $\mathrm{V^{2+} \rightleftharpoons V^{3+}}$ / $\mathrm{VO_2^+ \rightleftharpoons VO^{2+}}$ | $1.26\ \mathrm{V}$ (cell voltage)    | $\sim 20$–$35\ \mathrm{Ah,L^{-1}}$ |
+
+## Energy Density of Batteries
+
+![[energy_density_of_batteries.png]]
+
+## Storage Density and Round-trip efficiency
+
+![[storage_density_and_round-trip_efficiency.png]]
