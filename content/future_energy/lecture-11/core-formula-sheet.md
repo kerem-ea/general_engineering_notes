@@ -121,3 +121,8 @@ where $V_{\mathrm{tank}}$ is total active solution volume ($\mathrm{L}$), $C_{\m
 ## Storage Density and Round-trip efficiency
 
 ![[storage_density_and_round-trip_efficiency.png]]
+
+
+## Primary and Secondary Batteries Table
+
+![[primary_and_secondary_batteries.png.png]]
