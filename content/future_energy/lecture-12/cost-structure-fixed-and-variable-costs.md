@@ -1,5 +1,5 @@
 ---
-title: Cost Structure: Fixed and Variable Costs
+title: "Cost Structure: Fixed and Variable Costs"
 tags:
   - future_energy
 ---

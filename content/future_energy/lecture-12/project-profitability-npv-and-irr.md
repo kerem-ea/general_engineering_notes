@@ -1,5 +1,5 @@
 ---
-title: Project Profitability: NPV and IRR
+title: "Project Profitability: NPV and IRR"
 tags:
   - future_energy
 ---
