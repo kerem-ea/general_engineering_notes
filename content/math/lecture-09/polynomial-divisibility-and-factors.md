@@ -6,6 +6,8 @@ tags:
 
 # Polynomial Divisibility and Factors
 
+(book section 5.5, pages 82-84)
+
 ## Definition of Factor
 
 Let $p(Z), d(Z) \in \mathbb{C}[Z]$:

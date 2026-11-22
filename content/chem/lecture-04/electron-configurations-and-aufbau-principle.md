@@ -6,6 +6,8 @@ tags:
 
 # Electron Configurations and Aufbau Principle
 
+(OpenStax Chemistry 2e, section 6.4, pages 319–330)
+
 An **electron configuration** describes the distribution of electrons among orbitals in an atom.
 
 ## Notation

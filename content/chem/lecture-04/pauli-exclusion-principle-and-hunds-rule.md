@@ -6,6 +6,8 @@ tags:
 
 # Pauli Exclusion Principle and Hund's Rule
 
+(OpenStax Chemistry 2e, section 6.4, pages 319–326)
+
 ## The Pauli Exclusion Principle
 
 Formulated by Wolfgang Pauli:

@@ -6,6 +6,8 @@ tags:
 
 # Organic Chemistry and IUPAC Naming
 
+(OpenStax Chemistry 2e, section 20.1, pages 959–976)
+
 Organic chemistry is the study of carbon-containing compounds, particularly compounds built around carbon frameworks and their functional groups.
 
 ## IUPAC nomenclature

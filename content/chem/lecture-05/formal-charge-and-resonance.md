@@ -6,6 +6,8 @@ tags:
 
 # Formal Charge and Resonance
 
+(OpenStax Chemistry 2e, section 7.4, pages 354–362)
+
 ## Formal Charge
 
 The **formal charge** of an atom is the hypothetical charge it would carry if bonding electrons were split equally between atoms:

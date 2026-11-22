@@ -6,6 +6,8 @@ tags:
 
 # Set Operations
 
+(book section 2.1, pages 18-20)
+
 Set operations manipulate collections of elements from given [[sets|sets]]. They directly correspond to propositional [[math/lecture-01/logical-operations|logical operations]].
 
 ## Intersection

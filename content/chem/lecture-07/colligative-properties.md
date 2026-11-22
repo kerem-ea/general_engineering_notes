@@ -6,6 +6,8 @@ tags:
 
 # Colligative Properties
 
+(OpenStax Chemistry 2e, section 11.4, pages 571–588)
+
 Physical properties of solutions that depend solely on the concentration (number) of solute particles present, and not on their chemical identity.
 
 The four colligative properties are:

@@ -6,6 +6,8 @@ tags:
 
 # Functions
 
+(book section 2.2, pages 22-25)
+
 A **function** is a [[maps|map]] that assigns exactly one output to every input.
 
 $$

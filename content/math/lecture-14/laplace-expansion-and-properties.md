@@ -6,6 +6,8 @@ tags:
 
 # Laplace Expansion and Properties
 
+(book section 8.2, pages 140-143)
+
 Extends [[determinants|Determinants]]: the determinant does not have to be expanded along the first column.
 
 ## Laplace Expansion

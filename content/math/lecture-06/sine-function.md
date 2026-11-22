@@ -6,6 +6,8 @@ tags:
 
 # Sine Function
 
+(book section 2.3, pages 31-33)
+
 ## Definition
 
 The sine [[math/lecture-03/functions|function]] maps every real number in the [[math/lecture-03/number-sets|number set]] $\mathbb R$ to a value in the closed [[math/lecture-03/intervals|interval]] $[-1, 1]$:

@@ -6,6 +6,8 @@ tags:
 
 # Phase Diagrams
 
+(OpenStax Chemistry 2e, section 10.4, pages 500–508)
+
 A **phase diagram** plots pressure ($P$) versus temperature ($T$), showing regions of thermodynamic stability for solid, liquid, and gas phases.
 
 ## Key Features

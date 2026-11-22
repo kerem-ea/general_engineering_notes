@@ -6,6 +6,8 @@ tags:
 
 # Exponential and Logarithm Functions
 
+(book section 2.3, pages 28-31)
+
 ## The Exponential Function
 
 Let $e \approx 2.71828$ denote Euler's number (the base of the natural logarithm).

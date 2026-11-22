@@ -7,6 +7,8 @@ tags:
 
 # Standard Reduction Potentials and the Nernst Equation
 
+(OpenStax Chemistry 2e, sections 17.3–17.4, pages 836–855)
+
 The driving force pushing electrons through an electrochemical cell is measured as cell potential (electromotive force, EMF). Connecting cell potential directly to thermodynamic free energy enables quantitative predictions under standard and non-standard conditions.
 
 ## Cell Potential and the Standard Hydrogen Electrode

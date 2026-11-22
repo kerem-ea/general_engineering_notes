@@ -6,6 +6,8 @@ tags:
 
 # Standard Enthalpy of Formation
 
+(OpenStax Chemistry 2e, section 5.4, pages 252–262)
+
 ## Definition
 
 The **standard enthalpy of formation ($\Delta H^\circ_f$)** is the enthalpy change when **exactly $1\text{ mole}$** of a substance is formed from its constituent elements in their standard states ($1\text{ bar}$, $298.15\text{ K}$):

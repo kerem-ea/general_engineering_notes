@@ -6,6 +6,8 @@ tags:
 
 # Computing the General Solution
 
+(book section 6.4, pages 109-116)
+
 ## Terminology
 
 In the RREF of $A$: columns with a pivot give **pivot variables**; the other columns give **free variables** ($n - \rho$ of them).

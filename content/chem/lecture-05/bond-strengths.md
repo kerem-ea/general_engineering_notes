@@ -6,6 +6,8 @@ tags:
 
 # Bond Strengths and Bond Energies
 
+(OpenStax Chemistry 2e, section 7.5, pages 362–370)
+
 ## Bond Energy (Bond Dissociation Energy)
 
 The **bond energy** $D$ is the energy required to break one mole of a specified covalent bond in the gas phase (always positive, endothermic):

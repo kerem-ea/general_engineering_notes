@@ -6,6 +6,8 @@ tags:
 
 # Complex Plane
 
+(book section 4.1, pages 52-53)
+
 A [[complex-numbers|complex number]] $z = a + bi$ corresponds to the point $(a, b)$ in the **complex plane**. This gives a one-to-one correspondence between $\mathbb C$ and the Cartesian product $\mathbb R \times \mathbb R$ (see [[math/lecture-03/set-operations#Cartesian Product|Cartesian Product]]).
 
 The horizontal axis is called the **real axis** and the vertical axis is called the **imaginary axis**.

@@ -6,6 +6,8 @@ tags:
 
 # Vectors
 
+(book section 7.1, pages 118-124)
+
 Vectors in $F^n$ are $n$-tuples over a field $F$ (e.g. $\mathbb{R}$, $\mathbb{C}$).
 
 ## Operations

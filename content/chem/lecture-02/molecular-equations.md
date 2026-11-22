@@ -6,6 +6,8 @@ tags:
 
 # Molecular Equations
 
+(OpenStax Chemistry 2e, section 4.2, pages 169–178)
+
 A **molecular equation** represents a reaction using the complete neutral chemical formulas of all reactants and products:
 
 $$

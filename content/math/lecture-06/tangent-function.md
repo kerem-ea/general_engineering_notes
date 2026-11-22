@@ -6,6 +6,8 @@ tags:
 
 # Tangent Function
 
+(book section 2.3, pages 33-34)
+
 ## Definition
 
 The tangent [[math/lecture-03/functions|function]] is defined in terms of [[sine-function|sine]] and [[cosine-function|cosine]]:

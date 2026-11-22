@@ -6,6 +6,8 @@ tags:
 
 # Molecular Orbital Theory
 
+(OpenStax Chemistry 2e, section 8.4, pages 414–428)
+
 **Molecular Orbital (MO) theory** treats electrons as delocalized over the entire molecule. Atomic orbitals are combined via the **Linear Combination of Atomic Orbitals (LCAO)** to form molecular orbitals, which belong to the whole molecule rather than individual atoms.
 
 MO theory succeeds where [[chem/lecture-05/valence-bond-theory|Valence Bond Theory]] and Lewis structures fail, such as explaining the paramagnetism of $\text{O}_2$.

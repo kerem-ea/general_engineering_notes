@@ -6,6 +6,8 @@ tags:
 
 # Oxidation-Reduction Reactions
 
+(OpenStax Chemistry 2e, section 4.2, pages 178–185)
+
 **Redox (reduction-oxidation) reactions** involve electron transfer and changes in oxidation numbers.
 
 - **Oxidation:** Loss of electrons (oxidation number increases).

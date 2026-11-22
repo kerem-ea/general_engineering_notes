@@ -6,6 +6,8 @@ tags:
 
 # Coordinate Vectors in General Vector Spaces
 
+(book section 10.2, pages 182-185)
+
 An ordered basis establishes a one-to-one linear bridge between an abstract $n$-dimensional vector space $V$ and the concrete column vector space $F^n$ (see [[math/lecture-16/coordinates-with-respect-to-a-basis|Coordinates with Respect to an Ordered Basis]]).
 
 ## Uniqueness of Representation

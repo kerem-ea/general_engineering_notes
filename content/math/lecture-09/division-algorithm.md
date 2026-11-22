@@ -6,6 +6,8 @@ tags:
 
 # The Division Algorithm for Polynomials
 
+(book section 5.5, pages 82-85)
+
 ## Theorem Statement
 
 For every $p(Z), d(Z) \in \mathbb{C}[Z]$ with $d(Z) \neq 0$, there exist **unique** polynomials $q(Z), r(Z) \in \mathbb{C}[Z]$ such that:

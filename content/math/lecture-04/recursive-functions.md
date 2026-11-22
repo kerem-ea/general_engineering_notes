@@ -6,6 +6,8 @@ tags:
 
 # Recursive Functions
 
+(book section 3.1, pages 36-39)
+
 ## Definition
 
 A **recursively defined [[math/lecture-03/functions|function]]** is a function defined in terms of itself: the value at some input is expressed using the value of the same function at a smaller input.

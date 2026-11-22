@@ -6,6 +6,8 @@ tags:
 
 # Implications and Logical Consequence
 
+(book section 1.3, pages 8-11)
+
 ## Logical consequence
 
 A [[propositions-and-truth-values|proposition]] $Q$ is a **logical consequence** of $P$ (written $P \models Q$) if whenever $P$ is true, $Q$ must also be true. Equivalently, the conditional statement $P \to Q$ is a [[tautologies-and-contradictions|tautology]]. This concept forms the backbone of deductive [[proof-methods|proof methods]].

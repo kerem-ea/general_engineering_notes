@@ -6,6 +6,8 @@ tags:
 
 # Chemical Bonds
 
+(OpenStax Chemistry 2e, sections 7.1–7.2, pages 327–342)
+
 Chemical bonds are interactions that hold atoms together in molecules, compounds, or extended structures.
 
 ## Ionic bonds

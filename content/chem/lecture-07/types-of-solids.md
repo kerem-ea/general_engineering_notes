@@ -6,6 +6,8 @@ tags:
 
 # Types of Crystalline and Amorphous Solids
 
+(OpenStax Chemistry 2e, section 10.5, pages 508–517)
+
 Builds on [[chem/lecture-01/chemical-bonds|Chemical Bonds]]. Solids are classified by structural order and the forces holding constituent particles together.
 
 ## Crystalline vs Amorphous Solids

@@ -6,6 +6,8 @@ tags:
 
 # Tautologies and Contradictions
 
+(book section 1.3, pages 6-9)
+
 ## Tautologies ($\top$)
 
 A **tautology** is a compound [[propositions-and-truth-values|proposition]] that evaluates to **true** under every possible truth assignment of its variables.

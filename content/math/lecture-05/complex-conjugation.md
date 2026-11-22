@@ -6,6 +6,8 @@ tags:
 
 # Complex Conjugation
 
+(book section 4.2, pages 56-59)
+
 ## Definition
 
 Let $z = a + bi$ where $z \in \mathbb{C}$. The **complex conjugate** of $z$ is defined as:

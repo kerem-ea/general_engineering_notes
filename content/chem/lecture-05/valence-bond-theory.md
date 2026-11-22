@@ -6,6 +6,8 @@ tags:
 
 # Valence Bond Theory and Sigma/Pi Bonds
 
+(OpenStax Chemistry 2e, section 8.1, pages 390–396)
+
 **Valence Bond (VB) theory** describes a covalent bond as the overlap of two half-filled atomic orbitals (one from each bonding atom), which allows the two electrons to be shared and stabilizes the system.
 
 A bond forms when:

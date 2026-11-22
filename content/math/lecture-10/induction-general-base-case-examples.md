@@ -6,6 +6,8 @@ tags:
 
 # Induction with General Base Case Examples
 
+(book section 3.5, pages 48-50)
+
 ## Example 1: Inequality $n + 10 \leq n^2 - n$
 
 Prove:

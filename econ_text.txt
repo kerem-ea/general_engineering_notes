@@ -1,0 +1,1246 @@
+Energy economics - Lecture notes
+47202 Introduction to Future Energy
+
+Rafael Nogueira Nakashima (rafnn@dtu.dk)
+Technical University of Denmark
+
+Fall 2026
+
+1
+
+Cost, price, revenue and profit
+
+The cost of a product is what the producer spends to make it, while the price is what the market pays
+for it. The two are determined by different mechanisms and should not be confused: the cost depends
+on the technology, fuel, efficiency and financing of the producer, whereas the price is determined by
+the market as a whole. In an electricity market, for instance, the price in each hour is set by the most
+expensive plant needed to meet the demand (i.e., the marginal plant), and every producer receives the
+same price regardless of its own cost. For the sake of simplicity, we are expressing here the market
+price as the average value per energy (i.e., MWh), but in some cases the common unit may be different
+(e.g., EUR/kg or EUR/L).
+Revenue is the money received from sales (see Eq. 1), while profit is what remains after paying
+the costs (see Eq. 2). In other words, a high revenue says nothing about the profitability of a project
+until the costs are known.
+
+Symbol
+R
+p
+Q
+C
+Π
+
+R=p·Q
+
+(1)
+
+Π=R−C
+
+(2)
+
+Description
+Revenue
+Market price
+Quantity sold
+Total cost
+Profit
+
+Unit
+e
+e/MWh
+MWh
+e
+e
+
+Cost, price, revenue and profit
+Q. A 10 MW wind farm produces 26 280 MWh per year at a cost of 45 e/MWh and sells
+everything on the spot market at an average price of 60 e/MWh. (a) What are the yearly
+revenue and profit? (b) In one hour a gas peaker sets the price at 150 e/MWh. How much
+does the wind farm earn per MWh in that hour, and why is this not equal to its cost?
+A. (a) From Eq. 2, the revenue and the total cost are:
+
+
+e
+× 26 280 [M W h] ≈ 1.58 [M e]
+R = p · Q = 60
+MWh
+
+
+e
+C = 45
+× 26 280 [M W h] ≈ 1.18 [M e]
+MWh
+Thus, the profit is:
+Π = R − C ≈ 0.39 [M e]
+
+1
+
+(b) The wind farm receives 150 e/MWh in that hour, because the marginal plant sets the price
+for every producer in the market. Its cost remains 45 e/MWh.
+Comments. The price is set by the market, while the cost belongs to the producer. A producer
+cannot choose the price, but only whether, when and how to produce, which changes its cost.
+
+2
+
+Cost structure: fixed and variable costs
+
+The total cost of an energy plant can be split into (i) a part that is paid whether or not the plant runs
+(i.e., fixed costs) and (ii) a part that grows with production (i.e., variable costs). Dividing the total
+cost by the quantity produced gives the average cost per unit (see Eq. 3).
+C = Cf ix + cvar · Q
+
+c̄ =
+
+Cf ix
+C
++cvar
+=
+Q
+Q
+| {z }
+
+(3)
+
+cf ix
+
+Symbol
+Cf ix
+cf ix
+cvar
+Q
+c̄
+
+Description
+Fixed cost per year
+Fixed cost per unit produced
+Variable cost per unit produced
+Quantity produced per year
+Average cost per unit produced
+
+Unit
+e/yr
+e/MWh
+e/MWh
+MWh/yr
+e/MWh
+
+It is important to note that Eq. 3 carries an implicit assumption on how the fixed costs are diluted
+per unit: the yearly fixed cost is shared equally by every MWh produced in that year. This averagecost allocation assumes that (i) Cf ix does not change with Q, as long as the plant stays within its
+capacity1 , (ii) every MWh carries the same share, whatever hour it is produced in and whatever it
+sells for, and (iii) the period is one year, so a year with lower output has a higher cost per MWh. As
+a consequence, the fixed part falls as 1/Q: doubling the production halves the fixed cost per MWh.
+Other allocations are possible (e.g., charging the fixed costs only to the output in peak hours), but
+the average-cost allocation is the convention behind the levelized cost presented in Section 7.
+
+2.1
+
+Fixed costs
+
+A fixed cost is a cost whose total amount per year does not depend on how much the plant produces.
+It is caused by having the plant, not by running it: once the decision to build is taken, it must be
+paid even if the plant stands still for a whole year. Fixed costs are therefore committed in advance
+and cannot be avoided in the short term by producing less.
+Two consequences follow from this definition. First, a fixed cost is constant in total (e/yr), but
+it falls per unit (e/MWh) as the production rises, because the same amount is shared by more MWh
+(see Eq. 4). This is why the utilisation of a plant matters so much for capital-heavy technologies.
+Second, fixed costs do not influence the short-term decision to produce or not in a given hour, since
+they are paid either way. Instead, they matter for the long-term decision of building the plant at all.
+Typical fixed costs of an energy plant are: (i) the capital cost (CAPEX), i.e., buying and building the
+plant, which is paid once at the start, and (ii) the fixed operation and maintenance (fixed O&M), i.e.,
+staff, insurance, grid connection fees and scheduled service, which is paid every year independently of
+the output.
+cf ix =
+1
+
+Cf ix
+Q
+
+(4)
+
+For instance, labor costs may be larger for a chemical plant with higher production rates because it requires more
+plant operators
+
+2
+
+2.2
+
+Variable costs
+
+A variable cost is a cost whose total grows in proportion to the amount produced. It is caused by
+running the plant: if the plant produces nothing, the variable cost is zero, while if it produces twice as
+much, the variable cost doubles. Per unit (e/MWh), the variable cost is therefore roughly constant,
+which is the opposite behaviour of a fixed cost.
+Because it can be avoided by not producing, the variable cost is what decides whether a plant should
+run in a given hour: it is only worth producing when the market price is above the variable cost in
+a scenario that products are sold immediately to the market. This is why plants with low variable
+costs (e.g., wind and solar) produce first, while plants with high variable costs (e.g., gas peakers) only
+produce when prices are high. Typical variable costs are fuel, CO2 allowances, consumables and wear
+that scale with the output. Note that the variable cost per unit of output depends on the conversion
+efficiency, since more fuel must be bought for each unit of product when the efficiency is low (see Eq.
+5).
+cvar =
+Symbol
+cf uel
+η
+
+cf uel
+η
+
+(5)
+
+Description
+Cost of the fuel per unit of fuel energy
+Conversion efficiency
+
+Unit
+e/MWh
+dimensionless
+
+Fixed vs. variable costs
+Q. A 10 MW gas peaker has fixed costs of 1.5 Me/yr and a variable cost of 130 e/MWh. What
+is its average cost per MWh if it runs (a) 1 000 h/yr and (b) 6 000 h/yr?
+A. (a) Running at full power for 1 000 h/yr, the plant produces Q = 10 [M W ] × 1 000 [h] =
+10 000 [M W h]. From Eq. 3:
+
+
+
+
+Cf ix
+1.5 × 106 [e]
+e
+e
+c̄ =
++ cvar =
++ 130
+= 150 + 130
+Q
+10 000 [M W h]
+MWh
+MWh
+e
+c̄ = 280
+MWh
+
+
+
+
+(b) For 6 000 h/yr, the plant produces Q = 60 000 [M W h], so the fixed part becomes 25
+e/MWh:
+
+
+e
+c̄ = 25 + 130 = 155
+MWh
+Comments. Running more hours dilutes only the fixed part, while the variable part stays the
+same. A peaker has a modest CAPEX, but it runs few hours per year, so its fixed cost per
+MWh becomes high.
+
+2.3
+
+Constrained market price and production volume scenario
+
+Profit is what an investor ultimately cares about, but it is hard to calculate. It depends on the market
+price, and the price is set outside the system boundary we normally draw around a plant or technology.
+It results from the whole market: fuel prices, weather, demand, policy and every other producer. An
+engineer can estimate the cost of a wind turbine from its design, but the electricity price it will receive
+in fifteen years is much more uncertain.
+Therefore, in the rest of these notes we adopt the following frame of reference: we treat the
+price and the quantity sold as given so that we can focus on what lies inside our system boundary and
+can be estimated with engineering methods, i.e., the costs. Under this assumption, comparing designs
+or technologies means comparing their costs, and the best option is the one with the lowest cost per
+3
+
+unit delivered. This mindset is behind the cost balances of Section 3 and the levelized cost of Section
+7. We return to the price only at the end (Section 8), to check whether a low-cost option is also a
+valuable one.
+Formally, if both the price and the quantity are fixed, the revenue p · Q is also fixed and the only
+lever left is the cost (see Eq. 6).
+max Π = max (p · Q − C) ⇐⇒ min C
+
+when p and Q are fixed
+
+(6)
+
+Profit maximisation
+Q. A heating plant must deliver 100 GWh/yr at a contracted price of 70 e/MWh. It can use
+(A) natural gas, with a variable cost of 55 e/MWh, or (B) wood chips, with a variable cost of
+40 e/MWh plus an extra fixed cost of 0.3 Me/yr for fuel handling. Which option maximises
+the profit, and by how much?
+A. The revenue is the same for both options:
+
+
+e
+R = p · Q = 70
+× 100 000 [M W h] = 7.0 [M e]
+MWh
+From Eq. 3, the costs of each option are:
+CA = 55 × 100 000 = 5.5 [M e]
+
+CB = 0.3 × 106 + 40 × 100 000 = 4.3 [M e]
+
+ΠB − ΠA = CA − CB = 1.2 [M e/yr]
+Comments. Option B gives 1.2 Me/yr more profit only because it is cheaper; the revenue did
+not change. This is why, once price and quantity are fixed, we can focus on costs alone.
+
+3
+
+A first cost balance
+
+A cost balance follows one unit of product through an energy system and adds up everything it costs
+to make it: the input that is consumed and the share of the plant’s fixed costs. The same tool applies
+to a gas turbine, an electrolyser, a heat pump or a battery. In this section, we still ignore the time
+value of money (see Section 4) and spread the CAPEX evenly over the lifetime of the plant.
+Consider a system that converts one input (e.g., fuel, electricity or biomass) into one product
+(e.g., electricity, heat or hydrogen) with a conversion efficiency η = Eout /Ein . The cost of one unit of
+product can be calculated with Eq. 7, in which the first term is the variable cost and the second term
+the fixed cost per unit.
+cout =
+
+pin
+CAP EX/L + CO&M
++
+η
+Eout
+|
+{z
+}
+|{z}
+fixed
+
+variable
+
+Symbol
+cout
+pin
+η
+CAP EX
+L
+CO&M
+Eout
+
+(7)
+
+Description
+Cost per unit of product
+Price of the input
+Conversion efficiency (Eout /Ein )
+Capital cost
+Lifetime
+Fixed operation and maintenance cost
+Product delivered per year
+
+Unit
+e/MWh
+e/MWh
+dimensionless
+e
+yr
+e/yr
+MWh/yr
+
+The efficiency acts on the variable part: to deliver 1 MWh of product, 1/η MWh of input must be
+bought. For a heat pump, η is the coefficient of performance (COP) and is larger than one. On the
+4
+
+other hand, the annual output acts on the fixed part: the same yearly fixed cost is divided over more
+or fewer units, as discussed in the previous section.
+
+3.1
+
+The capacity factor
+
+The annual output of a plant is usually expressed through the capacity factor (CF): the energy
+actually delivered in a year divided by the energy the plant would deliver at full power all year (see
+Eq. 8). Substituting it into Eq. 7 gives the cost balance as a function of the capacity factor (see Eq.
+9).
+Eout
+P · 8760
+
+(8)
+
+pin CAP EX/L + CO&M
++
+η
+P · CF · 8760
+
+(9)
+
+CF =
+cout =
+Symbol
+CF
+P
+8760
+
+Description
+Capacity factor
+Rated output power
+Hours in a year
+
+Unit
+dimensionless
+MW
+h/yr
+
+What limits the capacity factor depends on the technology: (i) the resource, as wind and solar
+plants only produce when the wind blows or the sun shines, (ii) the market, as dispatchable plants
+and storage only run in the hours in which the price covers their variable cost, and (iii) the technology
+itself, for instance due to maintenance stops or, in the case of storage, the time needed to charge
+before discharging. Table 1 shows approximate capacity factors for different technologies. The lower
+the capacity factor, the more each unit of product must carry of the fixed costs. For capital-heavy
+technologies, this term usually dominates the cost.
+Table 1: Typical capacity factors (approximate values)
+Technology
+Typical CF
+Main limit
+Nuclear
+0.85 - 0.90
+Maintenance
+Offshore wind
+0.45 - 0.50
+Resource
+Onshore wind
+0.25 - 0.35
+Resource
+Battery (4 h, 1 cycle/day)
+≈ 0.17
+Market and charging time
+Solar PV in Denmark
+≈ 0.11
+Resource
+Gas peaker
+0.05 - 0.10
+Market
+Capacity factor of a battery
+Q. A 2.5 MW / 10 MWh battery buys electricity, stores it and sells it later, with a round-trip
+efficiency of 0.85. (a) What is its storage duration? (b) What is its capacity factor when it
+does 1 full cycle per day and when it does 0.3 cycles per day? (c) What is the highest capacity
+factor it could reach? (d) How does it compare with an onshore wind farm (CF ≈ 0.30)?
+A. (a) The storage duration is the time needed to fully discharge the battery at rated power:
+h=
+
+Ecap
+10 [M W h]
+=
+= 4 [h]
+P
+2.5 [M W ]
+
+(b) A battery can only sell what it has bought before, so its output is counted in full cycles.
+With Ncyc cycles per day, the yearly output is:
+Eout = Ncyc · Ecap · 365 = Ncyc · P · h · 365
+
+5
+
+Substituting it into the definition of capacity factor (Eq. 8):
+CF =
+
+Ncyc · P · h · 365
+Ncyc · h
+=
+P · 8760
+24
+
+In other words, the capacity factor of a battery is the fraction of the day it spends discharging
+at full power. Thus:
+CF1 cycle =
+
+1×4
+≈ 0.167
+24
+
+CF0.3 cycles =
+
+0.3 × 4
+= 0.05
+24
+
+which correspond to 3 650 MWh/yr and 1 095 MWh/yr, respectively.
+(c) Each cycle takes h hours of discharging plus approximately h/η hours of charging at the
+same power. Thus, even if prices made every cycle profitable:
+CFmax =
+
+h
+η
+0.85
+=
+=
+h + h/η
+1+η
+1.85
+CFmax ≈ 0.46
+
+which corresponds to approximately 2.8 cycles per day.
+(d) At 1 cycle per day, the battery has approximately half the capacity factor of the onshore
+wind farm.
+Comments. For storage, the capacity factor is limited by the charging time and the market,
+not by a natural resource. In practice, a battery only cycles when the price spread between
+charging and discharging hours is large enough, so grid batteries typically do 1-2 cycles per day.
+
+Cost balance of a battery
+Q. The battery of the previous exercise costs 3 Me, lasts 15 years and has a fixed O&M of
+30 ke/yr. It buys electricity at 30 e/MWh and sells it at 120 e/MWh. (a) What is the cost
+per MWh delivered and the yearly profit for η = 0.85 and 1 cycle per day? (b) Repeat (a) for
+η = 0.70. (c) Repeat (a) for 0.3 cycles per day. (d) Which parameter matters more?
+A. The yearly fixed cost is the same in all cases:
+ 
+ 
+CAP EX
+3 000 [ke]
+ke
+ke
++ CO&M =
++ 30
+= 230
+L
+15 [yr]
+yr
+yr
+(a) From Eq. 7, with Eout = 3 650 MWh/yr:
+
+
+30
+230 000
+e
+cout =
++
+= 35.3 + 63.0
+0.85
+3 650
+MWh
+e
+cout ≈ 98.3
+MWh
+
+
+
+
+The yearly profit is (120 − 98.3) × 3 650 ≈ 79 ke/yr. Repeating the calculation for the other
+cases gives:
+Case
+(a) η = 0.85, 1 cycle/day
+(b) η = 0.70, 1 cycle/day
+(c) η = 0.85, 0.3 cycles/day
+
+Variable
+[e/MWh]
+35.3
+42.9
+35.3
+
+6
+
+Fixed
+[e/MWh]
+63.0
+63.0
+210.0
+
+Total cost
+[e/MWh]
+98.3
+105.9
+245.3
+
+Profit
+[ke/yr]
++79
++51
+-137
+
+(d) The capacity factor dominates: the drop in efficiency raises the cost by approximately 8 %,
+while the drop in utilisation raises it by approximately 150 %.
+Comments. This calculation assumes that the output, prices and costs are the same every
+year, that the CAPEX is spread evenly over the lifetime (no time value of money), that there
+is no degradation, that the lifetime does not depend on how much the battery is used, and that
+the same price spread is available on every operating day. In reality, the more cycles per day,
+the smaller the average price spread a battery can capture.
+
+4
+
+The time value of money
+
+A euro today is worth more than a euro in ten years, because today’s euro can be invested in the
+meantime. The previous sections ignored this effect, but for assets that live 15-30 years it can change
+the answer.
+Money tied up in a project cannot be used elsewhere. The opportunity cost is the return of the
+best alternative that is given up. For instance, investing 3 Me in a battery means not putting those
+3 Me into government bonds or another plant.
+The interest rate is the price of using money over time: the return a lender or investor expects
+for giving up the money now. A value invested today grows over time as described in Eq. 10, a process
+called compounding.
+F = V · (1 + r)n
+Symbol
+F
+V
+r
+n
+
+Description
+Future value
+Value invested today
+Interest rate
+Number of years
+
+(10)
+
+Unit
+e
+e
+dimensionless (1/yr)
+yr
+
+Compounding
+Q. How much does 1 000 e invested at 5 % per year become after 1, 10 and 25 years?
+A. From Eq. 10:
+F1 = 1 000 × 1.051 = 1 050 [e]
+
+F10 = 1 000 × 1.0510 ≈ 1 629 [e]
+
+F25 = 1 000 × 1.0525 ≈ 3 386 [e]
+Comments. An investor who gives up 1 000 e today for a project lasting 25 years expects at
+least this amount in return.
+
+4.1
+
+Estimating the discount rate
+
+The discount rate is the minimum return an investor requires from a project. It can be estimated as a
+risk-free rate plus a risk premium (see Eq. 11). The risk-free rate is the return on a near-riskless asset,
+such as a long-term Danish government bond, while the risk premium is the extra return demanded
+for the risks of the project (e.g., technology, prices, regulation and construction). Therefore, the same
+cash flows are worth less to an investor when the project is riskier, because they are discounted more
+heavily.
+r = rf + rpremium
+7
+
+(11)
+
+Symbol
+r
+rf
+rpremium
+
+4.2
+
+Description
+Discount rate
+Risk-free rate
+Risk premium
+
+Unit
+dimensionless (1/yr)
+dimensionless (1/yr)
+dimensionless (1/yr)
+
+Opportunity cost vs. inflation
+
+Opportunity cost and inflation are often confused, but they are different effects. The opportunity cost
+reflects that money today can earn a return, which holds even with zero inflation. Inflation, on the
+other hand, is the rise of the general price level, so that a euro buys less over time. A nominal rate
+includes inflation, while a real rate removes it (see Eq. 12). As a rule, cash flows given in today’s
+prices should be discounted with the real rate, while cash flows that include future price increases
+should be discounted with the nominal rate. The two should never be mixed.
+1 + rnom = (1 + rreal )(1 + i) =⇒ rreal =
+Symbol
+rnom
+rreal
+i
+
+Description
+Nominal discount rate
+Real discount rate
+Inflation rate
+
+1 + rnom
+−1
+1+i
+
+(12)
+
+Unit
+dimensionless (1/yr)
+dimensionless (1/yr)
+dimensionless (1/yr)
+
+Discount rate and inflation
+Q. A long-term government bond yields 2.5 %, and investors demand a 5 % risk premium for
+a merchant battery (i.e., a battery selling at market prices). The inflation is 2 %. (a) What is
+the nominal discount rate? (b) What is the real discount rate? (c) Which rate should be used
+if the cash flows are given in today’s prices?
+A. (a) From Eq. 11:
+rnom = 2.5 + 5.0 = 7.5 [%]
+(b) From Eq. 12:
+rreal =
+
+1.075
+− 1 ≈ 5.4 [%]
+1.02
+
+(c) Cash flows in today’s prices exclude inflation, so they must be discounted with the real rate.
+Comments. A riskier project gets a higher discount rate, so its future cash flows count for
+less. For comparison, an offshore wind farm with a fixed-price contract may require a premium
+of only a few percent, while a first-of-a-kind power-to-X plant may require a much higher one.
+
+5
+
+Discounting: single payments, annuities and discounted cash flow
+
+Discounting is compounding run backwards: it converts a future amount into its value today, called
+present value (PV, see Eq. 13). Thus, any payment pattern can be compared on the same footing.
+PV =
+Symbol
+PV
+
+F
+(1 + r)n
+
+Description
+Present value
+
+(13)
+Unit
+e
+
+Investments and incomes can be paid as a single payment (i.e., all at once) or as an annuity
+(i.e., the same amount every year for n years), such as a loan repayment or a yearly electricity sale.
+The present value of an annuity is the sum of the discounted payments, which can be simplified as
+8
+
+shown in Eq. 14. The term AF (r, n) is called annuity factor and represents the present value of
+receiving 1 e per year for n years.
+n
+X
+
+PV =
+
+t=1
+
+A
+1 − (1 + r)−n
+=
+A
+·
+(1 + r)t
+r
+|
+{z
+}
+
+(14)
+
+AF (r,n)
+
+Symbol
+A
+t
+AF
+
+Description
+Yearly payment (annuity)
+Year index
+Annuity factor
+
+Unit
+e/yr
+dimensionless
+yr
+
+Single payment vs. annuity: winning the lottery
+Q. You win the lottery and can choose between 1 Me now or 60 ke per year for 25 years (first
+payment in one year). (a) Which option is better if your discount rate is 3 %? (b) And if it is
+5 %? (c) Estimate the discount rate at which you are indifferent.
+A. (a) From Eq. 14:
+AF (3%, 25) =
+
+1 − 1.03−25
+≈ 17.41 =⇒ P V = 60 × 17.41 ≈ 1 045 [ke] > 1 000 [ke]
+0.03
+
+Thus, the annuity is better.
+(b) Similarly:
+AF (5%, 25) ≈ 14.09 =⇒ P V = 60 × 14.09 ≈ 846 [ke] < 1 000 [ke]
+Thus, the single payment is better.
+(c) The indifference point is where both options have the same present value:
+AF (r, 25) =
+
+1 000
+≈ 16.67
+60
+
+Solving by trial and error:
+r ≈ 3.4 [%]
+Comments. The choice depends on your own discount rate, not on the lottery. Without
+discounting, the annuity (1.5 Me in total) always looks better, which is misleading.
+
+5.1
+
+Discounted cash flow
+
+The yearly money in minus money out is called cash flow. Drawn on a time axis, it shows the
+investment as a large negative bar in year 0 and the operating margins (i.e., revenue minus variable
+costs minus fixed O&M) as positive bars afterwards.
+The undiscounted cash flow lists the money in and out per year at face value, while the
+discounted cash flow multiplies each year by 1/(1 + r)t , so that every entry is in today’s euros and
+the entries can be added. The time needed for the cumulative cash flow to become positive is called
+the payback time, which can be calculated with undiscounted or discounted values.
+Discounted cash flow and payback
+Q. A project costs 1 000 ke and returns 300 ke per year for 5 years. Assuming a discount rate
+of 8 %, build the undiscounted and discounted cash flow tables, and find the simple payback
+time, the discounted payback time and the sum of the discounted cash flows.
+
+9
+
+A. The discount factor of each year is 1/1.08t (Eq. 13). Applying it to each year:
+Year
+0
+1
+2
+3
+4
+5
+
+Cash flow
+[ke]
+-1 000
+300
+300
+300
+300
+300
+
+Cumulative
+[ke]
+-1 000
+-700
+-400
+-100
+200
+500
+
+Discount factor
+[-]
+1.000
+0.926
+0.857
+0.794
+0.735
+0.681
+
+Discounted CF
+[ke]
+-1 000.0
+277.8
+257.2
+238.1
+220.5
+204.2
+
+Cumulative disc.
+[ke]
+-1 000.0
+-722.2
+-465.0
+-226.9
+-6.4
+197.8
+
+Interpolating within the year in which the cumulative cash flow becomes positive:
+tpayback = 3 +
+
+100
+≈ 3.3 [yr]
+300
+
+tdisc.
+payback = 4 +
+
+6.4
+≈ 4.0 [yr]
+204.2
+
+The sum of the discounted cash flows is +198 ke, instead of +500 ke without discounting.
+Comments. Discounting shrinks late cash flows, which is why long-lived, capital-heavy energy
+projects are so sensitive to the discount rate. The sum of the discounted cash flows is the net
+present value, defined in Section 7.
+
+6
+
+Simplification: all operating years are equal
+
+For the rest of these notes, we assume that every operating year has the same production, price and
+costs. Real projects degrade, prices change and components are replaced, but this assumption turns
+every sum into a closed formula and keeps the focus on the concepts. With equal years, the yearly
+net cash flow is an annuity (see Eq. 15).
+A = p · E − cvar · E − CO&M
+| {z }
+| {z }
+| {z }
+revenue
+
+Symbol
+A
+E
+
+variable cost
+
+(15)
+
+fixed O&M
+
+Description
+Yearly net cash flow
+Energy sold per year
+
+Unit
+e/yr
+MWh/yr
+
+The inverse of the annuity factor is called capital recovery factor (CRF, see Eq. 16). It converts
+a single payment today (e.g., the CAPEX) into the equal yearly amount that repays it with interest,
+similar to a mortgage.
+CRF (r, n) =
+Symbol
+CRF
+
+1
+r(1 + r)n
+=
+AF (r, n)
+(1 + r)n − 1
+
+Description
+Capital recovery factor
+
+(16)
+
+Unit
+1/yr
+
+The capital recovery factor allows us to have a better estimate for how the fixed costs are spread
+throughout an investment and form the unit cost. Our simplified cost equations expressed in Eqs. (7)
+and (9) can be updated by replacing the term CAP EX/L to CAP EX · CRF , as expressed in the
+following equations:
+cout =
+
+pin CAP EX · CRF + CO&M
++
+η
+Eout
+
+(17)
+
+cout =
+
+pin CAP EX · CRF + CO&M
++
+η
+P · CF · 8760
+
+(18)
+
+10
+
+The capital recovery factor
+Q. Recalculate the cost per MWh of the battery in the cost balance exercise (case a) including
+the time value of money, with a discount rate of 7.5 % and a lifetime of 15 years. Is it still
+profitable at a selling price of 120 e/MWh?
+A. From Eq. 16:
+CRF (7.5%, 15) =
+
+0.075 × 1.07515
+≈ 0.113
+1.07515 − 1
+
+Thus, the yearly capital cost becomes:
+
+
+ke
+CAP EX · CRF = 3 000 [ke] × 0.113 ≈ 340
+yr
+
+
+
+instead of 200 ke/yr without the time value of money. Replacing CAP EX/L by CAP EX ·CRF
+in Eq. 7:
+340 000 + 30 000
+cout = 35.3 +
+3 650
+
+
+
+
+e
+e
+cout ≈ 136.6
+> 120
+MWh
+MWh
+Comments. The battery is no longer profitable. Ignoring the time value of money made a
+loss-making project look profitable. Note that for r → 0, the CRF tends to 1/n, which gives
+back the simple CAP EX/L of Section 3.
+
+7
+
+Key performance indicators: NPV, LCOE and IRR
+
+Three indicators answer three different questions about the same cash flow: how much value is created
+(net present value, NPV), what the product costs (levelized cost, LCOE), and what return the project
+gives (internal rate of return, IRR). All three are defined from the condition NPV = 0.
+
+7.1
+
+Net present value
+
+The net present value is the sum of all discounted cash flows, including the investment (see Eq. 19).
+A positive NPV means that the project earns more than the required return, i.e., it creates value.
+N P V = −I +
+
+n
+X
+t=1
+
+Symbol
+NPV
+I
+At
+
+7.2
+
+At
+= −I + A · AF (r, n)
+(1 + r)t
+
+(equal years)
+
+Description
+Net present value
+Initial investment (CAPEX)
+Net cash flow in year t
+
+Unit
+e
+e
+e/yr
+
+(19)
+
+Levelized cost
+
+The levelized cost of energy is the constant selling price at which NPV = 0, i.e., the break-even
+cost. Setting NPV = 0 in Eq. 19 with p = LCOE and solving for it gives Eq. 20. Note that this
+is the same structure as Eq. 3 (fixed plus variable cost per MWh), now including the time value of
+money through the CRF.
+LCOE =
+
+I · CRF (r, n) + CO&M
++ cvar
+E
+11
+
+(20)
+
+Symbol
+LCOE
+
+7.3
+
+Description
+Levelized cost of energy
+
+Unit
+e/MWh
+
+Internal rate of return
+
+The internal rate of return is the discount rate at which NPV = 0, i.e., the break-even rate (see
+Eq. 21). It represents the yearly return the project actually delivers. There is no closed-form solution
+for the IRR, so it is found by trial and error or with a spreadsheet (e.g., the IRR function).
+0 = −I + A · AF (IRR, n)
+Symbol
+IRR
+
+Description
+Internal rate of return
+
+(21)
+
+Unit
+dimensionless (1/yr)
+
+NPV, LCOE and IRR of a wind farm
+Q. A 10 MW onshore wind farm has a CAPEX of 13 Me, a fixed O&M of 260 ke/yr, no
+variable cost and a capacity factor of 0.30. Assuming a lifetime of 25 years, a discount rate of
+5 % and a selling price of 60 e/MWh, calculate (a) the NPV, (b) the LCOE and (c) the IRR.
+(d) Should the wind farm be built?
+A. From Eq. 8 and Eq. 15, the yearly energy and net cash flow are:
+E = 10 [M W ] × 0.30 × 8760 [h/yr] = 26 280 [M W h/yr]
+A = 26 280 × 60 − 260 000 ≈ 1 316.8 [ke/yr]
+and the annuity factor is AF (5%, 25) ≈ 14.09.
+(a) From Eq. 19:
+N P V = −13 000 + 1 316.8 × 14.09 ≈ +5 560 [ke]
+(b) With CRF = 1/14.09 ≈ 0.0710, from Eq. 20:
+
+
+13 × 106 × 0.0710 + 260 000
+e
+LCOE =
+≈ 45.0
+26 280
+MWh
+(c) From Eq. 21:
+13 000
+≈ 9.87
+1 316.8
+Solving by trial and error (or with a spreadsheet):
+AF (IRR, 25) =
+
+IRR ≈ 8.9 [%]
+(d) Yes: NPV > 0, LCOE (45 e/MWh) < price (60 e/MWh), and IRR (8.9 %) > r (5 %).
+Comments. All three tests agree, because they are three views of the same equation. The
+margin of 15 e/MWh between price and LCOE is where the positive NPV comes from.
+The simple payback time (I/A) is another common indicator. For the previous wind farm, it is
+13 000/1 316.8 ≈ 9.9 years. It is intuitive, but it ignores the time value of money and everything that
+happens after the payback year, so it should only be used as a first screening.
+Sensitivity: a poorer site
+Q. Repeat the previous exercise for a site with a capacity factor of 0.25. Which indicators
+change? Which indicator does not depend on the discount rate?
+
+12
+
+A. The yearly energy and net cash flow become:
+E = 21 900 [M W h/yr]
+
+A = 21 900 × 60 − 260 000 ≈ 1 054 [ke/yr]
+
+Thus:
+N P V = −13 000 + 1 054 × 14.09 ≈ +1 860 [ke]
+
+
+923 + 260
+e
+3
+LCOE =
+× 10 ≈ 54.0
+21 900
+MWh
+AF (IRR, 25) =
+N P V ≈ +1.86 [M e]
+
+13 000
+≈ 12.33 =⇒ IRR ≈ 6.4 [%]
+1 054
+LCOE ≈ 54.0 [e/M W h]
+
+IRR ≈ 6.4 [%]
+
+Comments. All three indicators worsen, but the project still passes. The IRR is a property of
+the cash flow alone and does not depend on the discount rate, whereas the NPV and the LCOE
+do, because they compare the project with the return required by the investor.
+
+8
+
+Synthesis: comparing the indicators
+
+The three indicators are three views of the same equation (NPV = 0), each solved for a different
+unknown. A good project has a positive NPV, an LCOE below the expected price, and an IRR above
+the discount rate. For a single project, these three conditions are equivalent. However, each indicator
+answers a different question and has its own limitations, as summarised in Table 2.
+Table 2: Comparison of the key performance indicators
+KPI
+NPV
+
+Break-even for
+- (value at
+given r and p)
+
+Unit
+e
+
+LCOE
+
+Selling price
+
+e/MWh
+
+IRR
+
+Discount rate
+
+%
+
+Question it answers
+How much value
+does the project
+create?
+What does each
+MWh cost to produce?
+What return does
+the project give?
+
+Desired case
+NPV > 0
+
+LCOE < price
+
+IRR > r
+
+Main limitation
+Scales with size; hard to
+compare small and large
+projects
+Says nothing about the
+value of the MWh (when
+it is produced)
+Ignores size; can have several solutions for irregular
+cash flows
+
+The battery revisited
+Q. The battery of the cost balance exercise (case a) has a yearly cash flow of 279 ke for 15
+years on an investment of 3 Me. Should an investor requiring a discount rate of 7.5 % build it?
+A. From Eq. 21:
+AF (IRR, 15) =
+
+3 000
+≈ 10.75 =⇒ IRR ≈ 4.5 [%]
+279
+
+IRR ≈ 4.5 [%] < r = 7.5 [%]
+Thus, the investor should not build it. Consistently, the NPV is negative and the levelized cost
+(136.6 e/MWh, from the CRF exercise) exceeds the selling price of 120 e/MWh.
+Comments. All three indicators agree, and all three contradict the undiscounted result of
+Section 3.
+Finally, it is important to remember that the LCOE is a cost, while the market price is a value
+(Section 1). Comparing technologies on LCOE alone ignores when each MWh is produced. The
+13
+
+relevant comparison is between the LCOE and the capture price, i.e., the average market price a
+technology actually receives during its production hours.
+Choosing between projects
+Q. (a) Project S requires an investment of 1 Me and has an IRR of 15 % and an NPV of 0.3
+Me. Project L requires an investment of 10 Me and has an IRR of 9 % and an NPV of 2 Me.
+Both are evaluated at a discount rate of 5 %. If only one can be built, which one should it be?
+(b) Solar PV has an LCOE of 40 e/MWh and a capture price of 35 e/MWh, while offshore
+wind has an LCOE of 65 e/MWh and a capture price of 75 e/MWh. Which is the better
+investment?
+A. (a) Both projects are acceptable (IRR > r and NPV > 0). For mutually exclusive projects,
+the NPV decides, because it measures the value created, while the IRR ignores the size of the
+project:
+N P VL = 2 [M e] > N P VS = 0.3 [M e] =⇒ Project L
+(b) The margin of each technology is the capture price minus the LCOE:
+
+
+
+
+e
+e
+Solar: 35 − 40 = −5
+Offshore wind: 75 − 65 = +10
+MWh
+MWh
+Offshore wind
+Comments. Solar PV is cheaper, but it produces when many other solar plants produce and
+prices are low. A lower LCOE does not automatically mean a better investment.
+
+14
+
+

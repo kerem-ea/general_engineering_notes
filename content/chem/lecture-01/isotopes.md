@@ -6,6 +6,8 @@ tags:
 
 # Isotopes
 
+(OpenStax Chemistry 2e, section 2.3, pages 72–79)
+
 Isotopes are [[atoms|atoms]] of the same element that have the same number of protons but different numbers of neutrons.
 
 ## Isotopic notation

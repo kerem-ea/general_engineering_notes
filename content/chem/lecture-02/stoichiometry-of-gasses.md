@@ -6,6 +6,8 @@ tags:
 
 # Stoichiometry of Gases
 
+(OpenStax Chemistry 2e, section 9.3, pages 426–431)
+
 ## Gas Density and Molar Mass
 
 Combining the ideal gas law ($n = \frac{m}{\mathcal{M}}$) with density ($d = \frac{m}{V}$):

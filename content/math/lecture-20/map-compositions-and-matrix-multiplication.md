@@ -6,6 +6,8 @@ tags:
 
 # Map Compositions and Matrix Multiplication
 
+(book section 11.4, pages 214-216)
+
 Composing linear maps corresponds algebraically to the multiplication of their corresponding mapping matrices. This relationship links abstract functional composition with concrete matrix algebra.
 
 ## Definition and Linearity of Compositions

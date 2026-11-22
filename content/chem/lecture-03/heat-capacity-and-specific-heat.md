@@ -6,6 +6,8 @@ tags:
 
 # Heat Capacity and Specific Heat
 
+(OpenStax Chemistry 2e, section 5.2, pages 232–237)
+
 ## Core Equations
 
 - **Heat Capacity ($C$, extensive):**

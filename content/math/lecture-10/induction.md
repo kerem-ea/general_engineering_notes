@@ -6,6 +6,8 @@ tags:
 
 # Induction
 
+(book section 3.4, pages 44-46)
+
 ## Principle of Mathematical Induction
 
 Mathematical induction proves statements parameterized by the natural numbers $n \in \mathbb{N} = \{1, 2, 3, \dots\}$.

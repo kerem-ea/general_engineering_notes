@@ -6,6 +6,8 @@ tags:
 
 # Enthalpy of Reaction Calculations
 
+(OpenStax Chemistry 2e, section 5.3, pages 244–252)
+
 ## The Standard Reaction Formula
 
 From [[standard-enthalpy-of-formation|standard enthalpies of formation]] and [[hess-law|Hess's Law]]:

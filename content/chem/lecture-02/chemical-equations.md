@@ -6,6 +6,8 @@ tags:
 
 # Chemical Equations
 
+(OpenStax Chemistry 2e, section 4.1, pages 162–169)
+
 A **chemical equation** represents a chemical reaction by showing the identities and relative quantities of reactants and products:
 
 $$

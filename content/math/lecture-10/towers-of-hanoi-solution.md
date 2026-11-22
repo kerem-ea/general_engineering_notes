@@ -6,6 +6,8 @@ tags:
 
 # Towers of Hanoi Closed-Form Solution
 
+(book section 3.3, pages 42-44)
+
 ## Recurrence Relation
 
 The minimal move count $T(n)$ satisfies:

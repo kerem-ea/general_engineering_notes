@@ -6,6 +6,8 @@ tags:
 
 # Ionization Energy
 
+(OpenStax Chemistry 2e, section 6.6, pages 331–337)
+
 **Ionization energy** ($IE$) is the minimum energy required to remove the most loosely bound electron from a gaseous atom or ion in its ground electronic state.
 
 ## Definitions and Equations

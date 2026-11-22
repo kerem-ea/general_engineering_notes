@@ -6,6 +6,8 @@ tags:
 
 # Row Echelon Form, RREF and Rank
 
+(book section 6.3, pages 104-109)
+
 ## Pivot
 
 The **pivot** of a nonzero row is its left-most nonzero entry. Zero rows have no pivot.

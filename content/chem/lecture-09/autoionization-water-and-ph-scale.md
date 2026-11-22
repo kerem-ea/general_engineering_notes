@@ -6,6 +6,8 @@ tags:
 
 # Autoionization of Water and the pH Scale
 
+(OpenStax Chemistry 2e, section 14.1, pages 722–728)
+
 Water undergoes self-ionization to a minor extent, establishing an equilibrium that defines the reference scale for aqueous acidity (see [[chem/lecture-08/chemical-equilibrium-and-constants|Chemical Equilibrium]]).
 
 ## Autoionization of Water

@@ -6,6 +6,8 @@ tags:
 
 # Moles and Mass
 
+(OpenStax Chemistry 2e, section 3.1, pages 118–126)
+
 The mole is the SI unit for the amount of substance.
 
 ## Avogadro constant

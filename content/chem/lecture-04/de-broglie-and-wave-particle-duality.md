@@ -6,6 +6,8 @@ tags:
 
 # De Broglie Wavelength and Matter Waves
 
+(OpenStax Chemistry 2e, section 6.4, pages 302–307)
+
 Louis de Broglie postulated that matter particles exhibit wave properties.
 
 ## The De Broglie Equation

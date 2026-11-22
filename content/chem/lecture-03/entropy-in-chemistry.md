@@ -6,6 +6,8 @@ tags:
 
 # Entropy in Chemistry
 
+(OpenStax Chemistry 2e, section 16.2, pages 772–783)
+
 ## Definition and Units
 
 **Entropy ($S$)** measures the dispersal of energy and matter among available microstates:

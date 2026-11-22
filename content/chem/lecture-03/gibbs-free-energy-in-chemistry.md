@@ -6,6 +6,8 @@ tags:
 
 # Gibbs Free Energy in Chemistry
 
+(OpenStax Chemistry 2e, section 16.4, pages 790–803)
+
 ## Core Formula
 
 At constant temperature and pressure:

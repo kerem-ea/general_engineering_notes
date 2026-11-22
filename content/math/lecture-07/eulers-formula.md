@@ -6,6 +6,8 @@ tags:
 
 # Euler's Formula
 
+(book section 4.5, pages 65-67)
+
 ## Statement
 
 For every real number $t \in \mathbb{R}$:

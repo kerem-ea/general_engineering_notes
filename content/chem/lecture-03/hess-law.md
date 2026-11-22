@@ -6,6 +6,8 @@ tags:
 
 # Hess's Law
 
+(OpenStax Chemistry 2e, section 5.4, pages 252–262)
+
 ## Principle
 
 If a chemical process equals the sum of multiple stepwise reactions, the overall enthalpy change equals the sum of the step enthalpy changes:

@@ -6,6 +6,8 @@ tags:
 
 # Nomenclature, Ions, and Formulae
 
+(OpenStax Chemistry 2e, sections 2.6–2.7, pages 93–105)
+
 ## Basic terminology
 
 - **Element:** a substance consisting of atoms with the same atomic number.

@@ -6,6 +6,8 @@ tags:
 
 # Solvability and Rank
 
+(book section 6.3 and 6.4, pages 107-112)
+
 ## Column Vectors
 
 $F^n$ is identified with $F^{n \times 1}$: $(1, 2, 4, 7)$ is written as a column. Operations are entrywise:

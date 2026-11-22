@@ -6,6 +6,8 @@ tags:
 
 # Factorization of Real Polynomials
 
+(book section 5.6, pages 89-91)
+
 ## Theorem
 
 Every polynomial $p(Z) \in \mathbb{R}[Z]$ of degree $n \geq 1$ can be factored over $\mathbb{R}$ into linear and irreducible quadratic factors:

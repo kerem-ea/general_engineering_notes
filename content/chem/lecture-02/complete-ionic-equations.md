@@ -6,6 +6,8 @@ tags:
 
 # Complete Ionic Equations
 
+(OpenStax Chemistry 2e, section 4.2, pages 169–178)
+
 A **complete ionic equation** explicitly shows all dissolved ions in an aqueous reaction.
 
 - **Soluble strong electrolytes** (soluble salts, strong acids, strong bases) dissociate into constituent aqueous ions (e.g., $CaCl_2(aq) \to Ca^{2+}(aq) + 2Cl^-(aq)$).

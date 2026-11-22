@@ -6,6 +6,8 @@ tags:
 
 # Root Multiplicity
 
+(book section 5.6, pages 88-90)
+
 ## Definition
 
 The **multiplicity** of a root $\lambda$ of $p(Z)$, denoted $m(\lambda) \in \mathbb{N}$, is:

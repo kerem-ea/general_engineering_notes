@@ -6,6 +6,8 @@ tags:
 
 # Lewis Symbols and Structures
 
+(OpenStax Chemistry 2e, section 7.3, pages 342–354)
+
 A **Lewis symbol** represents an element by its chemical symbol surrounded by dots indicating its valence electrons (one dot per valence electron).
 
 ## Lewis Symbols for Atoms and Ions

@@ -6,6 +6,8 @@ tags:
 
 # Hybridization
 
+(OpenStax Chemistry 2e, sections 8.2–8.3, pages 396–414)
+
 **Hybridization** is the mathematical mixing (linear combination) of atomic orbitals on the same atom to form new **hybrid orbitals** with shapes and energies suited for bonding. Hybrid orbitals exist only in bonded atoms, not in isolated atoms.
 
 Key principles:

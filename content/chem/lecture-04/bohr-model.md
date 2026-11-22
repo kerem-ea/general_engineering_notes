@@ -6,6 +6,8 @@ tags:
 
 # Bohr Model of the Hydrogen Atom
 
+(OpenStax Chemistry 2e, section 6.3, pages 294–302)
+
 Niels Bohr modeled the hydrogen atom using quantized electronic orbits that account for atomic emission lines.
 
 ## Postulates of the Bohr Model

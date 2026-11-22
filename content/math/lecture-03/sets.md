@@ -6,6 +6,8 @@ tags:
 
 # Sets
 
+(book section 2.1, pages 16-18)
+
 ## Definition
 
 A **set** is a collection of distinct objects (duplicates ignored) called **elements**.

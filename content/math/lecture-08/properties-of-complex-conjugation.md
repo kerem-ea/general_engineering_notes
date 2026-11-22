@@ -6,6 +6,8 @@ tags:
 
 # Properties of Complex Conjugation
 
+(book section 4.2 and 5.3, pages 56-59, 77-80)
+
 ## Algebraic Properties
 
 For all $z, z_1, z_2 \in \mathbb{C}$ and $n \in \mathbb{Z}$:

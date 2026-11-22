@@ -6,6 +6,8 @@ tags:
 
 # Fibonacci Numbers
 
+(book section 3.1, pages 37-39)
+
 ## Recursive definition
 
 The **Fibonacci numbers** are the values of a [[math/lecture-03/functions|function]] $F : \mathbb{N} \to \mathbb{N}$ defined [[recursive-functions|recursively]] by:

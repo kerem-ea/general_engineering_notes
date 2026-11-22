@@ -6,6 +6,8 @@ tags:
 
 # Propositions and Truth Values
 
+(book section 1.2, pages 1-5)
+
 ## Foundations of mathematics
 
 Mathematics is built upon **axioms**: fundamental statements assumed to be true without proof. From axioms and precise definitions, all theorems and mathematical structures are rigorously derived. Mathematics is simultaneously:

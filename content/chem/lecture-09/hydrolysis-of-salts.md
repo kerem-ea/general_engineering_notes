@@ -6,6 +6,8 @@ tags:
 
 # Hydrolysis of Salts
 
+(OpenStax Chemistry 2e, section 14.4, pages 749–756)
+
 When salts dissolve in water, their constituent ions can react with water molecules (hydrolysis), generating $\mathrm{H_3O^+}$ or $\mathrm{OH^-}$ and altering the solution pH (see [[chem/lecture-09/strengths-of-acids-and-bases|Strengths of Acids and Bases]]).
 
 ## Spectator Ions (Neutral)

@@ -6,6 +6,8 @@ tags:
 
 # Complex Numbers in Polar Form
 
+(book section 4.6, pages 67-71)
+
 ## Polar Form Representation
 
 Every non-zero complex number $z \in \mathbb{C} \setminus \{0\}$ has a polar representation:

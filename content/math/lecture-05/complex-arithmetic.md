@@ -6,6 +6,8 @@ tags:
 
 # Complex Arithmetic
 
+(book section 4.2, pages 53-56)
+
 Let $a, b, c, d \in \mathbb{R}$ and $z, w \in \mathbb{C}$ where $z = a + bi$ and $w = c + di$.
 
 ## Addition

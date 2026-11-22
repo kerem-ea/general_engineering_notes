@@ -6,6 +6,8 @@ tags:
 
 # Gas Pressure
 
+(OpenStax Chemistry 2e, section 9.1, pages 406–415)
+
 **Gas pressure** arises from the force exerted by gas particles colliding with surface walls, as explained by the [[kinetic-molecular-theory|Kinetic-Molecular Theory]]:
 
 $$

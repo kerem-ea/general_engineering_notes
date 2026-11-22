@@ -6,6 +6,8 @@ tags:
 
 # Chemical Reaction Rates
 
+(OpenStax Chemistry 2e, section 12.1, pages 606–619)
+
 The **rate of reaction** measures the change in concentration of a reactant or product per unit time:
 
 $$

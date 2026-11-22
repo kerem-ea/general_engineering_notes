@@ -6,6 +6,8 @@ tags:
 
 # The Conjugate Root Theorem
 
+(book section 5.3, pages 77-79)
+
 ## Theorem Statement
 
 Let $p(Z) = \sum_{k=0}^n a_k Z^k \in \mathbb{R}[Z]$ be a polynomial with real coefficients ($a_k \in \mathbb{R}$ for all $k$).

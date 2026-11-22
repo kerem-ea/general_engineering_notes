@@ -6,6 +6,8 @@ tags:
 
 # Atomic Emission Spectra and Rydberg Formula
 
+(OpenStax Chemistry 2e, section 6.3, pages 290–297)
+
 ## Continuous vs Line Spectra
 
 - **Continuous Spectrum:** An unbroken band of all wavelengths in a spectral region, produced by hot condensed matter (solids, liquids).

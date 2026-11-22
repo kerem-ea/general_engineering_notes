@@ -6,6 +6,8 @@ tags:
 
 # First Law and Internal Energy
 
+(OpenStax Chemistry 2e, section 5.2, pages 229–237)
+
 ## First Law of Thermodynamics
 
 $$

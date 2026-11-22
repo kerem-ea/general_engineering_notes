@@ -18,3 +18,4 @@ tags:
 - [[chem/lecture-08/index|Lecture 8]]
 - [[chem/lecture-09/index|Lecture 9]]
 - [[chem/lecture-10/index|Lecture 10]]
+- [[chem/lecture-11/index|Lecture 11]]

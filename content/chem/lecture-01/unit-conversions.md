@@ -6,6 +6,8 @@ tags:
 
 # Unit Conversions
 
+(OpenStax Chemistry 2e, section 1.4, pages 36–42)
+
 ## Distance
 
 | Imperial | Metric |

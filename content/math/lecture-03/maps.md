@@ -6,6 +6,8 @@ tags:
 
 # Maps
 
+(book section 2.2, pages 22-24)
+
 A **map** (or **function**) $f$ assigns exactly one output to every input:
 
 $$

@@ -6,6 +6,8 @@ tags:
 
 # Basis and Dimension of Vector Spaces
 
+(book section 10.2, pages 180-185)
+
 Generalizes linear independence, spanning sets, and dimension from column vectors to arbitrary vector spaces (see [[math/lecture-15/ordered-basis|Ordered Basis]] and [[math/lecture-15/dimension-and-rank-nullity|Dimension and Rank-Nullity]]).
 
 ## Linear Combinations and Linear Independence

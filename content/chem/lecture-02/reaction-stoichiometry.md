@@ -6,6 +6,8 @@ tags:
 
 # Stoichiometry
 
+(OpenStax Chemistry 2e, section 4.3, pages 186–196)
+
 **Stoichiometry** relates the quantitative amounts of reactants and products based on the **mole ratios** established by a balanced chemical equation.
 
 ## Mole Ratios

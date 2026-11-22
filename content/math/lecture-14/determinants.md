@@ -6,6 +6,8 @@ tags:
 
 # Determinants
 
+(book section 8.1, pages 135-140)
+
 The **determinant** $\det(A)$ is a scalar assigned to any square matrix $A \in F^{n \times n}$.
 
 ## Notation: $A(i;j)$

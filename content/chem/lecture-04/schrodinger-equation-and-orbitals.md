@@ -6,6 +6,8 @@ tags:
 
 # Schrödinger Equation and Wavefunctions
 
+(OpenStax Chemistry 2e, section 6.5, pages 310–320)
+
 Erwin Schrödinger formulated quantum mechanics by describing electrons as three-dimensional stationary matter waves.
 
 ## The Schrödinger Equation

@@ -6,6 +6,8 @@ tags:
 
 # Eigenspaces
 
+(book section 12.2, pages 226-230)
+
 For an eigenvalue $\lambda$ of a linear operator $L: V \to V$ or square matrix $A \in \mathbb{F}^{n \times n}$, the set of all corresponding eigenvectors, together with $\mathbf{0}$, forms an invariant subspace called the **eigenspace**.
 
 *(For null spaces and homogeneous system solutions, see [[kernel-and-column-space|Kernel and Column Space]].)*

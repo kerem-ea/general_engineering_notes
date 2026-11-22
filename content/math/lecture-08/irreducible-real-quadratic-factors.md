@@ -6,6 +6,8 @@ tags:
 
 # Irreducible Real Quadratic Factors
 
+(book section 5.3, pages 78-80)
+
 ## Construction from Conjugate Pairs
 
 Let $\lambda = a + bi \in \mathbb{C} \setminus \mathbb{R}$ with $b \neq 0$. The conjugate root is $\overline{\lambda} = a - bi \neq \lambda$.

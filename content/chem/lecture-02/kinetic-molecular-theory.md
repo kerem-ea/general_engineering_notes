@@ -6,6 +6,8 @@ tags:
 
 # Kinetic-Molecular Theory
 
+(OpenStax Chemistry 2e, section 9.5, pages 437–444)
+
 ## Five Postulates of KMT
 
 1. **Continuous Motion:** Gas particles move continuously in straight lines until colliding with each other or container walls.

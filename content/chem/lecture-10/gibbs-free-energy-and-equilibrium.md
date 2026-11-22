@@ -7,6 +7,8 @@ tags:
 
 # Gibbs Free Energy and Equilibrium
 
+(OpenStax Chemistry 2e, sections 16.3–16.4, pages 783–805)
+
 Gibbs free energy ($G$) combines enthalpy and entropy into a single state function determining reaction spontaneity at constant temperature and pressure.
 
 *(For basic enthalpy-entropy derivations and crossover temperature calculations, see [[gibbs-free-energy-in-chemistry|Gibbs Free Energy in Chemistry]].)*

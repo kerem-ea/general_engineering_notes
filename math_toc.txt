@@ -1,0 +1,364 @@
+Contents
+
+Preface
+
+i
+
+Acknowledgements
+
+ii
+
+Contents
+
+iii
+
+List of Figures
+
+vi
+
+1
+
+Propositional logic
+1.1 Prologue: A logic problem on labels and jars . . . . . . . . . . . . . . . . . . . . .
+1.2 Getting started with propositional logic . . . . . . . . . . . . . . . . . . . . . . .
+1.3 Logical consequence and equivalence . . . . . . . . . . . . . . . . . . . . . . . . .
+1.4 Use of logic in mathematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1.5 Epilogue: the logic problem on labels and jars . . . . . . . . . . . . . . . . . . . .
+
+1
+1
+1
+5
+11
+12
+
+2
+
+Sets and functions
+2.1 Sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3 Examples of functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+16
+22
+28
+
+3
+
+Recursion and induction
+3.1 Examples of recursively defined functions . . . . . . . . . . . . . . . . . . . . . .
+3.2 The summation symbol . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3 The towers of Hanoi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.4 Induction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.5 A variant of induction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+36
+40
+41
+44
+48
+
+4
+
+Complex numbers
+4.1 Introduction to the complex numbers . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2 Arithmetic with complex numbers . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3 Modulus and argument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.4 The complex exponential function . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.5 Euler’s formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.6 Complex numbers in polar form . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+51
+51
+53
+59
+63
+65
+67
+
+5
+
+Polynomials
+5.1 Definition of polynomials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5.2 Polynomials of degree two with real coefficients . . . . . . . . . . . . . . . . . . .
+5.3 Polynomials with real coefficients . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5.4 Binomials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+72
+72
+74
+77
+80
+iii
+
+Chapter 0 Contents
+
+5.5
+5.6
+
+iv
+
+The division algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Roots, multiplicities and factorizations . . . . . . . . . . . . . . . . . . . . . . . .
+
+82
+87
+
+6
+
+Systems of linear equations
+6.1 Structure of systems of linear equations . . . . . . . . . . . . . . . . . . . . . . . .
+6.2 Transforming a system of linear equations . . . . . . . . . . . . . . . . . . . . . .
+6.3 The reduced row echelon form of a matrix . . . . . . . . . . . . . . . . . . . . . .
+6.4 Computing all solutions to systems of linear equations . . . . . . . . . . . . . . .
+6.5 Uniqueness of the reduced row echelon form . . . . . . . . . . . . . . . . . . . .
+
+92
+92
+98
+104
+109
+116
+
+7
+
+Vectors and matrices
+7.1 Vectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7.2 Matrices and vectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7.3 Square matrices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+118
+118
+124
+129
+
+8
+
+Determinants
+8.1 Determinant of a square matrix . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.2 Alternative descriptions of the determinant . . . . . . . . . . . . . . . . . . . . .
+8.3 Extra: determinants and elementary row operations . . . . . . . . . . . . . . . .
+
+135
+135
+140
+143
+
+9
+
+More on vectors and matrices
+9.1 The span of vectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9.2 Ordered basis of a span of vectors . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9.3 Kernel and column space of a matrix . . . . . . . . . . . . . . . . . . . . . . . . .
+9.4 Dimension of a span of vectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9.5 Coordinates with respect to an ordered basis . . . . . . . . . . . . . . . . . . . . .
+
+150
+150
+158
+163
+165
+168
+
+10
+
+Vector spaces
+10.1 Definition and examples of vector spaces . . . . . . . . . . . . . . . . . . . . . . .
+10.2 Basis and ordered basis of a vector space . . . . . . . . . . . . . . . . . . . . . . .
+10.3 Change-of-basis matrices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10.4 Subspaces of a vector space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10.5 Extra: why does any vector space have a basis? . . . . . . . . . . . . . . . . . . .
+
+173
+173
+176
+185
+188
+194
+
+11
+
+Linear maps between vector spaces
+11.1 Linear maps using matrices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11.2 Linear maps between general vector spaces . . . . . . . . . . . . . . . . . . . . .
+11.3 Linear maps between finite dimensional vector spaces . . . . . . . . . . . . . . .
+11.4 Usages of the matrix representation of a linear map . . . . . . . . . . . . . . . . .
+
+196
+197
+203
+206
+214
+
+12
+
+The eigenvalue problem and diagonalization
+12.1 Eigenvalues and eigenvectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12.2 Eigenspaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12.3 Diagonalization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12.4 Fibonacci numbers revisited . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12.5 Extra: What if diagonalization is not possible? . . . . . . . . . . . . . . . . . . . .
+
+219
+219
+226
+230
+234
+236
+
+13 Systems of linear ordinary differential equations of order one with constant
+coefficients
+13.1 Linear first-order ODEs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13.2 Systems of linear first-order ODEs with constant coefficients . . . . . . . . . . .
+13.3 Relating systems of linear, first-order ODEs with linear second order ODEs . . .
+13.4 Relating systems of linear, first-order ODEs with linear higher order ODEs . . .
+
+242
+244
+249
+260
+265
+
+Chapter 0 Contents
+
+A
+
+Appendices
+A.1 The unit circle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+A.2 Some rules for differentiation . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+A.3 The greek alphabet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+A.4 A small dictionary for mathematical terms . . . . . . . . . . . . . . . . . . . . . .
+
+Index
+
+v
+268
+268
+269
+270
+271
+279
+
+List of Figures
+
+1.1
+
+A problem with labels and jars . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+
+2.1
+2.2
+2.3
+
+Composition of the functions f : A → B and g : B → C . . . . . . . . . . . . . . . . .
+Injective function f : A → B . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Surjective function f : A → B . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+25
+26
+
+3.1
+
+The tower of Hanoi with eight discs. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+4.1
+4.2
+4.3
+
+The real line. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+The complex plane. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Addition of complex numbers. Here it is shown graphically that
+(3 + 2i ) + (1 + 4i ) = 4 + 6i. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Modulus and argument of a complex number z. . . . . . . . . . . . . . . . . . . . . .
+Formulas for the argument of z = a + bi. . . . . . . . . . . . . . . . . . . . . . . . . . .
+sin(4t)
+sin(2t)
+Illustration of the identity sin(3t) cos(t) = 2 + 2 . . . . . . . . . . . . . . . . .
+The complex number z written in polar form. . . . . . . . . . . . . . . . . . . . . . . .
+Graphic illustration of Theorem 4.6.2. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+51
+53
+
+4.4
+4.5
+4.6
+4.7
+4.8
+5.1
+5.2
+5.3
+
+6.1
+
+A degree two polynomial p( Z ) ∈ R[ Z ] has two real roots if D > 0, a double root if
+D = 0, and two complex, two non-real roots if D < 0. . . . . . . . . . . . . . . . . . .
+Polar form of a complex number z and its complex conjugate z. . . . . . . . . . . . .
+The graph of the polynomial function p : R → R, where p(z) = 2z5 + 9z4 − 18z3 −
+108z2 + 243. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+54
+59
+61
+66
+67
+70
+
+76
+79
+89
+
+The solutions of an inhomogeneous system can be obtained by adding a particular
+solution x p to the solutions xhom of the corresponding homogeneous system. . . . . .
+The solution set of a system of equations does not change when transforming the
+system using elementary row operations. . . . . . . . . . . . . . . . . . . . . . . . . .
+
+103
+
+7.1
+7.2
+
+Addition of two vectors v and w in R2 . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Scaling of a vector v ∈ R2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+119
+119
+
+8.1
+
+Determinant of 2 × 2 matrix. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+136
+
+9.1
+9.2
+9.3
+9.4
+9.5
+
+Some linear combinations of the vectors v1 and v2 in R2 . . . . . . . . . . . . . . . . .
+The span of one non-zero vector in R2 . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Area obtained by the linear combinations c1 · v1 + c2 · v2 where c1 , c2 ∈ [0, 1]. . . . .
+The plane containing v1 and v2 also
+ contains v3 . . . . . . . . . . . . . . . . . . . . . .
+The β-coordinates of w are 22 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+151
+153
+154
+157
+170
+
+6.2
+
+97
+
+vi
+
+

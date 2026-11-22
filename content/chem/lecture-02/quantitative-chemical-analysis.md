@@ -6,6 +6,8 @@ tags:
 
 # Quantitative Chemical Analysis
 
+(OpenStax Chemistry 2e, section 4.5, pages 201–210)
+
 ## Titration
 
 A quantitative volumetric technique where a solution of known concentration (**titrant**) is added to determine the concentration of an unknown (**analyte**):

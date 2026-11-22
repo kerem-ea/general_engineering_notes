@@ -6,6 +6,8 @@ tags:
 
 # Energy Basics
 
+(OpenStax Chemistry 2e, section 5.1, pages 220–229)
+
 ## Energy and Work
 
 - **Energy ($E$):** Capacity to do work or supply heat.

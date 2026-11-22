@@ -6,6 +6,8 @@ tags:
 
 # Concentration
 
+(OpenStax Chemistry 2e, section 3.4, pages 141–151)
+
 Molar concentration describes the amount of dissolved substance per unit volume of solution.
 
 $$

@@ -6,6 +6,8 @@ tags:
 
 # Change-of-Basis Matrices
 
+(book section 10.3, pages 185-188)
+
 When the ordered basis of a vector space changes, coordinate representations transform via a matrix multiplication (see [[math/lecture-16/coordinates-with-respect-to-a-basis|Coordinates with Respect to an Ordered Basis]] and [[math/lecture-17/coordinate-vectors-in-general-spaces|Coordinate Vectors in General Vector Spaces]]).
 
 ## Definition

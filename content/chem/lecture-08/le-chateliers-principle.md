@@ -6,6 +6,8 @@ tags:
 
 # Le Châtelier's Principle and Equilibrium Calculations
 
+(OpenStax Chemistry 2e, section 13.3, pages 697–712)
+
 **Le Châtelier's Principle:** If an equilibrium system is subjected to a disturbance (stress), the system shifts its equilibrium position in a direction that counteracts the applied disturbance.
 
 ## Summary of Stresses and System Responses

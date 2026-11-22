@@ -6,6 +6,8 @@ tags:
 
 # The Ideal Gas Law
 
+(OpenStax Chemistry 2e, sections 9.2–9.3, pages 415–431)
+
 ## Empirical Gas Laws
 
 | Law                             | Relationship            | Constants | Equation                            |

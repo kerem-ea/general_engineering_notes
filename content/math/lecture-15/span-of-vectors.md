@@ -6,6 +6,8 @@ tags:
 
 # The Span of Vectors
 
+(book section 9.1, pages 150-158)
+
 Let $\mathbf{v}_1, \ldots, \mathbf{v}_n \in F^m$ be vectors over a field $F$.
 
 ## Definition

@@ -6,6 +6,8 @@ tags:
 
 # De Moivre's Formula
 
+(book section 4.6, pages 68-71)
+
 ## Statement
 
 For all $n \in \mathbb{Z}$ and $t \in \mathbb{R}$:

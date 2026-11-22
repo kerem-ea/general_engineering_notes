@@ -6,6 +6,8 @@ tags:
 
 # Collision Theory and the Arrhenius Equation
 
+(OpenStax Chemistry 2e, section 12.5, pages 649–659)
+
 ## Collision Theory
 
 For a chemical reaction to occur, reactant particles must satisfy three conditions:

@@ -6,6 +6,8 @@ tags:
 
 # Binomial Equations Example
 
+(book section 5.4, pages 81-82)
+
 ## Problem
 
 Find all roots of $Z^4 + 8 - 8\sqrt{3}i = 0$, or equivalently solve:

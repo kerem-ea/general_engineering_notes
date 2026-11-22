@@ -6,6 +6,8 @@ tags:
 
 # Scientific Notation and Dimensional Analysis
 
+(OpenStax Chemistry 2e, section 1.4, pages 26–42)
+
 ## Scientific notation
 
 Scientific notation represents a number as

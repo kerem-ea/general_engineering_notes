@@ -6,6 +6,8 @@ tags:
 
 # Linear Maps and Linearity Requirements
 
+(book section 11.1, pages 197-203)
+
 A linear map (or linear transformation) is a structure-preserving function between two vector spaces over the same underlying scalar field $\mathbb{F}$. While vector spaces define geometric and algebraic containers, linear maps establish allowable operations and connections between them.
 
 ## Linearity Axioms

@@ -6,6 +6,8 @@ tags:
 
 # Complex Numbers
 
+(book section 4.1, pages 51-53)
+
 The complex numbers use their own specific [[complex-arithmetic|arithmetic]].
 
 The complex numbers can be represented graphically on the [[complex-plane|complex plane]] and converted to [[complex-polar-form|polar form]].

@@ -6,6 +6,8 @@ tags:
 
 # Matrices and Row Operations
 
+(book section 6.2, pages 98-104)
+
 ## Coefficient and Augmented Matrix
 
 $$

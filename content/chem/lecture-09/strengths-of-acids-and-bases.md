@@ -6,6 +6,8 @@ tags:
 
 # Strengths of Acids and Bases
 
+(OpenStax Chemistry 2e, sections 14.3–14.4, pages 736–753)
+
 Acid and base strength is determined by the equilibrium extent of ionization in water, quantified by equilibrium constants $K_a$ and $K_b$ (see [[chem/lecture-08/chemical-equilibrium-and-constants|Equilibrium Constants]]).
 
 ## Strong vs Weak Electrolytes

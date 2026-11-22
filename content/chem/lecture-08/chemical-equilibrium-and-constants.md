@@ -6,6 +6,8 @@ tags:
 
 # Chemical Equilibrium and Equilibrium Constants
 
+(OpenStax Chemistry 2e, sections 13.1–13.2, pages 680–697)
+
 A reversible reaction achieves **chemical equilibrium** when the forward and reverse reaction rates are equal:
 
 $$

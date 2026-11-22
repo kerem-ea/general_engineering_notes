@@ -6,6 +6,8 @@ tags:
 
 # Brønsted-Lowry and Lewis Acids and Bases
 
+(OpenStax Chemistry 2e, sections 14.1–14.2, pages 722–736)
+
 Acid-base chemistry describes proton and electron-pair transfer reactions across aqueous and non-aqueous media (see [[chem/lecture-08/chemical-equilibrium-and-constants|Chemical Equilibrium]]).
 
 ## Historical Models of Acidity

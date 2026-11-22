@@ -6,6 +6,8 @@ tags:
 
 # Induction Proof Towers of Hanoi Recurrence
 
+(book section 3.4, pages 46-47)
+
 ## Problem Statement
 
 Let $T: \mathbb{N} \to \mathbb{N}$ be defined by the recurrence:

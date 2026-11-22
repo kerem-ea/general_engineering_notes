@@ -6,6 +6,8 @@ tags:
 
 # Crystal Structures and Unit Cells
 
+(OpenStax Chemistry 2e, section 10.6, pages 517–532)
+
 A **crystal lattice** is a 3D periodic array of points describing the orderly arrangement of particles in a crystalline solid (see [[types-of-solids|Types of Solids]]). The smallest repeating unit that generates the entire lattice by translation is the **unit cell**.
 
 ## Cubic Unit Cell Comparison

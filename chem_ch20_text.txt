@@ -1,0 +1,1682 @@
+966
+
+20 • Organic Chemistry
+
+EXAMPLE 20.3
+Naming Halogen-substituted Alkanes
+Name the molecule whose structure is shown here:
+
+Solution
+
+The four-carbon chain is numbered from the end with the chlorine atom. This puts the substituents on positions 1
+and 2 (numbering from the other end would put the substituents on positions 3 and 4). Four carbon atoms means
+that the base name of this compound will be butane. The bromine at position 2 will be described by adding
+2-bromo-; this will come at the beginning of the name, since bromo- comes before chloro- alphabetically. The
+chlorine at position 1 will be described by adding 1-chloro-, resulting in the name of the molecule being
+2-bromo-1-chlorobutane.
+Check Your Learning
+Name the following molecule:
+
+Answer:
+3,3-dibromo-2-iodopentane
+We call a substituent that contains one less hydrogen than the corresponding alkane an alkyl group. The name of an
+alkyl group is obtained by dropping the suffix -ane of the alkane name and adding -yl:
+
+The open bonds in the methyl and ethyl groups indicate that these alkyl groups are bonded to another atom.
+
+EXAMPLE 20.4
+Naming Substituted Alkanes
+Name the molecule whose structure is shown here:
+
+Access for free at openstax.org
+
+20.1 • Hydrocarbons
+
+Solution
+The longest carbon chain runs horizontally across the page and contains six carbon atoms (this makes the base of
+the name hexane, but we will also need to incorporate the name of the branch). In this case, we want to number
+from right to left (as shown by the blue numbers) so the branch is connected to carbon 3 (imagine the numbers from
+left to right—this would put the branch on carbon 4, violating our rules). The branch attached to position 3 of our
+chain contains two carbon atoms (numbered in red)—so we take our name for two carbons eth- and attach -yl at the
+end to signify we are describing a branch. Putting all the pieces together, this molecule is 3-ethylhexane.
+Check Your Learning
+Name the following molecule:
+
+Answer:
+4-propyloctane
+Some hydrocarbons can form more than one type of alkyl group when the hydrogen atoms that would be removed
+have different “environments” in the molecule. This diversity of possible alkyl groups can be identified in the
+following way: The four hydrogen atoms in a methane molecule are equivalent; they all have the same environment.
+They are equivalent because each is bonded to a carbon atom (the same carbon atom) that is bonded to three
+hydrogen atoms. (It may be easier to see the equivalency in the ball and stick models in Figure 20.2. Removal of any
+one of the four hydrogen atoms from methane forms a methyl group. Likewise, the six hydrogen atoms in ethane are
+equivalent (Figure 20.2) and removing any one of these hydrogen atoms produces an ethyl group. Each of the six
+hydrogen atoms is bonded to a carbon atom that is bonded to two other hydrogen atoms and a carbon atom.
+However, in both propane and 2–methylpropane, there are hydrogen atoms in two different environments,
+distinguished by the adjacent atoms or groups of atoms:
+
+967
+
+968
+
+20 • Organic Chemistry
+
+Each of the six equivalent hydrogen atoms of the first type in propane and each of the nine equivalent hydrogen
+atoms of that type in 2-methylpropane (all shown in black) are bonded to a carbon atom that is bonded to only one
+other carbon atom. The two purple hydrogen atoms in propane are of a second type. They differ from the six
+hydrogen atoms of the first type in that they are bonded to a carbon atom bonded to two other carbon atoms. The
+green hydrogen atom in 2-methylpropane differs from the other nine hydrogen atoms in that molecule and from the
+purple hydrogen atoms in propane. The green hydrogen atom in 2-methylpropane is bonded to a carbon atom
+bonded to three other carbon atoms. Two different alkyl groups can be formed from each of these molecules,
+depending on which hydrogen atom is removed. The names and structures of these and several other alkyl groups
+are listed in Figure 20.5.
+
+FIGURE 20.5 This listing gives the names and formulas for various alkyl groups formed by the removal of hydrogen atoms from different
+locations.
+
+Note that alkyl groups do not exist as stable independent entities. They are always a part of some larger molecule.
+The location of an alkyl group on a hydrocarbon chain is indicated in the same way as any other substituent:
+
+Access for free at openstax.org
+
+20.1 • Hydrocarbons
+
+Alkanes are relatively stable molecules, but heat or light will activate reactions that involve the breaking of C–H or
+C–C single bonds. Combustion is one such reaction:
+
+Alkanes burn in the presence of oxygen, a highly exothermic oxidation-reduction reaction that produces carbon
+dioxide and water. As a consequence, alkanes are excellent fuels. For example, methane, CH4, is the principal
+component of natural gas. Butane, C4H10, used in camping stoves and lighters is an alkane. Gasoline is a liquid
+mixture of continuous- and branched-chain alkanes, each containing from five to nine carbon atoms, plus various
+additives to improve its performance as a fuel. Kerosene, diesel oil, and fuel oil are primarily mixtures of alkanes
+with higher molecular masses. The main source of these liquid alkane fuels is crude oil, a complex mixture that is
+separated by fractional distillation. Fractional distillation takes advantage of differences in the boiling points of the
+components of the mixture (see Figure 20.6). You may recall that boiling point is a function of intermolecular
+interactions, which was discussed in the chapter on solutions and colloids.
+
+FIGURE 20.6 In a column for the fractional distillation of crude oil, oil heated to about 425 °C in the furnace vaporizes when it enters the
+base of the tower. The vapors rise through bubble caps in a series of trays in the tower. As the vapors gradually cool, fractions of higher,
+then of lower, boiling points condense to liquids and are drawn off. (credit left: modification of work by Luigi Chiesa)
+
+In a substitution reaction, another typical reaction of alkanes, one or more of the alkane’s hydrogen atoms is
+replaced with a different atom or group of atoms. No carbon-carbon bonds are broken in these reactions, and the
+hybridization of the carbon atoms does not change. For example, the reaction between ethane and molecular
+chlorine depicted here is a substitution reaction:
+
+The C–Cl portion of the chloroethane molecule is an example of a functional group, the part or moiety of a molecule
+
+969
+
+970
+
+20 • Organic Chemistry
+
+that imparts a specific chemical reactivity. The types of functional groups present in an organic molecule are major
+determinants of its chemical properties and are used as a means of classifying organic compounds as detailed in the
+remaining sections of this chapter.
+
+LINK TO LEARNING
+Want more practice naming alkanes? Watch this brief video tutorial (http://openstax.org/l/16alkanes) to review the
+nomenclature process.
+
+Alkenes
+Organic compounds that contain one or more double or triple bonds between carbon atoms are described as
+unsaturated. You have likely heard of unsaturated fats. These are complex organic molecules with long chains of
+carbon atoms, which contain at least one double bond between carbon atoms. Unsaturated hydrocarbon molecules
+that contain one or more double bonds are called alkenes. Carbon atoms linked by a double bond are bound
+together by two bonds, one σ bond and one π bond. Double and triple bonds give rise to a different geometry around
+the carbon atom that participates in them, leading to important differences in molecular shape and properties. The
+differing geometries are responsible for the different properties of unsaturated versus saturated fats.
+Ethene, C2H4, is the simplest alkene. Each carbon atom in ethene, commonly called ethylene, has a trigonal planar
+structure. The second member of the series is propene (propylene) (Figure 20.7); the butene isomers follow in the
+series. Four carbon atoms in the chain of butene allows for the formation of isomers based on the position of the
+double bond, as well as a new form of isomerism.
+
+FIGURE 20.7 Expanded structures, ball-and-stick structures, and space-filling models for the alkenes ethene, propene, and 1-butene are
+shown.
+
+Ethylene (the common industrial name for ethene) is a basic raw material in the production of polyethylene and
+other important compounds. Over 135 million tons of ethylene were produced worldwide in 2010 for use in the
+polymer, petrochemical, and plastic industries. Ethylene is produced industrially in a process called cracking, in
+which the long hydrocarbon chains in a petroleum mixture are broken into smaller molecules.
+
+CHEMISTRY IN EVERYDAY LIFE
+Recycling Plastics
+Polymers (from Greek words poly meaning “many” and mer meaning “parts”) are large molecules made up of
+repeating units, referred to as monomers. Polymers can be natural (starch is a polymer of sugar residues and
+
+Access for free at openstax.org
+
+20.1 • Hydrocarbons
+
+proteins are polymers of amino acids) or synthetic [like polyethylene, polyvinyl chloride (PVC), and polystyrene].
+The variety of structures of polymers translates into a broad range of properties and uses that make them
+integral parts of our everyday lives. Adding functional groups to the structure of a polymer can result in
+significantly different properties (see the discussion about Kevlar later in this chapter).
+An example of a polymerization reaction is shown in Figure 20.8. The monomer ethylene (C2H4) is a gas at room
+temperature, but when polymerized, using a transition metal catalyst, it is transformed into a solid material
+made up of long chains of –CH2– units called polyethylene. Polyethylene is a commodity plastic used primarily
+for packaging (bags and films).
+
+FIGURE 20.8 The reaction for the polymerization of ethylene to polyethylene is shown.
+
+Polyethylene is a member of one subset of synthetic polymers classified as plastics. Plastics are synthetic
+organic solids that can be molded; they are typically organic polymers with high molecular masses. Most of the
+monomers that go into common plastics (ethylene, propylene, vinyl chloride, styrene, and ethylene
+terephthalate) are derived from petrochemicals and are not very biodegradable, making them candidate
+materials for recycling. Recycling plastics helps minimize the need for using more of the petrochemical supplies
+and also minimizes the environmental damage caused by throwing away these nonbiodegradable materials.
+Plastic recycling is the process of recovering waste, scrap, or used plastics, and reprocessing the material into
+useful products. For example, polyethylene terephthalate (soft drink bottles) can be melted down and used for
+plastic furniture, in carpets, or for other applications. Other plastics, like polyethylene (bags) and polypropylene
+(cups, plastic food containers), can be recycled or reprocessed to be used again. Many areas of the country have
+recycling programs that focus on one or more of the commodity plastics that have been assigned a recycling
+code (see Figure 20.9). These operations have been in effect since the 1970s and have made the production of
+some plastics among the most efficient industrial operations today.
+
+971
+
+972
+
+20 • Organic Chemistry
+
+FIGURE 20.9 Each type of recyclable plastic is imprinted with a code for easy identification.
+
+The name of an alkene is derived from the name of the alkane with the same number of carbon atoms. The presence
+of the double bond is signified by replacing the suffix -ane with the suffix -ene. The location of the double bond is
+identified by naming the smaller of the numbers of the carbon atoms participating in the double bond:
+
+Isomers of Alkenes
+Molecules of 1-butene and 2-butene are structural isomers; the arrangement of the atoms in these two molecules
+differs. As an example of arrangement differences, the first carbon atom in 1-butene is bonded to two hydrogen
+atoms; the first carbon atom in 2-butene is bonded to three hydrogen atoms.
+The compound 2-butene and some other alkenes also form a second type of isomer called a geometric isomer. In a
+set of geometric isomers, the same types of atoms are attached to each other in the same order, but the geometries
+of the two molecules differ. Geometric isomers of alkenes differ in the orientation of the groups on either side of a
+bond.
+Carbon atoms are free to rotate around a single bond but not around a double bond; a double bond is rigid. This
+makes it possible to have two isomers of 2-butene, one with both methyl groups on the same side of the double
+bond and one with the methyl groups on opposite sides. When structures of butene are drawn with 120° bond
+
+Access for free at openstax.org
+
+20.1 • Hydrocarbons
+
+angles around the sp2-hybridized carbon atoms participating in the double bond, the isomers are apparent. The
+2-butene isomer in which the two methyl groups are on the same side is called a cis-isomer; the one in which the
+two methyl groups are on opposite sides is called a trans-isomer (Figure 20.10). The different geometries produce
+different physical properties, such as boiling point, that may make separation of the isomers possible:
+
+FIGURE 20.10 These molecular models show the structural and geometric isomers of butene.
+
+Alkenes are much more reactive than alkanes because the
+moiety is a reactive functional group. A π bond,
+being a weaker bond, is disrupted much more easily than a σ bond. Thus, alkenes undergo a characteristic reaction
+in which the π bond is broken and replaced by two σ bonds. This reaction is called an addition reaction. The
+hybridization of the carbon atoms in the double bond in an alkene changes from sp2 to sp3 during an addition
+reaction. For example, halogens add to the double bond in an alkene instead of replacing hydrogen, as occurs in an
+alkane:
+
+EXAMPLE 20.5
+Alkene Reactivity and Naming
+Provide the IUPAC names for the reactant and product of the halogenation reaction shown here:
+
+Solution
+The reactant is a five-carbon chain that contains a carbon-carbon double bond, so the base name will be pentene.
+We begin counting at the end of the chain closest to the double bond—in this case, from the left—the double bond
+spans carbons 2 and 3, so the name becomes 2-pentene. Since there are two carbon-containing groups attached to
+the two carbon atoms in the double bond—and they are on the same side of the double bond—this molecule is the
+cis-isomer, making the name of the starting alkene cis-2-pentene. The product of the halogenation reaction will
+
+973
+
+974
+
+20 • Organic Chemistry
+
+have two chlorine atoms attached to the carbon atoms that were a part of the carbon-carbon double bond:
+
+This molecule is now a substituted alkane and will be named as such. The base of the name will be pentane. We will
+count from the end that numbers the carbon atoms where the chlorine atoms are attached as 2 and 3, making the
+name of the product 2,3-dichloropentane.
+Check Your Learning
+Provide names for the reactant and product of the reaction shown:
+
+Answer:
+reactant: cis-3-hexene product: 3,4-dichlorohexane
+
+Alkynes
+Hydrocarbon molecules with one or more triple bonds are called alkynes; they make up another series of
+unsaturated hydrocarbons. Two carbon atoms joined by a triple bond are bound together by one σ bond and two π
+bonds. The sp-hybridized carbons involved in the triple bond have bond angles of 180°, giving these types of bonds
+a linear, rod-like shape.
+The simplest member of the alkyne series is ethyne, C2H2, commonly called acetylene. The Lewis structure for
+ethyne, a linear molecule, is:
+
+The IUPAC nomenclature for alkynes is similar to that for alkenes except that the suffix -yne is used to indicate a
+triple bond in the chain. For example,
+is called 1-butyne.
+
+EXAMPLE 20.6
+Structure of Alkynes
+Describe the geometry and hybridization of the carbon atoms in the following molecule:
+
+Solution
+Carbon atoms 1 and 4 have four single bonds and are thus tetrahedral with sp3 hybridization. Carbon atoms 2 and 3
+are involved in the triple bond, so they have linear geometries and would be classified as sp hybrids.
+Check Your Learning
+Identify the hybridization and bond angles at the carbon atoms in the molecule shown:
+
+Access for free at openstax.org
+
+20.1 • Hydrocarbons
+
+Answer:
+carbon 1: sp, 180°; carbon 2: sp, 180°; carbon 3: sp2, 120°; carbon 4: sp2, 120°; carbon 5: sp3, 109.5°
+Chemically, the alkynes are similar to the alkenes. Since the
+functional group has two π bonds, alkynes
+typically react even more readily, and react with twice as much reagent in addition reactions. The reaction of
+acetylene with bromine is a typical example:
+
+Acetylene and the other alkynes also burn readily. An acetylene torch takes advantage of the high heat of
+combustion for acetylene.
+
+Aromatic Hydrocarbons
+Benzene, C6H6, is the simplest member of a large family of hydrocarbons, called aromatic hydrocarbons. These
+compounds contain ring structures and exhibit bonding that must be described using the resonance hybrid concept
+of valence bond theory or the delocalization concept of molecular orbital theory. (To review these concepts, refer to
+the earlier chapters on chemical bonding). The resonance structures for benzene, C6H6, are:
+
+Valence bond theory describes the benzene molecule and other planar aromatic hydrocarbon molecules as
+hexagonal rings of sp2-hybridized carbon atoms with the unhybridized p orbital of each carbon atom perpendicular
+to the plane of the ring. Three valence electrons in the sp2 hybrid orbitals of each carbon atom and the valence
+electron of each hydrogen atom form the framework of σ bonds in the benzene molecule. The fourth valence
+electron of each carbon atom is shared with an adjacent carbon atom in their unhybridized p orbitals to yield the π
+bonds. Benzene does not, however, exhibit the characteristics typical of an alkene. Each of the six bonds between its
+carbon atoms is equivalent and exhibits properties that are intermediate between those of a C–C single bond and a
+double bond. To represent this unique bonding, structural formulas for benzene and its derivatives are
+typically drawn with single bonds between the carbon atoms and a circle within the ring as shown in Figure 20.11.
+
+FIGURE 20.11 This condensed formula shows the unique bonding structure of benzene.
+
+There are many derivatives of benzene. The hydrogen atoms can be replaced by many different substituents.
+Aromatic compounds more readily undergo substitution reactions than addition reactions; replacement of one of the
+hydrogen atoms with another substituent will leave the delocalized double bonds intact. The following are typical
+examples of substituted benzene derivatives:
+
+975
+
+976
+
+20 • Organic Chemistry
+
+Toluene and xylene are important solvents and raw materials in the chemical industry. Styrene is used to produce
+the polymer polystyrene.
+
+EXAMPLE 20.7
+Structure of Aromatic Hydrocarbons
+One possible isomer created by a substitution reaction that replaces a hydrogen atom attached to the aromatic ring
+of toluene with a chlorine atom is shown here. Draw two other possible isomers in which the chlorine atom replaces
+a different hydrogen atom attached to the aromatic ring:
+
+Solution
+Since the six-carbon ring with alternating double bonds is necessary for the molecule to be classified as aromatic,
+appropriate isomers can be produced only by changing the positions of the chloro-substituent relative to the
+methyl-substituent:
+
+Check Your Learning
+Draw three isomers of a six-membered aromatic ring compound substituted with two bromines.
+Answer:
+
+Access for free at openstax.org
+
+20.2 • Alcohols and Ethers
+
+20.2 Alcohols and Ethers
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+• Describe the structure and properties of alcohols
+• Describe the structure and properties of ethers
+• Name and draw structures for alcohols and ethers
+In this section, we will learn about alcohols and ethers.
+
+Alcohols
+Incorporation of an oxygen atom into carbon- and hydrogen-containing molecules leads to new functional groups
+and new families of compounds. When the oxygen atom is attached by single bonds, the molecule is either an
+alcohol or ether.
+Alcohols are derivatives of hydrocarbons in which an –OH group has replaced a hydrogen atom. Although all
+alcohols have one or more hydroxyl (–OH) functional groups, they do not behave like bases such as NaOH and KOH.
+NaOH and KOH are ionic compounds that contain OH– ions. Alcohols are covalent molecules; the –OH group in an
+alcohol molecule is attached to a carbon atom by a covalent bond.
+Ethanol, CH3CH2OH, also called ethyl alcohol, is a particularly important alcohol for human use. Ethanol is the
+alcohol produced by some species of yeast that is found in wine, beer, and distilled drinks. It has long been prepared
+by humans harnessing the metabolic efforts of yeasts in fermenting various sugars:
+
+Large quantities of ethanol are synthesized from the addition reaction of water with ethylene using an acid as a
+catalyst:
+
+Alcohols containing two or more hydroxyl groups can be made. Examples include 1,2-ethanediol (ethylene glycol,
+used in antifreeze) and 1,2,3-propanetriol (glycerine, used as a solvent for cosmetics and medicines):
+
+Naming Alcohols
+The name of an alcohol comes from the hydrocarbon from which it was derived. The final -e in the name of the
+hydrocarbon is replaced by -ol, and the carbon atom to which the –OH group is bonded is indicated by a number
+5
+placed before the name.
+
+5 The IUPAC adopted new nomenclature guidelines in 2013 that require this number to be placed as an “infix” rather than a prefix. For
+example, the new name for 2-propanol would be propan-2-ol. Widespread adoption of this new nomenclature will take some time, and
+students are encouraged to be familiar with both the old and new naming protocols.
+
+977
+
+978
+
+20 • Organic Chemistry
+
+EXAMPLE 20.8
+Naming Alcohols
+Consider the following example. How should it be named?
+
+Solution
+The carbon chain contains five carbon atoms. If the hydroxyl group was not present, we would have named this
+molecule pentane. To address the fact that the hydroxyl group is present, we change the ending of the name to -ol.
+In this case, since the –OH is attached to carbon 2 in the chain, we would name this molecule 2-pentanol.
+Check Your Learning
+Name the following molecule:
+
+Answer:
+2-methyl-2-pentanol
+
+Ethers
+Ethers are compounds that contain the functional group –O–. Ethers do not have a designated suffix like the other
+types of molecules we have named so far. In the IUPAC system, the oxygen atom and the smaller carbon branch are
+named as an alkoxy substituent and the remainder of the molecule as the base chain, as in alkanes. As shown in the
+following compound, the red symbols represent the smaller alkyl group and the oxygen atom, which would be
+named “methoxy.” The larger carbon branch would be ethane, making the molecule methoxyethane. Many ethers
+are referred to with common names instead of the IUPAC system names. For common names, the two branches
+connected to the oxygen atom are named separately and followed by “ether.” The common name for the compound
+shown in Example 20.9 is ethylmethyl ether:
+
+EXAMPLE 20.9
+Naming Ethers
+Provide the IUPAC and common name for the ether shown here:
+
+Solution
+IUPAC: The molecule is made up of an ethoxy group attached to an ethane chain, so the IUPAC name would be
+ethoxyethane.
+Common: The groups attached to the oxygen atom are both ethyl groups, so the common name would be diethyl
+ether.
+
+Access for free at openstax.org
+
+20.2 • Alcohols and Ethers
+
+Check Your Learning
+Provide the IUPAC and common name for the ether shown:
+
+Answer:
+IUPAC: 2-methoxypropane; common: isopropylmethyl ether
+Ethers can be obtained from alcohols by the elimination of a molecule of water from two molecules of the alcohol.
+For example, when ethanol is treated with a limited amount of sulfuric acid and heated to 140 °C, diethyl ether and
+water are formed:
+
+In the general formula for ethers, R—O—R, the hydrocarbon groups (R) may be the same or different. Diethyl ether,
+the most widely used compound of this class, is a colorless, volatile liquid that is highly flammable. It was first used
+in 1846 as an anesthetic, but better anesthetics have now largely taken its place. Diethyl ether and other ethers are
+presently used primarily as solvents for gums, fats, waxes, and resins. Tertiary-butyl methyl ether, C4H9OCH3
+(abbreviated MTBE—italicized portions of names are not counted when ranking the groups alphabetically—so butyl
+comes before methyl in the common name), is used as an additive for gasoline. MTBE belongs to a group of
+chemicals known as oxygenates due to their capacity to increase the oxygen content of gasoline.
+
+LINK TO LEARNING
+Want more practice naming ethers? This brief video review (http://openstax.org/l/16ethers) summarizes the
+nomenclature for ethers.
+
+CHEMISTRY IN EVERYDAY LIFE
+Carbohydrates and Diabetes
+Carbohydrates are large biomolecules made up of carbon, hydrogen, and oxygen. The dietary forms of
+carbohydrates are foods rich in these types of molecules, like pastas, bread, and candy. The name
+“carbohydrate” comes from the formula of the molecules, which can be described by the general formula
+Cm(H2O)n, which shows that they are in a sense “carbon and water” or “hydrates of carbon.” In many cases, m
+and n have the same value, but they can be different. The smaller carbohydrates are generally referred to as
+“sugars,” the biochemical term for this group of molecules is “saccharide” from the Greek word for sugar (Figure
+20.12). Depending on the number of sugar units joined together, they may be classified as monosaccharides
+(one sugar unit), disaccharides (two sugar units), oligosaccharides (a few sugars), or polysaccharides (the
+polymeric version of sugars—polymers were described in the feature box earlier in this chapter on recycling
+plastics). The scientific names of sugars can be recognized by the suffix -ose at the end of the name (for
+instance, fruit sugar is a monosaccharide called “fructose” and milk sugar is a disaccharide called lactose
+composed of two monosaccharides, glucose and galactose, connected together). Sugars contain some of the
+functional groups we have discussed: Note the alcohol groups present in the structures and how
+monosaccharide units are linked to form a disaccharide by formation of an ether.
+
+979
+
+980
+
+20 • Organic Chemistry
+
+FIGURE 20.12 The illustrations show the molecular structures of fructose, a five-carbon monosaccharide, and of lactose, a
+disaccharide composed of two isomeric, six-carbon sugars.
+
+Organisms use carbohydrates for a variety of functions. Carbohydrates can store energy, such as the
+polysaccharides glycogen in animals or starch in plants. They also provide structural support, such as the
+polysaccharide cellulose in plants and the modified polysaccharide chitin in fungi and animals. The sugars ribose
+and deoxyribose are components of the backbones of RNA and DNA, respectively. Other sugars play key roles in
+the function of the immune system, in cell-cell recognition, and in many other biological roles.
+Diabetes is a group of metabolic diseases in which a person has a high sugar concentration in their blood (Figure
+20.13). Diabetes may be caused by insufficient insulin production by the pancreas or by the body’s cells not
+responding properly to the insulin that is produced. In a healthy person, insulin is produced when it is needed
+and functions to transport glucose from the blood into the cells where it can be used for energy. The long-term
+complications of diabetes can include loss of eyesight, heart disease, and kidney failure.
+In 2013, it was estimated that approximately 3.3% of the world’s population (~380 million people) suffered
+from diabetes, resulting in over a million deaths annually. Prevention involves eating a healthy diet, getting
+plenty of exercise, and maintaining a normal body weight. Treatment involves all of these lifestyle practices and
+may require injections of insulin.
+Even after treatment protocols were introduced, the need to continually monitor their glucose levels posed a
+challenge for people with diabetes. The first tests required a doctor or lab, and therefore limited access and
+frequency. Eventually, researchers developed small tablets that would react to the presence of glucose in urine,
+but these still required a relatively complex process. Chemist Helen Free, who was working on improvements to
+the tablets, conceived a simpler device: a small test strip. With her husband and research partner, Alfred Free,
+she produced the first such product for measuring glucose; soon after, she expanded the technology to provide
+test strips for other compounds and conditions. While very recent advances (such as breath tests, discussed
+earlier in the text) have shown promise in replacing test strips, they have been widely used for decades and
+remain a primary method today.
+
+Access for free at openstax.org
+
+20.3 • Aldehydes, Ketones, Carboxylic Acids, and Esters
+
+FIGURE 20.13 Diabetes is a disease characterized by high concentrations of glucose in the blood. Treating diabetes involves making
+lifestyle changes, monitoring blood-sugar levels, and sometimes insulin injections. (credit: “Blausen Medical
+Communications”/Wikimedia Commons)
+
+20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+• Describe the structure and properties of aldehydes, ketones, carboxylic acids and esters
+Another class of organic molecules contains a carbon atom connected to an oxygen atom by a double bond,
+commonly called a carbonyl group. The trigonal planar carbon in the carbonyl group can attach to two other
+substituents leading to several subfamilies (aldehydes, ketones, carboxylic acids and esters) described in this
+section.
+
+Aldehydes and Ketones
+Both aldehydes and ketones contain a carbonyl group, a functional group with a carbon-oxygen double bond. The
+names for aldehyde and ketone compounds are derived using similar nomenclature rules as for alkanes and
+alcohols, and include the class-identifying suffixes -al and -one, respectively:
+
+In an aldehyde, the carbonyl group is bonded to at least one hydrogen atom. In a ketone, the carbonyl group is
+bonded to two carbon atoms:
+
+981
+
+982
+
+20 • Organic Chemistry
+
+As text, an aldehyde group is represented as –CHO; a ketone is represented as –C(O)– or –CO–.
+In both aldehydes and ketones, the geometry around the carbon atom in the carbonyl group is trigonal planar; the
+carbon atom exhibits sp2 hybridization. Two of the sp2 orbitals on the carbon atom in the carbonyl group are used to
+form σ bonds to the other carbon or hydrogen atoms in a molecule. The remaining sp2 hybrid orbital forms a σ bond
+to the oxygen atom. The unhybridized p orbital on the carbon atom in the carbonyl group overlaps a p orbital on the
+oxygen atom to form the π bond in the double bond.
+Like the
+bond in carbon dioxide, the
+bond of a carbonyl group is polar (recall that oxygen is
+significantly more electronegative than carbon, and the shared electrons are pulled toward the oxygen atom and
+away from the carbon atom). Many of the reactions of aldehydes and ketones start with the reaction between a
+Lewis base and the carbon atom at the positive end of the polar
+bond to yield an unstable intermediate that
+subsequently undergoes one or more structural rearrangements to form the final product (Figure 20.14).
+
+FIGURE 20.14 The carbonyl group is polar, and the geometry of the bonds around the central carbon is trigonal planar.
+
+The importance of molecular structure in the reactivity of organic compounds is illustrated by the reactions that
+produce aldehydes and ketones. We can prepare a carbonyl group by oxidation of an alcohol—for organic molecules,
+oxidation of a carbon atom is said to occur when a carbon-hydrogen bond is replaced by a carbon-oxygen bond. The
+reverse reaction—replacing a carbon-oxygen bond by a carbon-hydrogen bond—is a reduction of that carbon atom.
+Recall that oxygen is generally assigned a –2 oxidation number unless it is elemental or attached to a fluorine.
+Hydrogen is generally assigned an oxidation number of +1 unless it is attached to a metal. Since carbon does not
+have a specific rule, its oxidation number is determined algebraically by factoring the atoms it is attached to and the
+overall charge of the molecule or ion. In general, a carbon atom attached to an oxygen atom will have a more
+positive oxidation number and a carbon atom attached to a hydrogen atom will have a more negative oxidation
+number. This should fit nicely with your understanding of the polarity of C–O and C–H bonds. The other reagents and
+possible products of these reactions are beyond the scope of this chapter, so we will focus only on the changes to
+the carbon atoms:
+
+EXAMPLE 20.10
+Oxidation and Reduction in Organic Chemistry
+Methane represents the completely reduced form of an organic molecule that contains one carbon atom.
+Sequentially replacing each of the carbon-hydrogen bonds with a carbon-oxygen bond would lead to an alcohol,
+then an aldehyde, then a carboxylic acid (discussed later), and, finally, carbon dioxide:
+
+What are the oxidation numbers for the carbon atoms in the molecules shown here?
+
+Access for free at openstax.org
+
+20.3 • Aldehydes, Ketones, Carboxylic Acids, and Esters
+
+Solution
+In this example, we can calculate the oxidation number (review the chapter on oxidation-reduction reactions if
+necessary) for the carbon atom in each case (note how this would become difficult for larger molecules with
+additional carbon atoms and hydrogen atoms, which is why organic chemists use the definition dealing with
+replacing C–H bonds with C–O bonds described). For CH4, the carbon atom carries a –4 oxidation number (the
+hydrogen atoms are assigned oxidation numbers of +1 and the carbon atom balances that by having an oxidation
+number of –4). For the alcohol (in this case, methanol), the carbon atom has an oxidation number of –2 (the oxygen
+atom is assigned –2, the four hydrogen atoms each are assigned +1, and the carbon atom balances the sum by
+having an oxidation number of –2; note that compared to the carbon atom in CH4, this carbon atom has lost two
+electrons so it was oxidized); for the aldehyde, the carbon atom’s oxidation number is 0 (–2 for the oxygen atom and
++1 for each hydrogen atom already balances to 0, so the oxidation number for the carbon atom is 0); for the
+carboxylic acid, the carbon atom’s oxidation number is +2 (two oxygen atoms each at –2 and two hydrogen atoms at
++1); and for carbon dioxide, the carbon atom’s oxidation number is +4 (here, the carbon atom needs to balance the
+–4 sum from the two oxygen atoms).
+Check Your Learning
+Indicate whether the marked carbon atoms in the three molecules here are oxidized or reduced relative to the
+marked carbon atom in ethanol:
+
+There is no need to calculate oxidation states in this case; instead, just compare the types of atoms bonded to the
+marked carbon atoms:
+
+Answer:
+(a) reduced (bond to oxygen atom replaced by bond to hydrogen atom); (b) oxidized (one bond to hydrogen atom
+replaced by one bond to oxygen atom); (c) oxidized (2 bonds to hydrogen atoms have been replaced by bonds to an
+oxygen atom)
+Aldehydes are commonly prepared by the oxidation of alcohols whose –OH functional group is located on the
+carbon atom at the end of the chain of carbon atoms in the alcohol:
+
+Alcohols that have their –OH groups in the middle of the chain are necessary to synthesize a ketone, which requires
+the carbonyl group to be bonded to two other carbon atoms:
+
+An alcohol with its –OH group bonded to a carbon atom that is bonded to no or one other carbon atom will form an
+aldehyde. An alcohol with its –OH group attached to two other carbon atoms will form a ketone. If three carbons are
+attached to the carbon bonded to the –OH, the molecule will not have a C–H bond to be replaced, so it will not be
+susceptible to oxidation.
+Formaldehyde, an aldehyde with the formula HCHO, is a colorless gas with a pungent and irritating odor. It is sold in
+an aqueous solution called formalin, which contains about 37% formaldehyde by weight. Formaldehyde causes
+coagulation of proteins, so it kills bacteria (and any other living organism) and stops many of the biological
+processes that cause tissue to decay. Thus, formaldehyde is used for preserving tissue specimens and embalming
+
+983
+
+984
+
+20 • Organic Chemistry
+
+bodies. It is also used to sterilize soil or other materials. Formaldehyde is used in the manufacture of Bakelite, a
+hard plastic having high chemical and electrical resistance.
+Dimethyl ketone, CH3COCH3, commonly called acetone, is the simplest ketone. It is made commercially by
+fermenting corn or molasses, or by oxidation of 2-propanol. Acetone is a colorless liquid. Among its many uses are
+as a solvent for lacquer (including fingernail polish), cellulose acetate, cellulose nitrate, acetylene, plastics, and
+varnishes; as a paint and varnish remover; and as a solvent in the manufacture of pharmaceuticals and chemicals.
+
+Carboxylic Acids and Esters
+The odor of vinegar is caused by the presence of acetic acid, a carboxylic acid, in the vinegar. The odor of ripe
+bananas and many other fruits is due to the presence of esters, compounds that can be prepared by the reaction of
+a carboxylic acid with an alcohol. Because esters do not have hydrogen bonds between molecules, they have lower
+vapor pressures than the alcohols and carboxylic acids from which they are derived (see Figure 20.15).
+
+FIGURE 20.15 Esters are responsible for the odors associated with various plants and their fruits.
+
+Both carboxylic acids and esters contain a carbonyl group with a second oxygen atom bonded to the carbon atom
+in the carbonyl group by a single bond. In a carboxylic acid, the second oxygen atom also bonds to a hydrogen atom.
+In an ester, the second oxygen atom bonds to another carbon atom. The names for carboxylic acids and esters
+include prefixes that denote the lengths of the carbon chains in the molecules and are derived following
+nomenclature rules similar to those for inorganic acids and salts (see these examples):
+
+The functional groups for an acid and for an ester are shown in red in these formulas.
+The hydrogen atom in the functional group of a carboxylic acid will react with a base to form an ionic salt:
+
+Access for free at openstax.org
+
+20.3 • Aldehydes, Ketones, Carboxylic Acids, and Esters
+
+Carboxylic acids are weak acids (see the chapter on acids and bases), meaning they are not 100% ionized in water.
+Generally only about 1% of the molecules of a carboxylic acid dissolved in water are ionized at any given time. The
+remaining molecules are undissociated in solution.
+We prepare carboxylic acids by the oxidation of aldehydes or alcohols whose –OH functional group is located on the
+carbon atom at the end of the chain of carbon atoms in the alcohol:
+
+Esters are produced by the reaction of acids with alcohols. For example, the ester ethyl acetate, CH3CO2CH2CH3, is
+formed when acetic acid reacts with ethanol:
+
+The simplest carboxylic acid is formic acid, HCO2H, known since 1670. Its name comes from the Latin word
+formicus, which means “ant”; it was first isolated by the distillation of red ants. It is partially responsible for the pain
+and irritation of ant and wasp stings, and is responsible for a characteristic odor of ants that can be sometimes
+detected in their nests.
+Acetic acid, CH3CO2H, constitutes 3–6% vinegar. Cider vinegar is produced by allowing apple juice to ferment
+without oxygen present. Yeast cells present in the juice carry out the fermentation reactions. The fermentation
+reactions change the sugar present in the juice to ethanol, then to acetic acid. Pure acetic acid has a penetrating
+odor and produces painful burns. It is an excellent solvent for many organic and some inorganic compounds, and it
+is essential in the production of cellulose acetate, a component of many synthetic fibers such as rayon.
+The distinctive and attractive odors and flavors of many flowers, perfumes, and ripe fruits are due to the presence of
+one or more esters (Figure 20.16). Among the most important of the natural esters are fats (such as lard, tallow, and
+butter) and oils (such as linseed, cottonseed, and olive oils), which are esters of the trihydroxyl alcohol glycerine,
+C3H5(OH)3, with large carboxylic acids, such as palmitic acid, CH3(CH2)14CO2H, stearic acid, CH3(CH2)16CO2H, and
+oleic acid,
+Oleic acid is an unsaturated acid; it contains a
+double
+bond. Palmitic and stearic acids are saturated acids that contain no double or triple bonds.
+
+985
+
+986
+
+20 • Organic Chemistry
+
+FIGURE 20.16 Over 350 different volatile molecules (many members of the ester family) have been identified in strawberries. (credit:
+Rebecca Siegel)
+
+20.4 Amines and Amides
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+• Describe the structure and properties of an amine
+• Describe the structure and properties of an amide
+Amines are molecules that contain carbon-nitrogen bonds. The nitrogen atom in an amine has a lone pair of
+electrons and three bonds to other atoms, either carbon or hydrogen. Various nomenclatures are used to derive
+names for amines, but all involve the class-identifying suffix –ine as illustrated here for a few simple examples:
+
+In some amines, the nitrogen atom replaces a carbon atom in an aromatic hydrocarbon. Pyridine (Figure 20.17) is
+one such heterocyclic amine. A heterocyclic compound contains atoms of two or more different elements in its ring
+structure.
+
+FIGURE 20.17 The illustration shows one of the resonance structures of pyridine.
+
+HOW SCIENCES INTERCONNECT
+DNA in Forensics and Paternity
+The genetic material for all living things is a polymer of four different molecules, which are themselves a
+combination of three subunits. The genetic information, the code for developing an organism, is contained in the
+specific sequence of the four molecules, similar to the way the letters of the alphabet can be sequenced to form
+words that convey information. The information in a DNA sequence is used to form two other types of polymers, one
+of which are proteins. The proteins interact to form a specific type of organism with individual characteristics.
+A genetic molecule is called DNA, which stands for deoxyribonucleic acid. The four molecules that make up DNA are
+
+Access for free at openstax.org
+
+20.4 • Amines and Amides
+
+called nucleotides. Each nucleotide consists of a single- or double-ringed molecule containing nitrogen, carbon,
+oxygen, and hydrogen called a nitrogenous base. Each base is bonded to a five-carbon sugar called deoxyribose. The
+sugar is in turn bonded to a phosphate group
+When new DNA is made, a polymerization reaction occurs
+that binds the phosphate group of one nucleotide to the sugar group of a second nucleotide. The nitrogenous bases
+of each nucleotide stick out from this sugar-phosphate backbone. DNA is actually formed from two such polymers
+coiled around each other and held together by hydrogen bonds between the nitrogenous bases. Thus, the two
+backbones are on the outside of the coiled pair of strands, and the bases are on the inside. The shape of the two
+strands wound around each other is called a double helix (see Figure 20.18).
+It probably makes sense that the sequence of nucleotides in the DNA of a cat differs from those of a dog. But it is
+also true that the sequences of the DNA in the cells of two individual pugs differ. Likewise, the sequences of DNA in
+you and a sibling differ (unless your sibling is an identical twin), as do those between you and an unrelated
+individual. However, the DNA sequences of two related individuals are more similar than the sequences of two
+unrelated individuals, and these similarities in sequence can be observed in various ways. This is the principle
+behind DNA fingerprinting, which is a method used to determine whether two DNA samples came from related (or
+the same) individuals or unrelated individuals.
+
+FIGURE 20.18 DNA is an organic molecule and the genetic material for all living organisms. (a) DNA is a double helix consisting of two
+single DNA strands hydrogen bonded together at each nitrogenous base. (b) This detail shows the hydrogen bonding (dotted lines) between
+nitrogenous bases on each DNA strand and the way in which each nucleotide is joined to the next, forming a backbone of sugars and
+
+987
+
+988
+
+20 • Organic Chemistry
+
+phosphate groups along each strand. (c) This detail shows the structure of one of the four nucleotides that makes up the DNA polymer.
+Each nucleotide consists of a nitrogenous base (a double-ring molecule, in this case), a five-carbon sugar (deoxyribose), and a phosphate
+group.
+
+Using similarities in sequences, technicians can determine whether a man is the father of a child (the identity of the
+mother is rarely in doubt, except in the case of an adopted child and a potential birth mother). Likewise, forensic
+geneticists can determine whether a crime scene sample of human tissue, such as blood or skin cells, contains DNA
+that matches exactly the DNA of a suspect.
+
+LINK TO LEARNING
+Watch this video animation (http://openstax.org/l/16dnapackaging) of how DNA is packaged for a visual lesson in its
+structure.
+Like ammonia, amines are weak bases due to the lone pair of electrons on their nitrogen atoms:
+
+The basicity of an amine’s nitrogen atom plays an important role in much of the compound’s chemistry. Amine
+functional groups are found in a wide variety of compounds, including natural and synthetic dyes, polymers,
+vitamins, and medications such as penicillin and codeine. They are also found in many molecules essential to life,
+such as amino acids, hormones, neurotransmitters, and DNA.
+
+HOW SCIENCES INTERCONNECT
+Addictive Alkaloids
+Since ancient times, plants have been used for medicinal purposes. One class of substances, called alkaloids, found
+in many of these plants has been isolated and found to contain cyclic molecules with an amine functional group.
+These amines are bases. They can react with H3O+ in a dilute acid to form an ammonium salt, and this property is
+used to extract them from the plant:
+
+The name alkaloid means “like an alkali.” Thus, an alkaloid reacts with acid. The free compound can be recovered
+after extraction by reaction with a base:
+
+The structures of many naturally occurring alkaloids have profound physiological and psychotropic effects in
+humans. Examples of these drugs include nicotine, morphine, codeine, and heroin. The plant produces these
+substances, collectively called secondary plant compounds, as chemical defenses against the numerous pests that
+attempt to feed on the plant:
+
+Access for free at openstax.org
+
+20.4 • Amines and Amides
+
+In these diagrams, as is common in representing structures of large organic compounds, carbon atoms in the rings
+and the hydrogen atoms bonded to them have been omitted for clarity. The solid wedges indicate bonds that extend
+out of the page. The dashed wedges indicate bonds that extend into the page. Notice that small changes to a part of
+the molecule change the properties of morphine, codeine, and heroin. Morphine, a strong narcotic used to relieve
+pain, contains two hydroxyl functional groups, located at the bottom of the molecule in this structural formula.
+Changing one of these hydroxyl groups to a methyl ether group forms codeine, a less potent drug used as a local
+anesthetic. If both hydroxyl groups are converted to esters of acetic acid, the powerfully addictive drug heroin
+results (Figure 20.19).
+
+FIGURE 20.19 Poppies can be used in the production of opium, a plant latex that contains morphine from which other opiates, such as
+heroin, can be synthesized. (credit: Karen Roe)
+
+Amides are molecules that contain nitrogen atoms connected to the carbon atom of a carbonyl group. Like amines,
+various nomenclature rules may be used to name amides, but all include use of the class-specific suffix -amide:
+
+989
+
+990
+
+20 • Organic Chemistry
+
+Amides can be produced when carboxylic acids react with amines or ammonia in a process called amidation. A
+water molecule is eliminated from the reaction, and the amide is formed from the remaining pieces of the carboxylic
+acid and the amine (note the similarity to formation of an ester from a carboxylic acid and an alcohol discussed in
+the previous section):
+
+The reaction between amines and carboxylic acids to form amides is biologically important. It is through this
+reaction that amino acids (molecules containing both amine and carboxylic acid substituents) link together in a
+polymer to form proteins.
+
+HOW SCIENCES INTERCONNECT
+Proteins and Enzymes
+Proteins are large biological molecules made up of long chains of smaller molecules called amino acids. Organisms
+rely on proteins for a variety of functions—proteins transport molecules across cell membranes, replicate DNA, and
+catalyze metabolic reactions, to name only a few of their functions. The properties of proteins are functions of the
+combination of amino acids that compose them and can vary greatly. Interactions between amino acid sequences in
+the chains of proteins result in the folding of the chain into specific, three-dimensional structures that determine the
+protein’s activity.
+Amino acids are organic molecules that contain an amine functional group (–NH2), a carboxylic acid functional group
+(–COOH), and a side chain (that is specific to each individual amino acid). Most living things build proteins from the
+same 20 different amino acids. Amino acids connect by the formation of a peptide bond, which is a covalent bond
+formed between two amino acids when the carboxylic acid group of one amino acid reacts with the amine group of
+the other amino acid. The formation of the bond results in the production of a molecule of water (in general,
+reactions that result in the production of water when two other molecules combine are referred to as condensation
+reactions). The resulting bond—between the carbonyl group carbon atom and the amine nitrogen atom is called a
+peptide link or peptide bond. Since each of the original amino acids has an unreacted group (one has an unreacted
+amine and the other an unreacted carboxylic acid), more peptide bonds can form to other amino acids, extending
+the structure. (Figure 20.20) A chain of connected amino acids is called a polypeptide. Proteins contain at least one
+long polypeptide chain.
+
+Access for free at openstax.org
+
+20.4 • Amines and Amides
+
+FIGURE 20.20 This condensation reaction forms a dipeptide from two amino acids and leads to the formation of water.
+
+Enzymes are large biological molecules, mostly composed of proteins, which are responsible for the thousands of
+metabolic processes that occur in living organisms. Enzymes are highly specific catalysts; they speed up the rates of
+certain reactions. Enzymes function by lowering the activation energy of the reaction they are catalyzing, which can
+dramatically increase the rate of the reaction. Most reactions catalyzed by enzymes have rates that are millions of
+times faster than the noncatalyzed version. Like all catalysts, enzymes are not consumed during the reactions that
+they catalyze. Enzymes do differ from other catalysts in how specific they are for their substrates (the molecules
+that an enzyme will convert into a different product). Each enzyme is only capable of speeding up one or a few very
+specific reactions or types of reactions. Since the function of enzymes is so specific, the lack or malfunctioning of an
+enzyme can lead to serious health consequences. One disease that is the result of an enzyme malfunction is
+phenylketonuria. In this disease, the enzyme that catalyzes the first step in the degradation of the amino acid
+phenylalanine is not functional (Figure 20.21). Untreated, this can lead to an accumulation of phenylalanine, which
+can lead to intellectual disabilities.
+
+991
+
+992
+
+20 • Organic Chemistry
+
+FIGURE 20.21 A computer rendering shows the three-dimensional structure of the enzyme phenylalanine hydroxylase. In the disease
+phenylketonuria, a defect in the shape of phenylalanine hydroxylase causes it to lose its function in breaking down phenylalanine.
+
+CHEMISTRY IN EVERYDAY LIFE
+Kevlar
+Kevlar (Figure 20.22) is a synthetic polymer made from two monomers 1,4-phenylene-diamine and
+terephthaloyl chloride (Kevlar is a registered trademark of DuPont). The material was developed by Stephanie
+Kwolek while she worked to find a replacement for steel in tires. Kwolek's work involved synthesizing
+polyamides and dissolving them in solvents, then spinning the resulting solution into fibers. One of her solutions
+proved to be quite different in initial appearance and structure. And once spun, the resulting fibers were
+particularly strong. From this initial discovery, Kevlar was created. The material has a high tensile strength-toweight ratio (it is about 5 times stronger than an equal weight of steel), making it useful for many applications
+from bicycle tires to sails to body armor.
+
+FIGURE 20.22 This illustration shows the formula for polymeric Kevlar.
+
+The material owes much of its strength to hydrogen bonds between polymer chains (refer back to the chapter on
+intermolecular interactions). These bonds form between the carbonyl group oxygen atom (which has a partial
+negative charge due to oxygen’s electronegativity) on one monomer and the partially positively charged
+hydrogen atom in the N–H bond of an adjacent monomer in the polymer structure (see dashed line in Figure
+20.23). There is additional strength derived from the interaction between the unhybridized p orbitals in the sixmembered rings, called aromatic stacking.
+
+Access for free at openstax.org
+
+20.4 • Amines and Amides
+
+FIGURE 20.23 The diagram shows the polymer structure of Kevlar, with hydrogen bonds between polymer chains represented by
+dotted lines.
+
+Kevlar may be best known as a component of body armor, combat helmets, and face masks. Since the 1980s,
+the US military has used Kevlar as a component of the PASGT (personal armor system for ground troops) helmet
+and vest. Kevlar is also used to protect armored fighting vehicles and aircraft carriers. Civilian applications
+include protective gear for emergency service personnel such as body armor for police officers and heatresistant clothing for fire fighters. Kevlar based clothing is considerably lighter and thinner than equivalent gear
+made from other materials (Figure 20.24). Beyond Kevlar, Stephanie Kwolek was instrumental in the
+development of Nomex, a fireproof material, and was also involved in the creation of Lycra. She became just the
+fourth woman inducted into the National Inventors Hall of Fame, and received a number of other awards for her
+significant contributions to science and society.
+
+FIGURE 20.24 (a) These soldiers are sorting through pieces of a Kevlar helmet that helped absorb a grenade blast. Kevlar is also used
+to make (b) canoes and (c) marine mooring lines. (credit a: modification of work by “Cla68”/Wikimedia Commons; credit b:
+modification of work by “OakleyOriginals”/Flickr; credit c: modification of work by Casey H. Kyhl)
+
+In addition to its better-known uses, Kevlar is also often used in cryogenics for its very low thermal conductivity
+(along with its high strength). Kevlar maintains its high strength when cooled to the temperature of liquid
+nitrogen (–196 °C).
+The table here summarizes the structures discussed in this chapter:
+
+993
+
+994
+
+20 • Organic Chemistry
+
+Access for free at openstax.org
+
+20 • Key Terms
+
+995
+
+Key Terms
+addition reaction reaction in which a double carboncarbon bond forms a single carbon-carbon bond by
+the addition of a reactant. Typical reaction for an
+alkene.
+alcohol organic compound with a hydroxyl group
+(–OH) bonded to a carbon atom
+aldehyde organic compound containing a carbonyl
+group bonded to two hydrogen atoms or a hydrogen
+atom and a carbon substituent
+alkane molecule consisting of only carbon and
+hydrogen atoms connected by single (σ) bonds
+alkene molecule consisting of carbon and hydrogen
+containing at least one carbon-carbon double bond
+alkyl group substituent, consisting of an alkane
+missing one hydrogen atom, attached to a larger
+structure
+alkyne molecule consisting of carbon and hydrogen
+containing at least one carbon-carbon triple bond
+amide organic molecule that features a nitrogen atom
+connected to the carbon atom in a carbonyl group
+amine organic molecule in which a nitrogen atom is
+bonded to one or more alkyl group
+aromatic hydrocarbon cyclic molecule consisting of
+carbon and hydrogen with delocalized alternating
+carbon-carbon single and double bonds, resulting in
+enhanced stability
+carbonyl group carbon atom double bonded to an
+oxygen atom
+
+carboxylic acid organic compound containing a
+carbonyl group with an attached hydroxyl group
+ester organic compound containing a carbonyl group
+with an attached oxygen atom that is bonded to a
+carbon substituent
+ether organic compound with an oxygen atom that is
+bonded to two carbon atoms
+functional group part of an organic molecule that
+imparts a specific chemical reactivity to the
+molecule
+ketone organic compound containing a carbonyl
+group with two carbon substituents attached to it
+organic compound natural or synthetic compound
+that contains carbon
+saturated hydrocarbon molecule containing carbon
+and hydrogen that has only single bonds between
+carbon atoms
+skeletal structure shorthand method of drawing
+organic molecules in which carbon atoms are
+represented by the ends of lines and bends in
+between lines, and hydrogen atoms attached to the
+carbon atoms are not shown (but are understood to
+be present by the context of the structure)
+substituent branch or functional group that replaces
+hydrogen atoms in a larger hydrocarbon chain
+substitution reaction reaction in which one atom
+replaces another in a molecule
+
+Summary
+20.1 Hydrocarbons
+Strong, stable bonds between carbon atoms produce
+complex molecules containing chains, branches, and
+rings. The chemistry of these compounds is called
+organic chemistry. Hydrocarbons are organic
+compounds composed of only carbon and hydrogen.
+The alkanes are saturated hydrocarbons—that is,
+hydrocarbons that contain only single bonds. Alkenes
+contain one or more carbon-carbon double bonds.
+Alkynes contain one or more carbon-carbon triple
+bonds. Aromatic hydrocarbons contain ring structures
+with delocalized π electron systems.
+
+20.2 Alcohols and Ethers
+Many organic compounds that are not hydrocarbons
+can be thought of as derivatives of hydrocarbons. A
+hydrocarbon derivative can be formed by replacing one
+or more hydrogen atoms of a hydrocarbon by a
+functional group, which contains at least one atom of
+an element other than carbon or hydrogen. The
+properties of hydrocarbon derivatives are determined
+
+largely by the functional group. The –OH group is the
+functional group of an alcohol. The –R–O–R– group is
+the functional group of an ether.
+
+20.3 Aldehydes, Ketones, Carboxylic Acids,
+and Esters
+Functional groups related to the carbonyl group include
+the –CHO group of an aldehyde, the –CO– group of a
+ketone, the –CO2H group of a carboxylic acid, and the
+–CO2R group of an ester. The carbonyl group, a carbonoxygen double bond, is the key structure in these
+classes of organic molecules: Aldehydes contain at
+least one hydrogen atom attached to the carbonyl
+carbon atom, ketones contain two carbon groups
+attached to the carbonyl carbon atom, carboxylic acids
+contain a hydroxyl group attached to the carbonyl
+carbon atom, and esters contain an oxygen atom
+attached to another carbon group connected to the
+carbonyl carbon atom. All of these compounds contain
+oxidized carbon atoms relative to the carbon atom of
+an alcohol group.
+
+996
+
+20 • Exercises
+
+20.4 Amines and Amides
+The addition of nitrogen into an organic framework
+leads to two families of molecules. Compounds
+containing a nitrogen atom bonded in a hydrocarbon
+framework are classified as amines. Compounds that
+
+have a nitrogen atom bonded to one side of a carbonyl
+group are classified as amides. Amines are a basic
+functional group. Amines and carboxylic acids can
+combine in a condensation reaction to form amides.
+
+Exercises
+20.1 Hydrocarbons
+1. Write the chemical formula and Lewis structure of the following, each of which contains five carbon atoms:
+(a) an alkane
+(b) an alkene
+(c) an alkyne
+2. What is the difference between the hybridization of carbon atoms’ valence orbitals in saturated and
+unsaturated hydrocarbons?
+3. On a microscopic level, how does the reaction of bromine with a saturated hydrocarbon differ from its
+reaction with an unsaturated hydrocarbon? How are they similar?
+4. On a microscopic level, how does the reaction of bromine with an alkene differ from its reaction with an
+alkyne? How are they similar?
+5. Explain why unbranched alkenes can form geometric isomers while unbranched alkanes cannot. Does this
+explanation involve the macroscopic domain or the microscopic domain?
+6. Explain why these two molecules are not isomers:
+
+7. Explain why these two molecules are not isomers:
+
+8. How does the carbon-atom hybridization change when polyethylene is prepared from ethylene?
+9. Write the Lewis structure and molecular formula for each of the following hydrocarbons:
+(a) hexane
+(b) 3-methylpentane
+(c) cis-3-hexene
+(d) 4-methyl-1-pentene
+(e) 3-hexyne
+(f) 4-methyl-2-pentyne
+10. Write the chemical formula, condensed formula, and Lewis structure for each of the following hydrocarbons:
+
+Access for free at openstax.org
+
+20 • Exercises
+
+997
+
+(a) heptane
+(b) 3-methylhexane
+(c) trans-3-heptene
+(d) 4-methyl-1-hexene
+(e) 2-heptyne
+(f) 3,4-dimethyl-1-pentyne
+11. Give the complete IUPAC name for each of the following compounds:
+(a) CH3CH2CBr2CH3
+(b) (CH3)3CCl
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+(g)
+12. Give the complete IUPAC name for each of the following compounds:
+(a) (CH3)2CHF
+(b) CH3CHClCHClCH3
+(c)
+
+(d)
+(e)
+
+(f)
+13. Butane is used as a fuel in disposable lighters. Write the Lewis structure for each isomer of butane.
+14. Write Lewis structures and name the five structural isomers of hexane.
+15. Write Lewis structures for the cis–trans isomers of
+16. Write structures for the three isomers of the aromatic hydrocarbon xylene, C6H4(CH3)2.
+17. Isooctane is the common name of the isomer of C8H18 used as the standard of 100 for the gasoline octane
+rating:
+
+998
+
+20 • Exercises
+
+(a) What is the IUPAC name for the compound?
+(b) Name the other isomers that contain a five-carbon chain with three methyl substituents.
+18. Write Lewis structures and IUPAC names for the alkyne isomers of C4H6.
+19. Write Lewis structures and IUPAC names for all isomers of C4H9Cl.
+20. Name and write the structures of all isomers of the propyl and butyl alkyl groups.
+21. Write the structures for all the isomers of the –C5H11 alkyl group.
+22. Write Lewis structures and describe the molecular geometry at each carbon atom in the following
+compounds:
+(a) cis-3-hexene
+(b) cis-1-chloro-2-bromoethene
+(c) 2-pentyne
+(d) trans-6-ethyl-7-methyl-2-octene
+23. Benzene is one of the compounds used as an octane enhancer in unleaded gasoline. It is manufactured by
+the catalytic conversion of acetylene to benzene:
+Draw Lewis structures for these compounds, with resonance structures as appropriate, and determine the
+hybridization of the carbon atoms in each.
+24. Teflon is prepared by the polymerization of tetrafluoroethylene. Write the equation that describes the
+polymerization using Lewis symbols.
+25. Write two complete, balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures.
+(a) 1 mol of 1-butyne reacts with 2 mol of iodine.
+(b) Pentane is burned in air.
+26. Write two complete, balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures.
+(a) 2-butene reacts with chlorine.
+(b) benzene burns in air.
+27. What mass of 2-bromopropane could be prepared from 25.5 g of propene? Assume a 100% yield of product.
+28. Acetylene is a very weak acid; however, it will react with moist silver(I) oxide and form water and a compound
+composed of silver and carbon. Addition of a solution of HCl to a 0.2352-g sample of the compound of silver
+and carbon produced acetylene and 0.2822 g of AgCl.
+(a) What is the empirical formula of the compound of silver and carbon?
+(b) The production of acetylene on addition of HCl to the compound of silver and carbon suggests that the
+carbon is present as the acetylide ion,
+. Write the formula of the compound showing the acetylide ion.
+29. Ethylene can be produced by the pyrolysis of ethane:
+How many kilograms of ethylene is produced by the pyrolysis of 1.000
+100.0% yield?
+
+103 kg of ethane, assuming a
+
+20.2 Alcohols and Ethers
+30. Why do the compounds hexane, hexanol, and hexene have such similar names?
+
+Access for free at openstax.org
+
+20 • Exercises
+
+999
+
+31. Write condensed formulas and provide IUPAC names for the following compounds:
+(a) ethyl alcohol (in beverages)
+(b) methyl alcohol (used as a solvent, for example, in shellac)
+(c) ethylene glycol (antifreeze)
+(d) isopropyl alcohol (used in rubbing alcohol)
+(e) glycerine
+32. Give the complete IUPAC name for each of the following compounds:
+(a)
+
+(b)
+
+(c)
+
+33. Give the complete IUPAC name and the common name for each of the following compounds:
+(a)
+
+(b)
+
+(c)
+
+34. Write the condensed structures of both isomers with the formula C2H6O. Label the functional group of each
+isomer.
+35. Write the condensed structures of all isomers with the formula C2H6O2. Label the functional group (or
+groups) of each isomer.
+36. Draw the condensed formulas for each of the following compounds:
+(a) dipropyl ether
+(b) 2,2-dimethyl-3-hexanol
+(c) 2-ethoxybutane
+37. MTBE, Methyl tert-butyl ether, CH3OC(CH3)3, is used as an oxygen source in oxygenated gasolines. MTBE is
+
+1000
+
+20 • Exercises
+
+manufactured by reacting 2-methylpropene with methanol.
+(a) Using Lewis structures, write the chemical equation representing the reaction.
+(b) What volume of methanol, density 0.7915 g/mL, is required to produce exactly 1000 kg of MTBE,
+assuming a 100% yield?
+38. Write two complete balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures.
+(a) propanol is converted to dipropyl ether
+(b) propene is treated with water in dilute acid.
+39. Write two complete balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures.
+(a) 2-butene is treated with water in dilute acid
+(b) ethanol is dehydrated to yield ethene
+
+20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters
+40. Order the following molecules from least to most oxidized, based on the marked carbon atom:
+
+41. Predict the products of oxidizing the molecules shown in this problem. In each case, identify the product that
+will result from the minimal increase in oxidation state for the highlighted carbon atom:
+(a)
+
+(b)
+
+(c)
+
+42. Predict the products of reducing the following molecules. In each case, identify the product that will result
+from the minimal decrease in oxidation state for the highlighted carbon atom:
+(a)
+
+(b)
+
+Access for free at openstax.org
+
+20 • Exercises
+
+1001
+
+(c)
+
+43. Explain why it is not possible to prepare a ketone that contains only two carbon atoms.
+44. How does hybridization of the substituted carbon atom change when an alcohol is converted into an
+aldehyde? An aldehyde to a carboxylic acid?
+45. Fatty acids are carboxylic acids that have long hydrocarbon chains attached to a carboxylate group. How does
+a saturated fatty acid differ from an unsaturated fatty acid? How are they similar?
+46. Write a condensed structural formula, such as CH3CH3, and describe the molecular geometry at each carbon
+atom.
+(a) propene
+(b) 1-butanol
+(c) ethyl propyl ether
+(d) cis-4-bromo-2-heptene
+(e) 2,2,3-trimethylhexane
+(f) formaldehyde
+47. Write a condensed structural formula, such as CH3CH3, and describe the molecular geometry at each carbon
+atom.
+(a) 2-propanol
+(b) acetone
+(c) dimethyl ether
+(d) acetic acid
+(e) 3-methyl-1-hexene
+48. The foul odor of rancid butter is caused by butyric acid, CH3CH2CH2CO2H.
+(a) Draw the Lewis structure and determine the oxidation number and hybridization for each carbon atom in
+the molecule.
+(b) The esters formed from butyric acid are pleasant-smelling compounds found in fruits and used in
+perfumes. Draw the Lewis structure for the ester formed from the reaction of butyric acid with 2-propanol.
+49. Write the two-resonance structures for the acetate ion.
+50. Write two complete, balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures:
+(a) ethanol reacts with propionic acid
+(b) benzoic acid, C6H5CO2H, is added to a solution of sodium hydroxide
+51. Write two complete balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures.
+(a) 1-butanol reacts with acetic acid
+(b) propionic acid is poured onto solid calcium carbonate
+52. Yields in organic reactions are sometimes low. What is the percent yield of a process that produces 13.0 g of
+ethyl acetate from 10.0 g of CH3CO2H?
+53. Alcohols A, B, and C all have the composition C4H10O. Molecules of alcohol A contain a branched carbon
+chain and can be oxidized to an aldehyde; molecules of alcohol B contain a linear carbon chain and can be
+oxidized to a ketone; and molecules of alcohol C can be oxidized to neither an aldehyde nor a ketone. Write
+the Lewis structures of these molecules.
+
+1002
+
+20 • Exercises
+
+20.4 Amines and Amides
+54. Write the Lewis structures of both isomers with the formula C2H7N.
+55. What is the molecular structure about the nitrogen atom in trimethyl amine and in the trimethyl ammonium
+ion, (CH3)3NH+? What is the hybridization of the nitrogen atom in trimethyl amine and in the trimethyl
+ammonium ion?
+56. Write the two resonance structures for the pyridinium ion, C5H5NH+.
+57. Draw Lewis structures for pyridine and its conjugate acid, the pyridinium ion, C5H5NH+. What are the
+hybridizations, electron domain geometries, and molecular geometries about the nitrogen atoms in pyridine
+and in the pyridinium ion?
+58. Write the Lewis structures of all isomers with the formula C3H7ON that contain an amide linkage.
+59. Write two complete balanced equations for the following reaction, one using condensed formulas and one
+using Lewis structures.
+Methyl amine is added to a solution of HCl.
+60. Write two complete, balanced equations for each of the following reactions, one using condensed formulas
+and one using Lewis structures.
+Ethylammonium chloride is added to a solution of sodium hydroxide.
+61. Identify any carbon atoms that change hybridization and the change in hybridization during the reactions in
+Exercise 20.26.
+62. Identify any carbon atoms that change hybridization and the change in hybridization during the reactions in
+Exercise 20.39.
+63. Identify any carbon atoms that change hybridization and the change in hybridization during the reactions in
+Exercise 20.51.
+
+Access for free at openstax.org
+
+CHAPTER 21
+
+Nuclear Chemistry
+
+FIGURE 21.1 Nuclear chemistry provides the basis for many useful diagnostic and therapeutic methods in medicine, such as these
+positron emission tomography (PET) scans. The PET/computed tomography scan on the left shows muscle activity. The brain scans in the
+center show chemical differences in dopamine signaling in the brains of addicts and nonaddicts. The images on the right show an
+oncological application of PET scans to identify lymph node metastasis.
+
+CHAPTER OUTLINE
+21.1 Nuclear Structure and Stability
+21.2 Nuclear Equations
+21.3 Radioactive Decay
+21.4 Transmutation and Nuclear Energy
+21.5 Uses of Radioisotopes
+21.6 Biological Effects of Radiation
+INTRODUCTION The chemical reactions that we have considered in previous chapters involve changes in the
+electronic structure of the species involved, that is, the arrangement of the electrons around atoms, ions, or
+molecules. Nuclear structure, the numbers of protons and neutrons within the nuclei of the atoms involved, remains
+unchanged during chemical reactions.
+This chapter will introduce the topic of nuclear chemistry, which began with the discovery of radioactivity in 1896 by
+French physicist Antoine Becquerel and has become increasingly important during the twentieth and twenty-first
+centuries, providing the basis for various technologies related to energy, medicine, geology, and many other areas.
+
+21.1 Nuclear Structure and Stability
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+• Describe nuclear structure in terms of protons, neutrons, and electrons
+• Calculate mass defect and binding energy for nuclei
+• Explain trends in the relative stability of nuclei
+Nuclear chemistry is the study of reactions that involve changes in nuclear structure. The chapter on atoms,
+molecules, and ions introduced the basic idea of nuclear structure, that the nucleus of an atom is composed of
+protons and, with the exception of
+neutrons. Recall that the number of protons in the nucleus is called the
+
+1004
+
+21 • Nuclear Chemistry
+
+atomic number (Z) of the element, and the sum of the number of protons and the number of neutrons is the mass
+number (A). Atoms with the same atomic number but different mass numbers are isotopes of the same element.
+When referring to a single type of nucleus, we often use the term nuclide and identify it by the notation
+where X
+is the symbol for the element, A is the mass number, and Z is the atomic number (for example,
+
+Often a
+
+nuclide is referenced by the name of the element followed by a hyphen and the mass number. For example,
+
+is
+
+called “carbon-14.”
+Protons and neutrons, collectively called nucleons, are packed together tightly in a nucleus. With a radius of about
+10−15 meters, a nucleus is quite small compared to the radius of the entire atom, which is about 10−10 meters.
+Nuclei are extremely dense compared to bulk matter, averaging 1.8 1014 grams per cubic centimeter. For
+example, water has a density of 1 gram per cubic centimeter, and iridium, one of the densest elements known, has a
+density of 22.6 g/cm3. If the earth’s density were equal to the average nuclear density, the earth’s radius would be
+only about 200 meters (earth’s actual radius is approximately 6.4 106 meters, 30,000 times larger). Example 21.1
+demonstrates just how great nuclear densities can be in the natural world.
+
+EXAMPLE 21.1
+Density of a Neutron Star
+Neutron stars form when the core of a very massive star undergoes gravitational collapse, causing the star’s outer
+layers to explode in a supernova. Composed almost completely of neutrons, they are the densest-known stars in the
+universe, with densities comparable to the average density of an atomic nucleus. A neutron star in a faraway galaxy
+has a mass equal to 2.4 solar masses (1 solar mass =
+= mass of the sun = 1.99 1030 kg) and a diameter of 26
+km.
+(a) What is the density of this neutron star?
+(b) How does this neutron star’s density compare to the density of a uranium nucleus, which has a diameter of about
+15 fm (1 fm = 10–15 m)?
+Solution
+We can treat both the neutron star and the U-235 nucleus as spheres. Then the density for both is given by:
+
+(a) The radius of the neutron star is
+
+so the density of the
+
+neutron star is:
+
+(b) The radius of the U-235 nucleus is
+
+so the density of the U-235 nucleus
+
+is:
+
+These values are fairly similar (same order of magnitude), but the neutron star is more than twice as dense as the
+U-235 nucleus.
+Check Your Learning
+Find the density of a neutron star with a mass of 1.97 solar masses and a diameter of 13 km, and compare it to the
+density of a hydrogen nucleus, which has a diameter of 1.75 fm (1 fm = 1 10–15 m).
+
+Access for free at openstax.org
+
+21.1 • Nuclear Structure and Stability
+
+Answer:
+The density of the neutron star is 3.4 1018 kg/m3. The density of a hydrogen nucleus is 6.0
+neutron star is 5.7 times denser than the hydrogen nucleus.
+
+1017 kg/m3. The
+
+To hold positively charged protons together in the very small volume of a nucleus requires very strong attractive
+forces because the positively charged protons repel one another strongly at such short distances. The force of
+attraction that holds the nucleus together is the strong nuclear force. (The strong force is one of the four
+fundamental forces that are known to exist. The others are the electromagnetic force, the gravitational force, and
+the nuclear weak force.) This force acts between protons, between neutrons, and between protons and neutrons. It
+is very different from the electrostatic force that holds negatively charged electrons around a positively charged
+nucleus (the attraction between opposite charges). Over distances less than 10−15 meters and within the nucleus,
+the strong nuclear force is much stronger than electrostatic repulsions between protons; over larger distances and
+outside the nucleus, it is essentially nonexistent.
+
+LINK TO LEARNING
+Visit this website (http://openstax.org/l/16fourfund) for more information about the four fundamental forces.
+
+Nuclear Binding Energy
+As a simple example of the energy associated with the strong nuclear force, consider the helium atom composed of
+two protons, two neutrons, and two electrons. The total mass of these six subatomic particles may be calculated as:
+
+However, mass spectrometric measurements reveal that the mass of an
+
+atom is 4.0026 amu, less than the
+
+combined masses of its six constituent subatomic particles. This difference between the calculated and
+experimentally measured masses is known as the mass defect of the atom. In the case of helium, the mass defect
+indicates a “loss” in mass of 4.0331 amu – 4.0026 amu = 0.0305 amu. The loss in mass accompanying the
+formation of an atom from protons, neutrons, and electrons is due to the conversion of that mass into energy that is
+evolved as the atom forms. The nuclear binding energy is the energy produced when the atoms’ nucleons are
+bound together; this is also the energy needed to break a nucleus into its constituent protons and neutrons. In
+comparison to chemical bond energies, nuclear binding energies are vastly greater, as we will learn in this section.
+Consequently, the energy changes associated with nuclear reactions are vastly greater than are those for chemical
+reactions.
+The conversion between mass and energy is most identifiably represented by the mass-energy equivalence
+equation as stated by Albert Einstein:
+
+where E is energy, m is mass of the matter being converted, and c is the speed of light in a vacuum. This equation
+can be used to find the amount of energy that results when matter is converted into energy. Using this mass-energy
+equivalence equation, the nuclear binding energy of a nucleus may be calculated from its mass defect, as
+demonstrated in Example 21.2. A variety of units are commonly used for nuclear binding energies, including
+electron volts (eV), with 1 eV equaling the amount of energy necessary to the move the charge of an electron across
+an electric potential difference of 1 volt, making 1 eV = 1.602 10–19 J.
+
+EXAMPLE 21.2
+Calculation of Nuclear Binding Energy
+Determine the binding energy for the nuclide
+
+in:
+
+1005
+
+1006
+
+21 • Nuclear Chemistry
+
+(a) joules per mole of nuclei
+(b) joules per nucleus
+(c) MeV per nucleus
+Solution
+The mass defect for a
+
+nucleus is 0.0305 amu, as shown previously. Determine the binding energy in joules per
+
+nuclide using the mass-energy equivalence equation. To accommodate the requested energy units, the mass defect
+must be expressed in kilograms (recall that 1 J = 1 kg m2/s2).
+(a) First, express the mass defect in g/mol. This is easily done considering the numerical equivalence of atomic mass
+(amu) and molar mass (g/mol) that results from the definitions of the amu and mole units (refer to the previous
+discussion in the chapter on atoms, molecules, and ions if needed). The mass defect is therefore 0.0305 g/mol. To
+accommodate the units of the other terms in the mass-energy equation, the mass must be expressed in kg, since 1 J
+= 1 kg m2/s2. Converting grams into kilograms yields a mass defect of 3.05 10–5 kg/mol. Substituting this quantity
+into the mass-energy equivalence equation yields:
+
+Note that this tremendous amount of energy is associated with the conversion of a very small amount of matter
+(about 30 mg, roughly the mass of typical drop of water).
+(b) The binding energy for a single nucleus is computed from the molar binding energy using Avogadro’s number:
+
+(c) Recall that 1 eV = 1.602
+
+10–19 J. Using the binding energy computed in part (b):
+
+Check Your Learning
+What is the binding energy for the nuclide
+
+(atomic mass: 18.9984 amu) in MeV per nucleus?
+
+Answer:
+148.4 MeV
+Because the energy changes for breaking and forming bonds are so small compared to the energy changes for
+breaking or forming nuclei, the changes in mass during all ordinary chemical reactions are virtually undetectable. As
+described in the chapter on thermochemistry, the most energetic chemical reactions exhibit enthalpies on the order
+of thousands of kJ/mol, which is equivalent to mass differences in the nanogram range (10–9 g). On the other hand,
+nuclear binding energies are typically on the order of billions of kJ/mol, corresponding to mass differences in the
+milligram range (10–3 g).
+
+Nuclear Stability
+A nucleus is stable if it cannot be transformed into another configuration without adding energy from the outside. Of
+the thousands of nuclides that exist, about 250 are stable. A plot of the number of neutrons versus the number of
+protons for stable nuclei reveals that the stable isotopes fall into a narrow band. This region is known as the band of
+stability (also called the belt, zone, or valley of stability). The straight line in Figure 21.2 represents nuclei that have
+a 1:1 ratio of protons to neutrons (n:p ratio). Note that the lighter stable nuclei, in general, have equal numbers of
+protons and neutrons. For example, nitrogen-14 has seven protons and seven neutrons. Heavier stable nuclei,
+
+Access for free at openstax.org
+
+21.1 • Nuclear Structure and Stability
+
+however, have increasingly more neutrons than protons. For example: iron-56 has 30 neutrons and 26 protons, an
+n:p ratio of 1.15, whereas the stable nuclide lead-207 has 125 neutrons and 82 protons, an n:p ratio equal to 1.52.
+This is because larger nuclei have more proton-proton repulsions, and require larger numbers of neutrons to provide
+compensating strong forces to overcome these electrostatic repulsions and hold the nucleus together.
+
+FIGURE 21.2 This plot shows the nuclides that are known to exist and those that are stable. The stable nuclides are indicated in blue, and
+the unstable nuclides are indicated in green. Note that all isotopes of elements with atomic numbers greater than 83 are unstable. The
+solid line is the line where n = Z.
+
+The nuclei that are to the left or to the right of the band of stability are unstable and exhibit radioactivity. They
+change spontaneously (decay) into other nuclei that are either in, or closer to, the band of stability. These nuclear
+decay reactions convert one unstable isotope (or radioisotope) into another, more stable, isotope. We will discuss
+the nature and products of this radioactive decay in subsequent sections of this chapter.
+Several observations may be made regarding the relationship between the stability of a nucleus and its structure.
+
+1007
+
+1008
+
+21 • Nuclear Chemistry
+
+Nuclei with even numbers of protons, neutrons, or both are more likely to be stable (see Table 21.1). Nuclei with
+certain numbers of nucleons, known as magic numbers, are stable against nuclear decay. These numbers of
+protons or neutrons (2, 8, 20, 28, 50, 82, and 126) make complete shells in the nucleus. These are similar in
+concept to the stable electron shells observed for the noble gases. Nuclei that have magic numbers of both protons
+and neutrons, such as
+and
+are called “double magic” and are particularly stable. These
+trends in nuclear stability may be rationalized by considering a quantum mechanical model of nuclear energy states
+analogous to that used to describe electronic states earlier in this textbook. The details of this model are beyond the
+scope of this chapter.
+Stable Nuclear Isotopes
+Number of Stable Isotopes
+
+Proton Number
+
+Neutron Number
+
+157
+
+even
+
+even
+
+53
+
+even
+
+odd
+
+50
+
+odd
+
+even
+
+5
+
+odd
+
+odd
+
+TABLE 21.1
+
+The relative stability of a nucleus is correlated with its binding energy per nucleon, the total binding energy for the
+nucleus divided by the number or nucleons in the nucleus. For instance, we saw in Example 21.2 that the binding
+energy for a
+nucleus is 28.4 MeV. The binding energy per nucleon for a
+nucleus is therefore:
+
+In Example 21.3, we learn how to calculate the binding energy per nucleon of a nuclide on the curve shown in Figure
+21.3.
+
+Access for free at openstax.org
+
+21.1 • Nuclear Structure and Stability
+
+FIGURE 21.3 The binding energy per nucleon is largest for nuclides with mass number of approximately 56.
+
+EXAMPLE 21.3
+Calculation of Binding Energy per Nucleon
+The iron nuclide
+
+lies near the top of the binding energy curve (Figure 21.3) and is one of the most stable
+
+nuclides. What is the binding energy per nucleon (in MeV) for the nuclide
+
+(atomic mass of 55.9349 amu)?
+
+Solution
+As in Example 21.2, we first determine the mass defect of the nuclide, which is the difference between the mass of
+26 protons, 30 neutrons, and 26 electrons, and the observed mass of an
+atom:
+
+We next calculate the binding energy for one nucleus from the mass defect using the mass-energy equivalence
+equation:
+
+We then convert the binding energy in joules per nucleus into units of MeV per nuclide:
+
+Finally, we determine the binding energy per nucleon by dividing the total nuclear binding energy by the number of
+
+1009
+
+1010
+
+21 • Nuclear Chemistry
+
+nucleons in the atom:
+
+Note that this is almost 25% larger than the binding energy per nucleon for
+(Note also that this is the same process as in Example 21.1, but with the additional step of dividing the total nuclear
+binding energy by the number of nucleons.)
+Check Your Learning
+What is the binding energy per nucleon in
+
+(atomic mass, 18.9984 amu)?
+
+Answer:
+7.810 MeV/nucleon
+
+21.2 Nuclear Equations
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+• Identify common particles and energies involved in nuclear reactions
+• Write and balance nuclear equations
+Changes of nuclei that result in changes in their atomic numbers, mass numbers, or energy states are nuclear
+reactions. To describe a nuclear reaction, we use an equation that identifies the nuclides involved in the reaction,
+their mass numbers and atomic numbers, and the other particles involved in the reaction.
+
+Types of Particles in Nuclear Reactions
+Many entities can be involved in nuclear reactions. The most common are protons, neutrons, alpha particles, beta
+particles, positrons, and gamma rays, as shown in Figure 21.4. Protons
+also represented by the symbol
+and neutrons
+
+are the constituents of atomic nuclei, and have been described previously. Alpha particles
+
+also represented by the symbol
+the symbol
+
+are high-energy helium nuclei. Beta particles
+
+also represented by
+
+are high-energy electrons, and gamma rays are photons of very high-energy electromagnetic
+
+radiation. Positrons
+
+also represented by the symbol
+
+are positively charged electrons (“anti-electrons”).
+
+The subscripts and superscripts are necessary for balancing nuclear equations, but are usually optional in other
+circumstances. For example, an alpha particle is a helium nucleus (He) with a charge of +2 and a mass number of 4,
+so it is symbolized
+This works because, in general, the ion charge is not important in the balancing of nuclear
+equations.
+
+Access for free at openstax.org
+
+21.2 • Nuclear Equations
+
+FIGURE 21.4 Although many species are encountered in nuclear reactions, this table summarizes the names, symbols, representations,
+and descriptions of the most common of these.
+
+Note that positrons are exactly like electrons, except they have the opposite charge. They are the most common
+example of antimatter, particles with the same mass but the opposite state of another property (for example,
+charge) than ordinary matter. When antimatter encounters ordinary matter, both are annihilated and their mass is
+converted into energy in the form of gamma rays (γ)—and other much smaller subnuclear particles, which are
+beyond the scope of this chapter—according to the mass-energy equivalence equation E = mc2, seen in the
+preceding section. For example, when a positron and an electron collide, both are annihilated and two gamma ray
+photons are created:
+
+As seen in the chapter discussing light and electromagnetic radiation, gamma rays compose short wavelength, highenergy electromagnetic radiation and are (much) more energetic than better-known X-rays that can behave as
+particles in the wave-particle duality sense. Gamma rays are a type of high energy electromagnetic radiation
+produced when a nucleus undergoes a transition from a higher to a lower energy state, similar to how a photon is
+produced by an electronic transition from a higher to a lower energy level. Due to the much larger energy differences
+between nuclear energy shells, gamma rays emanating from a nucleus have energies that are typically millions of
+times larger than electromagnetic radiation emanating from electronic transitions.
+
+Balancing Nuclear Reactions
+A balanced chemical reaction equation reflects the fact that during a chemical reaction, bonds break and form, and
+atoms are rearranged, but the total numbers of atoms of each element are conserved and do not change. A
+balanced nuclear reaction equation indicates that there is a rearrangement during a nuclear reaction, but of
+nucleons (subatomic particles within the atoms’ nuclei) rather than atoms. Nuclear reactions also follow
+conservation laws, and they are balanced in two ways:
+1. The sum of the mass numbers of the reactants equals the sum of the mass numbers of the products.
+2. The sum of the charges of the reactants equals the sum of the charges of the products.
+If the atomic number and the mass number of all but one of the particles in a nuclear reaction are known, we can
+identify the particle by balancing the reaction. For instance, we could determine that
+is a product of the nuclear
+reaction of
+
+and
+
+if we knew that a proton,
+
+was one of the two products. Example 21.4 shows how we
+
+can identify a nuclide by balancing the nuclear reaction.
+
+1011
+
+

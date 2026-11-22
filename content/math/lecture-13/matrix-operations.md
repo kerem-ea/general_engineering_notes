@@ -6,6 +6,8 @@ tags:
 
 # Matrix Operations
 
+(book section 7.2, pages 124-129)
+
 A matrix $A \in F^{m \times n}$ has $m$ rows and $n$ columns; entry in row $i$, column $j$ is $a_{ij}$.
 
 ## Matrix-Vector Product

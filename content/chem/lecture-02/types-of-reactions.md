@@ -6,6 +6,8 @@ tags:
 
 # Types of Reactions
 
+(OpenStax Chemistry 2e, section 4.2, pages 169–185)
+
 There are multiple types of reactions. The common types of reactions are:
 
 1. Synthesis

@@ -6,6 +6,8 @@ tags:
 
 # Logical Operations
 
+(book section 1.2, pages 2-5)
+
 Logical connectives combine or modify [[propositions-and-truth-values|propositions]] to form compound propositions.
 
 ## Basic connectives

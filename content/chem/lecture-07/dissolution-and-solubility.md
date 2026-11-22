@@ -6,6 +6,8 @@ tags:
 
 # The Dissolution Process and Solubility
 
+(OpenStax Chemistry 2e, section 11.1, pages 540–553)
+
 Builds on [[chem/lecture-02/precipitation-and-solubility|Precipitation and Solubility]], which outlines qualitative solubility rules for ionic salts. 
 
 ## Energetics of Dissolution

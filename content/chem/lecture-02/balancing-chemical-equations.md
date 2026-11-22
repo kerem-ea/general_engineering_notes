@@ -6,6 +6,8 @@ tags:
 
 # Balancing Chemical Equations
 
+(OpenStax Chemistry 2e, section 4.1, pages 162–169)
+
 Chemical equations must obey the **law of conservation of matter**. Atoms are neither created nor destroyed, so each element must have the same number of atoms on both sides.
 
 ## Balancing Procedure

@@ -6,6 +6,8 @@ tags:
 
 # Spectator Ions
 
+(OpenStax Chemistry 2e, section 4.2, pages 169–178)
+
 A **spectator ion** remains chemically and physically unchanged throughout a reaction-it does not participate in precipitation, electron transfer, or bond formation.
 
 - Spectator ions appear with identical formulas, charges, and physical states on both sides of a complete ionic equation.

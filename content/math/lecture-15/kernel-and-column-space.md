@@ -6,6 +6,8 @@ tags:
 
 # Kernel and Column Space of a Matrix
 
+(book section 9.3, pages 163-165)
+
 For any matrix $A \in F^{m \times n}$, two fundamental vector spaces are naturally associated with it: the kernel and the column space.
 
 ## The Kernel (Null Space)

@@ -6,6 +6,8 @@ tags:
 
 # Mapping Matrices
 
+(book section 11.1 and 11.3, pages 199-203, 206-214)
+
 Every linear map between finite-dimensional vector spaces can be uniquely represented by a matrix once ordered bases for the domain and codomain are chosen. Conversely, every matrix defines a linear transformation via matrix-vector multiplication.
 
 ## Standard Matrix Linear Maps

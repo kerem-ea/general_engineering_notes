@@ -6,6 +6,8 @@ tags:
 
 # Linear Equations and Systems
 
+(book section 6.1, pages 92-96)
+
 ## Linear Equation over $F$
 
 $$

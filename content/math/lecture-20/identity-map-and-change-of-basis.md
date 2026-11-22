@@ -6,6 +6,8 @@ tags:
 
 # Identity Map and Change-of-Basis Matrices
 
+(book section 11.4, pages 215-217)
+
 The identity map provides an algebraic bridge unifying coordinate transformations with the general theory of linear mapping matrices. Every change-of-basis matrix is identically the mapping matrix of the identity map evaluated between two distinct bases.
 
 *(For elementary coordinate transition matrices, see [[change-of-basis-matrices|Change-of-Basis Matrices]].)*

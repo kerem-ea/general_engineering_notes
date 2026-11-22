@@ -6,6 +6,8 @@ tags:
 
 # Effusion and Diffusion of Gases
 
+(OpenStax Chemistry 2e, section 9.4, pages 431–437)
+
 ## Diffusion and Effusion
 
 - **Diffusion:** Net dispersal of gas molecules from regions of higher concentration to lower concentration driven by random thermal motion.

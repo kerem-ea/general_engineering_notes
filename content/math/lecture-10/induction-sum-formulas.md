@@ -6,6 +6,8 @@ tags:
 
 # Induction Proofs Sum Formulas
 
+(book section 3.4, pages 45-47)
+
 ## Sum of the First $n$ Natural Numbers
 
 Prove:

@@ -6,6 +6,8 @@ tags:
 
 # Algebraic Multiplicity and Geometric Multiplicity
 
+(book section 12.2, pages 227-230)
+
 Every eigenvalue $\lambda$ of a square matrix $A \in \mathbb{F}^{n \times n}$ has two multiplicities: algebraic (root multiplicity) and geometric (eigenspace dimension).
 
 ## Definitions

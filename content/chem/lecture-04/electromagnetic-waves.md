@@ -6,6 +6,8 @@ tags:
 
 # Electromagnetic Waves
 
+(OpenStax Chemistry 2e, section 6.1, pages 272–280)
+
 A **wave** is an oscillation that transports energy through space without permanently displacing matter (see [[future_energy/lecture-01/electromagnetic-radiation|Electromagnetic Radiation]] and [[chem/lecture-03/energy-basics|Energy Basics]]).
 
 ## Nature of Electromagnetic Waves

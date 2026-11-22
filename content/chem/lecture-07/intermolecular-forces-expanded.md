@@ -6,6 +6,8 @@ tags:
 
 # Intermolecular Forces Expanded
 
+(OpenStax Chemistry 2e, section 10.1, pages 462–475)
+
 Builds on [[chem/lecture-01/intermolecular-forces|Intermolecular Forces]]. While intramolecular bonds hold atoms together within a molecule (see [[chem/lecture-01/chemical-bonds|Chemical Bonds]]), intermolecular forces (IMFs) are attractive electrostatic interactions between molecules or ions and molecules. They dictate bulk physical properties: boiling/melting points, vapor pressure, viscosity, and surface tension.
 
 All IMFs are electrostatic in nature, governed by Coulomb's law:

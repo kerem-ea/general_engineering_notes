@@ -6,6 +6,8 @@ tags:
 
 # Polynomial Factorization Examples
 
+(book section 5.6, pages 89-91)
+
 ## Example 1: Multiplicity Determination
 
 Factor $p(Z) = 2Z^5 + 9Z^4 - 18Z^3 - 108Z^2 + 243$:

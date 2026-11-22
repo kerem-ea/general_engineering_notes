@@ -6,6 +6,8 @@ tags:
 
 # Acid-Base Titrations and Indicators
 
+(OpenStax Chemistry 2e, section 14.7, pages 773–789)
+
 A titration is a quantitative analytical method to determine the unknown concentration of an analyte by incremental addition of a standard titrant solution (see [[chem/lecture-09/buffer-solutions-and-capacity|Buffer Solutions]]).
 
 ## Titration Terminology

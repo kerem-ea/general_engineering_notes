@@ -6,6 +6,8 @@ tags:
 
 # Reaction Mechanisms
 
+(OpenStax Chemistry 2e, section 12.6, pages 659–670)
+
 A **reaction mechanism** is the step-by-step sequence of individual molecular events (**elementary reactions**) by which an overall chemical change occurs.
 
 ## Elementary Reactions and Molecularity

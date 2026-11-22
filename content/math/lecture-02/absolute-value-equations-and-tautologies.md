@@ -6,6 +6,8 @@ tags:
 
 # Solving Absolute Value Equations via Tautologies
 
+(book section 1.3 and 1.4, pages 8-12)
+
 When an equation contains absolute values, it cannot be solved in a single step because absolute value expressions change definition depending on whether the inside expression is non-negative or negative.
 
 We solve this by splitting the problem into cases using propositional logic ([[math/lecture-01/tautologies-and-contradictions|tautologies]]) so that all real numbers are covered with no gaps.

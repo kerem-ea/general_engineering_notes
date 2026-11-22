@@ -6,6 +6,8 @@ tags:
 
 # Number Sets
 
+(book section 2.1, pages 16-18)
+
 The standard number sets are:
 
 $$

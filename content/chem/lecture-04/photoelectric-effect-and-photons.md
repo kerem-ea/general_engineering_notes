@@ -6,6 +6,8 @@ tags:
 
 # Photoelectric Effect and Photons
 
+(OpenStax Chemistry 2e, section 6.2, pages 286–290)
+
 The **photoelectric effect** is the ejection of electrons from a metal surface exposed to light.
 
 ## Einstein's Photon Theory

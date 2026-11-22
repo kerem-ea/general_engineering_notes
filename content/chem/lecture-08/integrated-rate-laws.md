@@ -6,6 +6,8 @@ tags:
 
 # Integrated Rate Laws and Half-Life
 
+(OpenStax Chemistry 2e, section 12.4, pages 637–649)
+
 Integrated rate laws relate reactant concentration directly to elapsed time ($t$).
 
 ## Zero-Order Reactions

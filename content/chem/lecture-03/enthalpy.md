@@ -6,6 +6,8 @@ tags:
 
 # Enthalpy
 
+(OpenStax Chemistry 2e, section 5.3, pages 244–252)
+
 ## Definition and Constant Pressure Condition
 
 **Enthalpy ($H$)** is defined as:

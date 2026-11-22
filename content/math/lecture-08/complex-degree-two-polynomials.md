@@ -6,6 +6,8 @@ tags:
 
 # Complex Degree-Two Polynomials
 
+(book section 5.2 and 5.3, pages 74-80)
+
 ## General Form in $\mathbb{C}[Z]$
 
 For $aZ^2 + bZ + c \in \mathbb{C}[Z]$ with $a \neq 0$:

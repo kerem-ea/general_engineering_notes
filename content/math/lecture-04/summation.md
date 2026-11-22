@@ -6,6 +6,8 @@ tags:
 
 # Summation
 
+(book section 3.2, pages 40-41)
+
 ## Notation
 
 The sum $z_1 + z_2 + \cdots + z_n$ can be written compactly using the **summation symbol**:

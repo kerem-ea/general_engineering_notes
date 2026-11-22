@@ -6,6 +6,8 @@ tags:
 
 # Subspaces of a Vector Space
 
+(book section 10.4, pages 188-194)
+
 A subspace is a subset of a vector space that is itself a vector space under the inherited addition and scalar multiplication operations (see [[math/lecture-15/kernel-and-column-space|Kernel and Column Space]]).
 
 ## Subspace Definition

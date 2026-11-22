@@ -6,6 +6,8 @@ tags:
 
 # Non-Ideal Gas Behavior
 
+(OpenStax Chemistry 2e, section 9.6, pages 444–452)
+
 ## Deviations from Ideal Behavior
 
 The [[ideal-gas-law-expanded|ideal gas model]] assumes zero particle volume and no [[chem/lecture-01/intermolecular-forces|intermolecular forces]]. Real gases deviate significantly under:

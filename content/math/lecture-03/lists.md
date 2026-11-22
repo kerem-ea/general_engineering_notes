@@ -6,6 +6,8 @@ tags:
 
 # Tuples and Lists
 
+(book section 2.1, pages 20-21)
+
 An **ordered tuple** is a finite ordered sequence of elements enclosed in parentheses:
 
 $$

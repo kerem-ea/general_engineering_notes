@@ -6,6 +6,8 @@ tags:
 
 # Properties of Liquids
 
+(OpenStax Chemistry 2e, section 10.2, pages 475–484)
+
 The microscopic strength and character of [[intermolecular-forces-expanded|Intermolecular Forces Expanded]] govern the macroscopic mechanical and surface properties of liquids.
 
 ## Cohesive and Adhesive Forces

@@ -6,6 +6,8 @@ tags:
 
 # VSEPR Theory and Molecular Geometry
 
+(OpenStax Chemistry 2e, section 7.6, pages 370–385)
+
 **Valence Shell Electron Pair Repulsion (VSEPR) theory** predicts the three-dimensional geometry of a molecule by minimizing repulsions among all regions of electron density (bonds and lone pairs) around the central atom.
 
 ## Electron-Pair Geometry vs Molecular Structure

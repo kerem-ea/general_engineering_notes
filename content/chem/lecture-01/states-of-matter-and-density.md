@@ -6,6 +6,8 @@ tags:
 
 # States of Matter and Density
 
+(OpenStax Chemistry 2e, section 1.2, pages 11–17)
+
 ## States of matter
 
 The common states of matter are governed by the balance between thermal kinetic energy and [[intermolecular-forces|intermolecular forces]]:

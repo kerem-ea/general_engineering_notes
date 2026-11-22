@@ -6,6 +6,8 @@ tags:
 
 # Eigenbasis and Diagonalization
 
+(book section 12.3, pages 230-234)
+
 Diagonalization represents a linear operator or square matrix in a coordinate basis where it acts purely as scalar scaling along coordinate axes.
 
 *(For coordinate transformations and change-of-basis matrices, see [[change-of-basis-matrices|Change-of-Basis Matrices]] and [[identity-map-and-change-of-basis|Identity Map and Change of Basis]].)*

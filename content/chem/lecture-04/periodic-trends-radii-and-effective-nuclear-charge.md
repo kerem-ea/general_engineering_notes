@@ -6,6 +6,8 @@ tags:
 
 # Periodic Trends in Atomic and Ionic Radii
 
+(OpenStax Chemistry 2e, section 6.6, pages 325–333)
+
 ## Effective Nuclear Charge ($Z_{\text{eff}}$)
 
 $$

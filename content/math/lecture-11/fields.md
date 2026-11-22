@@ -6,6 +6,8 @@ tags:
 
 # Fields
 
+(book section 6.1, pages 92-93)
+
 ## Definition
 
 A set $F$ with an addition and multiplication is a **field** if for all $a_1, a_2, a_3 \in F$:

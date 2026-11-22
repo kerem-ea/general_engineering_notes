@@ -6,6 +6,8 @@ tags:
 
 # Phase Transitions and Vapor Pressure
 
+(OpenStax Chemistry 2e, sections 10.3–10.4, pages 484–500)
+
 Builds on [[chem/lecture-01/states-of-matter-and-density|States of Matter and Density]]. Phase transitions represent changes between physical states without altering chemical composition, driven by temperature and pressure shifts relative to [[intermolecular-forces-expanded|Intermolecular Forces Expanded]].
 
 ## Phase Transitions and Transition Enthalpies

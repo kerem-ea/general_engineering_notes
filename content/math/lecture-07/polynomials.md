@@ -6,6 +6,8 @@ tags:
 
 # Polynomials
 
+(book section 5.1, pages 72-74)
+
 ## Definition and Rings
 
 A **polynomial** in variable $Z$ with coefficients in $\mathbb{C}$ (or $\mathbb{R}$) is a formal sum:

@@ -6,6 +6,8 @@ tags:
 
 # Binomial Equations
 
+(book section 5.4, pages 80-82)
+
 ## Definition
 
 A **binomial equation** has the form:

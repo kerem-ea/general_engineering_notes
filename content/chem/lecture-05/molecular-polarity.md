@@ -6,6 +6,8 @@ tags:
 
 # Molecular Polarity and Dipole Moments
 
+(OpenStax Chemistry 2e, section 7.6, pages 383–388)
+
 ## Electronegativity and Bond Polarity
 
 From [[chem/lecture-01/chemical-bonds|Chemical Bonds]], a **polar covalent bond** arises when bonded atoms differ in electronegativity ($\chi$). The more electronegative atom acquires a partial negative charge ($\delta^-$) and the other a partial positive charge ($\delta^+$).

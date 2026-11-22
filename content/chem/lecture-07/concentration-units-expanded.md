@@ -6,6 +6,8 @@ tags:
 
 # Concentration Units Expanded
 
+(OpenStax Chemistry 2e, section 11.2, pages 553–564)
+
 Builds on [[chem/lecture-01/concentration|Concentration]], which covers basic molarity ($c = n/V$) and dilution ($c_1 V_1 = c_2 V_2$). Chapter 11 introduces temperature-independent and ratio-based concentration expressions required for [[colligative-properties|Colligative Properties]].
 
 ## Expressions of Concentration

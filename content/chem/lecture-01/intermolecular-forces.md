@@ -6,6 +6,8 @@ tags:
 
 # Intermolecular Forces
 
+(OpenStax Chemistry 2e, section 10.1, pages 462–475)
+
 Intermolecular forces are attractions between molecules. They arise from electrostatic interactions (see [[future_energy/lecture-01/electrical-energy|Electrical Energy]]) and influence properties such as boiling point, melting point, viscosity, and solubility, which dictate [[states-of-matter-and-density|states of matter]].
 
 ## London dispersion forces

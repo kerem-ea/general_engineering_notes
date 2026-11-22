@@ -6,6 +6,8 @@ tags:
 
 # Buffer Solutions and Buffer Capacity
 
+(OpenStax Chemistry 2e, section 14.6, pages 762–773)
+
 A buffer solution resists changes in pH when small amounts of strong acid or strong base are added (see [[chem/lecture-09/autoionization-water-and-ph-scale|pH Scale]]).
 
 ## Buffer Composition and Mechanism

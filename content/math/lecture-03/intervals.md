@@ -6,6 +6,8 @@ tags:
 
 # Intervals
 
+(book section 2.1, pages 17-18)
+
 Intervals describe continuous subsets of the real [[number-sets|number set]] $\mathbb R$. They represent connected portions of the real number line, frequently used as domains and codomains for [[functions|functions]].
 
 > [!note] Infinity is not a number, so it can never be included in an interval.

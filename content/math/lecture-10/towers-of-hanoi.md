@@ -6,6 +6,8 @@ tags:
 
 # Towers of Hanoi
 
+(book section 3.3, pages 41-43)
+
 ## Problem Specification
 
 The puzzle consists of $3$ vertical pegs labeled $\{P_1, P_2, P_3\}$ and a stack of $n \in \mathbb{N}$ discs with strictly decreasing radii:

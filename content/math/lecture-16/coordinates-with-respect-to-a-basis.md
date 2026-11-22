@@ -6,6 +6,8 @@ tags:
 
 # Coordinates with Respect to an Ordered Basis
 
+(book section 9.5, pages 168-176)
+
 Let $W \subseteq F^m$ be a span of vectors with $\dim(W) = d$, and let $\beta = (\mathbf{w}_1, \ldots, \mathbf{w}_d)$ be an ordered basis of $W$.
 
 ## Uniqueness of Representation

@@ -6,6 +6,8 @@ tags:
 
 # Calorimetry
 
+(OpenStax Chemistry 2e, section 5.2, pages 237–244)
+
 ## Fundamental Heat Balance
 
 In an insulated calorimeter, energy conservation dictates:

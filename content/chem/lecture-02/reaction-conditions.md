@@ -6,6 +6,8 @@ tags:
 
 # Reaction Conditions
 
+(OpenStax Chemistry 2e, section 4.1, pages 162–169)
+
 Special reaction conditions (heat, light, catalysts, temperature, pressure) are written **above or below the reaction arrow** ($\rightarrow$).
 
 ## Common Notations

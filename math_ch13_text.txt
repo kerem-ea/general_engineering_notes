@@ -1,0 +1,1624 @@
+Chapter 13
+
+Systems of linear ordinary differential
+equations of order one with constant
+coefficients
+
+In this chapter we will investigate some families of differential equations. Differential equations
+are used to model processes occurring in nature. They occur in almost every area of applied exact
+sciences, like (quantum) mechanics, (bio)chemistry, dynamics of biological systems, construction
+engineering, the study of electrical components and circuits, and many more. The theory of
+differential equations is vast and we will in this book only take a first look at some special cases.
+Before starting with that, let us fix a few conventions and notations that we will use in the
+remainder of this chapter.
+As we have seen, in general a function f : A → B is a map between two sets. In this chapter, we
+will always assume that the domain of the function is the set of real numbers R. If the codomain B
+is equal to R, we call such a function a real-valued function.
+If B = C, we call such a function a complex-valued function. Real- and complex-valued functions
+occur in many places in mathematics, especially in analysis. The techniques and tools from
+linear algebra that we have discussed so far in previous chapters, can be used in analysis as well.
+More precisely, we will see how tools from linear algebra can be used to solve specific types of
+differential equations. Without being too formal, one can think of a differential equation as a
+way to find real-valued or complex-valued functions with additional properties involving the
+derivatives of that function. We will assume that the reader is familiar with the derivative of a
+real-valued function. Given a function f : R → R, we denote by f ′ , the derivative of f , provided
+it exists. The function f ′ : R → R is again a real-valued function and as such one can attempt to
+compute the derivative of f ′ . If it exists, it is typically denoted by f ′′ or by f (2) . Similarly, one can
+recursively define for n ≥ 3, the function f (n) : R → R to be the derivative of f (n−1) , provided
+it exists. We have seen this notation in Example 10.4.5 as well, where we introduced the real
+vector space C∞ (R) consisting of all infinitely often differentiable (real-valued) functions. It is
+customary to write f (0) = f and f (1) = f ′ . In the theory of real- and complex-valued functions, it
+is quite common to write down a function as f (t), rather than writing f : R → R (for real-valued
+functions) or f : R → C (for complex-valued functions). In the remainder of this section we will
+also often do this.
+242
+
+243
+
+Chapter 13
+
+We can now explain in broad terms what we mean by an n-th order ordinary differential equation
+(abbreviated: ODE).
+Definition 13.0.1
+Let n be a natural number. An n-th order ODE is an equation of the form
+F ( f (n) (t), . . . , f ′ (t), f (t), t) = 0,
+where F is a function taking n + 2 variables as input.
+A solution of such an ODE is then a real-valued function f (t) such that
+F ( f ( n ) ( t ), . . . , f ′ ( t ), f ( t ), t ) = 0
+for all t ∈ R. As a first small example: the function f (t) = et is a solution to the ODE
+f ′ (t) − f (t) = 0, because it holds that (et )′ = et . We will see more examples later on.
+There are many variations and more refined definitions. For example in some cases, one only
+needs that F ( f (n) (t), . . . , f ′ (t), f (t), t) = 0 for all t in a subset of R. However, all we need at this
+point is an intuitive understanding of what an ODE is and therefore we will not go into more
+depth here.
+A special kind of ODE where tools from linear algebra can be used is called a linear ODE. We
+define what that is now:
+Definition 13.0.2
+A linear ODE is a differential equation that can be brought in the form L( f (t)) = q(t), where
+q(t) ∈ C∞ (R) is a function and L : C∞ (R) → C∞ (R) is a linear map. If q(t) is the zero function,
+one calls the linear ODE a homogeneous linear ODE. Otherwise it is called an inhomogeneous linear
+ODE.
+Also here variations exists: one does not necessarily need the solutions to be infinitely often
+differentiable nor to be defined on the whole of R. However, as before, we will not go into such
+details and emphasize the role of linear algebra.
+Considering the linear map from Example 11.2.8, which was defined as L( f (t)) = f (t) − f ′ (t), we
+see that the linear ODE L( f (t)) = q(t) simply amounts to the differential equation f ′ (t) − f (t) =
+q(t). The point of studying linear ODEs in connection with linear algebra is that Theorem 11.4.2
+applies in this situation and describes the structure of the set of solutions. Let us consider a couple
+more examples.
+Example 13.0.1
+Are the following ODEs linear or not linear? If the ODE is linear, is it homogeneous or
+inhomogeneous?
+(a) f ′′ (t) + 2 f ′ (t) + f (t) = cos(t)
+(b) et · f ′ (t) + cos(t) · f (t) = 0
+(c) ( f ′ (t))2 + f (t) = 0
+Answer:
+
+Chapter 13
+
+244
+
+13.1 LINEAR FIRST-ORDER ODES
+
+(a) The given ODE is linear with L( f (t)) = f ′′ (t) + 2 f ′ (t) + f (t) and q(t) = cos(t). Since q(t)
+is not the zero function, it is an inhomogeneous linear ODE.
+(b) The given ODE is linear with L( f (t)) = et · f ′ (t) + cos(t) · f (t) and q(t) = 0. Since q(t) is
+the zero function, it is a homogeneous linear ODE.
+(c) The given ODE is not linear because of the term ( f ′ (t))2 .
+One is often primarily interested in real-valued functions as solutions to an ODE, but sometimes
+it is convenient to look for complex-valued solutions as well. For us the main reason will be
+to use such complex-valued solutions to find real-valued solutions of an ODE. Let us therefore
+explain how to compute the derivative of complex-valued functions. Given a complex-valued
+function f : R → C, one can for any t ∈ R, write f (t) = f 1 (t) + i f 2 (t), where f 1 (t) = Re( f (t)) is
+the real part of f (t) and f 2 (t) = Im( f (t)) is the imaginary part of f (t). In this way, any complexvalued function f : R → C, gives rise to two real valued-functions Re( f ) : R → R defined as
+t 7→ Re( f (t)) and Im( f ) : R → R defined as t 7→ Im( f (t)). Conversely, given two real-valued
+functions f 1 : R → R and f 2 : R → R, we can define a complex-valued function f = f 1 + i · f 2
+as t 7→ f 1 (t) + i · f 2 (t). If the derivatives of f 1 and f 2 exist, we will define the derivative of f to
+be the function f ′ = f 1′ + i · f 2′ . Similarly, we can define for any nonnegative integer n, the n-th
+(n)
+
+(n)
+
+(n)
+
+(n)
+
+derivative f (n) = f 1 + i · f 2 , provided that both f 1 and f 2 exist. With these conventions in
+place, we can therefore also talk about complex-valued functions as solutions of an ODE. We will
+see examples of such solutions later on.
+After this brief introductory sketch of what a linear ODE is, let us look at some particular cases
+and examples in the following sections.
+
+13.1 Linear first-order ODEs
+According to Definition 13.0.1, a first-order ODE gives a relation between a function f (t) and
+its derivative f ′ (t). For example f ′ (t) = f (t) is a first-order ODE, but also a more complicated
+expression like
+sin( f (t) f ′ (t)) = f ′ (t)2 + et
+is a first-order ODE. To bring these examples in the form of Definition 13.0.1, we just rewrite the
+expressions and make the righthand side zero. For example, the first expression can be written as
+f ′ (t) − f (t) = 0, while the second example can be written as sin( f (t) f ′ (t)) − f ′ (t)2 − et = 0. Let
+us consider a couple of examples of first-order ODEs.
+Example 13.1.1
+Investigate whether or not the function f (t) = e2t is a solution to one of the following ODEs:
+(a) f ′ (t) − 2 f (t) = 0
+(b) f ′ (t)2 − 4 f (t) = 0
+(c) ln( f ′ (t)) − ln( f (t)) = ln(2)
+Answer:
+
+Chapter 13
+
+13.1 LINEAR FIRST-ORDER ODES
+
+245
+
+(a) Using the chain rule we find that f ′ (t) = (e2t )′ = e2t (2t)′ = e2t 2 = 2e2t . Therefore it holds
+that
+f ′ (t) − 2 f (t) = 2e2t − 2e2t = 0.
+We can therefore conclude that the function f (t) = e2t is a solution to the ODE f ′ (t) = 2 f (t).
+(b) We have seen that f ′ (t) = 2e2t . Therefore it holds that
+f ′ (t)2 − 4 f (t) = (2e2t )2 − 4e2t = 4(e2t )2 − 4e2t = 4e4t − 4e2t ̸= 0.
+Therefore the function f (t) = e2t is not a solution to the ODE f ′ (t)2 − 4 f (t) = 0.
+(c) If f (t) = e2t , we find that
+ln( f ′ (t)) − ln( f (t)) = ln(2e2t ) − ln(e2t ) = ln(2) + ln(e2t ) − ln(e2t ) = ln(2),
+so the function f (t) = e2t is a solution to the ODE ln( f ′ (t)) − ln( f (t)) = ln(2).
+Let us take a look again at the ODE f ′ (t) = f (t). We mentioned before that the function f (t) = et
+is a solution to this ODE. However, it is not the only one. For example the functions f (t) = 2et
+and f (t) = −5et both also satisfy that f ′ (t) = f (t). In fact any function of the form f (t) = c · et ,
+with c ∈ R a constant, is a solution to the ODE f ′ (t) = f (t).
+One can show that in fact any solution to the ODE f ′ (t) = f (t) is of the form f (t) = c · et . Such
+a description of all possible solutions to an ODE is called its general solution. The term general
+solution was used in a similar way when describing solutions to systems of linear equations.
+Using this terminology we can say that the general solution to the ODE f ′ (t) = f (t) is given by
+f (t) = c · et , with c ∈ R.
+It can be difficult to find an explicit expression for the general solution to an ODE. However, for
+some classes of ODEs, it is possible. We will now look at one such class. An ODE of the form
+f ′ ( t ) = a ( t ) f ( t ) + q ( t ),
+
+(13.1)
+
+with a(t) and q(t) functions in the variable t, is called a linear first-order ODE. The function q(t) is
+also called the forcing function of this ODE. Note that an ODE as in Equation (13.1) is indeed linear
+according to Definition 13.0.2: simply choose the linear map defined by L( f (t)) = f ′ (t) − a(t) f (t)
+and q(t) as given, then the equation L( f (t)) = q(t) simply states that f ′ (t) − a(t) f (t) = q(t),
+which is equivalent to the differential equation f ′ (t) = a(t) f (t) + q(t).
+For example the ODE f ′ (t) = f (t) is a linear first-order ODE. More precisely, by choosing
+a : R → R to be the function defined by t 7→ 1 and q : R → R to be the function defined by t 7→ 0,
+Equation (13.1) simplifies to the equation f ′ (t) = f (t).
+Following Definition 13.0.2, the ODE from Equation (13.1) is called homogeneous if the forcing
+function q(t) is the zero function and inhomogeneous otherwise.
+It turns out that one can give a formula for the general solution to a linear first-order ODE. In this
+formula we will need a bit of notation. We will by A(t) denote a primitive function (also known
+as an antiderivative) of the function a(t), that is to say, a function satisfying A′ (t) = a(t). We will
+assume in the remainder of this section that the function a(t) in fact has such a primitive function.
+We will also need to assume that the function e A(t) q(t) has a primitive function. One can show
+
+Chapter 13
+
+246
+
+13.1 LINEAR FIRST-ORDER ODES
+
+that these assumptions are true if for example both function a(t) and q(t) are differentiable. If this
+is the case, we have the following result.
+Theorem 13.1.1
+The general solution to the ODE f ′ (t) = a(t) f (t) + q(t) is given by
+f ( t ) = e A(t)
+
+Z
+
+e− A(t) q(t)dt + ce A(t) ,
+
+c ∈ R,
+
+wherer A(t) is a function satisfying A′ (t) = a(t).
+
+Proof. Recall that A′ (t) = a(t). Using first the product rule and then the chain rule, we find that
+
+′ 
+′
+e − A ( t ) f ( t ) = e − A ( t ) f ( t ) + e − A ( t ) f ′ ( t ) = − e − A ( t ) a ( t ) f ( t ) + e − A ( t ) f ′ ( t ).
+Therefore the following holds:
+f ′ ( t ) = a ( t ) f ( t ) + q ( t ) ⇔ e− A(t) f ′ ( t ) − e− A(t) a ( t ) f ( t ) = e− A(t) q ( t )
+
+′
+⇔ e− A(t) f ( t ) = e− A(t) q ( t )
+Z
+
+e− A(t) q(t)dt + c,
+
+Z
+
+e− A(t) q(t)dt + ce A(t) ,
+
+⇔ e− A(t) f ( t ) =
+⇔ f ( t ) = e A(t)
+
+c∈R
+c ∈ R.
+
+Let us look at some examples.
+Example 13.1.2
+Compute the general solution to the following ODEs:
+(a) f ′ (t) − f (t) = 0
+(b) f ′ (t) = − sin(t) f (t) + sin(t)
+(c) f ′ (t) = −t−1 f (t) + 1, with t > 0
+Answer:
+(a) Rewriting f ′ (t) − f (t) = 0 as f ′ (t) = f (t), we see that we can apply Theorem 13.1.1, using
+a(t) = 1 and q(t) = 0. A primitive function of a(t) = 1 is given by for example A(t) = t.
+Then we get that the general solution is given by
+f (t) = et
+
+Z
+
+e−t 0 dt + cet = 0 + cet = cet ,
+
+c ∈ R.
+
+This agrees with the general solution we found before for this ODE.
+(b) We can use Theorem 13.1.1 with a(t) = − sin(t) and q(t) = sin(t). We can choose
+A(t) = cos(t) and we therefore find that the desired general solution is given by
+f (t) = ecos(t)
+
+Z
+
+e− cos(t) sin(t)dt + cecos(t) = ecos(t) e− cos(t) + cecos(t) = 1 + cecos(t) ,
+
+c ∈ R.
+
+Chapter 13
+
+247
+
+13.1 LINEAR FIRST-ORDER ODES
+
+(c) Theorem 13.1.1 applies with a(t) = −t−1 = −1/t and q(t) = 1. Since t > 0, this means that
+we can choose A(t) = − ln(t). The general solution to the ODE f ′ (t) = −t−1 f (t) + 1 then
+becomes
+f (t) = e− ln(t)
+
+Z
+
+eln(t) dt + ce− ln(t) = (1/eln(t) )
+
+Z
+
+tdt + c/eln(t) =
+
+11 2
+t c
+t + c/t = + ,
+t2
+2 t
+
+c ∈ R.
+
+One important special case of Theorem 13.1.1 is when the function a is a constant function, say
+a(t) = a0 for all t. In this case, Theorem 13.1.1 simplifies to the following statement.
+Corollary 13.1.2
+Let a0 ∈ R and q(t) be a real-valued, differentiable function. Then the ODE f ′ (t) = a0 f (t) + q(t)
+has the general solution
+f ( t ) = e a0 t
+
+Z
+
+e− a0 t q(t)dt + ce a0 t ,
+
+c ∈ R.
+
+As said before, ODEs are used to model processes occurring in nature. The general solution of
+an ODE describes all possible behaviors of the process. In order to find out which one of the
+possibilities is the right one in a particular situation, one needs more information, that one usually
+can obtain by performing measurements. One possibility is to describe the behaviour of the
+function f for a specific value of the variable t. One could imagine that one measures the exact
+state of the process at the beginning of an experiment. Mathematically speaking, what we will
+do is to pose an initial value condition, that is to say, a condition on a function f (t) of the form
+f ( t0 ) = y0 , .
+Definition 13.1.1
+Given a real-valued function f (t) and real numbers t0 and y0 such that f (t0 ) = y0 . Then the
+function f (t) is said to satisfy the initial value condition f (t0 ) = y0 .
+It turns out that in many interesting applications, a function f : R → R is completely determined
+if it satisfies both a first-order ODE and an initial value condition. We give a description of the
+situation for general ODEs.
+Definition 13.1.2
+Let f (t) be a real-valued function satisfying:
+(i) An n-th order ODE F ( f (n) (t), . . . , f ′ (t), f (t), t) = 0.
+(ii) The initial value conditions f (t0 ) = y0 , f ′ (t0 ) = y1 , . . . , f (n−1) (t0 ) = yn−1 , for given t0 ∈ R
+and values y0 , y1 , . . . , yn−1 ∈ R.
+The two conditions together are called an initial value problem. The function f (t) is said to be a
+solution to the initial value problem.
+For a first-order ODE F ( f ′ (t), f (t), t) = 0, this amount to saying that f (t) is a solution to the initial
+value problem if it satisfies
+(i) F ( f ′ (t), f (t), t) = 0 and
+(ii) f (t0 ) = y0 , for given t0 ∈ R and a value y0 .
+
+Chapter 13
+
+248
+
+13.1 LINEAR FIRST-ORDER ODES
+
+Hence Definition 13.1.1 is just a special case of Definition 13.1.2 when n = 1.
+The strategy of solving an initial value problem often follows the same pattern. First compute the
+general solution to the given ODE. This general solution should contain some parameters such
+as c. Then use the initial value condition to determine c. The resulting function is the desired
+solution. Let us look at two examples in the case of first-order ODEs.
+Example 13.1.3
+Solve the following initial value problems. That is to say, compute the function f (t) satisfying:
+(a) The ODE f ′ (t) = f (t) and the initial value condition f (0) = 7.
+(b) The ODE f ′ (t) + sin(t) f (t) = sin(t) and the initial value condition f (π ) = 2.
+Answer:
+Note that we already have computed the general solution to the given two ODEs in Example
+13.1.2. Now let us look at each initial value problem separately.
+(a) We have already seen that the general solution to f ′ (t) = f (t) is given by f (t) = cet . The
+trick is to evaluate f (t) in 0 an compare the result with the initial value condition. We get
+that f (0) = c, but according to the initial value condition we should have f (0) = 7. This
+means that c = 7. Now that we know c, we find that the desired function f : R → R is given
+by
+f (t) = 7et .
+(b) The general solution is in this case given by f (t) = 1 + cecos(t) . Using the initial value
+condition, we find that 2 = f (π ) = 1 + cecos(π ) = 1 + ce−1 . This means that ce−1 = 1 and
+therefore c = e. Hence, the desired function f : R → R is given by
+f (t) = 1 + e · ecos(t) = 1 + e1+cos(t) .
+Before starting to consider more general ODEs, let us establish one nice property of the complex
+exponential function. We know that the derivative of the real-valued function f (t) = eλt is simply
+f ′ (t) = λeλt for any λ ∈ R. It turns out that this is also true for the complex exponential function:
+Lemma 13.1.3
+Let λ ∈ C and consider the complex-valued function f : R → C defined as f (t) = eλt . Then
+Re( f ) = eRe(λ)t cos(Im(λ)t),
+
+Im( f ) = eRe(λ)t sin(Im(λ)t)
+
+and f ′ (t) = λeλt .
+
+Proof. Let us write λ = λ1 + iλ2 in rectangular form. Then for any t ∈ R, we have
+eλt
+
+=
+=
+=
+=
+
+e λ1 t + i · λ2 t
+e λ1 t · e i · λ2 t
+eλ1 t · (cos(λ2 t) + i · sin(λ2 t))
+eλ1 t cos(λ2 t) + i · eλ1 t sin(λ2 t).
+
+This shows that the real part of the expression f (t) = eλt is given by Re( f (t)) = eλ1 t cos(λ2 t),
+while its imaginary part is given by Im( f (t)) = eλ1 t sin(λ2 t). Now we set f ′ (t) = (Re( f (t)))′ + i ·
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+249
+
+Chapter 13
+
+(Im( f (t)))′ . Using the product and chain rule to compute Re( f (t))′ and Im( f (t))′ , we get
+f ′ (t)
+
+=
+=
+=
+=
+=
+=
+=
+
+Re( f (t))′ + i · Im( f (t))′
+
+(eλ1 t cos(λ2 t))′ + i · (eλ1 t sin(λ2 t))′
+(eλ1 t λ1 cos(λ2 t) + eλ1 t (− sin(λ2 t))λ2 ) + i · (eλ1 t λ1 sin(λ2 t) + eλ1 t cos(λ2 t)λ2 )
+(λ1 + iλ2 )eλ1 t cos(λ2 t) + (−λ2 + iλ1 )eλ1 t sin(λ2 t)
+(λ1 + iλ2 )eλ1 t (cos(λ2 t) + i sin(λ2 t))
+(λ1 + iλ2 )eλ1 t eiλ2 t
+λeλt .
+
+This lemma will be extremely useful when finding solutions to certain types of ODEs later on.
+
+13.2 Systems of linear first-order ODEs with constant coefficients
+In the previous section, we considered linear, first-order ODEs. Now, we consider a system of
+such ODEs, but we will only consider the case where all the functions occurring as coefficients are
+constant. After this, in the next section, we will show that some higher order ODEs can be solved
+using the theory from this section.
+Definition 13.2.1
+Let n > 0 be an integer, q1 (t), . . . , qn (t) real-valued differentiable functions and A ∈ Rn×n a matrix.
+Then a system of linear, first-order ODEs is an equation of the form
+
+
+ 
+
+f 1′ (t)
+f 1 (t)
+q1 ( t )
+ ′
+
+
+ 
+
+ f 2 (t) 
+ f (t)   q (t) 
+ .  = A ·  2.  +  2. 
+ . 
+ .   . 
+ . 
+ .   . 
+
+
+f n′ (t)
+
+f n (t)
+
+(13.2)
+
+qn (t)
+
+The matrix A is called the coefficient matrix of the system, while the functions q1 (t), . . . , qn (t) are
+called the forcing functions of the system. If all forcing functions q1 (t), . . . , qn (t) are equal to the
+zero function, the system of ODEs is called homogeneous, otherwise it is called inhomogeneous. A
+solution to an inhomogeneous system of linear, first-order ODEs is called a particular solution.
+Example 13.2.1
+Given is the following system of linear, first-order ODEs:
+# "
+#
+"
+# "
+# "
+et
+f 1′ (t)
+2 1
+f 1 (t)
+=
+·
++
+.
+f 2′ (t)
+0 2
+f 2 (t)
+0
+(a) Is the given system of ODEs in Equation (13.3) homogeneous or inhomogeneous?
+(b) Is ( f 1 (t), f 2 (t)) = (e2t , 0) a solution to Equation (13.3)?
+(c) Is ( f 1 (t), f 2 (t)) = (−et , 0) a solution to Equation (13.3)?
+Answer:
+
+(13.3)
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+250
+
+Chapter 13
+
+(a) The system of ODEs in Equation (13.3) is inhomogeneous. Even though the forcing function
+q2 (t) is the zero function, the function q1 (t) is not. For a homogeneous system, all forcing
+functions should be the zero function.
+(b) If ( f 1 (t), f 2 (t)) = (e2t , 0), then
+"
+
+f 1′ (t)
+f 2′ (t)
+
+#
+
+"
+
+#
+
+"
+
+=
+
+(e2t )′
+0
+
+#
+
+"
+
+=
+
+2e2t
+0
+
+#
+
+#
+
+et
+0
+
+and
+"
+
+2 1
+0 2
+
+# "
+
+·
+
+f 1 (t)
+f 2 (t)
+
+#
+
++
+
+et
+0
+
+"
+
+=
+
+2 · e2t + 1 · 0
+0 · e2t + 2 · 0
+
+"
+
++
+
+#
+
+"
+
+=
+
+2e2t + et
+0
+
+#
+
+"
+
+#
+
+.
+
+Therefore ( f 1 (t), f 2 (t)) = (e2t , 0) is not a solution to Equation (13.3).
+(c) If ( f 1 (t), f 2 (t)) = (−et , 0), then
+# "
+# "
+#
+"
+(−et )′
+−et
+f 1′ (t)
+=
+=
+f 2′ (t)
+0
+0
+and
+"
+
+2 1
+0 2
+
+# "
+
+·
+
+f 1 (t)
+f 2 (t)
+
+#
+
+"
+
++
+
+et
+0
+
+#
+
+"
+
+=
+
+2 · (−et ) + 1 · 0
+0 · (−et ) + 2 · 0
+
+#
+
+"
+
++
+
+et
+0
+
+#
+
+=
+
+−et
+0
+
+.
+
+Therefore ( f 1 (t), f 2 (t)) = (−et , 0) is a solution to Equation (13.3). By definition, it is in fact a
+particular solution to Equation (13.3).
+Now, a bit similarly to what we did for systems of linear equations, we begin by describing the
+structure of the solutions of systems of linear, first-order ODEs.
+Theorem 13.2.1
+Let an inhomogeneous system of ODEs as in Equation (13.2) be given and suppose that
+( g1 (t), g2 (t), . . . , gn (t)) is a particular solution of this system. Then any other solution
+( g̃1 (t), g̃2 (t), . . . , g̃n (t)) to Equation (13.2) is of the form
+
+
+ 
+ 
+
+g̃1 (t)
+g1 ( t )
+f 1 (t)
+
+ 
+ 
+
+ g̃2 (t)   g2 (t)   f 2 (t) 
+
+
+
+
+
+
+=
++
+..
+..
+
+ 
+  ..  ,
+
+ 
+  . 
+.
+.
+g̃n (t)
+
+gn ( t )
+
+f n (t)
+
+where ( f 1 (t), f 2 (t), . . . , f n (t)) is a solution to the homogeneous system of ODEs corresponding to
+Equation (13.2):
+
+
+
+
+f 1′ (t)
+f 1 (t)
+ ′
+
+
+
+ f 2 (t) 
+ f (t) 
+ .  = A ·  2.  .
+(13.4)
+ . 
+ . 
+ . 
+ . 
+f n′ (t)
+
+f n (t)
+
+Chapter 13
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+251
+
+Proof. Suppose that ( g̃1 (t), g̃2 (t), . . . , g̃n (t)) is an arbitrary solution to Equation (13.2), then a direct
+computation shows that ( g̃1 (t) − g1 (t), g̃2 (t) − g2 (t), . . . , g̃n (t) − gn (t)) satisfies Equation (13.4).
+If we then define f i (t) = g̃i (t) − gi (t) for i = 1, . . . , n, we see that ( g̃1 (t), g̃2 (t), . . . , g̃n (t)) can be
+written as stated in the theorem.
+Conversely, if ( f 1 (t), f 2 (t), . . . , f n (t)) is a solution to the homogeneous system from Equation (13.4),
+then a direct calculation shows that ( g1 (t) + f 1 (t), g2 (t) + f 2 (t), . . . , gn (t) + f n (t)) is a solution to
+the inhomogeneous system from Equation (13.2).
+Algorithmically, this means that in order to solve an inhomogeneous system of ODEs as in Equation
+(13.2), we need to find a particular solution of it and then all solutions to the corresponding
+homogeneous system of ODEs given in Equation (13.4). Conceptually, one can understand
+Theorem 13.2.1 in a different way. Let C∞ (R) be the vector space from Example 10.4.5. It consists
+of all functions with domain and codomain R that can be differentiated arbitrarily often. Now for
+a given matrix A ∈ Rn×n , consider the map DA : C∞ (R)n → C∞ (R)n defined by
+
+ 
+
+
+
+f 1 (t)
+f 1′ (t)
+f 1 (t)
+
+ 
+
+
+
+ f 2 (t)   f 2′ (t) 
+ f 2 (t) 
+
+
+
+
+
+
+
+DA   .   =  .  − A ·  . 
+(13.5)
+.
+ ..   .. 
+ .. 
+f n′ (t)
+
+f n (t)
+
+f n (t)
+
+One can show that DA is a linear map of real vector spaces. The kernel of this map is
+exactly the solution set the homogeneous system of ODEs in Equation (13.4). This observation
+is a generalization of what we already have seen in Example 11.2.8. A particular solution
+is then nothing but a vector v p = ( g1 (t), g2 (t), . . . , gn (t)) ∈ C∞ (R)n such that DA (v p ) =
+(q1 (t), . . . , qn (t)). Therefore, Theorem 13.2.1 is nothing but a special case of the second item in
+Theorem 11.4.2. As an aside, since the kernel of any linear map is a subspace, we can conclude that
+the solution set to a homogeneous system of linear, first-order ODEs (with constant coefficients) is
+in fact a vector space over the real numbers, since it is the kernel of the linear map DA . A very
+useful fact, that we will not prove here, is that this vector space has finite dimension, namely n.
+This is useful to know, since it means that to describe all solutions to the system in Equation (13.4),
+it is enough to find a basis, that is to say, n linearly independent solutions. We will use this freely
+later on. What we will primarily focus on in the remainder of this section is how to find such a
+basis. The notion of general solution we already encountered in Section 13.1 for linear, first-order
+ODEs can now be generalized as follows:
+Definition 13.2.2
+Let A ∈ Rn×n be given. The general solution of the homogeneous ODEs
+
+
+
+
+f 1′ (t)
+f 1 (t)
+ ′
+
+
+
+ f 2 (t) 
+ f (t) 
+ .  = A ·  2. 
+ . 
+ . 
+ . 
+ . 
+f n′ (t)
+
+f n (t)
+
+is an expression of the form
+c1 · v1 + · · · + c n · v n ,
+
+c1 , . . . , cn ∈ R,
+
+where (v1 , . . . , vn ) is an ordered basis of the kernel of the linear map DA : C∞ (R)n → C∞ (R)n
+defined in Equation (13.5). If q1 (t), . . . , qn (t) are forcing functions (not all zero) and v p =
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+252
+
+Chapter 13
+
+( g1 (t), . . . , gn (t)) ∈ C∞ (R)n a particular solution of the inhomogeneous system of ODEs
+
+ 
+
+
+
+q1 ( t )
+f 1 (t)
+f 1′ (t)
+
+ 
+
+
+ ′
+ f (t)   q (t) 
+ f 2 (t) 
+ .  = A ·  2.  +  2.  ,
+ .   . 
+ . 
+ .   . 
+ . 
+f n′ (t)
+
+qn (t)
+
+f n (t)
+
+then the general solution of the inhomogeneous system is an expression of the form
+v p + c1 · v1 + · · · + c n · v n ,
+
+c1 , . . . , cn ∈ R.
+
+A first important trick is to use the theory of eigenvalues and eigenvectors of the matrix A, as we
+will see in the next lemma.
+Lemma 13.2.2
+Let A ∈ Rn×n be a matrix and suppose that v = (v1 , . . . , vn ) ∈ Rn is an eigenvector of A with
+eigenvalue λ ∈ R. Then the vector of functions
+
+
+ 
+
+f 1 (t)
+v1 eλt
+
+ 
+
+ f 2 (t)   v2 eλt 
+ . =
+
+..
+ .  
+
+ .  
+
+.
+vn eλt
+
+f n (t)
+satisfies the homogeneous system of ODEs
+
+
+
+
+f 1′ (t)
+f 1 (t)
+
+ ′
+
+
+ f 2 (t) 
+ f (t) 
+ .  = A ·  2.  .
+ . 
+ . 
+ . 
+ . 
+
+
+f n′ (t)
+
+f n (t)
+
+Proof. On the one hand, we have
+
+
+
+
+
+ 
+ 
+f 1 (t)
+v1 eλt
+v1 λeλt
+f 1′ (t)
+v1 (eλt )′
+
+
+
+
+
+ 
+ ′
+ 
+ v2 eλt 
+ f 2 (t)   v2 (eλt )′   v2 λeλt 
+ f 2 (t) 
+
+
+
+
+
+
+
+ . =
+=
+λ
+=
+=
+λ
+..
+..
+..
+
+
+ ..  .
+
+ 
+ .  
+
+
+ . 
+
+ 
+ .  
+.
+.
+.
+
+
+f n′ (t)
+
+vn (eλt )′
+
+vn λeλt
+
+vn eλt
+
+f n (t)
+
+On the other hand, we find
+
+
+
+
+
+
+
+
+
+
+f 1 (t)
+v1 eλt
+v1
+v1
+f 1 (t)
+
+
+
+
+
+
+
+
+
+
+ f 2 (t) 
+ v2 eλt 
+ v2  λt
+ v2  λt
+ f 2 (t) 
+
+
+
+
+
+
+
+
+
+
+A· .  = A·
+..
+ = A ·  ..  · e = λ  ..  · e = λ  ..  .
+ .. 
+
+
+ . 
+ . 
+ . 
+.
+f n (t)
+
+vn eλt
+
+vn
+
+vn
+
+f n (t)
+
+Chapter 13
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+253
+
+Example 13.2.2
+Let
+
+"
+A=
+
+2
+0
+
+#
+
+1
+2
+
+.
+
+Find a solution to the homogeneous system of linear, first-order ODEs with coefficient matrix A.
+Answer:
+We are asked to find a solution to the following system of ODEs:
+#
+# "
+"
+# "
+f 1 (t)
+f 1′ (t)
+2 1
+.
+·
+=
+f 2 (t)
+0 2
+f 2′ (t)
+
+(13.6)
+
+With Lemma 13.2.2 in mind, we start by finding an eigenvalue and eigenvector of the given matrix
+A. The characteristic polynomial of A is:
+"
+#!
+2−Z
+1
+pA ( Z ) = det(A − ZI2 ) = det
+= (2 − Z )2 = ( Z − 2)2 .
+0
+2−Z
+Hence 2 is the the only eigenvalue the matrix A has. To find an eigenvector of A with eigenvalue
+2, we need to compute a nonzero vector from the kernel of the matrix A − 2I2 . In principle, we
+should then first find the reduced row echelon form of A − 2I2 , but in this particular case it is in
+reduced row echelon form already:
+"
+#
+0 1
+A − 2I2 =
+0 0
+We conclude that ker(A − 2I2 ) is a one-dimensional vector space with ordered basis given by for
+example
+"
+#!
+1
+0
+
+.
+
+Now Lemma 13.2.2 implies that
+"
+
+f 1 (t)
+f 2 (t)
+
+#
+
+"
+
+=
+
+1e2t
+0e2t
+
+#
+
+"
+
+=
+
+e2t
+0
+
+#
+
+is a solution to Equation (13.6).
+Using eigenvectors as in Lemma 13.2.2 is enough to find the general solution of Equation (13.4) in
+case the matrix A can be diagonalized. Recall that this is equivalent to stating that there exists an
+invertible matrix Q such that Q−1 · A · Q is a diagonal matrix. More precisely, we have seen in
+the previous chapter that the columns of the matrix Q are linearly independent eigenvectors of
+the matrix A. If these columns have eigenvalues λ1 , . . . , λn , then we have in fact Q−1 · A · Q = Λ,
+where Λ is the diagonal matrix with the eigenvalues λ1 , . . . , λn on its diagonal.
+Theorem 13.2.3
+Assume that A ∈ Rn×n is a diagonalizable matrix. More precisely, let Q be an invertible matrix
+such that Q−1 · A · Q is the diagonal matrix with the eigenvalues λ1 , . . . , λn on its diagonal. Then
+
+Chapter 13
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+254
+
+the homogeneous system in Equation (13.4) has the general solution
+
+
+
+c 1 · e λ1 t
+f 1 (t)
+
+
+
+
+ c · e λ2 t 
+ f 2 (t) 
+,
+ .  = Q· 2 .
+
+
+ . 
+..
+
+
+ . 
+
+
+c1 , . . . , cn ∈ R.
+
+cn · eλn t
+
+f n (t)
+
+Proof. First note that the system in Equation (13.4) is equivalent to the system
+
+
+
+f 1 (t)
+f 1′ (t)
+
+
+ ′
+
+ f (t) 
+ f (t) 
+−1
+−1  2
+−1  2
+
+Q · .  = Q ·A·Q·Q · . 
+.
+ .. 
+ .. 
+
+
+f n′ (t)
+
+f n (t)
+
+Defining
+
+
+
+f 1 (t)
+f˜1 (t)
+
+
+
+ ˜
+ f 2 (t) 
+ f (t) 
+ .  = Q −1 ·  2 .  ,
+ . 
+ . 
+ . 
+ . 
+
+
+f˜n (t)
+
+(13.7)
+
+f n (t)
+
+we see that ( f 1 (t), . . . , f n (t)) is a solution to system in Equation (13.4) if and only if
+
+
+
+f˜1 (t)
+f˜1′ (t)
+
+ ˜
+ ˜′
+
+ f (t) 
+ f 2 (t) 
+ .  = Q −1 · A · Q ·  2 .  .
+ . 
+ . 
+ . 
+ . 
+˜f ′ (t)
+f˜n (t)
+
+
+(13.8)
+
+n
+
+However, since the matrix Q−1 · A · Q is a diagonal matrix with diagonal entries λ1 , . . . , λn ,
+the system in Equation (13.8) simply amounts to the system of differential equations given by
+f˜1′ (t) = λ1 · f˜1 (t), f˜2′ (t) = λ2 · f˜2 (t), . . . , f˜n′ (t) = λn · f˜n (t). Each of these differential equations is a
+homogeneous linear ODE of order one and can therefore be solved individually using Theorem
+13.1.1. The result is that f˜i (t) = ci · eλi t for i = 1, . . . , n and ci ∈ R. In other words
+ 
+
+f˜1 (t)
+c 1 · e λ1 t
+ ˜
+ 
+
+ f 2 ( t )   c 2 · e λ2 t 
+ . =
+.
+..
+ .  
+
+ .  
+
+.
+
+
+f˜n (t)
+
+cn · eλn t
+
+But then using Equation (13.7) the statement of the theorem follows.
+
+A direct consequence of the theorem is the following alternative description of the general solution.
+Corollary 13.2.4
+Assume that A ∈ Rn×n is a diagonalizable matrix. More precisely, let (v1 , . . . , vn ) be an ordered
+basis of Rn consisting of eigenvectors of A corresponding to eigenvalues λ1 , . . . , λn . Then the
+
+Chapter 13
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+255
+
+homogeneous system in Equation (13.4) has the general solution
+c 1 · v 1 e λ1 t + · · · + c n · v n e λ n t ,
+
+c1 , . . . , cn ∈ R.
+
+Proof. Let Q be the matrix with columns consisting of the eigenvectors v1 , . . . , vn . Then Q is an
+invertible matrix satisfying that Q−1 · A · Q is a diagonal matrix with the eigenvalues λ1 , . . . , λn
+on its diagonal. Applying Theorem 13.2.3, the corollary follows.
+
+Note that in Theorem 13.2.3 and Corollary 13.2.4 it is allowed that some eigenvalues appear several
+times. In other words: we allow the case where the algebraic multiplicity of some eigenvalues
+is greater than one. However, since we assume that the matrix A is diagonalizable the algebraic
+and geometric multiplicity of any eigenvalue need to be equal. Hence the theorem will not be
+applicable if some eigenvalue of A has a smaller geometric multiplicity than algebraic multiplicity.
+Example 13.2.3
+Let
+
+
+2
+
+ 0
+A=
+ 0
+0
+
+0
+2
+0
+0
+
+
+0
+
+0 
+.
+1 
+
+0
+0
+0
+1
+
+0
+
+Then pA ( Z ) = ( Z − 2)2 · ( Z2 − 1) = ( Z − 2)2 · ( Z − 1) · ( Z + 1). Hence A has three eigenvalues 2,
+1 and −1 with algebraic multiplicities 2, 1 and 1 respectively. One can show that ordered bases of
+the eigenspaces E2 , E1 and E−1 are given by
+
+
+ 
+ 
+
+
+
+1
+0
+0
+0
+
+ 
+ 
+
+
+
+ 0   1   0 
+ 0 
+
+,
+ , 
+ and 
+ .
+ 0   0   1 
+ 1 
+0
+0
+1
+−1
+In particular, the geometric and algebraic multiplicity is the same for each eigenvalue. Using
+Corollary 13.2.4, we see that the general solution to the system of linear, first-order ODEs
+ 
+f 1′ (t)
+2
+ ′
+ 
+ f 2 (t)   0
+ ′
+=
+ f 3 (t)   0
+
+
+f 4′ (t)
+
+0
+
+0
+2
+0
+0
+
+0
+0
+0
+1
+
+ 
+
+0
+f 1 (t)
+ 
+
+0   f 2 (t) 
+·
+
+1   f 3 (t) 
+0
+
+f 4 (t)
+
+is given by
+
+
+
+
+
+
+
+
+
+
+
+f 1 (t)
+1
+0
+0
+0
+c1 e2t
+
+
+
+
+
+
+
+
+
+
+
+
+c2 e2t
+ f 2 (t) 
+ 0  2t
+ 1  2t
+ 0  t
+ 0  −t 
+
+
+ = c1 
+ e + c2 
+ e + c3 
+ e + c4 
+e = 
+,
+ f 3 (t) 
+ 0 
+ 0 
+ 1 
+ 1 
+ c3 e t + c4 e − t 
+f 4 (t)
+0
+0
+1
+−1
+c3 e t − c4 e − t
+
+
+where c1 , c2 , c3 , c4 ∈ R.
+
+Chapter 13
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+256
+
+Before moving on to the case where the matrix A cannot be diagonalized, let us mention that also
+for a system of differential equations as we studied, one can pose initial value conditions similar
+as we did in Definition 13.1.1.
+Definition 13.2.3
+Given real-valued functions f 1 (t), . . . , f n (t) a real numbers t0 and real numbers y1 , . . . , yn such
+that f i (t0 ) = yi for i = 1, . . . , n. Then the functions f 1 (t), . . . , f n (t) are said to satisfy the initial
+value conditions f i (t0 ) = yi for i = 1, . . . , n.
+It turns out that system in Equation (13.4) has exactly one solution satisfying initial value
+conditions as in Definition 13.2.3. Determining that solution can be done by first computing
+the general solution of the system in Equation (13.4), then determining the value of the constants
+c1 , . . . , cn occurring in the general solution such that the initial value conditions are satisfied. We
+give a small example.
+Example 13.2.4
+Let us consider the same system of differential equations as in Example 13.2.3. There we saw that
+the general solution was given by
+
+
+
+
+
+
+
+
+
+
+
+f 1 (t)
+1
+0
+0
+0
+c1 e2t
+
+
+
+
+
+
+
+
+
+
+
+
+c2 e2t
+ f 2 (t) 
+ 0  2t
+ 1  2t
+ 0  t
+ 0  −t 
+
+
+ = c1 
+ e + c2 
+ e + c3 
+ e + c4 
+e = 
+,
+t
+−
+t
+ f 3 (t) 
+ 0 
+ 0 
+ 1 
+ 1 
+ c3 e + c4 e 
+
+
+f 4 (t)
+
+0
+
+0
+
+1
+
+−1
+
+c3 e t − c4 e − t
+
+where c1 , c2 , c3 , c4 ∈ R.
+Question: determine the solution satisfying the initial value conditions f 1 (0) = 1, f 2 (0) = 2,
+f 3 (0) = 3 and f 4 (0) = 4.
+Answer: Putting t = 0 in the general solution and using the given initial value conditions, we find
+that the constants c1 , c2 , c3 and c4 need to satisfy
+
+
+ 
+
+c1
+1
+
+ 
+
+c2
+
+  2 
+
+=
+.
+ c3 + c4   3 
+c3 − c4
+4
+This implies that
+
+
+ 
+
+c1
+1
+
+ 
+
+ c2   2 
+
+.
+=
+ c3   7/2 
+−1/2
+c4
+Hence the solution we are looking for is:
+ 
+
+f 1 (t)
+e2t
+
+ 
+
+2e2t
+ f 2 (t)  
+
+
+=
+.
+ f 3 (t)   (7et − e−t )/2 
+f 4 (t)
+(7et + e−t )/2
+
+
+Chapter 13
+
+13.2 SYSTEMS OF LINEAR FIRST-ORDER ODES WITH CONSTANT COEFFICIENTS
+257
+
+Now let us return to studying the system in Equation (13.4). The requirement in Theorem 13.2.3
+that there exists a basis of eigenvectors can fail. This happens for example when the characteristic
+polynomial pA ( Z ) cannot be written as a product of polynomials of degree one. In other words
+pA ( Z ) could have complex, non-real roots. The following theorem extends Theorem 13.2.3 for
+such cases.
+Theorem 13.2.5
+Let A ∈ Cn×n be a matrix and let (v1 , . . . , vn ) be an ordered basis of Cn consisting of eigenvectors
+of A corresponding to (possibly non-real) eigenvalues λ1 , . . . , λn . Then over the complex numbers
+the homogeneous system in Equation (13.4) has the general solution
+c 1 · v 1 e λ1 t + · · · + c n · v n e λ n t ,
+
+c1 , . . . , cn ∈ C.
+
+Proof. We leave out the details of the proof, but the proof is practically identical to that of Theorem
+13.2.3 and Corollary 13.2.4. The only difference is that we now work over the complex numbers.
+Note that Lemma 13.1.3 guarantees that (eλt )′ = λeλt also for λ ∈ C.
+Now suppose that A ∈ Rn×n , but that its characteristic polynomial pA ( Z ) has complex roots.
+We could view A as a matrix in Cn×n and apply Theorem 13.2.5 to obtain the general solution.
+The problem with this, is that we now found a general solution of complex-valued solutions
+to Equation 13.4. One often is interested in the general solution of the real-valued solutions
+instead. Fortunately, this can be achieved with a few tricks. The main trick is that since pA ( Z ) has
+coefficients in R if A ∈ Rn×n , non-real roots occur in pairs: if µ ∈ C \ R is a root, then also µ ∈ C
+is a root, where µ denotes the complex conjugated of λ (see Lemma 5.3.3). In particular, the roots
+of pA ( Z ) can be arranged in the form λ1 , . . . , λr for the real roots and µ1 , . . . , µs , µ1 , . . . , µs for the
+complex, nonreal roots. Then n = r + 2s, where we simply repeat a root m times if it occurs with
+multiplicity m. Let us illustrate this with an example.
+Example 13.2.5
+Suppose that pA ( Z ) = ( Z − 1) · ( Z − 2)3 · ( Z2 + 1)2 for some matrix A ∈ R7×7 . Then the roots of
+this polynomial are 1, 2 with multiplicity 3 and i, −i, both with multiplicity 2. There are two real
+roots, namely 1 and 2, but if we consider these roots with their multiplicity, we should repeat the
+root 2 thrice. Hence λ1 = 1, λ2 = 2, λ3 = 2 and λ4 = 2. There are two complex, nonreal roots i
+and −i, which both should be repeated twice. Hence we have µ1 = i, µ2 = i, whence µ1 = −i and
+µ2 = −i. Hence in this setting, we have r = 4 and s = 2.
+To describe the general solution of Equation (13.4) in case pA ( Z ) has nonreal roots, it will be
+convenient to define the complex conjugate of a vector w ∈ Cn : if w = (w1 , . . . , wn ), then
+w = (w1 , . . . , wn ). The point is that if A ∈ Rn×n and A · w = µ · w for some w ∈ Cn and
+µ ∈ C \ R, then taking the complex conjugate (and using that the entries of A are real numbers),
+we see that A · w = µ · w. With this in mind, Theorem 13.2.5 implies the following.
+Corollary 13.2.6
+Suppose that A ∈ Rn×n and that the roots of its characteristic polynomial pA ( Z ) are λ1 , . . . , λr ∈ R
+and µ1 , . . . , µs , µ1 , . . . , µs , where µ1 , . . . , µs ∈ C \ R. Now suppose that there exist vectors vi ∈ Rn
+for i = 1, . . . , r and w j ∈ Cn for j = 1, . . . , s such that:
+(i) A · vi = λi · vi for i = 1, . . . , r,
+(ii) A · w j = µ j · w j for j = 1, . . . , s,
+
+

@@ -6,6 +6,8 @@ tags:
 
 # The Fundamental Theorem of Algebra and Factor Theorem
 
+(book section 5.6, pages 87-89)
+
 ## Fundamental Theorem of Algebra
 
 Every polynomial with complex coefficients of degree at least $1$ has at least one complex root:

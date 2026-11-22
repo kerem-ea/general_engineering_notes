@@ -6,6 +6,8 @@ tags:
 
 # Net Ionic Equations
 
+(OpenStax Chemistry 2e, section 4.2, pages 169–178)
+
 A **net ionic equation** includes only the chemical species (ions and molecules) directly participating in the chemical change, eliminating all spectator ions.
 
 ## Derivation Steps

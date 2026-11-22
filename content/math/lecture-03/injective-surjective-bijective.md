@@ -6,6 +6,8 @@ tags:
 
 # Injective, Surjective and Bijective
 
+(book section 2.2, pages 24-27)
+
 These three properties classify how a [[functions|function]] $f: A \to B$ maps elements from its domain $A$ to its codomain $B$.
 
 ## Injective

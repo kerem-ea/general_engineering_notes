@@ -7,6 +7,8 @@ tags:
 
 # Spontaneity, Entropy, and the Second Law
 
+(OpenStax Chemistry 2e, sections 16.1–16.2, pages 762–783)
+
 Chemical thermodynamics predicts whether a process occurs spontaneously and quantifies the direction of energy dispersal.
 
 *(For foundational entropy definitions and sign prediction heuristics, see [[entropy-in-chemistry|Entropy in Chemistry]].)*

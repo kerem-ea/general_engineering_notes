@@ -6,6 +6,8 @@ tags:
 
 # Inverse Trigonometric Functions
 
+(book section 2.3, pages 34-35)
+
 The standard trigonometric functions [[sine-function|sin]], [[cosine-function|cos]], and [[tangent-function|tan]] are periodic and therefore not [[math/lecture-03/injective-surjective-bijective#Injective|injective]] over their full domains. To define [[math/lecture-03/inverse-functions|inverses]], their domains are restricted to [[math/lecture-03/intervals|intervals]] where each function is [[math/lecture-03/monotone-functions|strictly monotone]] and [[math/lecture-03/injective-surjective-bijective#Surjective|surjective]] onto its target range.
 
 These inverse functions are also referred to as the **arcus functions**.

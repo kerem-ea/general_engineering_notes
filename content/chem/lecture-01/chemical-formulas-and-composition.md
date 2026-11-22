@@ -6,6 +6,8 @@ tags:
 
 # Chemical Formulas and Composition
 
+(OpenStax Chemistry 2e, sections 2.6–2.7, pages 93–105)
+
 Chemical formulas represent the elemental composition of molecules and compounds.
 
 ## Types of chemical formulas

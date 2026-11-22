@@ -6,6 +6,8 @@ tags:
 
 # Logical Equivalence and De Morgan's Laws
 
+(book section 1.3, pages 5-10)
+
 ## Logical equivalence ($\equiv$)
 
 Two compound [[propositions-and-truth-values|propositions]] are **logically equivalent** (written $A \equiv B$) if they yield identical truth values under all possible truth assignments of their component variables. That is, $A \leftrightarrow B$ is a [[tautologies-and-contradictions|tautology]].

@@ -6,6 +6,8 @@ tags:
 
 # Vector Spaces and Axioms
 
+(book section 10.1, pages 177-180)
+
 A vector space abstracts linear combinations of vectors, generalizing column vectors $F^n$ to matrices, polynomials, and function spaces (see [[math/lecture-13/vectors|Vectors]]).
 
 ## Vector Space Axioms

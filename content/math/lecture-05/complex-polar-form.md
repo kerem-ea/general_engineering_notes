@@ -6,6 +6,8 @@ tags:
 
 # Complex Polar Form
 
+(book section 4.3 and 4.6, pages 59-63, 67-71)
+
 A [[complex-numbers|complex number]] can be expressed in two equivalent ways: **rectangular form** $z = a + bi$, or **polar form** using the [[complex-plane|modulus and argument]].
 
 ## From Rectangular to Polar

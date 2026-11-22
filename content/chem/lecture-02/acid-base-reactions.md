@@ -6,6 +6,8 @@ tags:
 
 # Acid-Base Reactions
 
+(OpenStax Chemistry 2e, section 4.2, pages 175–178)
+
 An **acid-base reaction** involves the transfer of a hydrogen ion ($H^+$, a proton) from a donor to an acceptor.
 
 ## Acids ($H^+$ Donors)

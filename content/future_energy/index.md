@@ -19,3 +19,4 @@ tags:
 - [[future_energy/lecture-09/index|Lecture 9]]
 - [[future_energy/lecture-10/index|Lecture 10]]
 - [[future_energy/lecture-11/index|Lecture 11]]
+- [[future_energy/lecture-12/index|Lecture 12]]

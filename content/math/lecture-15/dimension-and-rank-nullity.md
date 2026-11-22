@@ -6,6 +6,8 @@ tags:
 
 # Dimension and the Rank-Nullity Theorem
 
+(book section 9.4, pages 165-168)
+
 ## Dimension of a Span
 
 Let $W = \operatorname{Span}(\mathbf{v}_1, \ldots, \mathbf{v}_n) \subseteq F^m$.

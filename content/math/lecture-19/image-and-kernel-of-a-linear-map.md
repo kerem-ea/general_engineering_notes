@@ -6,6 +6,8 @@ tags:
 
 # Image and Kernel of a Linear Map
 
+(book section 11.2, pages 203-206)
+
 The image and kernel are fundamental subspaces characterizing the structure, injectivity, and surjectivity of a linear map.
 
 *(For matrix null spaces and column spaces, see [[kernel-and-column-space|Kernel and Column Space]].)*

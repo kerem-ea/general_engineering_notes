@@ -6,6 +6,8 @@ tags:
 
 # Polynomial Long Division Examples
 
+(book section 5.5, pages 84-87)
+
 ## Example 1: Division with Zero Remainder
 
 Divide $p(Z) = 2Z^2 + 3Z - 9$ by $d(Z) = Z + 3$:

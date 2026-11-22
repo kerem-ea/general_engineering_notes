@@ -6,6 +6,8 @@ tags:
 
 # Reaction Yields
 
+(OpenStax Chemistry 2e, section 4.4, pages 196–201)
+
 ## Limiting and Excess Reactants
 
 - **Limiting Reactant:** The reactant completely consumed first; sets the theoretical upper limit on product yield.

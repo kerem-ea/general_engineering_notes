@@ -6,6 +6,8 @@ tags:
 
 # Rate Laws and Reaction Order
 
+(OpenStax Chemistry 2e, section 12.3, pages 625–637)
+
 A **rate law** expresses the mathematical relationship between the reaction rate and reactant concentrations:
 
 $$

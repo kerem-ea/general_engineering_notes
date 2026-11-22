@@ -7,6 +7,8 @@ tags:
 
 # Redox Reactions and Galvanic Cells
 
+(OpenStax Chemistry 2e, sections 17.1–17.2, pages 814–836)
+
 Electrochemistry studies the relationship between chemical reactions and electrical current, utilizing spontaneous electron transfer to drive work.
 
 *(For basic oxidation states, OIL RIG mnemonics, and redox definitions, see [[oxidation-reduction-reactions|Oxidation-Reduction Reactions]].)*

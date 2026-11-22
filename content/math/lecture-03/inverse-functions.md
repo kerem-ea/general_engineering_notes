@@ -6,6 +6,8 @@ tags:
 
 # Inverse Functions
 
+(book section 2.2, pages 26-28)
+
 A [[functions|function]] has an **inverse** if its effect can be reversed.
 
 For a [[injective-surjective-bijective#Bijective|bijective function]]:

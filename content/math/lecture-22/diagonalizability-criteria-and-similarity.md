@@ -6,6 +6,8 @@ tags:
 
 # Diagonalizability Criteria and Similar Matrices
 
+(book section 12.3, pages 231-234)
+
 A matrix is diagonalizable if and only if its underlying vector space admits a full basis composed of eigenvectors.
 
 *(For eigenspace dimensions and multiplicity definitions, see [[algebraic-and-geometric-multiplicity|Algebraic and Geometric Multiplicity]].)*

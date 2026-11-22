@@ -6,6 +6,8 @@ tags:
 
 # Ordered Basis of a Span
 
+(book section 9.2, pages 158-163)
+
 When working with lists of vectors, order matters: $(\mathbf{v}_1, \mathbf{v}_2) \neq (\mathbf{v}_2, \mathbf{v}_1)$.
 
 ## Definition

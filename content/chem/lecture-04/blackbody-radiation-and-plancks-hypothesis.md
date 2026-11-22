@@ -6,6 +6,8 @@ tags:
 
 # Blackbody Radiation and Planck's Hypothesis
 
+(OpenStax Chemistry 2e, section 6.2, pages 280–286)
+
 ## The Blackbody Concept
 
 A **blackbody** is an idealized emitter and perfect absorber of electromagnetic radiation. When heated, it emits continuous radiation across all spectral regions, called blackbody radiation.

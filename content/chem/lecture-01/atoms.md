@@ -6,6 +6,8 @@ tags:
 
 # Atoms
 
+(OpenStax Chemistry 2e, section 2.1, pages 56–67)
+
 An atom is the basic unit of an element that retains the chemical identity of that element.
 
 ## Atomic number

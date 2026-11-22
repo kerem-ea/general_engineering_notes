@@ -6,6 +6,8 @@ tags:
 
 # States in Chemical Equations
 
+(OpenStax Chemistry 2e, section 4.1, pages 162–169)
+
 Physical states of reactants and products are designated in parentheses directly following their chemical formulas:
 
 | Symbol | State | Description |

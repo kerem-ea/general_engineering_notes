@@ -6,6 +6,8 @@ tags:
 
 # Square Matrices and Inverses
 
+(book section 7.3, pages 129-134)
+
 Square matrices $A \in F^{n \times n}$ have additional structure not available for rectangular matrices.
 
 ## Identity Matrix

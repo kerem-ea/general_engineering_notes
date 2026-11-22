@@ -6,6 +6,8 @@ tags:
 
 # Heisenberg Uncertainty Principle
 
+(OpenStax Chemistry 2e, section 6.4, pages 307–310)
+
 Werner Heisenberg established that conjugate dynamical properties cannot be simultaneously measured with absolute precision.
 
 ## Position-Momentum Uncertainty

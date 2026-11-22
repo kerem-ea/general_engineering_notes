@@ -6,6 +6,8 @@ tags:
 
 # Standard Enthalpy of Combustion
 
+(OpenStax Chemistry 2e, section 5.3, pages 244–252)
+
 ## Definition and Equation
 
 **Standard enthalpy of combustion ($\Delta H^\circ_c$)** is the heat released when **$1\text{ mole}$** of fuel burns completely in $O_2$ at standard conditions ($1\text{ bar}$, $298.15\text{ K}$):

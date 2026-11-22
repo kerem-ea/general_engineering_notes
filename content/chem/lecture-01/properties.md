@@ -6,6 +6,8 @@ tags:
 
 # Extensive and Intensive Properties
 
+(OpenStax Chemistry 2e, sections 1.2–1.3, pages 11–26)
+
 Properties of matter can be either extensive or intensive.
 
 ## Extensive properties

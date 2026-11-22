@@ -6,6 +6,8 @@ tags:
 
 # The Complex Exponential Function
 
+(book section 4.4, pages 63-65)
+
 ## Definition and Components
 
 The complex exponential function is defined as:

@@ -6,6 +6,8 @@ tags:
 
 # Colloids
 
+(OpenStax Chemistry 2e, section 11.5, pages 588–595)
+
 A **colloid** is a heterogeneous mixture where dispersed particles are larger than individual molecules ($1 - 1000\text{ nm}$), yet small enough that they do not settle out under gravity.
 
 ## Solutions vs Colloids vs Suspensions

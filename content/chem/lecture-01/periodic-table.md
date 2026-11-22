@@ -6,6 +6,8 @@ tags:
 
 # Periodic Table
 
+(OpenStax Chemistry 2e, section 2.5, pages 85–93)
+
 The periodic table organizes chemical elements according to their atomic number and recurring chemical properties.
 
 ## Atomic number

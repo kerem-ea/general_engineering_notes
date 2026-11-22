@@ -6,6 +6,8 @@ tags:
 
 # Eigenvalues and Eigenvectors
 
+(book section 12.1, pages 219-226)
+
 Let $V$ be a vector space over field $\mathbb{F}$ ($\mathbb{R}$ or $\mathbb{C}$), and $L: V \to V$ a linear operator. For $V = \mathbb{F}^n$, $L$ is represented by a square matrix $A \in \mathbb{F}^{n \times n}$.
 
 ## Core Definitions

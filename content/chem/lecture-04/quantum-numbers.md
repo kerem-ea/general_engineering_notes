@@ -6,6 +6,8 @@ tags:
 
 # Quantum Numbers
 
+(OpenStax Chemistry 2e, sections 6.5–6.6, pages 310–325)
+
 Four quantum numbers specify the state, energy, shape, orientation, and spin of an electron in an atom.
 
 ## The Four Quantum Numbers

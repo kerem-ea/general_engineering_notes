@@ -6,6 +6,8 @@ tags:
 
 # Degree Two Polynomials with Real Coefficients
 
+(book section 5.2, pages 74-77)
+
 ## Derivation via Completing the Square
 
 For $p(Z) = aZ^2 + bZ + c \in \mathbb{R}[Z]$ with $a \neq 0$:

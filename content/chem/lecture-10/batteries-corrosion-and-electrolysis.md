@@ -7,6 +7,8 @@ tags:
 
 # Batteries, Corrosion, and Electrolysis
 
+(OpenStax Chemistry 2e, sections 17.5–17.7, pages 855–878)
+
 Electrochemical principles govern portable power in commercial batteries, degradation in metallic corrosion, and non-spontaneous chemical production in electrolytic cells.
 
 *(For detailed energy storage mechanisms, C-rates, and solid-state materials, see [[../../future_energy/lecture-11/commercial-primary-and-secondary-batteries|Commercial Primary and Secondary Batteries]].)*

@@ -6,6 +6,8 @@ tags:
 
 # Induction with a General Base Case
 
+(book section 3.5, pages 48-50)
+
 ## Shifted Natural Numbers
 
 For an integer base $b \in \mathbb{Z}$, define the set of integers bounded below by $b$:

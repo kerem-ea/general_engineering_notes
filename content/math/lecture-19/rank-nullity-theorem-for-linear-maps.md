@@ -6,6 +6,8 @@ tags:
 
 # Rank-Nullity Theorem for Linear Maps
 
+(book section 11.3, pages 209-214)
+
 The Rank-Nullity Theorem provides a conservation law relating the dimension of the domain, the dimension of the kernel, and the dimension of the image of a linear map.
 
 *(For the matrix rank-nullity theorem, see [[dimension-and-rank-nullity|Rank-Nullity Theorem]].)*

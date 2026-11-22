@@ -5,6 +5,8 @@ tags:
 ---
 # Precipitation Reactions
 
+(OpenStax Chemistry 2e, section 4.2, pages 170–175)
+
 A **precipitation reaction** occurs when aqueous ionic reactants combine to form an **insoluble solid (precipitate)**:
 
 $$

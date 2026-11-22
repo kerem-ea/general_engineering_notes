@@ -6,6 +6,8 @@ tags:
 
 # Reaction Energy Diagrams
 
+(OpenStax Chemistry 2e, section 5.3, pages 244–252)
+
 ## Mathematical Relations
 
 A reaction energy diagram plots enthalpy ($H$) along the reaction coordinate:

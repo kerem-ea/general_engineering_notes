@@ -30,3 +30,5 @@ tags:
 - [[math/lecture-20/index|Lecture 20]]
 - [[math/lecture-21/index|Lecture 21]]
 - [[math/lecture-22/index|Lecture 22]]
+- [[math/lecture-23/index|Lecture 23]]
+- [[math/lecture-24/index|Lecture 24]]

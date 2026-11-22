@@ -6,6 +6,8 @@ tags:
 
 # Example Functions
 
+(book section 2.3, pages 28-35)
+
 ## Square function
 
 Consider:

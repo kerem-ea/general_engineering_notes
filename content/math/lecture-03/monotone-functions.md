@@ -6,6 +6,8 @@ tags:
 
 # Monotone Functions
 
+(book section 2.2, pages 26-27)
+
 Monotonicity describes whether a [[functions|function]] steadily preserves or reverses the order of real numbers on its domain.
 
 ## Strictly increasing

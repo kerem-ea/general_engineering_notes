@@ -6,6 +6,8 @@ tags:
 
 # Proof Methods
 
+(book section 1.4, pages 11-12)
+
 A **proof** is a logically rigorous argument demonstrating that a mathematical [[propositions-and-truth-values|proposition]] inevitably follows from assumed axioms, definitions, and established theorems.
 
 ## 1. Direct proof
