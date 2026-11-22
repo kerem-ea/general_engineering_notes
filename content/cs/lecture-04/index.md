@@ -9,3 +9,6 @@ tags:
 **Date:** Friday, September 25, 2026
 
 ## Topics
+
+> [!NOTE]
+> Lecture notes for this session have not yet been transcribed.

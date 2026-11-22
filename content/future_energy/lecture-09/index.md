@@ -8,9 +8,9 @@ tags:
 
 **Date:** Tuesday, November 3, 2026
 
-## Notes
+## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-09/core-formula-sheet|Core Formula Sheet]]
 - [[ac-power-and-transmission-losses|AC Power and Transmission Losses]]
 - [[impedance-reactive-power-and-three-phase|Impedance Reactive Power and Three-Phase Systems]]
 - [[grid-structure-markets-and-congestion|Grid Structure Markets and Congestion]]

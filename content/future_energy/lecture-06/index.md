@@ -10,7 +10,7 @@ tags:
 
 ## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-06/core-formula-sheet|Core Formula Sheet]]
 - [[binding-energy-and-nuclear-reactions|Binding Energy and Nuclear Reactions]]
 - [[radioactivity-and-decay-chains|Radioactivity and Decay Chains]]
 - [[fission-chain-reaction-and-criticality|Fission Chain Reaction and Criticality]]

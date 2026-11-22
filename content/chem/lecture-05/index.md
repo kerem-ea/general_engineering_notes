@@ -6,7 +6,7 @@ tags:
 
 # Chemistry — Lecture 5
 
-**Date:** Sunday, September 28, 2026
+**Date:** Monday, September 28, 2026
 
 ## Topics
 

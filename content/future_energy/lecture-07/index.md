@@ -8,9 +8,9 @@ tags:
 
 **Date:** Tuesday, October 20, 2026
 
-## Notes
+## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-07/core-formula-sheet|Core Formula Sheet]]
 - [[electrochemical-cells-and-classification|Electrochemical Cells and Classification]]
 - [[cell-thermodynamics-and-reversible-potential|Cell Thermodynamics and Reversible Potential]]
 - [[faradays-law-of-electrolysis|Faraday's Law of Electrolysis]]

@@ -2,6 +2,8 @@
 title: Energy Storage Systems Overview
 tags:
   - future_energy
+aliases:
+  - Mechanical Energy Storage Overview
 ---
 
 # Energy Storage Systems Overview

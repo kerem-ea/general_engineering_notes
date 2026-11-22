@@ -6,8 +6,8 @@ tags:
 
 # Chemistry — Lecture 6
 
-**Date:** Sunday, October 19, 2026
+**Date:** Monday, October 19, 2026
 
 ## Topics
 
-Just some guys presenting their masters or PhD projects. 
+- *Guest Presentations: Student Master's and PhD Project Demonstrations (no formal theory notes).* 

@@ -8,7 +8,7 @@ tags:
 
 **Date:** Tuesday, November 17, 2026
 
-## Notes
+## Topics
 
 - [[future_energy/lecture-11/core-formula-sheet|Core Formula Sheet]]
 - [[battery-fundamentals-and-thermodynamics|Battery Fundamentals and Thermodynamics]]

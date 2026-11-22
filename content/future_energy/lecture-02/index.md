@@ -10,7 +10,7 @@ tags:
 
 ## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-02/core-formula-sheet|Core Formula Sheet]]
 - [[thermodynamic-systems-and-state-functions|Thermodynamic Systems and State Functions]]
 - [[first-law-and-enthalpy|The First Law of Thermodynamics and Enthalpy]]
 - [[ideal-gas-law|Ideal Gas Law]]

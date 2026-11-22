@@ -10,7 +10,7 @@ tags:
 
 ## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-03/core-formula-sheet|Core Formula Sheet]]
 - [[solar-resource-and-irradiance|The Solar Energy Resource and Irradiance]]
 - [[air-mass-and-solar-geometry|Air Mass and Solar Geometry]]
 - [[solar-irradiation-and-collector-sizing|Solar Irradiation and Collector Sizing]]

@@ -2,8 +2,6 @@
 title: Lithium-Ion Batteries
 tags:
   - future_energy
-  - batteries
-  - lithium_ion
 ---
 
 # Lithium-Ion Batteries

@@ -10,7 +10,7 @@ tags:
 
 ## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-04/core-formula-sheet|Core Formula Sheet]]
 - [[wind-resource-and-generation-principles|Wind Resource and Generation Principles]]
 - [[wind-turbine-types-and-aerodynamics|Wind Turbine Types and Aerodynamics]]
 - [[power-in-the-wind-and-tip-speed-ratio|Power in the Wind and Tip Speed Ratio]]

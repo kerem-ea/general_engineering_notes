@@ -8,9 +8,9 @@ tags:
 
 **Date:** Tuesday, October 27, 2026
 
-## Notes
+## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-08/core-formula-sheet|Core Formula Sheet]]
 - [[hydrogen-energy-and-power-to-x|Hydrogen Energy and Power-to-X]]
 - [[fuel-cell-and-electrolyzer-technologies|Fuel Cell and Electrolyzer Technologies]]
 - [[cell-thermodynamics-and-efficiencies|Cell Thermodynamics and Efficiencies]]

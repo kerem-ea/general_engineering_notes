@@ -10,7 +10,7 @@ tags:
 
 ## Topics
 
-- [[core-formula-sheet|Core Formula Sheet]]
+- [[future_energy/lecture-05/core-formula-sheet|Core Formula Sheet]]
 - [[biomass-fundamentals-and-solar-origin|Biomass Fundamentals and Solar Origin]]
 - [[carbon-neutrality-and-sustainability|Carbon Neutrality and Biomass Sustainability]]
 - [[combustion-stoichiometry-and-energy-density|Combustion Stoichiometry and Energy Density]]
