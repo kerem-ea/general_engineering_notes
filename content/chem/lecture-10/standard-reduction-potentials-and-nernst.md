@@ -88,7 +88,7 @@ $$
 
 ## The Nernst Equation
 
-Under non-standard conditions (non-unit concentrations or partial pressures), the free energy is $\Delta G = \Delta G^\circ + R T \ln Q$. Substituting $\Delta G = -n F E_{\mathrm{cell}}$ and $\Delta G^\circ = -n F E^\circ_{\mathrm{cell}}$:
+Under non-standard conditions (non-unit concentrations or partial pressures), the free energy change is $\Delta G = \Delta G^\circ + R T \ln Q$, where $Q$ is the **reaction quotient** (see [[chemical-equilibrium-and-constants#The Reaction Quotient ($Q$)|Reaction Quotient $Q$ (Lecture 8)]]). Substituting $\Delta G = -n F E_{\mathrm{cell}}$ and $\Delta G^\circ = -n F E^\circ_{\mathrm{cell}}$:
 
 $$
 -n F E_{\mathrm{cell}} = -n F E^\circ_{\mathrm{cell}} + R T \ln Q
@@ -100,7 +100,16 @@ $$
 E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{R T}{n F} \ln Q
 $$
 
-At $T = 298.15\ \mathrm{K}$ ($25\,{}^\circ\text{C}$):
+Where:
+- $E_{\mathrm{cell}}$: cell potential under non-standard conditions $(\mathrm{V})$
+- $E^\circ_{\mathrm{cell}}$: standard cell potential $(\mathrm{V})$
+- $R = 8.314\ \mathrm{J/(mol\cdot K)}$: ideal gas constant
+- $T$: absolute temperature in Kelvin $(\mathrm{K})$
+- $n$: number of moles of electrons transferred in the balanced redox reaction
+- $F = 96485\ \mathrm{C/mol}$: Faraday's constant
+- $Q$: instantaneous reaction quotient, formulated with activities, partial pressures, or concentrations ($\frac{[\mathrm{products}]^c}{[\mathrm{reactants}]^a}$, omitting pure solids and pure liquids; see [[chemical-equilibrium-and-constants|Reaction Quotient in Lecture 8]])
+
+At standard reference temperature $T = 298.15\ \mathrm{K}$ ($25\,{}^\circ\text{C}$):
 
 $$
 E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{0.0592\ \mathrm{V}}{n} \log_{10} Q
@@ -109,8 +118,10 @@ $$
 ### Operational Implications
 
 - As reactants are consumed and products accumulate, $Q$ increases, causing $E_{\mathrm{cell}}$ to decrease.
+- When $Q < K$, $E_{\mathrm{cell}} > 0\ \mathrm{V}$: the forward reaction is spontaneous.
 - When $Q = K$, $E_{\mathrm{cell}} = 0\ \mathrm{V}$: the cell is completely discharged (a "dead battery"), and the chemical reaction has reached equilibrium.
-- Increasing reactant concentration increases cell voltage; increasing product concentration decreases cell voltage.
+- When $Q > K$, $E_{\mathrm{cell}} < 0\ \mathrm{V}$: the reverse reaction is spontaneous.
+- Increasing reactant concentrations or partial pressures lowers $Q$, thereby increasing cell voltage. Conversely, accumulating product species raises $Q$, reducing cell voltage.
 
 ## Concentration Cells
 
@@ -136,3 +147,10 @@ $$
 - Reduction occurs in the concentrated compartment (cathode), decreasing ion concentration.
 - Current flows until concentrations in both compartments equalize ($Q = 1 \implies E_{\mathrm{cell}} = 0$).
 - Biological nerve impulse transmission operates on this exact membrane concentration cell mechanism using $\mathrm{Na}^+$ and $\mathrm{K}^+$ ion gradients.
+
+## Related Notes
+
+- [[chemical-equilibrium-and-constants|Chemical Equilibrium and Equilibrium Constants]] (Lecture 8, Reaction Quotient $Q$)
+- [[gibbs-free-energy-and-equilibrium|Gibbs Free Energy and Equilibrium]]
+- [[redox-reactions-and-galvanic-cells|Redox Reactions and Galvanic Cells]]
+- [[batteries-corrosion-and-electrolysis|Batteries, Corrosion, and Electrolysis]]

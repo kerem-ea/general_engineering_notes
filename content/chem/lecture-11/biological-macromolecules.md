@@ -28,7 +28,7 @@ Carbohydrates have the general empirical formula $\mathrm{C}_m(\mathrm{H_2O})_n$
 
 ## 2. Proteins
 
-Proteins are linear polymers constructed from twenty standard $\alpha$-amino acids. Each amino acid possesses a central chiral $\alpha$-carbon bonded to an amino group ($-\mathrm{NH_2}$), a carboxyl group ($-\mathrm{COOH}$), a hydrogen atom, and a variable side chain ($-\mathrm{R}$).
+Proteins are linear polymers constructed from twenty standard $\alpha$-amino acids. Each amino acid possesses a central [[hydrocarbons-and-isomerism#Definition of a Chiral Carbon|chiral $\alpha$-carbon]] (stereocenter) bonded to an amino group ($-\mathrm{NH_2}$), a carboxyl group ($-\mathrm{COOH}$), a hydrogen atom, and a variable side chain ($-\mathrm{R}$). With the sole exception of glycine (where $-\mathrm{R} = -\mathrm{H}$, giving two identical hydrogen substituents and making the carbon achiral), all nineteen other standard $\alpha$-amino acids are chiral and exist as L-enantiomers in natural proteins.
 
 ### Levels of Protein Structure
 
