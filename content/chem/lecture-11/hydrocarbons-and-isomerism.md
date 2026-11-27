@@ -92,10 +92,3 @@ $$
 2. Number the carbon chain from the end closest to any double/triple bonds, or closest to substituent alkyl groups if saturated.
 3. Identify attached alkyl branches (methyl, ethyl, propyl) and designate their position numbers.
 4. Assemble names alphabetically, using prefixes di-, tri-, tetra- for multiple identical substituents (these prefixes do not affect alphabetical ordering).
-
-## Related Notes
-
-- [[biological-macromolecules|Biological Macromolecules]] (Chiral amino acids and biological stereochemistry)
-- [[aromatic-hydrocarbons-and-resonance|Aromatic Hydrocarbons and Resonance]]
-- [[chem/lecture-01/organic-chemistry-and-iupac|Organic Chemistry and IUPAC Naming]]
-- [[chem/lecture-05/molecular-polarity|Molecular Polarity and Dipole Moments]]
